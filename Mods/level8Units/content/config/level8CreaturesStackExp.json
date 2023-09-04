@@ -7,7 +7,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : 0
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -15,7 +15,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : 1
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -53,32 +53,32 @@
 			{
 				"bonus" :
 				{
-					"type" : "FIRE_IMMUNITY",
-					"subtype" : 1 
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : 1 //fire negative spells
 				},
 				"values" : [ false, false, true, true, true, true, true, true, true, true ]
 			},
 			{
 				"bonus" :
 				{
-					"type" : "EARTH_IMMUNITY",
-					"subtype" : 1
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : 3 //earth negative spells
 				},
 				"values" : [ false, false, false, false, false, false, false, false, true, true ]
 			},
 			{
 				"bonus" :
 				{
-					"type" : "WATER_IMMUNITY", 
-					"subtype" : 1
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY", 
+					"subtype" : 2 //water negative spells
 				},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			},
 			{
 				"bonus" :
 				{
-					"type" : "AIR_IMMUNITY", 
-					"subtype" : 1
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY", 
+					"subtype" : 0 //air negative spells
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
@@ -100,7 +100,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : 0
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -108,7 +108,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : 1
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -170,7 +170,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : 0
+					"subtype" : "primarySkill.attack"
 
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
@@ -179,7 +179,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : 1
+					"subtype" : "primarySkill.defence"
 
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
@@ -247,7 +247,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : 0
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -255,7 +255,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : 1
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -324,7 +324,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : 0
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -332,7 +332,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : 1
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -362,16 +362,16 @@
 			{
 				"bonus" :
 				{
-					"type" : "FIRE_IMMUNITY",
-					"subtype" : 1 //all except positive
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : 1 //fire negative spells
 				},
 				"values" : [ false, false, true, true, true, true, true, true, true, true ]
 			},
 			{
 				"bonus" :
 				{
-					"type" : "EARTH_IMMUNITY",
-					"subtype" : 1 //ecept beneficial
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : 3 //earth negative spells
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
@@ -410,7 +410,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : 0
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},	
@@ -418,7 +418,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : 1
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -457,8 +457,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : 1,
-					"valueType" : "BASE_NUMBER"
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 4, 4 ]
 			},
@@ -473,8 +472,8 @@
 			{
 				"bonus" :
 				{
-					"type" : "FIRE_IMMUNITY",
-					"subtype" : 1
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : 1 //fire negative spells
 				},
 				"values" : [ false, true, true, true, true, true, true, true, true, true ]
 			},
@@ -512,7 +511,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : 0
+					"subtype" : "primarySkill.attack"
 
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
@@ -521,7 +520,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : 1
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -574,8 +573,8 @@
 			{
 				"bonus" :
 				{
-					"type" : "AIR_IMMUNITY",
-					"subtype" : 1
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : 0 //air negative spells
 				},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			},
@@ -604,7 +603,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : 0
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},	
@@ -612,7 +611,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : 1
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -679,7 +678,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : 0
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -687,7 +686,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : 1
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -747,8 +746,8 @@
 			{
 				"bonus" :
 				{
-					"type" : "WATER_IMMUNITY",
-					"subtype" : 1
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : 2 //water negative spells
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			}
