@@ -10,39 +10,43 @@ taktycznych podczas walki.
 
 ## Dowódcy
 
-Each hero can recruit a unique **Commander** — a special unit that gains
-experience, levels up, and becomes stronger over time.
+Każdy bohater może zwerbować unikalnego **Dowódcę** - specjalną jednostkę, która
+zdobywa doświadczenie, awansuje na kolejne poziomy i z czasem staje się coraz
+potężniejsza.
 
-Commanders can equip their own artifacts, improving Attack, Defense, Magic
-Power, survivability, and unlocking special combat abilities. With dedicated
-equipment such as swords, shields, rings, and magical relics, Commanders grow
-into powerful battlefield units.
+Dowódcy mogą wyposażać się we własne artefakty, zwiększać atak, obronę, moc
+magiczną i wytrzymałość oraz odblokowując specjalne zdolności bojowe. Dzięki
+specjalnemu wyposażeniu, takiemu jak miecze, tarcze, pierścienie i magiczne
+relikty, Dowódcy stają się potężnymi jednostkami na polu bitwy.
 
-## Stack Experience & Stack Artifacts
+## Doświadczenie jednostek i artefakty dla jednostek
 
-Wake of Gods introduces **stack experience**, allowing creature stacks to gain
-experience from battles and improve their statistics over time.
+Przebudzenie bogów wprowadza system **doświadczenia oddziałów**, pozwalające
+jednostkom w oddziałach zdobywać doświadczenie w walce i z czasem zwiększać
+swoje statystyki.
 
-Stacks can also equip special **stack artifacts**, such as Warlord’s Banners,
-which enhance Attack, Defense, Damage, Health, Speed, retaliation count, or
-reduce incoming damage. This system adds long-term progression and customization
-to army management.
+Oddziały mogą również wyposażać się w specjalne **artefakty jednostek**, takie
+jak sztandary wojenne, które zwiększają atak, obronę, obrażenia, punkty życia i
+szybkość, zwiększają liczbę kontrataków lub zmniejszają otrzymywane obrażenia.
+System ten wprowadza długofalowy rozwój oraz większe możliwości dostosowywania
+armii do własnego stylu gry.
 
-## New Artifacts
+## Nowe artefakty
 
-WoG adds a large collection of new artifacts, including:
+WoG wprowadza obszerny zestaw nowych artefaktów, w tym:
 
-- Hero-scaling artifacts that grow stronger with hero level
-- Commander-exclusive equipment that develops through victories
-- Multiple types of Warlord’s Banners for creature stacks
-- Artifacts that enhance spell duration, movement, mana regeneration, and other
-  core attributes
+- Artefakty zależne od poziomu bohatera, których moc rośnie wraz z jego poziomem
+- Wyposażenie przeznaczone wyłącznie dla Dowódców, które rozwija się wraz z
+  odnoszonymi zwycięstwami
+- Różne rodzaje sztandarów wojennych przeznaczonych dla jednostek
+- Artefakty zwiększające czas trwania zaklęć, zasięg ruchu, regenerację many
+  oraz inne podstawowe parametry
 
-## New Map Objects
+## Nowe obiekty na mapie przygody
 
-The adventure map features many new interactive objects, including:
+Mapa przygody zawiera wiele nowych, interaktywnych obiektów, w tym:
 
-- **Arcane Tower** – redistribute primary skills
-- **Alms House** – assist weaker heroes
-- **Magic Mushrooms** – temporary expert magic
-- **Junk Merchant** – trade unwanted artifacts
+- **Wieża magiczna** – pozwala przetasować punkty umiejętności podstawowych
+- **Dom dla ubogich** – pozwala wspierać słabszych bohaterów
+- **Magiczne grzyby** – zapewniają tymczasowo mistrzowski poziom magii
+- **Handlarz Rupieciami** – pozwala wymieniać niepotrzebne artefakty
