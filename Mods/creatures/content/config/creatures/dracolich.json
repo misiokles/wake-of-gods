@@ -48,6 +48,17 @@
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "deathCloud"
 			},
+			"physicalDodge": {
+				"type": "COMBAT_EVENT_TRIGGER",
+				"subtype": "physicalDodge",
+				"val": 20,
+				"addInfo" : { 
+					"messageSingular" : "%s dodges the physical attack!",
+					"messagePlural" : "%s dodge the physical attack!"
+				},
+				"icon" : "icons/e_block.png",
+				"description" : "{Dodge physical attack}\nDracoliches have 20% change to dodge physical attack."                            
+			},
 			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "any",
