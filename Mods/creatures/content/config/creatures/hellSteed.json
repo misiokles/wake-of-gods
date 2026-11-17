@@ -39,15 +39,20 @@
 				"subtype" : "fireShield",
 				"val" : 30
 			},
-			"spellFireWall" : {
-				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "fireWall",
-				"val" : 12,
-				"addInfo" : 3
-			},
 			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
+			},
+			"hellSteedFireWall": {
+				"type": "COMBAT_EVENT_TRIGGER",
+				"subtype": "hellSteedFireWall",
+				"addInfo": {
+					"messageSingular": "%s casts Fire Wall.",
+					"messagePlural": "%s cast Fire Wall."
+				},
+				"val": 12,
+				"icon" : "icons/e_block.png",
+				"description" : "{Fire Wall Thrower}\nAfter a melee attack, Hell Steeds have a 12% chance to cast Fire Wall."                            
 			}
 		},
 		"graphics" : {

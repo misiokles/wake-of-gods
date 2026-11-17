@@ -1,0 +1,24 @@
+{
+    "hellSteedFireWall": {
+        "implements": "combatEvent",
+        "script": "combat/hellSteedFireWall.lua",
+        "patches": [],
+        "priority": 0,
+        "description": "{Incinerate}\nHas a 12% chance after a melee attack to cast Fire Wall on the target.",
+        "schema": {
+            "properties": {
+                "messageSingular": {
+                    "type": "string"
+                },
+                "messagePlural": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        },
+        "stringRegistrations": [
+            "messageSingular",
+            "messagePlural"
+        ]
+    }
+}

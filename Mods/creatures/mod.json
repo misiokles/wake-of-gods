@@ -30,6 +30,10 @@
 	"objects" : [
 		"config/dwellings.json"
 	],
+	"scripts" : [
+		"config/creatures/dracolichDodge.json",
+		"config/creatures/hellSteedFireWall.json"		
+	],
 	"polish" : {
 		"name" : "Stworzenia",
 		"description" : "Ten moduł dodaje nowe stworzenia."
