@@ -1,0 +1,24 @@
+{
+    "sorceressRangedSpellcaster": {
+        "implements": "combatEvent",
+        "script": "combat/sorceressSpellcaster.lua",
+        "patches": [],
+        "priority": 0,
+        "description": "{Ranged Spellcaster}\nThe Sorceress may cast spells after a ranged attack.",
+        "schema": {
+            "properties": {
+                "messageSingular": {
+                    "type": "string"
+                },
+                "messagePlural": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        },
+        "stringRegistrations": [
+            "messageSingular",
+            "messagePlural"
+        ]
+    }
+}

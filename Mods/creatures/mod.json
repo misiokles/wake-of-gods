@@ -5,14 +5,6 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
-	"chinese" : {
-		"name" : "生物",
-		"description" : "这个模组启用新生物。"
-	},
-	"czech" : {
-		"name" : "Nové jednotky",
-		"description" : "Tento modul aktivuje nové jednotky"
-	},
 	"creatures" : [
 		"config/creatures/ghost.json",
 		"config/creatures/gorynych.json",
@@ -32,11 +24,28 @@
 	],
 	"scripts" : [
 		"config/creatures/dracolichDodge.json",
-		"config/creatures/hellSteedFireWall.json"		
+		"config/creatures/hellSteedFireWall.json",
+		"config/creatures/sorceressSpellcaster.json"		
 	],
+	"english" : {
+		"translations": [
+			"config/translations/english.json"
+		]			
+	},
+	"chinese" : {
+		"name" : "生物",
+		"description" : "这个模组启用新生物。"
+	},
+	"czech" : {
+		"name" : "Nové jednotky",
+		"description" : "Tento modul aktivuje nové jednotky"
+	},
 	"polish" : {
-		"name" : "Stworzenia",
-		"description" : "Ten moduł dodaje nowe stworzenia."
+		"name" : "Nowe jednostki neutralne",
+		"description" : "Ten moduł aktywuje nowe neutralne jednostki",	
+		"translations": [
+			"config/translations/polish.json"
+		]		
 	},
 	"portuguese" : {
 		"name" : "Criaturas",
