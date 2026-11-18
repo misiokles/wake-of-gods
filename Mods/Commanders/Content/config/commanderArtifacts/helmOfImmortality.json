@@ -1,5 +1,4 @@
 {
-	//TODO: implement
 	"helmOfImmortality" : {
 		"type" : [
 			"COMMANDER"
@@ -7,11 +6,10 @@
 		"class" : "RELIC",
 		"value" : 10000,
 		"bonuses" : {
-			"damageReduction" : {
-				"type" : "GENERAL_DAMAGE_REDUCTION",
-				"subtype" : "damageTypeAll",
-				"val" : 90,
-				"valueType" : "INDEPENDENT_MIN"
+			"immortality" : {
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "helmOfImmortality",
+				"val" : 1
 			}
 		},
 		"graphics" : {
@@ -22,7 +20,7 @@
 		"text" : {
 			"name" : "Helm of Immortality",
 			//			"description" : "{Helm of Immortality}\r\n\r\nRevives a slain Commander immediately after battle (artifact incremental bonuses are not lost).",
-			"description" : "{Helm of Immortality}\r\n\r\nWhen worn makes Commander almost invulnerable to physical attack.",
+			"description" : "{Helm of Immortality}\r\n\r\nDuring each battle, revives its Commander with half maximum health on the first death. Each later revival in that battle restores half the health of the previous revival. The Helm cannot revive the Commander if they are the last living unit in their army.",
 			"event" : "You pick up the shining Helm of Immortality. If your Commander wears this, death will never last for long!"
 		}
 	}

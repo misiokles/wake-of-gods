@@ -46,7 +46,7 @@
 		"config/commanderArtifacts/bowOfSeeking.json",
 		"config/commanderArtifacts/dragonEyeRing.json",
 		"config/commanderArtifacts/hardenedShield.json",
-		"config/commanderArtifacts/helmOfImmortality.json",
+		"config/commanderArtifacts/helmOfImmortality.json",		
 		"config/commanderArtifacts/mithrilMail.json",
 		"config/commanderArtifacts/pendantOfSorcery.json",
 		"config/commanderArtifacts/slavasRingOfPower.json",
@@ -57,6 +57,9 @@
 			"commanders" : true
 		}
 	},
+	"scripts" : [
+		"config/commanderArtifacts/helmImmortality.json"		
+	],
 	"translations" : [
 		"config/translation/wake-of-gods-commanders/commanders_english.json"
 	],
