@@ -1,42 +1,42 @@
 {
-	"name" : "Mithril mine for Terrace terrain",
-	"description" : "When Terrace terrain in enabled, this mod ads Mithril Mine graphic to this terrain.",
-	"version" : "1.0",
-	"author" : "Kurek, misiokles",
-	"contact" : "http://forum.vcmi.eu/index.php",
-	"modType" : "Compatibility",
-	"compatibility" : {
-		"min" : "1.7.0"
-	},
-	"changelog" : {
-		"1.0.0" : [
-			"Initial release"
-		]
-	},
-	"depends" : [
-		"newtown-terrains.terraceland"
-	],
-	"objects" : [
-		"config/mine.json"
-	],
-	"chinese" : {
-		"name" : "阶地地形的秘银矿",
-		"description" : "启用阶地地形后，本模组会为该地形添加秘银矿的图像资源。"
-	},
-	"polish" : {
-		"name" : "Kopalnia mithrilu pod teren Tarasów",
-		"description" : "Po włączeniu terenu Tarasów mod dodaje odpowiednią grafikę Kopalni mithrilu dla tego typu terenu."
-	},
-	"russian" : {
-		"name" : "Мифриловая шахта для ландшафта (Терраса)",
-		"description" : "Когда включен террасный ландшафт, этот мод добавляет графику мифриловых шахт к этому ландшафту."
-	},
-	"ukrainian" : {
-		"name" : "Міфрилова шахта для місцевості «Тераси»",
-		"description" : "Якщо ввімкнено місцевість «Тераси», цей мод додає до неї графіку Міфрилової шахти."
-	},
-	"vietnamese" : {
-		"name" : "Mỏ Mithril cho địa hình Ruộng bậc thang",
-		"description" : "Khi địa hình Ruộng bậc thang được bật, bản mod này sẽ thêm đồ họa Mỏ Mithril vào địa hình này."
-	}
+    "name": "Mithril mine for Terrace terrain",
+    "description": "When Terrace terrain in enabled, this mod ads Mithril Mine graphic to this terrain.",
+    "version": "1.0",
+    "author": "Kurek, misiokles",
+    "contact": "http://forum.vcmi.eu/index.php",
+    "modType": "Compatibility",
+    "compatibility": {
+        "min": "1.7.0"
+    },
+    "changelog": {
+        "1.0.0": [
+            "Initial release"
+        ]
+    },
+    "depends": [
+        "newtown-terrains.terraceland"
+    ],
+    "objects": [
+        "config/mine.json"
+    ],
+    "chinese": {
+        "name": "阶地地形的秘银矿",
+        "description": "启用阶地地形后，本模组会为该地形添加秘银矿的图像资源。"
+    },
+    "polish": {
+        "name": "Kopalnia mithrilu pod teren Tarasów",
+        "description": "Po włączeniu terenu Tarasów mod dodaje odpowiednią grafikę Kopalni mithrilu dla tego typu terenu."
+    },
+    "russian": {
+        "name": "Мифриловая шахта для ландшафта (Терраса)",
+        "description": "Когда включен террасный ландшафт, этот мод добавляет графику мифриловых шахт к этому ландшафту."
+    },
+    "ukrainian": {
+        "name": "Міфрилова шахта для місцевості «Тераси»",
+        "description": "Якщо ввімкнено місцевість «Тераси», цей мод додає до неї графіку Міфрилової шахти."
+    },
+    "vietnamese": {
+        "name": "Mỏ Mithril cho địa hình Ruộng bậc thang",
+        "description": "Khi địa hình Ruộng bậc thang được bật, bản mod này sẽ thêm đồ họa Mỏ Mithril vào địa hình này."
+    }
 }

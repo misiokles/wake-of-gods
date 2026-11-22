@@ -1,11 +1,11 @@
 {
-	"vcmi:Poor Jebus" : {
-		"zones" : {
-			"1" : {
-				"mines" : {
-					"mithril" : 1
-				}
-			}
-		}
-	}
+    "vcmi:Poor Jebus": {
+        "zones": {
+            "1": {
+                "mines": {
+                    "mithril": 1
+                }
+            }
+        }
+    }
 }

@@ -1,0 +1,16 @@
+{
+    "name": "Battle Academy — Commander Artifacts",
+    "description": "Adds five Commander artifacts to the Battle Academy when Commanders are enabled.",
+    "version": "1.0",
+    "modType": "Compatibility",
+	"author": "WoG Team",
+    "depends": [
+        "wake-of-gods.commanders"
+    ],
+    "objects": [
+        "config/mapObjects/battleAcademyCommanders.json"
+    ],
+    "compatibility": {
+        "min": "1.8.0"
+    }
+}

@@ -3,11 +3,14 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.84",
+	"version" : "9.1.85",
 	"compatibility" : {
 		"min" : "1.8.0"
 	},
 	"changelog" : {
+		"9.1.85" : [
+			"Implementation of Dracolich 20% chance to block physical damage ability via combat script."
+		],
 		"9.1.84" : [
 			"Update WoG Graphic Fix submod to 2.30 version"
 		],

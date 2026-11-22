@@ -1,0 +1,3483 @@
+{
+    "artificer": {
+        "name": "Artificer",
+        "handler": "configurable",
+        "types": {
+            "artificer": {
+                "name": "Artificer",
+                "description": "Upgrade, exchange and combine artifacts. More recipes become available when Mithril and Commanders are enabled.",
+                "rmg": {
+                    "value": 7000,
+                    "rarity": 75,
+                    "zoneLimit": 1
+                },
+                "compatibilityIdentifiers": [
+                    "zartif1"
+                ],
+                "sounds": {
+                    "ambient": [
+                        "LOOPMAGI"
+                    ],
+                    "visit": [
+                        "MYSTERY"
+                    ]
+                },
+                "templates": {
+                    "zartif1": {
+                        "animation": "mapObjects/zartif1.def",
+                        "mask": [
+                            "VVVV",
+                            "BABV"
+                        ],
+                        "visitableFrom": [
+                            "---",
+                            "+++",
+                            "+++"
+                        ]
+                    }
+                },
+                "rewards": [
+                    {
+                        "takenArtifacts": [
+                            "centaurAxe"
+                        ],
+                        "artifacts": [
+                            "blackshardOfTheDeadKnight"
+                        ],
+                        "resources": {
+                            "gold": -1000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "centaurAxe"
+                            ],
+                            "resources": {
+                                "gold": 1000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Centaur Axe to Blackshard of the Dead Knight for 1,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "blackshardOfTheDeadKnight"
+                        ],
+                        "artifacts": [
+                            "greaterGnollsFlail"
+                        ],
+                        "resources": {
+                            "gold": -1500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "blackshardOfTheDeadKnight"
+                            ],
+                            "resources": {
+                                "gold": 1500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Blackshard of the Dead Knight to Greater Gnoll's Flail for 1,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "greaterGnollsFlail"
+                        ],
+                        "artifacts": [
+                            "ogresClubOfHavoc"
+                        ],
+                        "resources": {
+                            "gold": -2000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "greaterGnollsFlail"
+                            ],
+                            "resources": {
+                                "gold": 2000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Greater Gnoll's Flail to Ogre's Club of Havoc for 2,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "ogresClubOfHavoc"
+                        ],
+                        "artifacts": [
+                            "swordOfHellfire"
+                        ],
+                        "resources": {
+                            "gold": -2500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "ogresClubOfHavoc"
+                            ],
+                            "resources": {
+                                "gold": 2500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Ogre's Club of Havoc to Sword of Hellfire for 2,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "shieldOfTheDwarvenLords"
+                        ],
+                        "artifacts": [
+                            "shieldOfTheYawningDead"
+                        ],
+                        "resources": {
+                            "gold": -1000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "shieldOfTheDwarvenLords"
+                            ],
+                            "resources": {
+                                "gold": 1000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Shield of the Dwarven Lords to Shield of the Yawning Dead for 1,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "shieldOfTheYawningDead"
+                        ],
+                        "artifacts": [
+                            "bucklerOfTheGnollKing"
+                        ],
+                        "resources": {
+                            "gold": -1500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "shieldOfTheYawningDead"
+                            ],
+                            "resources": {
+                                "gold": 1500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Shield of the Yawning Dead to Buckler of the Gnoll King for 1,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "bucklerOfTheGnollKing"
+                        ],
+                        "artifacts": [
+                            "targOfTheRampagingOgre"
+                        ],
+                        "resources": {
+                            "gold": -2000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "bucklerOfTheGnollKing"
+                            ],
+                            "resources": {
+                                "gold": 2000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Buckler of the Gnoll King to Targ of the Rampaging Ogre for 2,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "targOfTheRampagingOgre"
+                        ],
+                        "artifacts": [
+                            "shieldOfTheDamned"
+                        ],
+                        "resources": {
+                            "gold": -2500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "targOfTheRampagingOgre"
+                            ],
+                            "resources": {
+                                "gold": 2500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Targ of the Rampaging Ogre to Shield of the Damned for 2,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "helmOfTheAlabasterUnicorn"
+                        ],
+                        "artifacts": [
+                            "skullHelmet"
+                        ],
+                        "resources": {
+                            "gold": -1000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "helmOfTheAlabasterUnicorn"
+                            ],
+                            "resources": {
+                                "gold": 1000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Helm of the Alabaster Unicorn to Skull Helmet for 1,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "skullHelmet"
+                        ],
+                        "artifacts": [
+                            "helmOfChaos"
+                        ],
+                        "resources": {
+                            "gold": -1500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "skullHelmet"
+                            ],
+                            "resources": {
+                                "gold": 1500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Skull Helmet to Helm of Chaos for 1,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "helmOfChaos"
+                        ],
+                        "artifacts": [
+                            "crownOfTheSupremeMagi"
+                        ],
+                        "resources": {
+                            "gold": -2000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "helmOfChaos"
+                            ],
+                            "resources": {
+                                "gold": 2000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Helm of Chaos to Crown of the Supreme Magi for 2,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "crownOfTheSupremeMagi"
+                        ],
+                        "artifacts": [
+                            "hellstormHelmet"
+                        ],
+                        "resources": {
+                            "gold": -2500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "crownOfTheSupremeMagi"
+                            ],
+                            "resources": {
+                                "gold": 2500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Crown of the Supreme Magi to Hellstorm Helmet for 2,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "breastplateOfPetrifiedWood"
+                        ],
+                        "artifacts": [
+                            "ribCage"
+                        ],
+                        "resources": {
+                            "gold": -1000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "breastplateOfPetrifiedWood"
+                            ],
+                            "resources": {
+                                "gold": 1000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Breastplate of Petrified Wood to Rib Cage for 1,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "ribCage"
+                        ],
+                        "artifacts": [
+                            "scalesOfTheGreaterBasilisk"
+                        ],
+                        "resources": {
+                            "gold": -1500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "ribCage"
+                            ],
+                            "resources": {
+                                "gold": 1500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Rib Cage to Scales of the Greater Basilisk for 1,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "scalesOfTheGreaterBasilisk"
+                        ],
+                        "artifacts": [
+                            "tunicOfTheCyclopsKing"
+                        ],
+                        "resources": {
+                            "gold": -2000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "scalesOfTheGreaterBasilisk"
+                            ],
+                            "resources": {
+                                "gold": 2000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Scales of the Greater Basilisk to Tunic of the Cyclops King for 2,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "tunicOfTheCyclopsKing"
+                        ],
+                        "artifacts": [
+                            "breastplateOfBrimstone"
+                        ],
+                        "resources": {
+                            "gold": -2500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "tunicOfTheCyclopsKing"
+                            ],
+                            "resources": {
+                                "gold": 2500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Tunic of the Cyclops King to Breastplate of Brimstone for 2,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "quietEyeOfTheDragon"
+                        ],
+                        "artifacts": [
+                            "redDragonFlameTongue"
+                        ],
+                        "resources": {
+                            "gold": -2000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "quietEyeOfTheDragon"
+                            ],
+                            "resources": {
+                                "gold": 2000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Quiet Eye of the Dragon to Red Dragon Flame Tongue for 2,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "redDragonFlameTongue"
+                        ],
+                        "artifacts": [
+                            "dragonScaleShield"
+                        ],
+                        "resources": {
+                            "gold": -3000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "redDragonFlameTongue"
+                            ],
+                            "resources": {
+                                "gold": 3000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Red Dragon Flame Tongue to Dragon Scale Shield for 3,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "dragonScaleShield"
+                        ],
+                        "artifacts": [
+                            "dragonScaleArmor"
+                        ],
+                        "resources": {
+                            "gold": -4000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "dragonScaleShield"
+                            ],
+                            "resources": {
+                                "gold": 4000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Dragon Scale Shield to Dragon Scale Armor for 4,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "dragonboneGreaves"
+                        ],
+                        "artifacts": [
+                            "dragonWingTabard"
+                        ],
+                        "resources": {
+                            "gold": -2000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "dragonboneGreaves"
+                            ],
+                            "resources": {
+                                "gold": 2000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Dragonbone Greaves to Dragon Wing Tabard for 2,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "dragonWingTabard"
+                        ],
+                        "artifacts": [
+                            "necklaceOfDragonteeth"
+                        ],
+                        "resources": {
+                            "gold": -3000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "dragonWingTabard"
+                            ],
+                            "resources": {
+                                "gold": 3000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Dragon Wing Tabard to Necklace of Dragonteeth for 3,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "necklaceOfDragonteeth"
+                        ],
+                        "artifacts": [
+                            "crownOfDragontooth"
+                        ],
+                        "resources": {
+                            "gold": -4000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "necklaceOfDragonteeth"
+                            ],
+                            "resources": {
+                                "gold": 4000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Necklace of Dragonteeth to Crown of Dragontooth for 4,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "amuletOfTheUndertaker"
+                        ],
+                        "artifacts": [
+                            "vampiresCowl"
+                        ],
+                        "resources": {
+                            "gold": -1500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "amuletOfTheUndertaker"
+                            ],
+                            "resources": {
+                                "gold": 1500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Amulet of the Undertaker to Vampire's Cowl for 1,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "vampiresCowl"
+                        ],
+                        "artifacts": [
+                            "deadMansBoots"
+                        ],
+                        "resources": {
+                            "gold": -3000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "vampiresCowl"
+                            ],
+                            "resources": {
+                                "gold": 3000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Vampire's Cowl to Dead Man's Boots for 3,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "garnitureOfInterference"
+                        ],
+                        "artifacts": [
+                            "surcoatOfCounterpoise"
+                        ],
+                        "resources": {
+                            "gold": -1500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "garnitureOfInterference"
+                            ],
+                            "resources": {
+                                "gold": 1500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Garniture of Interference to Surcoat of Counterpoise for 1,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "surcoatOfCounterpoise"
+                        ],
+                        "artifacts": [
+                            "bootsOfPolarity"
+                        ],
+                        "resources": {
+                            "gold": -3000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "surcoatOfCounterpoise"
+                            ],
+                            "resources": {
+                                "gold": 3000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Surcoat of Counterpoise to Boots of Polarity for 3,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "bowOfElvenCherrywood"
+                        ],
+                        "artifacts": [
+                            "bowstringOfTheUnicornsMane"
+                        ],
+                        "resources": {
+                            "gold": -1500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "bowOfElvenCherrywood"
+                            ],
+                            "resources": {
+                                "gold": 1500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Bow of Elven Cherrywood to Bowstring of the Unicorn's Mane for 1,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "bowstringOfTheUnicornsMane"
+                        ],
+                        "artifacts": [
+                            "angelFeatherArrows"
+                        ],
+                        "resources": {
+                            "gold": -3000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "bowstringOfTheUnicornsMane"
+                            ],
+                            "resources": {
+                                "gold": 3000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Bowstring of the Unicorn's Mane to Angel Feather Arrows for 3,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "birdOfPerception"
+                        ],
+                        "artifacts": [
+                            "stoicWatchman"
+                        ],
+                        "resources": {
+                            "gold": -1500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "birdOfPerception"
+                            ],
+                            "resources": {
+                                "gold": 1500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Bird of Perception to Stoic Watchman for 1,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "stoicWatchman"
+                        ],
+                        "artifacts": [
+                            "emblemOfCognizance"
+                        ],
+                        "resources": {
+                            "gold": -3000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "stoicWatchman"
+                            ],
+                            "resources": {
+                                "gold": 3000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Stoic Watchman to Emblem of Cognizance for 3,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "statesmansMedal"
+                        ],
+                        "artifacts": [
+                            "diplomatsRing"
+                        ],
+                        "resources": {
+                            "gold": -1500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "statesmansMedal"
+                            ],
+                            "resources": {
+                                "gold": 1500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Statesman's Medal to Diplomat's Ring for 1,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "diplomatsRing"
+                        ],
+                        "artifacts": [
+                            "ambassadorsSash"
+                        ],
+                        "resources": {
+                            "gold": -3000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "diplomatsRing"
+                            ],
+                            "resources": {
+                                "gold": 3000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Diplomat's Ring to Ambassador's Sash for 3,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "ringOfTheWayfarer"
+                        ],
+                        "artifacts": [
+                            "capeOfVelocity"
+                        ],
+                        "resources": {
+                            "gold": -8000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "ringOfTheWayfarer"
+                            ],
+                            "resources": {
+                                "gold": 8000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Ring of the Wayfarer to Cape of Velocity for 8,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "necklaceOfOceanGuidance"
+                        ],
+                        "artifacts": [
+                            "seaCaptainsHat"
+                        ],
+                        "resources": {
+                            "gold": -5000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "necklaceOfOceanGuidance"
+                            ],
+                            "resources": {
+                                "gold": 5000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Necklace of Ocean Guidance to Sea Captain's Hat for 5,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "charmOfMana"
+                        ],
+                        "artifacts": [
+                            "talismanOfMana"
+                        ],
+                        "resources": {
+                            "gold": -1500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "charmOfMana"
+                            ],
+                            "resources": {
+                                "gold": 1500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Charm of Mana to Talisman of Mana for 1,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "talismanOfMana"
+                        ],
+                        "artifacts": [
+                            "mysticOrbOfMana"
+                        ],
+                        "resources": {
+                            "gold": -3000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "talismanOfMana"
+                            ],
+                            "resources": {
+                                "gold": 3000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Talisman of Mana to Mystic Orb of Mana for 3,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "collarOfConjuring"
+                        ],
+                        "artifacts": [
+                            "ringOfConjuring"
+                        ],
+                        "resources": {
+                            "gold": -1000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "collarOfConjuring"
+                            ],
+                            "resources": {
+                                "gold": 1000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Collar of Conjuring to Ring of Conjuring for 1,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "ringOfConjuring"
+                        ],
+                        "artifacts": [
+                            "capeOfConjuring"
+                        ],
+                        "resources": {
+                            "gold": -2000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "ringOfConjuring"
+                            ],
+                            "resources": {
+                                "gold": 2000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Ring of Conjuring to Cape of Conjuring for 2,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "ringOfVitality"
+                        ],
+                        "artifacts": [
+                            "vialOfLifeblood"
+                        ],
+                        "resources": {
+                            "gold": -4000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "ringOfVitality"
+                            ],
+                            "resources": {
+                                "gold": 4000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Ring of Vitality to Vial of Lifeblood for 4,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "ringOfLife"
+                        ],
+                        "artifacts": [
+                            "vialOfLifeblood"
+                        ],
+                        "resources": {
+                            "gold": -4000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "ringOfLife"
+                            ],
+                            "resources": {
+                                "gold": 4000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Ring of Life to Vial of Lifeblood for 4,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "necklaceOfSwiftness"
+                        ],
+                        "artifacts": [
+                            "capeOfVelocity"
+                        ],
+                        "resources": {
+                            "gold": -8000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "necklaceOfSwiftness"
+                            ],
+                            "resources": {
+                                "gold": 8000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Necklace of Swiftness to Cape of Velocity for 8,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "endlessPurseOfGold"
+                        ],
+                        "artifacts": [
+                            "endlessBagOfGold"
+                        ],
+                        "resources": {
+                            "gold": -2500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "endlessPurseOfGold"
+                            ],
+                            "resources": {
+                                "gold": 2500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Endless Purse of Gold to Endless Bag of Gold for 2,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "endlessBagOfGold"
+                        ],
+                        "artifacts": [
+                            "endlessSackOfGold"
+                        ],
+                        "resources": {
+                            "gold": -3000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "endlessBagOfGold"
+                            ],
+                            "resources": {
+                                "gold": 3000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Endless Bag of Gold to Endless Sack of Gold for 3,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "legsOfLegion"
+                        ],
+                        "artifacts": [
+                            "loinsOfLegion"
+                        ],
+                        "resources": {
+                            "gold": -1000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "legsOfLegion"
+                            ],
+                            "resources": {
+                                "gold": 1000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Legs of Legion to Loins of Legion for 1,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "loinsOfLegion"
+                        ],
+                        "artifacts": [
+                            "torsoOfLegion"
+                        ],
+                        "resources": {
+                            "gold": -1500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "loinsOfLegion"
+                            ],
+                            "resources": {
+                                "gold": 1500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Loins of Legion to Torso of Legion for 1,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "torsoOfLegion"
+                        ],
+                        "artifacts": [
+                            "armsOfLegion"
+                        ],
+                        "resources": {
+                            "gold": -2000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "torsoOfLegion"
+                            ],
+                            "resources": {
+                                "gold": 2000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Torso of Legion to Arms of Legion for 2,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "armsOfLegion"
+                        ],
+                        "artifacts": [
+                            "headOfLegion"
+                        ],
+                        "resources": {
+                            "gold": -2500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "armsOfLegion"
+                            ],
+                            "resources": {
+                                "gold": 2500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Arms of Legion to Head of Legion for 2,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "ringOfVitality"
+                        ],
+                        "artifacts": [
+                            "ringOfLife"
+                        ],
+                        "resources": {
+                            "gold": -2500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "ringOfVitality"
+                            ],
+                            "resources": {
+                                "gold": 2500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Ring of Vitality for Ring of Life at a cost of 2,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "ringOfLife"
+                        ],
+                        "artifacts": [
+                            "ringOfVitality"
+                        ],
+                        "resources": {
+                            "gold": -2500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "ringOfLife"
+                            ],
+                            "resources": {
+                                "gold": 2500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Ring of Life for Ring of Vitality at a cost of 2,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "cloverOfFortune"
+                        ],
+                        "artifacts": [
+                            "cardsOfProphecy"
+                        ],
+                        "resources": {
+                            "gold": -1000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "cloverOfFortune"
+                            ],
+                            "resources": {
+                                "gold": 1000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Clover of Fortune for Cards of Prophecy at a cost of 1,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "cloverOfFortune"
+                        ],
+                        "artifacts": [
+                            "ladybirdOfLuck"
+                        ],
+                        "resources": {
+                            "gold": -1000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "cloverOfFortune"
+                            ],
+                            "resources": {
+                                "gold": 1000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Clover of Fortune for Ladybird of Luck at a cost of 1,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "cardsOfProphecy"
+                        ],
+                        "artifacts": [
+                            "cloverOfFortune"
+                        ],
+                        "resources": {
+                            "gold": -1000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "cardsOfProphecy"
+                            ],
+                            "resources": {
+                                "gold": 1000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Cards of Prophecy for Clover of Fortune at a cost of 1,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "cardsOfProphecy"
+                        ],
+                        "artifacts": [
+                            "ladybirdOfLuck"
+                        ],
+                        "resources": {
+                            "gold": -1000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "cardsOfProphecy"
+                            ],
+                            "resources": {
+                                "gold": 1000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Cards of Prophecy for Ladybird of Luck at a cost of 1,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "ladybirdOfLuck"
+                        ],
+                        "artifacts": [
+                            "cloverOfFortune"
+                        ],
+                        "resources": {
+                            "gold": -1000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "ladybirdOfLuck"
+                            ],
+                            "resources": {
+                                "gold": 1000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Ladybird of Luck for Clover of Fortune at a cost of 1,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "ladybirdOfLuck"
+                        ],
+                        "artifacts": [
+                            "cardsOfProphecy"
+                        ],
+                        "resources": {
+                            "gold": -1000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "ladybirdOfLuck"
+                            ],
+                            "resources": {
+                                "gold": 1000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Ladybird of Luck for Cards of Prophecy at a cost of 1,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "badgeOfCourage"
+                        ],
+                        "artifacts": [
+                            "crestOfValor"
+                        ],
+                        "resources": {
+                            "gold": -1000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "badgeOfCourage"
+                            ],
+                            "resources": {
+                                "gold": 1000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Badge of Courage for Crest of Valor at a cost of 1,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "badgeOfCourage"
+                        ],
+                        "artifacts": [
+                            "glyphOfGallantry"
+                        ],
+                        "resources": {
+                            "gold": -1000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "badgeOfCourage"
+                            ],
+                            "resources": {
+                                "gold": 1000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Badge of Courage for Glyph of Gallantry at a cost of 1,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "crestOfValor"
+                        ],
+                        "artifacts": [
+                            "badgeOfCourage"
+                        ],
+                        "resources": {
+                            "gold": -1000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "crestOfValor"
+                            ],
+                            "resources": {
+                                "gold": 1000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Crest of Valor for Badge of Courage at a cost of 1,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "crestOfValor"
+                        ],
+                        "artifacts": [
+                            "glyphOfGallantry"
+                        ],
+                        "resources": {
+                            "gold": -1000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "crestOfValor"
+                            ],
+                            "resources": {
+                                "gold": 1000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Crest of Valor for Glyph of Gallantry at a cost of 1,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "glyphOfGallantry"
+                        ],
+                        "artifacts": [
+                            "badgeOfCourage"
+                        ],
+                        "resources": {
+                            "gold": -1000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "glyphOfGallantry"
+                            ],
+                            "resources": {
+                                "gold": 1000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Glyph of Gallantry for Badge of Courage at a cost of 1,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "glyphOfGallantry"
+                        ],
+                        "artifacts": [
+                            "crestOfValor"
+                        ],
+                        "resources": {
+                            "gold": -1000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "glyphOfGallantry"
+                            ],
+                            "resources": {
+                                "gold": 1000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Glyph of Gallantry for Crest of Valor at a cost of 1,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "speculum"
+                        ],
+                        "artifacts": [
+                            "spyglass"
+                        ],
+                        "resources": {
+                            "gold": -1000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "speculum"
+                            ],
+                            "resources": {
+                                "gold": 1000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Speculum for Spyglass at a cost of 1,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "spyglass"
+                        ],
+                        "artifacts": [
+                            "speculum"
+                        ],
+                        "resources": {
+                            "gold": -1000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "spyglass"
+                            ],
+                            "resources": {
+                                "gold": 1000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Spyglass for Speculum at a cost of 1,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "spiritOfOppression"
+                        ],
+                        "artifacts": [
+                            "hourglassOfTheEvilHour"
+                        ],
+                        "resources": {
+                            "gold": -1500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "spiritOfOppression"
+                            ],
+                            "resources": {
+                                "gold": 1500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Spirit of Oppression for Hourglass of the Evil Hour at a cost of 1,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "hourglassOfTheEvilHour"
+                        ],
+                        "artifacts": [
+                            "spiritOfOppression"
+                        ],
+                        "resources": {
+                            "gold": -1500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "hourglassOfTheEvilHour"
+                            ],
+                            "resources": {
+                                "gold": 1500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Hourglass of the Evil Hour for Spirit of Oppression at a cost of 1,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "everflowingCrystalCloak"
+                        ],
+                        "artifacts": [
+                            "ringOfInfiniteGems"
+                        ],
+                        "resources": {
+                            "gold": -2500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "everflowingCrystalCloak"
+                            ],
+                            "resources": {
+                                "gold": 2500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Everflowing Crystal Cloak for Ring of Infinite Gems at a cost of 2,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "everflowingCrystalCloak"
+                        ],
+                        "artifacts": [
+                            "everpouringVialOfMercury"
+                        ],
+                        "resources": {
+                            "gold": -2500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "everflowingCrystalCloak"
+                            ],
+                            "resources": {
+                                "gold": 2500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Everflowing Crystal Cloak for Everpouring Vial of Mercury at a cost of 2,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "everflowingCrystalCloak"
+                        ],
+                        "artifacts": [
+                            "eversmokingRingOfSulfur"
+                        ],
+                        "resources": {
+                            "gold": -2500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "everflowingCrystalCloak"
+                            ],
+                            "resources": {
+                                "gold": 2500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Everflowing Crystal Cloak for Eversmoking Ring of Sulfur at a cost of 2,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "ringOfInfiniteGems"
+                        ],
+                        "artifacts": [
+                            "everflowingCrystalCloak"
+                        ],
+                        "resources": {
+                            "gold": -2500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "ringOfInfiniteGems"
+                            ],
+                            "resources": {
+                                "gold": 2500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Ring of Infinite Gems for Everflowing Crystal Cloak at a cost of 2,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "ringOfInfiniteGems"
+                        ],
+                        "artifacts": [
+                            "everpouringVialOfMercury"
+                        ],
+                        "resources": {
+                            "gold": -2500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "ringOfInfiniteGems"
+                            ],
+                            "resources": {
+                                "gold": 2500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Ring of Infinite Gems for Everpouring Vial of Mercury at a cost of 2,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "ringOfInfiniteGems"
+                        ],
+                        "artifacts": [
+                            "eversmokingRingOfSulfur"
+                        ],
+                        "resources": {
+                            "gold": -2500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "ringOfInfiniteGems"
+                            ],
+                            "resources": {
+                                "gold": 2500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Ring of Infinite Gems for Eversmoking Ring of Sulfur at a cost of 2,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "everpouringVialOfMercury"
+                        ],
+                        "artifacts": [
+                            "everflowingCrystalCloak"
+                        ],
+                        "resources": {
+                            "gold": -2500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "everpouringVialOfMercury"
+                            ],
+                            "resources": {
+                                "gold": 2500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Everpouring Vial of Mercury for Everflowing Crystal Cloak at a cost of 2,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "everpouringVialOfMercury"
+                        ],
+                        "artifacts": [
+                            "ringOfInfiniteGems"
+                        ],
+                        "resources": {
+                            "gold": -2500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "everpouringVialOfMercury"
+                            ],
+                            "resources": {
+                                "gold": 2500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Everpouring Vial of Mercury for Ring of Infinite Gems at a cost of 2,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "everpouringVialOfMercury"
+                        ],
+                        "artifacts": [
+                            "eversmokingRingOfSulfur"
+                        ],
+                        "resources": {
+                            "gold": -2500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "everpouringVialOfMercury"
+                            ],
+                            "resources": {
+                                "gold": 2500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Everpouring Vial of Mercury for Eversmoking Ring of Sulfur at a cost of 2,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "eversmokingRingOfSulfur"
+                        ],
+                        "artifacts": [
+                            "everflowingCrystalCloak"
+                        ],
+                        "resources": {
+                            "gold": -2500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "eversmokingRingOfSulfur"
+                            ],
+                            "resources": {
+                                "gold": 2500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Eversmoking Ring of Sulfur for Everflowing Crystal Cloak at a cost of 2,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "eversmokingRingOfSulfur"
+                        ],
+                        "artifacts": [
+                            "ringOfInfiniteGems"
+                        ],
+                        "resources": {
+                            "gold": -2500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "eversmokingRingOfSulfur"
+                            ],
+                            "resources": {
+                                "gold": 2500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Eversmoking Ring of Sulfur for Ring of Infinite Gems at a cost of 2,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "eversmokingRingOfSulfur"
+                        ],
+                        "artifacts": [
+                            "everpouringVialOfMercury"
+                        ],
+                        "resources": {
+                            "gold": -2500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "eversmokingRingOfSulfur"
+                            ],
+                            "resources": {
+                                "gold": 2500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Eversmoking Ring of Sulfur for Everpouring Vial of Mercury at a cost of 2,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "inexhaustibleCartOfOre"
+                        ],
+                        "artifacts": [
+                            "inexhaustibleCartOfLumber"
+                        ],
+                        "resources": {
+                            "gold": -1500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "inexhaustibleCartOfOre"
+                            ],
+                            "resources": {
+                                "gold": 1500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Inexhaustible Cart of Ore for Inexhaustible Cart of Lumber at a cost of 1,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "inexhaustibleCartOfLumber"
+                        ],
+                        "artifacts": [
+                            "inexhaustibleCartOfOre"
+                        ],
+                        "resources": {
+                            "gold": -1500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "inexhaustibleCartOfLumber"
+                            ],
+                            "resources": {
+                                "gold": 1500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Inexhaustible Cart of Lumber for Inexhaustible Cart of Ore at a cost of 1,500 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "cloverOfFortune",
+                            "cardsOfProphecy",
+                            "ladybirdOfLuck",
+                            "badgeOfCourage",
+                            "crestOfValor",
+                            "glyphOfGallantry"
+                        ],
+                        "artifacts": [
+                            "pendantOfCourage"
+                        ],
+                        "resources": {
+                            "gold": -2500
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "allOf": [
+                                {
+                                    "artifacts": [
+                                        "cloverOfFortune"
+                                    ]
+                                },
+                                {
+                                    "artifacts": [
+                                        "cardsOfProphecy"
+                                    ]
+                                },
+                                {
+                                    "artifacts": [
+                                        "ladybirdOfLuck"
+                                    ]
+                                },
+                                {
+                                    "artifacts": [
+                                        "badgeOfCourage"
+                                    ]
+                                },
+                                {
+                                    "artifacts": [
+                                        "crestOfValor"
+                                    ]
+                                },
+                                {
+                                    "artifacts": [
+                                        "glyphOfGallantry"
+                                    ]
+                                }
+                            ],
+                            "resources": {
+                                "gold": 2500
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nCombine your Clover of Fortune + Cards of Prophecy + Ladybird of Luck + Badge of Courage + Crest of Valor + Glyph of Gallantry into Pendant of Courage for 2,500 gold.\r\n\r\nDo you agree to this trade?"
+                    }
+                ],
+                "onVisited": [
+                    {
+                        "takenArtifacts": [
+                            "centaurAxe"
+                        ],
+                        "artifacts": [
+                            "blackshardOfTheDeadKnight"
+                        ],
+                        "resources": {
+                            "gold": -2000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "centaurAxe"
+                            ],
+                            "resources": {
+                                "gold": 2000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Centaur Axe to Blackshard of the Dead Knight for 2,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "blackshardOfTheDeadKnight"
+                        ],
+                        "artifacts": [
+                            "greaterGnollsFlail"
+                        ],
+                        "resources": {
+                            "gold": -3000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "blackshardOfTheDeadKnight"
+                            ],
+                            "resources": {
+                                "gold": 3000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Blackshard of the Dead Knight to Greater Gnoll's Flail for 3,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "greaterGnollsFlail"
+                        ],
+                        "artifacts": [
+                            "ogresClubOfHavoc"
+                        ],
+                        "resources": {
+                            "gold": -4000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "greaterGnollsFlail"
+                            ],
+                            "resources": {
+                                "gold": 4000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Greater Gnoll's Flail to Ogre's Club of Havoc for 4,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "ogresClubOfHavoc"
+                        ],
+                        "artifacts": [
+                            "swordOfHellfire"
+                        ],
+                        "resources": {
+                            "gold": -5000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "ogresClubOfHavoc"
+                            ],
+                            "resources": {
+                                "gold": 5000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Ogre's Club of Havoc to Sword of Hellfire for 5,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "shieldOfTheDwarvenLords"
+                        ],
+                        "artifacts": [
+                            "shieldOfTheYawningDead"
+                        ],
+                        "resources": {
+                            "gold": -2000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "shieldOfTheDwarvenLords"
+                            ],
+                            "resources": {
+                                "gold": 2000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Shield of the Dwarven Lords to Shield of the Yawning Dead for 2,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "shieldOfTheYawningDead"
+                        ],
+                        "artifacts": [
+                            "bucklerOfTheGnollKing"
+                        ],
+                        "resources": {
+                            "gold": -3000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "shieldOfTheYawningDead"
+                            ],
+                            "resources": {
+                                "gold": 3000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Shield of the Yawning Dead to Buckler of the Gnoll King for 3,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "bucklerOfTheGnollKing"
+                        ],
+                        "artifacts": [
+                            "targOfTheRampagingOgre"
+                        ],
+                        "resources": {
+                            "gold": -4000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "bucklerOfTheGnollKing"
+                            ],
+                            "resources": {
+                                "gold": 4000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Buckler of the Gnoll King to Targ of the Rampaging Ogre for 4,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "targOfTheRampagingOgre"
+                        ],
+                        "artifacts": [
+                            "shieldOfTheDamned"
+                        ],
+                        "resources": {
+                            "gold": -5000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "targOfTheRampagingOgre"
+                            ],
+                            "resources": {
+                                "gold": 5000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Targ of the Rampaging Ogre to Shield of the Damned for 5,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "helmOfTheAlabasterUnicorn"
+                        ],
+                        "artifacts": [
+                            "skullHelmet"
+                        ],
+                        "resources": {
+                            "gold": -2000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "helmOfTheAlabasterUnicorn"
+                            ],
+                            "resources": {
+                                "gold": 2000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Helm of the Alabaster Unicorn to Skull Helmet for 2,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "skullHelmet"
+                        ],
+                        "artifacts": [
+                            "helmOfChaos"
+                        ],
+                        "resources": {
+                            "gold": -3000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "skullHelmet"
+                            ],
+                            "resources": {
+                                "gold": 3000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Skull Helmet to Helm of Chaos for 3,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "helmOfChaos"
+                        ],
+                        "artifacts": [
+                            "crownOfTheSupremeMagi"
+                        ],
+                        "resources": {
+                            "gold": -4000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "helmOfChaos"
+                            ],
+                            "resources": {
+                                "gold": 4000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Helm of Chaos to Crown of the Supreme Magi for 4,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "crownOfTheSupremeMagi"
+                        ],
+                        "artifacts": [
+                            "hellstormHelmet"
+                        ],
+                        "resources": {
+                            "gold": -5000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "crownOfTheSupremeMagi"
+                            ],
+                            "resources": {
+                                "gold": 5000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Crown of the Supreme Magi to Hellstorm Helmet for 5,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "breastplateOfPetrifiedWood"
+                        ],
+                        "artifacts": [
+                            "ribCage"
+                        ],
+                        "resources": {
+                            "gold": -2000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "breastplateOfPetrifiedWood"
+                            ],
+                            "resources": {
+                                "gold": 2000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Breastplate of Petrified Wood to Rib Cage for 2,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "ribCage"
+                        ],
+                        "artifacts": [
+                            "scalesOfTheGreaterBasilisk"
+                        ],
+                        "resources": {
+                            "gold": -3000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "ribCage"
+                            ],
+                            "resources": {
+                                "gold": 3000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Rib Cage to Scales of the Greater Basilisk for 3,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "scalesOfTheGreaterBasilisk"
+                        ],
+                        "artifacts": [
+                            "tunicOfTheCyclopsKing"
+                        ],
+                        "resources": {
+                            "gold": -4000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "scalesOfTheGreaterBasilisk"
+                            ],
+                            "resources": {
+                                "gold": 4000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Scales of the Greater Basilisk to Tunic of the Cyclops King for 4,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "tunicOfTheCyclopsKing"
+                        ],
+                        "artifacts": [
+                            "breastplateOfBrimstone"
+                        ],
+                        "resources": {
+                            "gold": -5000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "tunicOfTheCyclopsKing"
+                            ],
+                            "resources": {
+                                "gold": 5000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Tunic of the Cyclops King to Breastplate of Brimstone for 5,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "quietEyeOfTheDragon"
+                        ],
+                        "artifacts": [
+                            "redDragonFlameTongue"
+                        ],
+                        "resources": {
+                            "gold": -4000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "quietEyeOfTheDragon"
+                            ],
+                            "resources": {
+                                "gold": 4000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Quiet Eye of the Dragon to Red Dragon Flame Tongue for 4,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "redDragonFlameTongue"
+                        ],
+                        "artifacts": [
+                            "dragonScaleShield"
+                        ],
+                        "resources": {
+                            "gold": -6000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "redDragonFlameTongue"
+                            ],
+                            "resources": {
+                                "gold": 6000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Red Dragon Flame Tongue to Dragon Scale Shield for 6,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "dragonScaleShield"
+                        ],
+                        "artifacts": [
+                            "dragonScaleArmor"
+                        ],
+                        "resources": {
+                            "gold": -8000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "dragonScaleShield"
+                            ],
+                            "resources": {
+                                "gold": 8000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Dragon Scale Shield to Dragon Scale Armor for 8,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "dragonboneGreaves"
+                        ],
+                        "artifacts": [
+                            "dragonWingTabard"
+                        ],
+                        "resources": {
+                            "gold": -4000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "dragonboneGreaves"
+                            ],
+                            "resources": {
+                                "gold": 4000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Dragonbone Greaves to Dragon Wing Tabard for 4,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "dragonWingTabard"
+                        ],
+                        "artifacts": [
+                            "necklaceOfDragonteeth"
+                        ],
+                        "resources": {
+                            "gold": -6000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "dragonWingTabard"
+                            ],
+                            "resources": {
+                                "gold": 6000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Dragon Wing Tabard to Necklace of Dragonteeth for 6,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "necklaceOfDragonteeth"
+                        ],
+                        "artifacts": [
+                            "crownOfDragontooth"
+                        ],
+                        "resources": {
+                            "gold": -8000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "necklaceOfDragonteeth"
+                            ],
+                            "resources": {
+                                "gold": 8000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Necklace of Dragonteeth to Crown of Dragontooth for 8,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "amuletOfTheUndertaker"
+                        ],
+                        "artifacts": [
+                            "vampiresCowl"
+                        ],
+                        "resources": {
+                            "gold": -3000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "amuletOfTheUndertaker"
+                            ],
+                            "resources": {
+                                "gold": 3000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Amulet of the Undertaker to Vampire's Cowl for 3,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "vampiresCowl"
+                        ],
+                        "artifacts": [
+                            "deadMansBoots"
+                        ],
+                        "resources": {
+                            "gold": -6000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "vampiresCowl"
+                            ],
+                            "resources": {
+                                "gold": 6000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Vampire's Cowl to Dead Man's Boots for 6,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "garnitureOfInterference"
+                        ],
+                        "artifacts": [
+                            "surcoatOfCounterpoise"
+                        ],
+                        "resources": {
+                            "gold": -3000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "garnitureOfInterference"
+                            ],
+                            "resources": {
+                                "gold": 3000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Garniture of Interference to Surcoat of Counterpoise for 3,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "surcoatOfCounterpoise"
+                        ],
+                        "artifacts": [
+                            "bootsOfPolarity"
+                        ],
+                        "resources": {
+                            "gold": -6000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "surcoatOfCounterpoise"
+                            ],
+                            "resources": {
+                                "gold": 6000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Surcoat of Counterpoise to Boots of Polarity for 6,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "bowOfElvenCherrywood"
+                        ],
+                        "artifacts": [
+                            "bowstringOfTheUnicornsMane"
+                        ],
+                        "resources": {
+                            "gold": -3000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "bowOfElvenCherrywood"
+                            ],
+                            "resources": {
+                                "gold": 3000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Bow of Elven Cherrywood to Bowstring of the Unicorn's Mane for 3,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "bowstringOfTheUnicornsMane"
+                        ],
+                        "artifacts": [
+                            "angelFeatherArrows"
+                        ],
+                        "resources": {
+                            "gold": -6000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "bowstringOfTheUnicornsMane"
+                            ],
+                            "resources": {
+                                "gold": 6000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Bowstring of the Unicorn's Mane to Angel Feather Arrows for 6,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "birdOfPerception"
+                        ],
+                        "artifacts": [
+                            "stoicWatchman"
+                        ],
+                        "resources": {
+                            "gold": -3000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "birdOfPerception"
+                            ],
+                            "resources": {
+                                "gold": 3000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Bird of Perception to Stoic Watchman for 3,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "stoicWatchman"
+                        ],
+                        "artifacts": [
+                            "emblemOfCognizance"
+                        ],
+                        "resources": {
+                            "gold": -6000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "stoicWatchman"
+                            ],
+                            "resources": {
+                                "gold": 6000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Stoic Watchman to Emblem of Cognizance for 6,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "statesmansMedal"
+                        ],
+                        "artifacts": [
+                            "diplomatsRing"
+                        ],
+                        "resources": {
+                            "gold": -3000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "statesmansMedal"
+                            ],
+                            "resources": {
+                                "gold": 3000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Statesman's Medal to Diplomat's Ring for 3,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "diplomatsRing"
+                        ],
+                        "artifacts": [
+                            "ambassadorsSash"
+                        ],
+                        "resources": {
+                            "gold": -6000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "diplomatsRing"
+                            ],
+                            "resources": {
+                                "gold": 6000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Diplomat's Ring to Ambassador's Sash for 6,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "ringOfTheWayfarer"
+                        ],
+                        "artifacts": [
+                            "capeOfVelocity"
+                        ],
+                        "resources": {
+                            "gold": -16000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "ringOfTheWayfarer"
+                            ],
+                            "resources": {
+                                "gold": 16000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Ring of the Wayfarer to Cape of Velocity for 16,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "necklaceOfOceanGuidance"
+                        ],
+                        "artifacts": [
+                            "seaCaptainsHat"
+                        ],
+                        "resources": {
+                            "gold": -10000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "necklaceOfOceanGuidance"
+                            ],
+                            "resources": {
+                                "gold": 10000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Necklace of Ocean Guidance to Sea Captain's Hat for 10,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "charmOfMana"
+                        ],
+                        "artifacts": [
+                            "talismanOfMana"
+                        ],
+                        "resources": {
+                            "gold": -3000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "charmOfMana"
+                            ],
+                            "resources": {
+                                "gold": 3000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Charm of Mana to Talisman of Mana for 3,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "talismanOfMana"
+                        ],
+                        "artifacts": [
+                            "mysticOrbOfMana"
+                        ],
+                        "resources": {
+                            "gold": -6000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "talismanOfMana"
+                            ],
+                            "resources": {
+                                "gold": 6000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Talisman of Mana to Mystic Orb of Mana for 6,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "collarOfConjuring"
+                        ],
+                        "artifacts": [
+                            "ringOfConjuring"
+                        ],
+                        "resources": {
+                            "gold": -2000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "collarOfConjuring"
+                            ],
+                            "resources": {
+                                "gold": 2000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Collar of Conjuring to Ring of Conjuring for 2,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "ringOfConjuring"
+                        ],
+                        "artifacts": [
+                            "capeOfConjuring"
+                        ],
+                        "resources": {
+                            "gold": -4000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "ringOfConjuring"
+                            ],
+                            "resources": {
+                                "gold": 4000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Ring of Conjuring to Cape of Conjuring for 4,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "ringOfVitality"
+                        ],
+                        "artifacts": [
+                            "vialOfLifeblood"
+                        ],
+                        "resources": {
+                            "gold": -8000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "ringOfVitality"
+                            ],
+                            "resources": {
+                                "gold": 8000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Ring of Vitality to Vial of Lifeblood for 8,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "ringOfLife"
+                        ],
+                        "artifacts": [
+                            "vialOfLifeblood"
+                        ],
+                        "resources": {
+                            "gold": -8000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "ringOfLife"
+                            ],
+                            "resources": {
+                                "gold": 8000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Ring of Life to Vial of Lifeblood for 8,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "necklaceOfSwiftness"
+                        ],
+                        "artifacts": [
+                            "capeOfVelocity"
+                        ],
+                        "resources": {
+                            "gold": -16000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "necklaceOfSwiftness"
+                            ],
+                            "resources": {
+                                "gold": 16000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Necklace of Swiftness to Cape of Velocity for 16,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "endlessPurseOfGold"
+                        ],
+                        "artifacts": [
+                            "endlessBagOfGold"
+                        ],
+                        "resources": {
+                            "gold": -5000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "endlessPurseOfGold"
+                            ],
+                            "resources": {
+                                "gold": 5000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Endless Purse of Gold to Endless Bag of Gold for 5,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "endlessBagOfGold"
+                        ],
+                        "artifacts": [
+                            "endlessSackOfGold"
+                        ],
+                        "resources": {
+                            "gold": -6000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "endlessBagOfGold"
+                            ],
+                            "resources": {
+                                "gold": 6000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Endless Bag of Gold to Endless Sack of Gold for 6,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "legsOfLegion"
+                        ],
+                        "artifacts": [
+                            "loinsOfLegion"
+                        ],
+                        "resources": {
+                            "gold": -2000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "legsOfLegion"
+                            ],
+                            "resources": {
+                                "gold": 2000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Legs of Legion to Loins of Legion for 2,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "loinsOfLegion"
+                        ],
+                        "artifacts": [
+                            "torsoOfLegion"
+                        ],
+                        "resources": {
+                            "gold": -3000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "loinsOfLegion"
+                            ],
+                            "resources": {
+                                "gold": 3000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Loins of Legion to Torso of Legion for 3,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "torsoOfLegion"
+                        ],
+                        "artifacts": [
+                            "armsOfLegion"
+                        ],
+                        "resources": {
+                            "gold": -4000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "torsoOfLegion"
+                            ],
+                            "resources": {
+                                "gold": 4000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Torso of Legion to Arms of Legion for 4,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "armsOfLegion"
+                        ],
+                        "artifacts": [
+                            "headOfLegion"
+                        ],
+                        "resources": {
+                            "gold": -5000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "armsOfLegion"
+                            ],
+                            "resources": {
+                                "gold": 5000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nUpgrade your Arms of Legion to Head of Legion for 5,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "ringOfVitality"
+                        ],
+                        "artifacts": [
+                            "ringOfLife"
+                        ],
+                        "resources": {
+                            "gold": -5000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "ringOfVitality"
+                            ],
+                            "resources": {
+                                "gold": 5000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Ring of Vitality for Ring of Life at a cost of 5,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "ringOfLife"
+                        ],
+                        "artifacts": [
+                            "ringOfVitality"
+                        ],
+                        "resources": {
+                            "gold": -5000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "ringOfLife"
+                            ],
+                            "resources": {
+                                "gold": 5000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Ring of Life for Ring of Vitality at a cost of 5,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "cloverOfFortune"
+                        ],
+                        "artifacts": [
+                            "cardsOfProphecy"
+                        ],
+                        "resources": {
+                            "gold": -2000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "cloverOfFortune"
+                            ],
+                            "resources": {
+                                "gold": 2000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Clover of Fortune for Cards of Prophecy at a cost of 2,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "cloverOfFortune"
+                        ],
+                        "artifacts": [
+                            "ladybirdOfLuck"
+                        ],
+                        "resources": {
+                            "gold": -2000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "cloverOfFortune"
+                            ],
+                            "resources": {
+                                "gold": 2000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Clover of Fortune for Ladybird of Luck at a cost of 2,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "cardsOfProphecy"
+                        ],
+                        "artifacts": [
+                            "cloverOfFortune"
+                        ],
+                        "resources": {
+                            "gold": -2000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "cardsOfProphecy"
+                            ],
+                            "resources": {
+                                "gold": 2000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Cards of Prophecy for Clover of Fortune at a cost of 2,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "cardsOfProphecy"
+                        ],
+                        "artifacts": [
+                            "ladybirdOfLuck"
+                        ],
+                        "resources": {
+                            "gold": -2000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "cardsOfProphecy"
+                            ],
+                            "resources": {
+                                "gold": 2000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Cards of Prophecy for Ladybird of Luck at a cost of 2,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "ladybirdOfLuck"
+                        ],
+                        "artifacts": [
+                            "cloverOfFortune"
+                        ],
+                        "resources": {
+                            "gold": -2000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "ladybirdOfLuck"
+                            ],
+                            "resources": {
+                                "gold": 2000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Ladybird of Luck for Clover of Fortune at a cost of 2,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "ladybirdOfLuck"
+                        ],
+                        "artifacts": [
+                            "cardsOfProphecy"
+                        ],
+                        "resources": {
+                            "gold": -2000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "ladybirdOfLuck"
+                            ],
+                            "resources": {
+                                "gold": 2000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Ladybird of Luck for Cards of Prophecy at a cost of 2,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "badgeOfCourage"
+                        ],
+                        "artifacts": [
+                            "crestOfValor"
+                        ],
+                        "resources": {
+                            "gold": -2000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "badgeOfCourage"
+                            ],
+                            "resources": {
+                                "gold": 2000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Badge of Courage for Crest of Valor at a cost of 2,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "badgeOfCourage"
+                        ],
+                        "artifacts": [
+                            "glyphOfGallantry"
+                        ],
+                        "resources": {
+                            "gold": -2000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "badgeOfCourage"
+                            ],
+                            "resources": {
+                                "gold": 2000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Badge of Courage for Glyph of Gallantry at a cost of 2,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "crestOfValor"
+                        ],
+                        "artifacts": [
+                            "badgeOfCourage"
+                        ],
+                        "resources": {
+                            "gold": -2000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "crestOfValor"
+                            ],
+                            "resources": {
+                                "gold": 2000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Crest of Valor for Badge of Courage at a cost of 2,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "crestOfValor"
+                        ],
+                        "artifacts": [
+                            "glyphOfGallantry"
+                        ],
+                        "resources": {
+                            "gold": -2000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "crestOfValor"
+                            ],
+                            "resources": {
+                                "gold": 2000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Crest of Valor for Glyph of Gallantry at a cost of 2,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "glyphOfGallantry"
+                        ],
+                        "artifacts": [
+                            "badgeOfCourage"
+                        ],
+                        "resources": {
+                            "gold": -2000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "glyphOfGallantry"
+                            ],
+                            "resources": {
+                                "gold": 2000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Glyph of Gallantry for Badge of Courage at a cost of 2,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "glyphOfGallantry"
+                        ],
+                        "artifacts": [
+                            "crestOfValor"
+                        ],
+                        "resources": {
+                            "gold": -2000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "glyphOfGallantry"
+                            ],
+                            "resources": {
+                                "gold": 2000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Glyph of Gallantry for Crest of Valor at a cost of 2,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "speculum"
+                        ],
+                        "artifacts": [
+                            "spyglass"
+                        ],
+                        "resources": {
+                            "gold": -2000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "speculum"
+                            ],
+                            "resources": {
+                                "gold": 2000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Speculum for Spyglass at a cost of 2,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "spyglass"
+                        ],
+                        "artifacts": [
+                            "speculum"
+                        ],
+                        "resources": {
+                            "gold": -2000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "spyglass"
+                            ],
+                            "resources": {
+                                "gold": 2000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Spyglass for Speculum at a cost of 2,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "spiritOfOppression"
+                        ],
+                        "artifacts": [
+                            "hourglassOfTheEvilHour"
+                        ],
+                        "resources": {
+                            "gold": -3000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "spiritOfOppression"
+                            ],
+                            "resources": {
+                                "gold": 3000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Spirit of Oppression for Hourglass of the Evil Hour at a cost of 3,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "hourglassOfTheEvilHour"
+                        ],
+                        "artifacts": [
+                            "spiritOfOppression"
+                        ],
+                        "resources": {
+                            "gold": -3000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "hourglassOfTheEvilHour"
+                            ],
+                            "resources": {
+                                "gold": 3000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Hourglass of the Evil Hour for Spirit of Oppression at a cost of 3,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "everflowingCrystalCloak"
+                        ],
+                        "artifacts": [
+                            "ringOfInfiniteGems"
+                        ],
+                        "resources": {
+                            "gold": -5000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "everflowingCrystalCloak"
+                            ],
+                            "resources": {
+                                "gold": 5000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Everflowing Crystal Cloak for Ring of Infinite Gems at a cost of 5,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "everflowingCrystalCloak"
+                        ],
+                        "artifacts": [
+                            "everpouringVialOfMercury"
+                        ],
+                        "resources": {
+                            "gold": -5000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "everflowingCrystalCloak"
+                            ],
+                            "resources": {
+                                "gold": 5000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Everflowing Crystal Cloak for Everpouring Vial of Mercury at a cost of 5,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "everflowingCrystalCloak"
+                        ],
+                        "artifacts": [
+                            "eversmokingRingOfSulfur"
+                        ],
+                        "resources": {
+                            "gold": -5000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "everflowingCrystalCloak"
+                            ],
+                            "resources": {
+                                "gold": 5000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Everflowing Crystal Cloak for Eversmoking Ring of Sulfur at a cost of 5,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "ringOfInfiniteGems"
+                        ],
+                        "artifacts": [
+                            "everflowingCrystalCloak"
+                        ],
+                        "resources": {
+                            "gold": -5000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "ringOfInfiniteGems"
+                            ],
+                            "resources": {
+                                "gold": 5000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Ring of Infinite Gems for Everflowing Crystal Cloak at a cost of 5,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "ringOfInfiniteGems"
+                        ],
+                        "artifacts": [
+                            "everpouringVialOfMercury"
+                        ],
+                        "resources": {
+                            "gold": -5000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "ringOfInfiniteGems"
+                            ],
+                            "resources": {
+                                "gold": 5000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Ring of Infinite Gems for Everpouring Vial of Mercury at a cost of 5,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "ringOfInfiniteGems"
+                        ],
+                        "artifacts": [
+                            "eversmokingRingOfSulfur"
+                        ],
+                        "resources": {
+                            "gold": -5000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "ringOfInfiniteGems"
+                            ],
+                            "resources": {
+                                "gold": 5000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Ring of Infinite Gems for Eversmoking Ring of Sulfur at a cost of 5,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "everpouringVialOfMercury"
+                        ],
+                        "artifacts": [
+                            "everflowingCrystalCloak"
+                        ],
+                        "resources": {
+                            "gold": -5000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "everpouringVialOfMercury"
+                            ],
+                            "resources": {
+                                "gold": 5000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Everpouring Vial of Mercury for Everflowing Crystal Cloak at a cost of 5,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "everpouringVialOfMercury"
+                        ],
+                        "artifacts": [
+                            "ringOfInfiniteGems"
+                        ],
+                        "resources": {
+                            "gold": -5000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "everpouringVialOfMercury"
+                            ],
+                            "resources": {
+                                "gold": 5000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Everpouring Vial of Mercury for Ring of Infinite Gems at a cost of 5,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "everpouringVialOfMercury"
+                        ],
+                        "artifacts": [
+                            "eversmokingRingOfSulfur"
+                        ],
+                        "resources": {
+                            "gold": -5000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "everpouringVialOfMercury"
+                            ],
+                            "resources": {
+                                "gold": 5000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Everpouring Vial of Mercury for Eversmoking Ring of Sulfur at a cost of 5,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "eversmokingRingOfSulfur"
+                        ],
+                        "artifacts": [
+                            "everflowingCrystalCloak"
+                        ],
+                        "resources": {
+                            "gold": -5000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "eversmokingRingOfSulfur"
+                            ],
+                            "resources": {
+                                "gold": 5000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Eversmoking Ring of Sulfur for Everflowing Crystal Cloak at a cost of 5,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "eversmokingRingOfSulfur"
+                        ],
+                        "artifacts": [
+                            "ringOfInfiniteGems"
+                        ],
+                        "resources": {
+                            "gold": -5000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "eversmokingRingOfSulfur"
+                            ],
+                            "resources": {
+                                "gold": 5000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Eversmoking Ring of Sulfur for Ring of Infinite Gems at a cost of 5,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "eversmokingRingOfSulfur"
+                        ],
+                        "artifacts": [
+                            "everpouringVialOfMercury"
+                        ],
+                        "resources": {
+                            "gold": -5000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "eversmokingRingOfSulfur"
+                            ],
+                            "resources": {
+                                "gold": 5000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Eversmoking Ring of Sulfur for Everpouring Vial of Mercury at a cost of 5,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "inexhaustibleCartOfOre"
+                        ],
+                        "artifacts": [
+                            "inexhaustibleCartOfLumber"
+                        ],
+                        "resources": {
+                            "gold": -3000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "inexhaustibleCartOfOre"
+                            ],
+                            "resources": {
+                                "gold": 3000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Inexhaustible Cart of Ore for Inexhaustible Cart of Lumber at a cost of 3,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "inexhaustibleCartOfLumber"
+                        ],
+                        "artifacts": [
+                            "inexhaustibleCartOfOre"
+                        ],
+                        "resources": {
+                            "gold": -3000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "artifacts": [
+                                "inexhaustibleCartOfLumber"
+                            ],
+                            "resources": {
+                                "gold": 3000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nExchange your Inexhaustible Cart of Lumber for Inexhaustible Cart of Ore at a cost of 3,000 gold.\r\n\r\nDo you agree to this trade?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "cloverOfFortune",
+                            "cardsOfProphecy",
+                            "ladybirdOfLuck",
+                            "badgeOfCourage",
+                            "crestOfValor",
+                            "glyphOfGallantry"
+                        ],
+                        "artifacts": [
+                            "pendantOfCourage"
+                        ],
+                        "resources": {
+                            "gold": -5000
+                        },
+                        "movePoints": -100,
+                        "limiter": {
+                            "allOf": [
+                                {
+                                    "artifacts": [
+                                        "cloverOfFortune"
+                                    ]
+                                },
+                                {
+                                    "artifacts": [
+                                        "cardsOfProphecy"
+                                    ]
+                                },
+                                {
+                                    "artifacts": [
+                                        "ladybirdOfLuck"
+                                    ]
+                                },
+                                {
+                                    "artifacts": [
+                                        "badgeOfCourage"
+                                    ]
+                                },
+                                {
+                                    "artifacts": [
+                                        "crestOfValor"
+                                    ]
+                                },
+                                {
+                                    "artifacts": [
+                                        "glyphOfGallantry"
+                                    ]
+                                }
+                            ],
+                            "resources": {
+                                "gold": 5000
+                            }
+                        },
+                        "message": "{Artificer}\r\n\r\nCombine your Clover of Fortune + Cards of Prophecy + Ladybird of Luck + Badge of Courage + Crest of Valor + Glyph of Gallantry into Pendant of Courage for 5,000 gold.\r\n\r\nDo you agree to this trade?"
+                    }
+                ],
+                "onVisitedMessage": "{Artificer}\r\n\r\nI am a bit tired. Further work today costs twice as much.",
+                "onEmptyMessage": "{Artificer}\r\n\r\nI am sorry, but I cannot help you. You have no eligible artifacts or lack the resources required for my work.",
+                "selectMode": "selectRandom",
+                "visitMode": "hero",
+                "canRefuse": true,
+                "resetParameters": {
+                    "days": 1,
+                    "visitors": true
+                }
+            }
+        }
+    }
+}

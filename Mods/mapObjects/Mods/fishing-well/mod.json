@@ -1,0 +1,14 @@
+{
+  "name": "WoG Scripts: Fishing Well",
+  "description": "Magic Well inspired random fishing with movement cost and monthly reset; no tunnel network.",
+  "version": "0.1.0",
+  "modType": "Objects",
+  "author": "WoG adaptation / VCMI Lua & JSON community",
+  "objects": [
+    "config/fishingWell.json"
+  ],
+  "polish": {
+    "name": "WoG Scripts: Fishing Well",
+    "description": "Magic Well inspired random fishing with movement cost and monthly reset; no tunnel network."
+  }
+}

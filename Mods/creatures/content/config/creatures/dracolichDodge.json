@@ -1,18 +1,28 @@
 {
-    "physicalDodge" : {
-        "implements" : "combatEvent",
-        "stringRegistrations" : [ "messageSingular", "messagePlural" ],
-        "schema" : {
-            "required" : [ "messageSingular", "messagePlural" ],
-            "properties" : { 
-                "messageSingular" : { "type" : "string" },
-                "messagePlural" : { "type" : "string" } 
+    "physicalDodge": {
+        "implements": "combatEvent",
+        "stringRegistrations": [
+            "messageSingular",
+            "messagePlural"
+        ],
+        "schema": {
+            "required": [
+                "messageSingular",
+                "messagePlural"
+            ],
+            "properties": {
+                "messageSingular": {
+                    "type": "string"
+                },
+                "messagePlural": {
+                    "type": "string"
+                }
             },
-            "additionalProperties" : false
+            "additionalProperties": false
         },
-        "script" : "combat/dracolichPhysicalDodge.lua",
-        "patches" : [],
-        "priority" : 500,
-        "description" : "{Physical Dodge}\nHas a 20% chance to completely avoid physical attacks."
+        "script": "combat/dracolichPhysicalDodge.lua",
+        "patches": [],
+        "priority": 500,
+        "description": "{Physical Dodge}\nHas a 20% chance to completely avoid physical attacks."
     }
 }

@@ -1,67 +1,67 @@
 {
-	"name" : "Creatures",
-	"description" : "This module enables new creatures.",
-	"modType" : "Creatures",
-	"author" : "WoG Team",
-	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.0",
-	"creatures" : [
-		"config/creatures/ghost.json",
-		"config/creatures/gorynych.json",
-		"config/creatures/warZealot.json",
-		"config/creatures/arcticSharpshooter.json",
-		"config/creatures/lavaSharpshooter.json",
-		"config/creatures/nightmare.json",
-		"config/creatures/hellSteed.json",
-		"config/creatures/santaGremlin.json",
-		"config/creatures/sylvanCentaur.json",
-		"config/creatures/wogSorceress.json",
-		"config/creatures/werewolf.json",
-		"config/creatures/dracolich.json"
-	],
-	"objects" : [
-		"config/dwellings.json"
-	],
-	"scripts" : [
-		"config/creatures/dracolichDodge.json",
-		"config/creatures/hellSteedFireWall.json",
-		"config/creatures/lycanthropy.json",
-		"config/creatures/sorceressSpellcaster.json"		
-	],
-	"english" : {
-		"translations": [
-			"config/translations/english.json"
-		]			
-	},
-	"chinese" : {
-		"name" : "生物",
-		"description" : "这个模组启用新生物。"
-	},
-	"czech" : {
-		"name" : "Nové jednotky",
-		"description" : "Tento modul aktivuje nové jednotky"
-	},
-	"polish" : {
-		"name" : "Nowe jednostki neutralne",
-		"description" : "Ten moduł aktywuje nowe neutralne jednostki",	
-		"translations": [
-			"config/translations/polish.json"
-		]		
-	},
-	"portuguese" : {
-		"name" : "Criaturas",
-		"description" : "Este módulo ativa novas criaturas."
-	},
-	"russian" : {
-		"name" : "существа",
-		"description" : "Этот модуль включает новых существ."
-	},
-	"ukrainian" : {
-		"name" : "Істоти",
-		"description" : "Цей модуль додає нових істот."
-	},
-	"vietnamese" : {
-		"name" : "Quân",
-		"description" : "Mô-đun này bật các quân mới."
-	}
+    "name": "Creatures",
+    "description": "This module enables new creatures.",
+    "modType": "Creatures",
+    "author": "WoG Team",
+    "contact": "http://forum.vcmi.eu/index.php",
+    "version": "1.0",
+    "creatures": [
+        "config/creatures/ghost.json",
+        "config/creatures/gorynych.json",
+        "config/creatures/warZealot.json",
+        "config/creatures/arcticSharpshooter.json",
+        "config/creatures/lavaSharpshooter.json",
+        "config/creatures/nightmare.json",
+        "config/creatures/hellSteed.json",
+        "config/creatures/santaGremlin.json",
+        "config/creatures/sylvanCentaur.json",
+        "config/creatures/wogSorceress.json",
+        "config/creatures/werewolf.json",
+        "config/creatures/dracolich.json"
+    ],
+    "objects": [
+        "config/dwellings.json"
+    ],
+    "scripts": [
+        "config/creatures/dracolichDodge.json",
+        "config/creatures/hellSteedFireWall.json",
+        "config/creatures/lycanthropy.json",
+        "config/creatures/sorceressSpellcaster.json"
+    ],
+    "english": {
+        "translations": [
+            "config/translations/english.json"
+        ]
+    },
+    "chinese": {
+        "name": "生物",
+        "description": "这个模组启用新生物。"
+    },
+    "czech": {
+        "name": "Nové jednotky",
+        "description": "Tento modul aktivuje nové jednotky"
+    },
+    "polish": {
+        "name": "Nowe jednostki neutralne",
+        "description": "Ten moduł aktywuje nowe neutralne jednostki",
+        "translations": [
+            "config/translations/polish.json"
+        ]
+    },
+    "portuguese": {
+        "name": "Criaturas",
+        "description": "Este módulo ativa novas criaturas."
+    },
+    "russian": {
+        "name": "существа",
+        "description": "Этот модуль включает новых существ."
+    },
+    "ukrainian": {
+        "name": "Істоти",
+        "description": "Цей модуль додає нових істот."
+    },
+    "vietnamese": {
+        "name": "Quân",
+        "description": "Mô-đun này bật các quân mới."
+    }
 }

@@ -457,31 +457,6 @@
 			}
 		}
 	},
-	"zobj026" : {
-		"name" : "Battle Academy (doesn't work yet)",
-		"handler" : "generic",
-		"types" : {
-			"zobj026" : {
-				"templates" : {
-					"zobj026" : {
-						"animation" : "objects/zobj026.def",
-						"mask" : [
-							"VVVVVV",
-							"VVVVVV",
-							"VVVBVV",
-							"VBBBBV",
-							"VVVBAV"
-						],
-						"visitableFrom" : [
-							"---",
-							"---",
-							"-++"
-						]
-					}
-				}
-			}
-		}
-	},
 	"zobj028" : {
 		"name" : "Object (doesn't work yet)",
 		"handler" : "generic",
@@ -1000,32 +975,6 @@
 							"VVV",
 							"VVV",
 							"BAB"
-						],
-						"visitableFrom" : [
-							"---",
-							"---",
-							"+++"
-						]
-					}
-				}
-			}
-		}
-	},
-	"ztower1" : {
-		"name" : "Object (doesn't work yet)",
-		"handler" : "generic",
-		"types" : {
-			"ztower1" : {
-				"templates" : {
-					"ztower1" : {
-						"animation" : "objects/ztower1.def",
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VVV",
-							"VVV",
-							"VVV",
-							"VBA"
 						],
 						"visitableFrom" : [
 							"---",

@@ -1,10 +1,13 @@
 {
-  "helmOfImmortality": {
-    "implements": "combatEvent",
-    "script": "combat/helmOfImmortality",
-    "patches": [],
-    "priority": 100,
-    "schema": { "properties": {}, "additionalProperties": false },
-    "description": "{Helm of Immortality}\nRevives its Commander with half the previous revival's health if another allied creature remains."
-  }
+    "helmOfImmortality": {
+        "implements": "combatEvent",
+        "script": "combat/helmOfImmortality",
+        "patches": [],
+        "priority": 100,
+        "schema": {
+            "properties": {},
+            "additionalProperties": false
+        },
+        "description": "{Helm of Immortality}\nRevives its Commander with half the previous revival's health if another allied creature remains."
+    }
 }

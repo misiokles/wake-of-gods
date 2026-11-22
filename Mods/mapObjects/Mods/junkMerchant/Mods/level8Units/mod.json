@@ -1,0 +1,16 @@
+{
+    "name": "Junk Merchant — Supreme Archangels",
+    "description": "Trades Angel Wings for two Supreme Archangels when level 8 units are enabled.",
+    "version": "1.0",
+	"author": "WoG Team",
+    "modType": "Compatibility",
+    "depends": [
+        "wake-of-gods.level8units"
+    ],
+    "objects": [
+        "config/mapObjects/junkMerchantLevel8.json"
+    ],
+    "compatibility": {
+        "min": "1.8.0"
+    }
+}

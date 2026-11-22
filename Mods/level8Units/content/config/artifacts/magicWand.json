@@ -1,112 +1,112 @@
 {
-	"magicWand" : {
-		"type" : [
-			"HERO"
-		],
-		"slot" : "MISC",
-		"class" : "RELIC",
-		"value" : 18000,
-		"graphics" : {
-			"image" : "artifacts/magicWand/HrArt141",
-			"scenarioBonus" : "artifacts/magicWand/HrArt141L",
-			"map" : "artifacts/magicWand/zart141.def"
-		},
-		"bonuses" : {
-			"specialUpgrade1" : {
-				"type" : "SPECIAL_UPGRADE",
-				"limiters" : [
-					{
-						"type" : "CREATURE_TYPE_LIMITER",
-						"creature" : "archangel"
-					}
-				],
-				"addInfo" : "supremeArchangel"
-			},
-			"specialUpgrade2" : {
-				"type" : "SPECIAL_UPGRADE",
-				"limiters" : [
-					{
-						"type" : "CREATURE_TYPE_LIMITER",
-						"creature" : "goldDragon"
-					}
-				],
-				"addInfo" : "diamondDragon"
-			},
-			"specialUpgrade3" : {
-				"type" : "SPECIAL_UPGRADE",
-				"limiters" : [
-					{
-						"type" : "CREATURE_TYPE_LIMITER",
-						"creature" : "titan"
-					}
-				],
-				"addInfo" : "lordOfThunder"
-			},
-			"specialUpgrade4" : {
-				"type" : "SPECIAL_UPGRADE",
-				"limiters" : [
-					{
-						"type" : "CREATURE_TYPE_LIMITER",
-						"creature" : "archDevil"
-					}
-				],
-				"addInfo" : "hellBaron"
-			},
-			"specialUpgrade5" : {
-				"type" : "SPECIAL_UPGRADE",
-				"limiters" : [
-					{
-						"type" : "CREATURE_TYPE_LIMITER",
-						"creature" : "ghostDragon"
-					}
-				],
-				"addInfo" : "bloodDragon"
-			},
-			"specialUpgrade6" : {
-				"limiters" : [
-					{
-						"type" : "CREATURE_TYPE_LIMITER",
-						"creature" : "blackDragon"
-					}
-				],
-				"addInfo" : "darknessDragon",
-				"type" : "SPECIAL_UPGRADE"
-			},
-			"specialUpgrade7" : {
-				"type" : "SPECIAL_UPGRADE",
-				"limiters" : [
-					{
-						"type" : "CREATURE_TYPE_LIMITER",
-						"creature" : "ancientBehemoth"
-					}
-				],
-				"addInfo" : "ghostBehemoth"
-			},
-			"specialUpgrade8" : {
-				"type" : "SPECIAL_UPGRADE",
-				"limiters" : [
-					{
-						"type" : "CREATURE_TYPE_LIMITER",
-						"creature" : "chaosHydra"
-					}
-				],
-				"addInfo" : "hellHydra"
-			},
-			"specialUpgrade9" : {
-				"type" : "SPECIAL_UPGRADE",
-				"limiters" : [
-					{
-						"type" : "CREATURE_TYPE_LIMITER",
-						"creature" : "phoenix"
-					}
-				],
-				"addInfo" : "sacredPhoenix"
-			}
-		},
-		"text" : {
-			"name" : "Magic Wand",
-			"description" : "{Magic Wand}\r\n\r\nAllows to upgrade lvl 7 upg. creature into corresponding 8 lvl one.",
-			"event" : "You find the Magic Wand, dust it off, and stick it in your pack."
-		}
-	}
+    "magicWand": {
+        "type": [
+            "HERO"
+        ],
+        "slot": "MISC",
+        "class": "RELIC",
+        "value": 18000,
+        "graphics": {
+            "image": "artifacts/magicWand/HrArt141",
+            "scenarioBonus": "artifacts/magicWand/HrArt141L",
+            "map": "artifacts/magicWand/zart141.def"
+        },
+        "bonuses": {
+            "specialUpgrade1": {
+                "type": "SPECIAL_UPGRADE",
+                "limiters": [
+                    {
+                        "type": "CREATURE_TYPE_LIMITER",
+                        "creature": "archangel"
+                    }
+                ],
+                "addInfo": "supremeArchangel"
+            },
+            "specialUpgrade2": {
+                "type": "SPECIAL_UPGRADE",
+                "limiters": [
+                    {
+                        "type": "CREATURE_TYPE_LIMITER",
+                        "creature": "goldDragon"
+                    }
+                ],
+                "addInfo": "diamondDragon"
+            },
+            "specialUpgrade3": {
+                "type": "SPECIAL_UPGRADE",
+                "limiters": [
+                    {
+                        "type": "CREATURE_TYPE_LIMITER",
+                        "creature": "titan"
+                    }
+                ],
+                "addInfo": "lordOfThunder"
+            },
+            "specialUpgrade4": {
+                "type": "SPECIAL_UPGRADE",
+                "limiters": [
+                    {
+                        "type": "CREATURE_TYPE_LIMITER",
+                        "creature": "archDevil"
+                    }
+                ],
+                "addInfo": "hellBaron"
+            },
+            "specialUpgrade5": {
+                "type": "SPECIAL_UPGRADE",
+                "limiters": [
+                    {
+                        "type": "CREATURE_TYPE_LIMITER",
+                        "creature": "ghostDragon"
+                    }
+                ],
+                "addInfo": "bloodDragon"
+            },
+            "specialUpgrade6": {
+                "limiters": [
+                    {
+                        "type": "CREATURE_TYPE_LIMITER",
+                        "creature": "blackDragon"
+                    }
+                ],
+                "addInfo": "darknessDragon",
+                "type": "SPECIAL_UPGRADE"
+            },
+            "specialUpgrade7": {
+                "type": "SPECIAL_UPGRADE",
+                "limiters": [
+                    {
+                        "type": "CREATURE_TYPE_LIMITER",
+                        "creature": "ancientBehemoth"
+                    }
+                ],
+                "addInfo": "ghostBehemoth"
+            },
+            "specialUpgrade8": {
+                "type": "SPECIAL_UPGRADE",
+                "limiters": [
+                    {
+                        "type": "CREATURE_TYPE_LIMITER",
+                        "creature": "chaosHydra"
+                    }
+                ],
+                "addInfo": "hellHydra"
+            },
+            "specialUpgrade9": {
+                "type": "SPECIAL_UPGRADE",
+                "limiters": [
+                    {
+                        "type": "CREATURE_TYPE_LIMITER",
+                        "creature": "phoenix"
+                    }
+                ],
+                "addInfo": "sacredPhoenix"
+            }
+        },
+        "text": {
+            "name": "Magic Wand",
+            "description": "{Magic Wand}\r\n\r\nAllows to upgrade lvl 7 upg. creature into corresponding 8 lvl one.",
+            "event": "You find the Magic Wand, dust it off, and stick it in your pack."
+        }
+    }
 }

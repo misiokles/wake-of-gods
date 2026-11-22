@@ -1,53 +1,53 @@
 {
-	"name" : "Stack Artifacts Support",
-	"description" : "This module enables stack artifacts support for some WoG maps",
-	"modType" : "Compatibility",
-	"author" : "WoG Team",
-	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.0",
-	"depends" : [
-		"wake-of-gods.stackartifacts"
-	],
-	"settings" : {
-		"mapFormat" : {
-			"inTheWakeOfGods" : {
-				"supported" : true,
-				"iconIndex" : 6,
-				"artifacts" : {
-					"warlordsBannerHealth" : 156,
-					"warlordsBannerAttack" : 156,
-					"warlordsBannerDefence" : 156,
-					"warlordsBannerDamage" : 156,
-					"warlordsBannerSpeed" : 156,
-					"warlordsBannerExperience" : 156,
-					"warlordsBannerReducer" : 156,
-					"warlordsBannerBlocker" : 156,
-					"warlordsBannerRetaliate" : 156
-				},
-				"templates" : {
-					"artifacts/zart156.def" : "zart156.def"
-				}
-			}
-		}
-	},
-	"chinese" : {
-		"name" : "宝物堆叠支持",
-		"description" : "这个模组为一些WoG地图启用宝物堆叠支持。"
-	},
-	"polish" : {
-		"name" : "Wsparcie dla artefaktów jednostek",
-		"description" : "Ten moduł włącza wsparcie dla artefaktów jednostek na niektórych mapach WoG"
-	},
-	"russian" : {
-		"name" : "Поддержка стековых артефактов",
-		"description" : "Этот модуль обеспечивает поддержку артефактов стека для некоторых карт WoG"
-	},
-	"ukrainian" : {
-		"name" : "Підтримка артефактів загонів",
-		"description" : "Цей модуль додає підтримку артефактів загонів для деяких мап WoG."
-	},
-	"vietnamese" : {
-		"name" : "Hỗ trợ bảo vật theo đạo quân",
-		"description" : "Mô-đun này bật tính năng hỗ trợ báu vật theo đạo quân cho một số bản đồ WoG"
-	}
+    "name": "Stack Artifacts Support",
+    "description": "This module enables stack artifacts support for some WoG maps",
+    "modType": "Compatibility",
+    "author": "WoG Team",
+    "contact": "http://forum.vcmi.eu/index.php",
+    "version": "1.0",
+    "depends": [
+        "wake-of-gods.stackartifacts"
+    ],
+    "settings": {
+        "mapFormat": {
+            "inTheWakeOfGods": {
+                "supported": true,
+                "iconIndex": 6,
+                "artifacts": {
+                    "warlordsBannerHealth": 156,
+                    "warlordsBannerAttack": 156,
+                    "warlordsBannerDefence": 156,
+                    "warlordsBannerDamage": 156,
+                    "warlordsBannerSpeed": 156,
+                    "warlordsBannerExperience": 156,
+                    "warlordsBannerReducer": 156,
+                    "warlordsBannerBlocker": 156,
+                    "warlordsBannerRetaliate": 156
+                },
+                "templates": {
+                    "artifacts/zart156.def": "zart156.def"
+                }
+            }
+        }
+    },
+    "chinese": {
+        "name": "宝物堆叠支持",
+        "description": "这个模组为一些WoG地图启用宝物堆叠支持。"
+    },
+    "polish": {
+        "name": "Wsparcie dla artefaktów jednostek",
+        "description": "Ten moduł włącza wsparcie dla artefaktów jednostek na niektórych mapach WoG"
+    },
+    "russian": {
+        "name": "Поддержка стековых артефактов",
+        "description": "Этот модуль обеспечивает поддержку артефактов стека для некоторых карт WoG"
+    },
+    "ukrainian": {
+        "name": "Підтримка артефактів загонів",
+        "description": "Цей модуль додає підтримку артефактів загонів для деяких мап WoG."
+    },
+    "vietnamese": {
+        "name": "Hỗ trợ bảo vật theo đạo quân",
+        "description": "Mô-đun này bật tính năng hỗ trợ báu vật theo đạo quân cho một số bản đồ WoG"
+    }
 }

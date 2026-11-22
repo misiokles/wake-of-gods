@@ -1,87 +1,87 @@
 {
-	"name" : "Mithril",
-	"description" : "This modification adds a new resource to the game.<br><br>Mithril is a magical metal worth 400 gold per unit.<br><br>- <b>Mithril Mine</b> produces 1 unit of mithril per day for its owner.<br>- <b>Warehouse of Mithril</b> provides 6-10 mithril once per week and refills after 7 days.<br><br>Currently, Mithril mine can appear on random maps using the following templates: Blockbuster, Clash of Dragons, Coldshadow's Fantasy, Extreme, Extreme 2, Frozen Dragons, Headquarters, Jebus Cross, Long Run, Oceans Eleven, Panic, Poor Jebus, Reckless, Roadrunner, Shaaafworld, Skirmish, Speed 2, Spider, Superslam, Triad, and Vortex.",
-	"version" : "1.0",
-	"author" : "George King",
-	"contact" : "http://forum.vcmi.eu/index.php",
-	"modType" : "Resources",
-	"keepDisabled" : true,
-	"compatibility" : {
-		"min" : "1.7.0"
-	},
-	"changelog" : {
-		"1.0.0" : [
-			"Initial release"
-		]
-	},
-	"depends" : [
-		"vcmi"
-	],
-	"softDepends" : [
-		"wake-of-gods.mapDecorations"
-	],
-	"resources" : {
-		"mithril" : {
-			"name" : "Mithril",
-			"price" : 4000,
-			"images" : {
-				"small" : "mithril/small.png",
-				"medium" : "mithril/medium.png",
-				"large" : "mithril/large.png"
-			}
-		}
-	},
-	"objects" : [
-		"config/mithril.json",
-		"config/mithrilFix.json",
-		"config/mine.json",
-		"config/warehouse.json"
-	],
-	"templates" : [
-		"config/rmg/hdmod/blockbuster.json",
-		"config/rmg/hdmod/clashOfDragons.json",
-		"config/rmg/hdmod/coldshadowsFantasy.json",
-		"config/rmg/hdmod/extreme.json",
-		"config/rmg/hdmod/extreme2.json",
-		"config/rmg/hdmod/frozenDragons.json",
-		"config/rmg/hdmod/headquarters.json",
-		"config/rmg/hdmod/jebusCross.json",
-		"config/rmg/hdmod/longRun.json",
-		"config/rmg/hdmod/oceansEleven.json",
-		"config/rmg/hdmod/panic.json",
-		"config/rmg/hdmod/poorJebus.json",
-		"config/rmg/hdmod/reckless.json",
-		"config/rmg/hdmod/roadrunner.json",
-		"config/rmg/hdmod/shaaafworld.json",
-		"config/rmg/hdmod/skirmish.json",
-		"config/rmg/hdmod/speed2.json",
-		"config/rmg/hdmod/spider.json",
-		"config/rmg/hdmod/superslam.json",
-		"config/rmg/hdmod/triad.json",
-		"config/rmg/hdmod/vortex.json"
-	],
-	"chinese" : {
-		"name" : "秘银",
-		"description" : "该模组为游戏新增了一种资源。<br><br>秘银是一种魔法金属，每单位价值 400 金币。<br><br>- <b>秘银矿</b>每天为其占领者产出1单位秘银。<br>- <b>秘银仓库</b>每周一次性提供 6–10 单位秘银，并在 7 天后刷新。<br><br>目前，秘银矿可在使用以下模板的随机地图中生成： Blockbuster, Clash of Dragons, Coldshadow's Fantasy, Extreme, Extreme 2, Frozen Dragons, Headquarters, Jebus Cross, Long Run, Oceans Eleven, Panic, Poor Jebus, Reckless, Roadrunner, Shaaafworld, Skirmish, Speed 2, Spider, Superslam, Triad, and Vortex."
-	},
-	"czech" : {
-		"name" : "Mithril",
-		"description" : "Tato modifikace přidává do hry novou surovinu.<br><br>Mithril je magický kov v hodnotě 400 zlatých za kus.<br><br>- <b>Mithrilový důl</b> produkuje 1 kus mithrilu denně.<br>- <b>Skladiště mithrilu</b> poskytuje 6–10 kusů mithrilu jednou týdně a znovu se doplní po 7 dnech.<br><br>V současnosti se mithrilový důl může objevit na náhodně generovaných mapách při použití následujících šablon: Blockbuster, Clash of Dragons, Coldshadow's Fantasy, Extreme, Extreme 2, Frozen Dragons, Headquarters, Jebus Cross, Long Run, Oceans Eleven, Panic, Poor Jebus, Reckless, Roadrunner, Shaaafworld, Skirmish, Speed 2, Spider, Superslam, Triad a Vortex."
-	},
-	"polish" : {
-		"name" : "Mithril",
-		"description" : "Ta modyfikacja dodaje do gry nowy surowiec.<br><br>Mithril to magiczny metal wart 400 sztuk złota za sztabkę.<br><br>- <b>Kopalnia Mithrilu</b>produkuje 1 sztabkę mithrilu dziennie dla swojego właściciela.<br>- <b>Magazyn Mithrilu</b>zapewnia 6–10 jednostek mithrilu raz w tygodniu i odnawia zapasy po upływie 7 dni.<br><br>Obecnie Kopalnia Mithrilu może pojawiać się na losowych mapach korzystających z następujących szablonów: Blockbuster, Clash of Dragons, Coldshadow's Fantasy, Extreme, Extreme 2, Frozen Dragons, Headquarters, Jebus Cross, Long Run, Oceans Eleven, Panic, Poor Jebus, Reckless, Roadrunner, Shaaafworld, Skirmish, Speed 2, Spider, Superslam, Triad oraz Vortex."
-	},
-	"russian" : {
-		"name" : "Мифрил",
-		"description" : "Эта модификация добавляет в игру новый ресурс.Мифрил - магический металл, стоимость которого составляет 400 золотых за единицу. - Мифриловый рудник производит 1 единицу мифрила в день для своего владельца.<br>- <b> Склад мифрила предоставляет 6-10 единиц мифрила раз в неделю и пополняется через 7 дней.<br><br> В настоящее время Мифриловое месторождение может появляться на случайных картах, используя следующие шаблоны: Blockbuster, Clash of Dragons, Coldshadow's Fantasy, Extreme, Extreme 2., \"Замороженные драконы\", \"Штаб-квартира\", \"Джебус Кросс\", \"Долгая гонка\", \"Оушен Одиннадцать\", \"Паника\", \"Бедный Джебус\", \"Безрассудный\", \"Родраннер\", \"Мир Шааф\", \"Перестрелка\", \"Скорость 2\", \"Паук\", \"Суперслэм\", \"Триада\" и \"Вихрь\"."
-	},
-	"ukrainian" : {
-		"name" : "Міфрил",
-		"description" : "Ця модифікація додає до гри новий ресурс.<br><br>Міфрил — магічний метал вартістю 400 золотих за одиницю.<br><br>- <b>Міфрилова шахта</b> виробляє для власника 1 одиницю міфрилу щодня.<br>- <b>Склад міфрилу</b> надає 6–10 одиниць міфрилу раз на тиждень і знову наповнюється через 7 днів.<br><br>Наразі Міфрилова шахта може з’являтися на випадкових мапах із такими шаблонами: Blockbuster, Clash of Dragons, Coldshadow's Fantasy, Extreme, Extreme 2, Frozen Dragons, Headquarters, Jebus Cross, Long Run, Oceans Eleven, Panic, Poor Jebus, Reckless, Roadrunner, Shaaafworld, Skirmish, Speed 2, Spider, Superslam, Triad і Vortex."
-	},
-	"vietnamese" : {
-		"name" : "Mithril",
-		"description" : "Bản mod này thêm một tài nguyên mới vào trò chơi.<br><br>Mithril là một kim loại ma thuật có giá 400 vàng mỗi đơn vị.<br><br>- <b>Mỏ Mithril</b> tạo ra 1 đơn vị Mithril mỗi ngày cho chủ sở hữu.<br>- <b>Kho Mithril</b> cung cấp 6–10 Mithril mỗi tuần và được hồi lại sau 7 ngày.<br><br>Hiện tại, Mỏ Mithril có thể xuất hiện trên bản đồ ngẫu nhiên khi sử dụng các template sau: Blockbuster, Clash of Dragons, Coldshadow's Fantasy, Extreme, Extreme 2, Frozen Dragons, Headquarters, Jebus Cross, Long Run, Oceans Eleven, Panic, Poor Jebus, Reckless, Roadrunner, Shaaafworld, Skirmish, Speed 2, Spider, Superslam, Triad, và Vortex."
-	}
+    "name": "Mithril",
+    "description": "This modification adds a new resource to the game.<br><br>Mithril is a magical metal worth 400 gold per unit.<br><br>- <b>Mithril Mine</b> produces 1 unit of mithril per day for its owner.<br>- <b>Warehouse of Mithril</b> provides 6-10 mithril once per week and refills after 7 days.<br><br>Currently, Mithril mine can appear on random maps using the following templates: Blockbuster, Clash of Dragons, Coldshadow's Fantasy, Extreme, Extreme 2, Frozen Dragons, Headquarters, Jebus Cross, Long Run, Oceans Eleven, Panic, Poor Jebus, Reckless, Roadrunner, Shaaafworld, Skirmish, Speed 2, Spider, Superslam, Triad, and Vortex.",
+    "version": "1.0",
+    "author": "George King",
+    "contact": "http://forum.vcmi.eu/index.php",
+    "modType": "Resources",
+    "keepDisabled": true,
+    "compatibility": {
+        "min": "1.7.0"
+    },
+    "changelog": {
+        "1.0.0": [
+            "Initial release"
+        ]
+    },
+    "depends": [
+        "vcmi"
+    ],
+    "softDepends": [
+        "wake-of-gods.mapDecorations"
+    ],
+    "resources": {
+        "mithril": {
+            "name": "Mithril",
+            "price": 4000,
+            "images": {
+                "small": "mithril/small.png",
+                "medium": "mithril/medium.png",
+                "large": "mithril/large.png"
+            }
+        }
+    },
+    "objects": [
+        "config/mithril.json",
+        "config/mithrilFix.json",
+        "config/mine.json",
+        "config/warehouse.json"
+    ],
+    "templates": [
+        "config/rmg/hdmod/blockbuster.json",
+        "config/rmg/hdmod/clashOfDragons.json",
+        "config/rmg/hdmod/coldshadowsFantasy.json",
+        "config/rmg/hdmod/extreme.json",
+        "config/rmg/hdmod/extreme2.json",
+        "config/rmg/hdmod/frozenDragons.json",
+        "config/rmg/hdmod/headquarters.json",
+        "config/rmg/hdmod/jebusCross.json",
+        "config/rmg/hdmod/longRun.json",
+        "config/rmg/hdmod/oceansEleven.json",
+        "config/rmg/hdmod/panic.json",
+        "config/rmg/hdmod/poorJebus.json",
+        "config/rmg/hdmod/reckless.json",
+        "config/rmg/hdmod/roadrunner.json",
+        "config/rmg/hdmod/shaaafworld.json",
+        "config/rmg/hdmod/skirmish.json",
+        "config/rmg/hdmod/speed2.json",
+        "config/rmg/hdmod/spider.json",
+        "config/rmg/hdmod/superslam.json",
+        "config/rmg/hdmod/triad.json",
+        "config/rmg/hdmod/vortex.json"
+    ],
+    "chinese": {
+        "name": "秘银",
+        "description": "该模组为游戏新增了一种资源。<br><br>秘银是一种魔法金属，每单位价值 400 金币。<br><br>- <b>秘银矿</b>每天为其占领者产出1单位秘银。<br>- <b>秘银仓库</b>每周一次性提供 6–10 单位秘银，并在 7 天后刷新。<br><br>目前，秘银矿可在使用以下模板的随机地图中生成： Blockbuster, Clash of Dragons, Coldshadow's Fantasy, Extreme, Extreme 2, Frozen Dragons, Headquarters, Jebus Cross, Long Run, Oceans Eleven, Panic, Poor Jebus, Reckless, Roadrunner, Shaaafworld, Skirmish, Speed 2, Spider, Superslam, Triad, and Vortex."
+    },
+    "czech": {
+        "name": "Mithril",
+        "description": "Tato modifikace přidává do hry novou surovinu.<br><br>Mithril je magický kov v hodnotě 400 zlatých za kus.<br><br>- <b>Mithrilový důl</b> produkuje 1 kus mithrilu denně.<br>- <b>Skladiště mithrilu</b> poskytuje 6–10 kusů mithrilu jednou týdně a znovu se doplní po 7 dnech.<br><br>V současnosti se mithrilový důl může objevit na náhodně generovaných mapách při použití následujících šablon: Blockbuster, Clash of Dragons, Coldshadow's Fantasy, Extreme, Extreme 2, Frozen Dragons, Headquarters, Jebus Cross, Long Run, Oceans Eleven, Panic, Poor Jebus, Reckless, Roadrunner, Shaaafworld, Skirmish, Speed 2, Spider, Superslam, Triad a Vortex."
+    },
+    "polish": {
+        "name": "Mithril",
+        "description": "Ta modyfikacja dodaje do gry nowy surowiec.<br><br>Mithril to magiczny metal wart 400 sztuk złota za sztabkę.<br><br>- <b>Kopalnia Mithrilu</b>produkuje 1 sztabkę mithrilu dziennie dla swojego właściciela.<br>- <b>Magazyn Mithrilu</b>zapewnia 6–10 jednostek mithrilu raz w tygodniu i odnawia zapasy po upływie 7 dni.<br><br>Obecnie Kopalnia Mithrilu może pojawiać się na losowych mapach korzystających z następujących szablonów: Blockbuster, Clash of Dragons, Coldshadow's Fantasy, Extreme, Extreme 2, Frozen Dragons, Headquarters, Jebus Cross, Long Run, Oceans Eleven, Panic, Poor Jebus, Reckless, Roadrunner, Shaaafworld, Skirmish, Speed 2, Spider, Superslam, Triad oraz Vortex."
+    },
+    "russian": {
+        "name": "Мифрил",
+        "description": "Эта модификация добавляет в игру новый ресурс.Мифрил - магический металл, стоимость которого составляет 400 золотых за единицу. - Мифриловый рудник производит 1 единицу мифрила в день для своего владельца.<br>- <b> Склад мифрила предоставляет 6-10 единиц мифрила раз в неделю и пополняется через 7 дней.<br><br> В настоящее время Мифриловое месторождение может появляться на случайных картах, используя следующие шаблоны: Blockbuster, Clash of Dragons, Coldshadow's Fantasy, Extreme, Extreme 2., \"Замороженные драконы\", \"Штаб-квартира\", \"Джебус Кросс\", \"Долгая гонка\", \"Оушен Одиннадцать\", \"Паника\", \"Бедный Джебус\", \"Безрассудный\", \"Родраннер\", \"Мир Шааф\", \"Перестрелка\", \"Скорость 2\", \"Паук\", \"Суперслэм\", \"Триада\" и \"Вихрь\"."
+    },
+    "ukrainian": {
+        "name": "Міфрил",
+        "description": "Ця модифікація додає до гри новий ресурс.<br><br>Міфрил — магічний метал вартістю 400 золотих за одиницю.<br><br>- <b>Міфрилова шахта</b> виробляє для власника 1 одиницю міфрилу щодня.<br>- <b>Склад міфрилу</b> надає 6–10 одиниць міфрилу раз на тиждень і знову наповнюється через 7 днів.<br><br>Наразі Міфрилова шахта може з’являтися на випадкових мапах із такими шаблонами: Blockbuster, Clash of Dragons, Coldshadow's Fantasy, Extreme, Extreme 2, Frozen Dragons, Headquarters, Jebus Cross, Long Run, Oceans Eleven, Panic, Poor Jebus, Reckless, Roadrunner, Shaaafworld, Skirmish, Speed 2, Spider, Superslam, Triad і Vortex."
+    },
+    "vietnamese": {
+        "name": "Mithril",
+        "description": "Bản mod này thêm một tài nguyên mới vào trò chơi.<br><br>Mithril là một kim loại ma thuật có giá 400 vàng mỗi đơn vị.<br><br>- <b>Mỏ Mithril</b> tạo ra 1 đơn vị Mithril mỗi ngày cho chủ sở hữu.<br>- <b>Kho Mithril</b> cung cấp 6–10 Mithril mỗi tuần và được hồi lại sau 7 ngày.<br><br>Hiện tại, Mỏ Mithril có thể xuất hiện trên bản đồ ngẫu nhiên khi sử dụng các template sau: Blockbuster, Clash of Dragons, Coldshadow's Fantasy, Extreme, Extreme 2, Frozen Dragons, Headquarters, Jebus Cross, Long Run, Oceans Eleven, Panic, Poor Jebus, Reckless, Roadrunner, Shaaafworld, Skirmish, Speed 2, Spider, Superslam, Triad, và Vortex."
+    }
 }

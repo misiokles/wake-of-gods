@@ -1,0 +1,17 @@
+{
+    "name": "Artificer — Dragon Eye Ring",
+    "description": "Adds the Dragon Eye Ring combination when both Commanders and Mithril are enabled.",
+    "version": "1.0",
+	"author": "WoG Team",
+    "modType": "Compatibility",
+    "depends": [
+        "wake-of-gods.commanders",
+        "wake-of-gods.mithril"
+    ],
+    "objects": [
+        "config/mapObjects/artificerDragonEyeRing.json"
+    ],
+    "compatibility": {
+        "min": "1.8.0"
+    }
+}

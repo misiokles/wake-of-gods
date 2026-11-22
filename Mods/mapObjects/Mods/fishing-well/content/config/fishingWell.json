@@ -1,0 +1,375 @@
+{
+  "fishingWell": {
+    "name": "Fishing Well",
+    "handler": "configurable",
+    "types": {
+      "fishingWell": {
+        "name": "Fishing Well",
+        "description": "A magical well that restores spell points. A fishing attempt costs remaining movement, with unpredictable rewards and hazards. Unlike WoG, this is a separate object.",
+        "rmg": {
+          "value": 7500,
+          "rarity": 28,
+          "zoneLimit": 1
+        },
+        "templates": {
+          "fishingWell": {
+            "animation": "AVXwelg0.def",
+            "mask": [
+              "VVV",
+              "VVV",
+              "VAB"
+            ],
+            "visitableFrom": [
+              "---",
+              "++-",
+              "+++"
+            ]
+          }
+        },
+        "sounds": {
+          "visit": [
+            "MYSTERY"
+          ]
+        },
+        "visitMode": "once",
+        "selectMode": "selectRandom",
+        "blockedVisitable": true,
+        "canRefuse": false,
+        "rewards": [
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "{Fishing Well}\r\n\r\nYou find 200 gold in a waterlogged chest.\r\n\r\nThe attempt exhausts your movement.",
+            "resources": {
+              "gold": 200
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "{Fishing Well}\r\n\r\nYou find 500 gold in a waterlogged chest.\r\n\r\nThe attempt exhausts your movement.",
+            "resources": {
+              "gold": 500
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "{Fishing Well}\r\n\r\nYou find 900 gold in a waterlogged chest.\r\n\r\nThe attempt exhausts your movement.",
+            "resources": {
+              "gold": 900
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "{Fishing Well}\r\n\r\nYou dredge up supplies from the bottom of the well.\r\n\r\nThe attempt exhausts your movement.",
+            "resources": {
+              "wood": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ]
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "{Fishing Well}\r\n\r\nYou dredge up supplies from the bottom of the well.\r\n\r\nThe attempt exhausts your movement.",
+            "resources": {
+              "ore": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ]
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "{Fishing Well}\r\n\r\nYou dredge up supplies from the bottom of the well.\r\n\r\nThe attempt exhausts your movement.",
+            "resources": {
+              "mercury": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ]
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "{Fishing Well}\r\n\r\nYou dredge up supplies from the bottom of the well.\r\n\r\nThe attempt exhausts your movement.",
+            "resources": {
+              "sulfur": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ]
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "{Fishing Well}\r\n\r\nYou dredge up supplies from the bottom of the well.\r\n\r\nThe attempt exhausts your movement.",
+            "resources": {
+              "crystal": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ]
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "{Fishing Well}\r\n\r\nYou dredge up supplies from the bottom of the well.\r\n\r\nThe attempt exhausts your movement.",
+            "resources": {
+              "gems": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ]
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "{Fishing Well}\r\n\r\nYou retrieve an ancient artifact wrapped in silt.\r\n\r\nThe attempt exhausts your movement.",
+            "artifacts": [
+              {
+                "class": "TREASURE"
+              }
+            ]
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "{Fishing Well}\r\n\r\nYou retrieve an ancient artifact wrapped in silt.\r\n\r\nThe attempt exhausts your movement.",
+            "artifacts": [
+              {
+                "class": "MINOR"
+              }
+            ]
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "{Fishing Well}\r\n\r\nAn enchanted scroll lies hidden in the depths.\r\n\r\nThe attempt exhausts your movement.",
+            "scrolls": [
+              {
+                "level": 1
+              }
+            ]
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "{Fishing Well}\r\n\r\nAn enchanted scroll lies hidden in the depths.\r\n\r\nThe attempt exhausts your movement.",
+            "scrolls": [
+              {
+                "level": 2
+              }
+            ]
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "{Fishing Well}\r\n\r\nAn enchanted scroll lies hidden in the depths.\r\n\r\nThe attempt exhausts your movement.",
+            "scrolls": [
+              {
+                "level": 3
+              }
+            ]
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "{Fishing Well}\r\n\r\nA few creatures emerge from the well and join your army.\r\n\r\nThe attempt exhausts your movement.",
+            "creatures": [
+              {
+                "type": "imp",
+                "amount": 3
+              }
+            ]
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "{Fishing Well}\r\n\r\nA few creatures emerge from the well and join your army.\r\n\r\nThe attempt exhausts your movement.",
+            "creatures": [
+              {
+                "type": "imp",
+                "amount": 6
+              }
+            ]
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "{Fishing Well}\r\n\r\nYou draw inspiration from the ancient waters.\r\n\r\nThe attempt exhausts your movement.",
+            "heroExperience": 500
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "{Fishing Well}\r\n\r\nA terrifying vision steals your courage.\r\n\r\nThe attempt exhausts your movement.",
+            "bonuses": [
+              {
+                "type": "MORALE",
+                "val": -1,
+                "duration": "ONE_BATTLE"
+              }
+            ]
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "{Fishing Well}\r\n\r\nA strange force clouds your luck.\r\n\r\nThe attempt exhausts your movement.",
+            "bonuses": [
+              {
+                "type": "LUCK",
+                "val": -1,
+                "duration": "ONE_BATTLE"
+              }
+            ]
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "{Fishing Well}\r\n\r\nHostile creatures emerge from the well. Defeat them to claim your discovery.\r\n\r\nThe attempt exhausts your movement.",
+            "guards": [
+              {
+                "type": "goblin",
+                "amount": 15
+              }
+            ],
+            "resources": {
+              "gold": 500
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "{Fishing Well}\r\n\r\nHostile creatures emerge from the well. Defeat them to claim your discovery.\r\n\r\nThe attempt exhausts your movement.",
+            "guards": [
+              {
+                "type": "goblinWolfRider",
+                "amount": 6
+              }
+            ],
+            "resources": {
+              "gold": 500
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "{Fishing Well}\r\n\r\nHostile creatures emerge from the well. Defeat them to claim your discovery.\r\n\r\nThe attempt exhausts your movement.",
+            "guards": [
+              {
+                "type": "troglodyte",
+                "amount": 15
+              }
+            ],
+            "resources": {
+              "gold": 500
+            }
+          }
+        ],
+        "resetParameters": {
+          "months": 1,
+          "visitors": true,
+          "rewards": true
+        },
+        "onVisitedMessage": "{Fishing Well}\r\n\r\nThe waters have been fished this month.",
+        "onEmptyMessage": "{Fishing Well}\r\n\r\nYou need at least 1 movement point to cast your line.",
+        "guardsLayout": "default"
+      }
+    }
+  }
+}

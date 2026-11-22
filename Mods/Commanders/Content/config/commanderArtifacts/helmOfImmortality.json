@@ -1,27 +1,26 @@
 {
-	"helmOfImmortality" : {
-		"type" : [
-			"COMMANDER"
-		],
-		"class" : "RELIC",
-		"value" : 10000,
-		"bonuses" : {
-			"immortality" : {
-				"type" : "COMBAT_EVENT_TRIGGER",
-				"subtype" : "helmOfImmortality",
-				"val" : 1
-			}
-		},
-		"graphics" : {
-			"image" : "artifacts/HrArt149",
-			"scenarioBonus" : "artifacts/HrArt149L",
-			"map" : "artifacts/zart149.def"
-		},
-		"text" : {
-			"name" : "Helm of Immortality",
-			//			"description" : "{Helm of Immortality}\r\n\r\nRevives a slain Commander immediately after battle (artifact incremental bonuses are not lost).",
-			"description" : "{Helm of Immortality}\r\n\r\nDuring each battle, revives its Commander with half maximum health on the first death. Each later revival in that battle restores half the health of the previous revival. The Helm cannot revive the Commander if they are the last living unit in their army.",
-			"event" : "You pick up the shining Helm of Immortality. If your Commander wears this, death will never last for long!"
-		}
-	}
+    "helmOfImmortality": {
+        "type": [
+            "COMMANDER"
+        ],
+        "class": "RELIC",
+        "value": 10000,
+        "bonuses": {
+            "immortality": {
+                "type": "COMBAT_EVENT_TRIGGER",
+                "subtype": "helmOfImmortality",
+                "val": 1
+            }
+        },
+        "graphics": {
+            "image": "artifacts/HrArt149",
+            "scenarioBonus": "artifacts/HrArt149L",
+            "map": "artifacts/zart149.def"
+        },
+        "text": {
+            "name": "Helm of Immortality",
+            "description": "{Helm of Immortality}\r\n\r\nDuring each battle, revives its Commander with half maximum health on the first death. Each later revival in that battle restores half the health of the previous revival. The Helm cannot revive the Commander if they are the last living unit in their army.",
+            "event": "You pick up the shining Helm of Immortality. If your Commander wears this, death will never last for long!"
+        }
+    }
 }

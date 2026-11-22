@@ -1,80 +1,80 @@
 {
-	"hellSteed" : {
-		"name" : {
-			"singular" : "Hell Steed",
-			"plural" : "Hell Steeds"
-		},
-		"upgrades" : [
-			"nightmare"
-		],
-		"faction" : "inferno",
-		"level" : 6,
-		"cost" : {
-			"gold" : 1100
-		},
-		"doubleWide" : true,
-		"speed" : 8,
-		"hitPoints" : 100,
-		"attack" : 15,
-		"defense" : 15,
-		"damage" : {
-			"min" : 18,
-			"max" : 24
-		},
-		"fightValue" : 1850,
-		"aiValue" : 2150,
-		"advMapAmount" : {
-			"min" : 5,
-			"max" : 10
-		},
-		"growth" : 2,
-		"hasDoubleWeek" : false,
-		"abilities" : {
-			"immuneToFire" : {
-				"type" : "SPELL_SCHOOL_IMMUNITY",
-				"subtype" : "fire"
-			},
-			"fireShield" : {
-				"type" : "COMBAT_EVENT_TRIGGER",
-				"subtype" : "fireShield",
-				"val" : 30
-			},
-			"spellpower" : {
-				"type" : "CREATURE_SPELL_POWER",
-				"val" : 100
-			},
-			"hellSteedFireWall": {
-				"type": "COMBAT_EVENT_TRIGGER",
-				"subtype": "hellSteedFireWall",
-				"addInfo": {
-					"messageSingular": "%s casts Fire Wall.",
-					"messagePlural": "%s cast Fire Wall."
-				},
-				"val": 12,
-				"icon" : "icons/e_block.png",
-				"description" : "{Fire Wall Thrower}\nAfter a melee attack, Hell Steeds have a 12% chance to cast Fire Wall."                            
-			}
-		},
-		"graphics" : {
-			"animation" : "creatures/hellSteed/ZM195Z",
-			"map" : "creatures/hellSteed/zmm195z",
-			"iconSmall" : "creatures/hellSteed/CPrS195N",
-			"iconLarge" : "creatures/hellSteed/CPrL195Z",
-			"mapAttackFromRight" : "avwattak/ZNPC195a",
-			"mapAttackFromLeft" : "avwattak/ZNPC195b",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"walk" : 1.2,
-				"attack" : 1,
-				"idle" : 10
-			}
-		},
-		"sound" : {
-			"attack" : "BGORATTK.wav",
-			"defend" : "BGORDFND.wav",
-			"killed" : "BGORKILL.wav",
-			"move" : "BGORMOVE.wav",
-			"wince" : "BGORWNCE.wav"
-		}
-	}
+    "hellSteed": {
+        "name": {
+            "singular": "Hell Steed",
+            "plural": "Hell Steeds"
+        },
+        "upgrades": [
+            "nightmare"
+        ],
+        "faction": "inferno",
+        "level": 6,
+        "cost": {
+            "gold": 1100
+        },
+        "doubleWide": true,
+        "speed": 8,
+        "hitPoints": 100,
+        "attack": 15,
+        "defense": 15,
+        "damage": {
+            "min": 18,
+            "max": 24
+        },
+        "fightValue": 1850,
+        "aiValue": 2150,
+        "advMapAmount": {
+            "min": 5,
+            "max": 10
+        },
+        "growth": 2,
+        "hasDoubleWeek": false,
+        "abilities": {
+            "immuneToFire": {
+                "type": "SPELL_SCHOOL_IMMUNITY",
+                "subtype": "fire"
+            },
+            "fireShield": {
+                "type": "COMBAT_EVENT_TRIGGER",
+                "subtype": "fireShield",
+                "val": 30
+            },
+            "spellpower": {
+                "type": "CREATURE_SPELL_POWER",
+                "val": 100
+            },
+            "hellSteedFireWall": {
+                "type": "COMBAT_EVENT_TRIGGER",
+                "subtype": "hellSteedFireWall",
+                "addInfo": {
+                    "messageSingular": "%s casts Fire Wall.",
+                    "messagePlural": "%s cast Fire Wall."
+                },
+                "val": 12,
+                "icon": "icons/e_block.png",
+                "description": "{Fire Wall Thrower}\nAfter a melee attack, Hell Steeds have a 12% chance to cast Fire Wall."
+            }
+        },
+        "graphics": {
+            "animation": "creatures/hellSteed/ZM195Z",
+            "map": "creatures/hellSteed/zmm195z",
+            "iconSmall": "creatures/hellSteed/CPrS195N",
+            "iconLarge": "creatures/hellSteed/CPrL195Z",
+            "mapAttackFromRight": "avwattak/ZNPC195a",
+            "mapAttackFromLeft": "avwattak/ZNPC195b",
+            "timeBetweenFidgets": 1,
+            "animationTime": {
+                "walk": 1.2,
+                "attack": 1,
+                "idle": 10
+            }
+        },
+        "sound": {
+            "attack": "BGORATTK.wav",
+            "defend": "BGORDFND.wav",
+            "killed": "BGORKILL.wav",
+            "move": "BGORMOVE.wav",
+            "wince": "BGORWNCE.wav"
+        }
+    }
 }

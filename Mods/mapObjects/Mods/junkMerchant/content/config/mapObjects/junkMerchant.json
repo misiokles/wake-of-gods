@@ -1,0 +1,1501 @@
+{
+    "junkMerchant": {
+        "name": "Junk Merchant",
+        "handler": "configurable",
+        "types": {
+            "junkMerchant": {
+                "name": "Junk Merchant",
+                "description": "Offers trades for 32 artifacts, mostly weak ones, plus spell scrolls.",
+                "rmg": {
+                    "value": 7000,
+                    "rarity": 75,
+                    "zoneLimit": 1
+                },
+                "compatibilityIdentifiers": [
+                    "zobj006"
+                ],
+                "sounds": {
+                    "ambient": [
+                        "LOOPMAGI"
+                    ],
+                    "visit": [
+                        "MYSTERY"
+                    ]
+                },
+                "rewards": [
+                    {
+                        "takenArtifacts": [
+                            "centaurAxe"
+                        ],
+                        "creatures": [
+                            {
+                                "type": "centaurCaptain",
+                                "amount": 50
+                            }
+                        ],
+                        "limiter": {
+                            "artifacts": [
+                                "centaurAxe"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Centaur Axe! You know what's better than that? ... I'll tell you! Centaurs! What's an Axe with no Centaurs! Am I right? I'll give you... oh, I can be generous... 50 Centaur Captains for the Axe. Deal?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "shieldOfTheDwarvenLords"
+                        ],
+                        "creatures": [
+                            {
+                                "type": "battleDwarf",
+                                "amount": 15
+                            }
+                        ],
+                        "limiter": {
+                            "artifacts": [
+                                "shieldOfTheDwarvenLords"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Shield Of The Dwarven Lords! You know what's better than that? ... I'll tell you! Dwarves! They're better! I'm such a great guy, I'll give you... say... 15 Battle Dwarves for the Shield. Deal?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "bucklerOfTheGnollKing"
+                        ],
+                        "artifacts": [
+                            "targOfTheRampagingOgre"
+                        ],
+                        "limiter": {
+                            "artifacts": [
+                                "bucklerOfTheGnollKing"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Buckler Of The Gnoll King! You know what's better than that? ... I'll tell you! A Targ Of The Rampaging Ogre! +5 instead of +4! It's just better! I must be crazy but I'll do it! I'll give you the Targ for the Buckler! Deal?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "helmOfTheAlabasterUnicorn"
+                        ],
+                        "resources": {
+                            "gems": 5
+                        },
+                        "limiter": {
+                            "artifacts": [
+                                "helmOfTheAlabasterUnicorn"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Helm Of The Alabaster Unicorn! What junk! You know what's better than that? ... I'll tell you! Unicorns! And to build their glade you need gems! Which is what I'll give you! 5 gems! Deal?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "breastplateOfPetrifiedWood"
+                        ],
+                        "primary": [
+                            {
+                                "type": "spellpower",
+                                "amount": 1
+                            }
+                        ],
+                        "limiter": {
+                            "artifacts": [
+                                "breastplateOfPetrifiedWood"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Breastplate Of Petrified Wood! You're actually wearing that? Tell you what, give me the Breastplate, and I'll teach you +1 spell power! Like a Breastplate without having to wear it! Deal?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "cloverOfFortune"
+                        ],
+                        "resources": {
+                            "gold": 1500
+                        },
+                        "limiter": {
+                            "artifacts": [
+                                "cloverOfFortune"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Clover Of Fortune! Blimey! You're still using garbage like that? I suppose I could take it off your hands for... I dunno... 1500 gold. Deal?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "cardsOfProphecy"
+                        ],
+                        "resources": {
+                            "gold": 1500
+                        },
+                        "limiter": {
+                            "artifacts": [
+                                "cardsOfProphecy"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nCards Of Prophecy! What junk! You wanna know the future, just wet your finger and hold it in the wind, pal! Tell you what, I'll take the Cards from you for... say... 1500 gold. Deal?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "ladybirdOfLuck"
+                        ],
+                        "resources": {
+                            "gold": 1500
+                        },
+                        "limiter": {
+                            "artifacts": [
+                                "ladybirdOfLuck"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Ladybird Of Luck! Are you superstitious or what, pal? Aw, I'm kidding you! That's a fine... thingie. I'll give you 1500 gold for it. Deal?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "badgeOfCourage"
+                        ],
+                        "resources": {
+                            "gold": 1500
+                        },
+                        "limiter": {
+                            "artifacts": [
+                                "badgeOfCourage"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Badge Of Courage! What'd you do, save a dog from a burning building? I suppose I could melt it down... I'll give you 1500 gold for it. Deal?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "crestOfValor"
+                        ],
+                        "resources": {
+                            "gold": 1500
+                        },
+                        "limiter": {
+                            "artifacts": [
+                                "crestOfValor"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Crest Of Valor! Runs in the family, huh? Well, it's kind of pretty. I could part with... say... 1500 gold for it. Deal?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "glyphOfGallantry"
+                        ],
+                        "resources": {
+                            "gold": 1500
+                        },
+                        "limiter": {
+                            "artifacts": [
+                                "glyphOfGallantry"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Glyph Of Gallantry! Man, I thought they stopped making these! Don't they have +2 morale artifacts now? Well, for the nostalgia of it, I could give you... maybe... 1500 gold for it. Deal?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "speculum"
+                        ],
+                        "limiter": {
+                            "artifacts": [
+                                "speculum"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Speculabob! I mean Speculum! What utter crud! You know what's better than that? ... I'll tell you! A map! Just a map of the neighborhood! I'll give you a map of these parts for the Specuthingie. Deal?",
+                        "revealTiles": {
+                            "radius": 30,
+                            "surface": 1,
+                            "subterra": 1,
+                            "water": 1,
+                            "rock": 1
+                        }
+                    },
+                    {
+                        "takenArtifacts": [
+                            "spyglass"
+                        ],
+                        "resources": {
+                            "gold": 1830
+                        },
+                        "limiter": {
+                            "artifacts": [
+                                "spyglass"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Spyglass! Man, isn't that like the worst artifact ever? Just totally useless! But I'm such a pal, I'll give you, I'll give you, thirt... no... fift... Uh... I'll give you 1830 gold for it! Deal?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "amuletOfTheUndertaker"
+                        ],
+                        "resources": {
+                            "gold": 600
+                        },
+                        "limiter": {
+                            "artifacts": [
+                                "amuletOfTheUndertaker"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nAn Amulet Of The Undertaker! Spooky! Those are bad luck, you know. I'll take it off of you for... I dunno... 600 gold. That's all it's worth, if you want to know the truth. Deal?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "vampiresCowl"
+                        ],
+                        "resources": {
+                            "gold": 2500
+                        },
+                        "limiter": {
+                            "artifacts": [
+                                "vampiresCowl"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Vampire's Cowl! I thought you guys couldn't go out in daylight? Just kidding! Well it's a nice conversation piece. I'll give you... what... 2500 gold for it. Deal?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "deadMansBoots"
+                        ],
+                        "resources": {
+                            "gold": 2000
+                        },
+                        "limiter": {
+                            "artifacts": [
+                                "deadMansBoots"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nDead Man's Boots! Where did you get those? They're awfully scarce in these parts! In fact I'll give you... 2000 gold for them! Deal?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "surcoatOfCounterpoise"
+                        ],
+                        "resources": {
+                            "gold": 4000
+                        },
+                        "limiter": {
+                            "artifacts": [
+                                "surcoatOfCounterpoise"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Surcoat Of Counterpoise! That would go great with my Surpants Of Counterpoise! I've gotta have it! I'll give you... 4000 gold for it! Deal?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "birdOfPerception"
+                        ],
+                        "creatures": [
+                            {
+                                "type": "royalGriffin",
+                                "amount": 15
+                            }
+                        ],
+                        "limiter": {
+                            "artifacts": [
+                                "birdOfPerception"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Bird Of Perception! You know what's better than that? ... I'll tell you! Birds! Griffins even! Much better than a little statue! I'm such a guy, I'll give you... 15 Royal Griffins for it! Deal?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "statesmansMedal"
+                        ],
+                        "resources": {
+                            "crystal": 10
+                        },
+                        "limiter": {
+                            "artifacts": [
+                                "statesmansMedal"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Statesman's Medal! I guess I should call you \"sir\" or something, huh pal? Just kidding! Well it's a little tarnished... I'll give you... 10 crystals for it. Deal?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "diplomatsRing"
+                        ],
+                        "resources": {
+                            "gems": 10
+                        },
+                        "limiter": {
+                            "artifacts": [
+                                "diplomatsRing"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Diplomat's Ring! What did you do, take it off a corpse? Just kidding! Sheesh you're sensitive! Tell you what, to make it up to you, I'll give you... 10 gems for it. Deal?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "ambassadorsSash"
+                        ],
+                        "resources": {
+                            "mercury": 10
+                        },
+                        "limiter": {
+                            "artifacts": [
+                                "ambassadorsSash"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nAn Ambassador's Sash! Where are you from, Enroth? Well what does an Ambaddador need but castles? And how do you build castles? Sometimes, with mercury! Lotsa mercury! I'll give you 10 mercury for the Sash. Deal?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "necklaceOfOceanGuidance"
+                        ],
+                        "resources": {
+                            "wood": 15
+                        },
+                        "limiter": {
+                            "artifacts": [
+                                "necklaceOfOceanGuidance"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Necklace Of Ocean Guidance! Man, somebody got to you before me, I can tell! What a gyp! You know what sailing around gets you? Nothing but wood! Mounds and mounds of sea debris! To save you time, I'll give you 15 wood for the Necklace. Deal?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "angelWings"
+                        ],
+                        "creatures": [
+                            {
+                                "type": "archangel",
+                                "amount": 5
+                            }
+                        ],
+                        "limiter": {
+                            "artifacts": [
+                                "angelWings"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nAngel Wings! I can trade them for 5 Archangels. Do we have a deal?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "charmOfMana"
+                        ],
+                        "manaPoints": 60,
+                        "limiter": {
+                            "artifacts": [
+                                "charmOfMana"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Charm Of Mana! What a useless toy! One spell point a day! Tell you what, pal, I'll give you 60 spell points for it! That's like two months from the Charm! Deal?",
+                        "manaOverflowFactor": 100
+                    },
+                    {
+                        "takenArtifacts": [
+                            "collarOfConjuring"
+                        ],
+                        "limiter": {
+                            "artifacts": [
+                                "collarOfConjuring"
+                            ],
+                            "canLearnSpells": [
+                                "slow"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Collar Of Conjuring! Man, does that chafe your neck or what? Tell you what, to show you what a great guy I am, give me the Collar and I'll teach you the best spell ever! That's right, Slow! Deal?",
+                        "spells": [
+                            "slow"
+                        ]
+                    },
+                    {
+                        "takenArtifacts": [
+                            "recantersCloak"
+                        ],
+                        "resources": {
+                            "gold": 2500
+                        },
+                        "limiter": {
+                            "artifacts": [
+                                "recantersCloak"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Recanter's Cloak! Well, at least it keeps the rain off your back! You know what else keeps the rain off your back? Money! If you buy a house with it! I'll give you 2500 gold for the Cloak. Deal?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "spiritOfOppression"
+                        ],
+                        "resources": {
+                            "gold": 2000
+                        },
+                        "limiter": {
+                            "artifacts": [
+                                "spiritOfOppression"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Spirit Of Oppression! You've gotta be kidding! No-one would ever want that except maybe a necrom... hmmm. Hey, maybe if I shine it up, it might look good on my mantle. I'll give you 2000 gold for it. Deal?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "hourglassOfTheEvilHour"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "artifacts": [
+                                "hourglassOfTheEvilHour"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nAn Hourglass Of The Evil something! What trash! I think I just threw one of those away - were you rooting around in my garbage? Just kidding! Aw, I'm a sucker for a sad face. I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "sphereOfPermanence"
+                        ],
+                        "heroExperience": 2000,
+                        "limiter": {
+                            "artifacts": [
+                                "sphereOfPermanence"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Sphere Of Permanence! Wow, completely immune to Dispel! Hold me back! You know what you need, pal? Some experience! So you don't use junk like that! Give me the Sphere, I'll teach you a lesson worth 2000 experience. Deal?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "orbOfVulnerability"
+                        ],
+                        "artifacts": [
+                            "orbOfTheFirmament"
+                        ],
+                        "limiter": {
+                            "artifacts": [
+                                "orbOfVulnerability"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nAn Orb Of Vulnerability! Makes a nice paperweight, doesn't it! Aw, I pity you, pal, I really do. Out of the goodness of my heart, I'll give you an Orb Of The Firmament for your Orb. Deal?"
+                    },
+                    {
+                        "takenArtifacts": [
+                            "pendantOfNegativity"
+                        ],
+                        "limiter": {
+                            "artifacts": [
+                                "pendantOfNegativity"
+                            ],
+                            "canLearnSpells": [
+                                "lightningBolt"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Pendant Of Negativity! What are you, a scaredy cat? You know what's better than that? ... I'll tell you! A Lightning Bolt of your own! Just frying everything in sight! I'll teach you Lightning Bolt in exchange for the Pendant. Deal?",
+                        "spells": [
+                            "lightningBolt"
+                        ]
+                    },
+                    {
+                        "takenArtifacts": [
+                            "legsOfLegion"
+                        ],
+                        "resources": {
+                            "ore": 15
+                        },
+                        "limiter": {
+                            "artifacts": [
+                                "legsOfLegion"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nLegs Of Legion! Those belong in a museum! Just kidding! They aren't worth the rock they're carved out of! Which is what I'm offering you! 15 Ore for the Legs. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "summonBoat"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "summonBoat"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Summon Boat? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "scuttleBoat"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "scuttleBoat"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Scuttle Boat? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "visions"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "visions"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Visions? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "viewEarth"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "viewEarth"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? View Earth? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "disguise"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "disguise"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Disguise? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "viewAir"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "viewAir"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? View Air? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "fly"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "fly"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Fly? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "waterWalk"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "waterWalk"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Water Walk? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "dimensionDoor"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "dimensionDoor"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Dimension Door? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "townPortal"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "townPortal"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Town Portal? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "quicksand"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "quicksand"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Quicksand? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "landMine"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "landMine"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Land Mine? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "forceField"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "forceField"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Force Field? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "fireWall"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "fireWall"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Fire Wall? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "earthquake"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "earthquake"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Earthquake? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "magicArrow"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "magicArrow"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Magic Arrow? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "iceBolt"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "iceBolt"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Ice Bolt? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "lightningBolt"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "lightningBolt"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Lightning Bolt? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "implosion"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "implosion"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Implosion? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "chainLightning"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "chainLightning"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Chain Lightning? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "titanBolt"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "titanBolt"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Titan's Lightning Bolt? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "frostRing"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "frostRing"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Frost Ring? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "fireball"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "fireball"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Fireball? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "inferno"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "inferno"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Inferno? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "meteorShower"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "meteorShower"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Meteor Shower? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "deathRipple"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "deathRipple"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Death Ripple? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "destroyUndead"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "destroyUndead"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Destroy Undead? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "armageddon"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "armageddon"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Armageddon? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "shield"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "shield"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Shield? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "airShield"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "airShield"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Air Shield? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "fireShield"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "fireShield"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Fire Shield? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "protectAir"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "protectAir"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Protection from Air? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "protectFire"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "protectFire"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Protection from Fire? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "protectWater"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "protectWater"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Protection from Water? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "protectEarth"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "protectEarth"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Protection from Earth? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "antiMagic"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "antiMagic"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Anti-Magic? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "dispel"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "dispel"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Dispel? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "magicMirror"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "magicMirror"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Magic Mirror? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "cure"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "cure"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Cure? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "resurrection"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "resurrection"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Resurrection? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "animateDead"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "animateDead"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Animate Dead? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "sacrifice"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "sacrifice"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Sacrifice? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "bless"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "bless"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Bless? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "curse"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "curse"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Curse? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "bloodlust"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "bloodlust"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Bloodlust? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "precision"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "precision"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Precision? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "weakness"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "weakness"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Weakness? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "stoneSkin"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "stoneSkin"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Stone Skin? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "disruptingRay"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "disruptingRay"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Disrupting Ray? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "prayer"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "prayer"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Prayer? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "mirth"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "mirth"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Mirth? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "sorrow"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "sorrow"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Sorrow? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "fortune"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "fortune"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Fortune? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "misfortune"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "misfortune"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Misfortune? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "haste"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "haste"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Haste? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "slow"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "slow"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Slow? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "slayer"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "slayer"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Slayer? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "frenzy"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "frenzy"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Frenzy? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "counterstrike"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "counterstrike"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Counterstrike? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "berserk"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "berserk"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Berserk? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "hypnotize"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "hypnotize"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Hypnotize? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "forgetfulness"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "forgetfulness"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Forgetfulness? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "blind"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "blind"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Blind? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "teleport"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "teleport"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Teleport? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "removeObstacle"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "removeObstacle"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Remove Obstacle? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "clone"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "clone"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Clone? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "fireElemental"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "fireElemental"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Summon Fire Elemental? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "earthElemental"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "earthElemental"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Summon Earth Elemental? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "waterElemental"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "waterElemental"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Summon Water Elemental? Whatever! I'll give you 500 gold for it. Deal?"
+                    },
+                    {
+                        "takenScrolls": [
+                            "airElemental"
+                        ],
+                        "resources": {
+                            "gold": 500
+                        },
+                        "limiter": {
+                            "scrolls": [
+                                "airElemental"
+                            ]
+                        },
+                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Summon Air Elemental? Whatever! I'll give you 500 gold for it. Deal?"
+                    }
+                ],
+                "onEmptyMessage": "{Junk Merchant}\r\n\r\nWell, unless there's something else you want to take off and show me, I guess we won't be doing business today. No hard feelings though - come back anytime!",
+                "selectMode": "selectRandom",
+                "visitMode": "unlimited",
+                "canRefuse": true,
+                "templates": {
+                    "zobj006": {
+                        "animation": "mapObjects/zobj006",
+                        "mask": [
+                            "VVVVV",
+                            "VVVVV",
+                            "VBBBV",
+                            "VBABV",
+                            "00000"
+                        ],
+                        "visitableFrom": [
+                            "---",
+                            "+++",
+                            "+++"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

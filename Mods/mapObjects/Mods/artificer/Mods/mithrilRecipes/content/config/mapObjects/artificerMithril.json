@@ -1,0 +1,1854 @@
+{
+    "wake-of-gods.mapobjects.artificer:artificer": {
+        "types": {
+            "artificer": {
+                "rewards": {
+                    "appendItems": [
+                        {
+                            "takenArtifacts": [
+                                "swordOfHellfire"
+                            ],
+                            "artifacts": [
+                                "titansGladius"
+                            ],
+                            "resources": {
+                                "gold": -7500,
+                                "mithril": -1
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "swordOfHellfire"
+                                ],
+                                "resources": {
+                                    "gold": 7500,
+                                    "mithril": 1
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nUpgrade your Sword of Hellfire to Titan's Gladius for 7,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "shieldOfTheDamned"
+                            ],
+                            "artifacts": [
+                                "sentinelsShield"
+                            ],
+                            "resources": {
+                                "gold": -7500,
+                                "mithril": -1
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "shieldOfTheDamned"
+                                ],
+                                "resources": {
+                                    "gold": 7500,
+                                    "mithril": 1
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nUpgrade your Shield of the Damned to Sentinel's Shield for 7,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "hellstormHelmet"
+                            ],
+                            "artifacts": [
+                                "thunderHelmet"
+                            ],
+                            "resources": {
+                                "gold": -7500,
+                                "mithril": -1
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "hellstormHelmet"
+                                ],
+                                "resources": {
+                                    "gold": 7500,
+                                    "mithril": 1
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nUpgrade your Hellstorm Helmet to Thunder Helmet for 7,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "breastplateOfBrimstone"
+                            ],
+                            "artifacts": [
+                                "titansCuirass"
+                            ],
+                            "resources": {
+                                "gold": -7500,
+                                "mithril": -1
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "breastplateOfBrimstone"
+                                ],
+                                "resources": {
+                                    "gold": 7500,
+                                    "mithril": 1
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nUpgrade your Breastplate of Brimstone to Titan's Cuirass for 7,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "armorOfWonder"
+                            ],
+                            "artifacts": [
+                                "sandalsOfTheSaint"
+                            ],
+                            "resources": {
+                                "gold": -2000,
+                                "mithril": -2
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "armorOfWonder"
+                                ],
+                                "resources": {
+                                    "gold": 2000,
+                                    "mithril": 2
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nUpgrade your Armor of Wonder to Sandals of the Saint for 2,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "sandalsOfTheSaint"
+                            ],
+                            "artifacts": [
+                                "celestialNecklaceOfBliss"
+                            ],
+                            "resources": {
+                                "gold": -4000,
+                                "mithril": -4
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "sandalsOfTheSaint"
+                                ],
+                                "resources": {
+                                    "gold": 4000,
+                                    "mithril": 4
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nUpgrade your Sandals of the Saint to Celestial Necklace of Bliss for 4,000 gold and 4 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "celestialNecklaceOfBliss"
+                            ],
+                            "artifacts": [
+                                "lionsShieldOfCourage"
+                            ],
+                            "resources": {
+                                "gold": -6000,
+                                "mithril": -6
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "celestialNecklaceOfBliss"
+                                ],
+                                "resources": {
+                                    "gold": 6000,
+                                    "mithril": 6
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nUpgrade your Celestial Necklace of Bliss to Lion's Shield of Courage for 6,000 gold and 6 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "lionsShieldOfCourage"
+                            ],
+                            "artifacts": [
+                                "swordOfJudgement"
+                            ],
+                            "resources": {
+                                "gold": -8000,
+                                "mithril": -8
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "lionsShieldOfCourage"
+                                ],
+                                "resources": {
+                                    "gold": 8000,
+                                    "mithril": 8
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nUpgrade your Lion's Shield of Courage to Sword of Judgement for 8,000 gold and 8 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "swordOfJudgement"
+                            ],
+                            "artifacts": [
+                                "helmOfHeavenlyEnlightenment"
+                            ],
+                            "resources": {
+                                "gold": -10000,
+                                "mithril": -10
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "swordOfJudgement"
+                                ],
+                                "resources": {
+                                    "gold": 10000,
+                                    "mithril": 10
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nUpgrade your Sword of Judgement to Helm of Heavenly Enlightenment for 10,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "stillEyeOfTheDragon"
+                            ],
+                            "artifacts": [
+                                "pendantOfCourage"
+                            ],
+                            "resources": {
+                                "gold": -5000,
+                                "mithril": -1
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "stillEyeOfTheDragon"
+                                ],
+                                "resources": {
+                                    "gold": 5000,
+                                    "mithril": 1
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nUpgrade your Still Eye of the Dragon to Pendant of Courage for 5,000 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "equestriansGloves"
+                            ],
+                            "artifacts": [
+                                "bootsOfSpeed"
+                            ],
+                            "resources": {
+                                "gold": -7500,
+                                "mithril": -3
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "equestriansGloves"
+                                ],
+                                "resources": {
+                                    "gold": 7500,
+                                    "mithril": 3
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nUpgrade your Equestrian's Gloves to Boots of Speed for 7,500 gold and 3 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "recantersCloak"
+                            ],
+                            "artifacts": [
+                                "orbOfInhibition"
+                            ],
+                            "resources": {
+                                "gold": -10000,
+                                "mithril": -5
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "recantersCloak"
+                                ],
+                                "resources": {
+                                    "gold": 10000,
+                                    "mithril": 5
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nUpgrade your Recanter's Cloak to Orb of Inhibition for 10,000 gold and 5 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "orbOfTheFirmament"
+                            ],
+                            "artifacts": [
+                                "orbOfSilt"
+                            ],
+                            "resources": {
+                                "gold": -2500,
+                                "mithril": -1
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfTheFirmament"
+                                ],
+                                "resources": {
+                                    "gold": 2500,
+                                    "mithril": 1
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Orb of the Firmament for Orb of Silt at a cost of 2,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "orbOfTheFirmament"
+                            ],
+                            "artifacts": [
+                                "orbOfTempestuousFire"
+                            ],
+                            "resources": {
+                                "gold": -2500,
+                                "mithril": -1
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfTheFirmament"
+                                ],
+                                "resources": {
+                                    "gold": 2500,
+                                    "mithril": 1
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Orb of the Firmament for Orb of Tempestuous Fire at a cost of 2,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "orbOfTheFirmament"
+                            ],
+                            "artifacts": [
+                                "orbOfDrivingRain"
+                            ],
+                            "resources": {
+                                "gold": -2500,
+                                "mithril": -1
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfTheFirmament"
+                                ],
+                                "resources": {
+                                    "gold": 2500,
+                                    "mithril": 1
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Orb of the Firmament for Orb of Driving Rain at a cost of 2,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "orbOfSilt"
+                            ],
+                            "artifacts": [
+                                "orbOfTheFirmament"
+                            ],
+                            "resources": {
+                                "gold": -2500,
+                                "mithril": -1
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfSilt"
+                                ],
+                                "resources": {
+                                    "gold": 2500,
+                                    "mithril": 1
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Orb of Silt for Orb of the Firmament at a cost of 2,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "orbOfSilt"
+                            ],
+                            "artifacts": [
+                                "orbOfTempestuousFire"
+                            ],
+                            "resources": {
+                                "gold": -2500,
+                                "mithril": -1
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfSilt"
+                                ],
+                                "resources": {
+                                    "gold": 2500,
+                                    "mithril": 1
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Orb of Silt for Orb of Tempestuous Fire at a cost of 2,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "orbOfSilt"
+                            ],
+                            "artifacts": [
+                                "orbOfDrivingRain"
+                            ],
+                            "resources": {
+                                "gold": -2500,
+                                "mithril": -1
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfSilt"
+                                ],
+                                "resources": {
+                                    "gold": 2500,
+                                    "mithril": 1
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Orb of Silt for Orb of Driving Rain at a cost of 2,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "orbOfTempestuousFire"
+                            ],
+                            "artifacts": [
+                                "orbOfTheFirmament"
+                            ],
+                            "resources": {
+                                "gold": -2500,
+                                "mithril": -1
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfTempestuousFire"
+                                ],
+                                "resources": {
+                                    "gold": 2500,
+                                    "mithril": 1
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Orb of Tempestuous Fire for Orb of the Firmament at a cost of 2,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "orbOfTempestuousFire"
+                            ],
+                            "artifacts": [
+                                "orbOfSilt"
+                            ],
+                            "resources": {
+                                "gold": -2500,
+                                "mithril": -1
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfTempestuousFire"
+                                ],
+                                "resources": {
+                                    "gold": 2500,
+                                    "mithril": 1
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Orb of Tempestuous Fire for Orb of Silt at a cost of 2,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "orbOfTempestuousFire"
+                            ],
+                            "artifacts": [
+                                "orbOfDrivingRain"
+                            ],
+                            "resources": {
+                                "gold": -2500,
+                                "mithril": -1
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfTempestuousFire"
+                                ],
+                                "resources": {
+                                    "gold": 2500,
+                                    "mithril": 1
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Orb of Tempestuous Fire for Orb of Driving Rain at a cost of 2,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "orbOfDrivingRain"
+                            ],
+                            "artifacts": [
+                                "orbOfTheFirmament"
+                            ],
+                            "resources": {
+                                "gold": -2500,
+                                "mithril": -1
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfDrivingRain"
+                                ],
+                                "resources": {
+                                    "gold": 2500,
+                                    "mithril": 1
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Orb of Driving Rain for Orb of the Firmament at a cost of 2,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "orbOfDrivingRain"
+                            ],
+                            "artifacts": [
+                                "orbOfSilt"
+                            ],
+                            "resources": {
+                                "gold": -2500,
+                                "mithril": -1
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfDrivingRain"
+                                ],
+                                "resources": {
+                                    "gold": 2500,
+                                    "mithril": 1
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Orb of Driving Rain for Orb of Silt at a cost of 2,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "orbOfDrivingRain"
+                            ],
+                            "artifacts": [
+                                "orbOfTempestuousFire"
+                            ],
+                            "resources": {
+                                "gold": -2500,
+                                "mithril": -1
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfDrivingRain"
+                                ],
+                                "resources": {
+                                    "gold": 2500,
+                                    "mithril": 1
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Orb of Driving Rain for Orb of Tempestuous Fire at a cost of 2,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "tomeOfFireMagic"
+                            ],
+                            "artifacts": [
+                                "tomeOfAirMagic"
+                            ],
+                            "resources": {
+                                "gold": -10000,
+                                "mithril": -10
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfFireMagic"
+                                ],
+                                "resources": {
+                                    "gold": 10000,
+                                    "mithril": 10
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Tome of Fire Magic for Tome of Air Magic at a cost of 10,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "tomeOfFireMagic"
+                            ],
+                            "artifacts": [
+                                "tomeOfWaterMagic"
+                            ],
+                            "resources": {
+                                "gold": -10000,
+                                "mithril": -10
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfFireMagic"
+                                ],
+                                "resources": {
+                                    "gold": 10000,
+                                    "mithril": 10
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Tome of Fire Magic for Tome of Water Magic at a cost of 10,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "tomeOfFireMagic"
+                            ],
+                            "artifacts": [
+                                "tomeOfEarthMagic"
+                            ],
+                            "resources": {
+                                "gold": -10000,
+                                "mithril": -10
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfFireMagic"
+                                ],
+                                "resources": {
+                                    "gold": 10000,
+                                    "mithril": 10
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Tome of Fire Magic for Tome of Earth Magic at a cost of 10,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "tomeOfAirMagic"
+                            ],
+                            "artifacts": [
+                                "tomeOfFireMagic"
+                            ],
+                            "resources": {
+                                "gold": -10000,
+                                "mithril": -10
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfAirMagic"
+                                ],
+                                "resources": {
+                                    "gold": 10000,
+                                    "mithril": 10
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Tome of Air Magic for Tome of Fire Magic at a cost of 10,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "tomeOfAirMagic"
+                            ],
+                            "artifacts": [
+                                "tomeOfWaterMagic"
+                            ],
+                            "resources": {
+                                "gold": -10000,
+                                "mithril": -10
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfAirMagic"
+                                ],
+                                "resources": {
+                                    "gold": 10000,
+                                    "mithril": 10
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Tome of Air Magic for Tome of Water Magic at a cost of 10,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "tomeOfAirMagic"
+                            ],
+                            "artifacts": [
+                                "tomeOfEarthMagic"
+                            ],
+                            "resources": {
+                                "gold": -10000,
+                                "mithril": -10
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfAirMagic"
+                                ],
+                                "resources": {
+                                    "gold": 10000,
+                                    "mithril": 10
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Tome of Air Magic for Tome of Earth Magic at a cost of 10,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "tomeOfWaterMagic"
+                            ],
+                            "artifacts": [
+                                "tomeOfFireMagic"
+                            ],
+                            "resources": {
+                                "gold": -10000,
+                                "mithril": -10
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfWaterMagic"
+                                ],
+                                "resources": {
+                                    "gold": 10000,
+                                    "mithril": 10
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Tome of Water Magic for Tome of Fire Magic at a cost of 10,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "tomeOfWaterMagic"
+                            ],
+                            "artifacts": [
+                                "tomeOfAirMagic"
+                            ],
+                            "resources": {
+                                "gold": -10000,
+                                "mithril": -10
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfWaterMagic"
+                                ],
+                                "resources": {
+                                    "gold": 10000,
+                                    "mithril": 10
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Tome of Water Magic for Tome of Air Magic at a cost of 10,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "tomeOfWaterMagic"
+                            ],
+                            "artifacts": [
+                                "tomeOfEarthMagic"
+                            ],
+                            "resources": {
+                                "gold": -10000,
+                                "mithril": -10
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfWaterMagic"
+                                ],
+                                "resources": {
+                                    "gold": 10000,
+                                    "mithril": 10
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Tome of Water Magic for Tome of Earth Magic at a cost of 10,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "tomeOfEarthMagic"
+                            ],
+                            "artifacts": [
+                                "tomeOfFireMagic"
+                            ],
+                            "resources": {
+                                "gold": -10000,
+                                "mithril": -10
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfEarthMagic"
+                                ],
+                                "resources": {
+                                    "gold": 10000,
+                                    "mithril": 10
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Tome of Earth Magic for Tome of Fire Magic at a cost of 10,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "tomeOfEarthMagic"
+                            ],
+                            "artifacts": [
+                                "tomeOfAirMagic"
+                            ],
+                            "resources": {
+                                "gold": -10000,
+                                "mithril": -10
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfEarthMagic"
+                                ],
+                                "resources": {
+                                    "gold": 10000,
+                                    "mithril": 10
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Tome of Earth Magic for Tome of Air Magic at a cost of 10,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "tomeOfEarthMagic"
+                            ],
+                            "artifacts": [
+                                "tomeOfWaterMagic"
+                            ],
+                            "resources": {
+                                "gold": -10000,
+                                "mithril": -10
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfEarthMagic"
+                                ],
+                                "resources": {
+                                    "gold": 10000,
+                                    "mithril": 10
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Tome of Earth Magic for Tome of Water Magic at a cost of 10,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "pendantOfLife"
+                            ],
+                            "artifacts": [
+                                "pendantOfDeath"
+                            ],
+                            "resources": {
+                                "gold": -1000,
+                                "mithril": -1
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "pendantOfLife"
+                                ],
+                                "resources": {
+                                    "gold": 1000,
+                                    "mithril": 1
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Pendant of Life for Pendant of Death at a cost of 1,000 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "pendantOfDeath"
+                            ],
+                            "artifacts": [
+                                "pendantOfLife"
+                            ],
+                            "resources": {
+                                "gold": -1000,
+                                "mithril": -1
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "pendantOfDeath"
+                                ],
+                                "resources": {
+                                    "gold": 1000,
+                                    "mithril": 1
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Pendant of Death for Pendant of Life at a cost of 1,000 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "orbOfTheFirmament",
+                                "orbOfSilt",
+                                "orbOfTempestuousFire",
+                                "orbOfDrivingRain"
+                            ],
+                            "artifacts": [
+                                "orbOfVulnerability"
+                            ],
+                            "resources": {
+                                "gold": -10000,
+                                "mithril": -10
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "allOf": [
+                                    {
+                                        "artifacts": [
+                                            "orbOfTheFirmament"
+                                        ]
+                                    },
+                                    {
+                                        "artifacts": [
+                                            "orbOfSilt"
+                                        ]
+                                    },
+                                    {
+                                        "artifacts": [
+                                            "orbOfTempestuousFire"
+                                        ]
+                                    },
+                                    {
+                                        "artifacts": [
+                                            "orbOfDrivingRain"
+                                        ]
+                                    }
+                                ],
+                                "resources": {
+                                    "gold": 10000,
+                                    "mithril": 10
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nCombine your Orb of the Firmament + Orb of Silt + Orb of Tempestuous Fire + Orb of Driving Rain into Orb of Vulnerability for 10,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
+                        }
+                    ]
+                },
+                "onVisited": {
+                    "appendItems": [
+                        {
+                            "takenArtifacts": [
+                                "swordOfHellfire"
+                            ],
+                            "artifacts": [
+                                "titansGladius"
+                            ],
+                            "resources": {
+                                "gold": -15000,
+                                "mithril": -2
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "swordOfHellfire"
+                                ],
+                                "resources": {
+                                    "gold": 15000,
+                                    "mithril": 2
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nUpgrade your Sword of Hellfire to Titan's Gladius for 15,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "shieldOfTheDamned"
+                            ],
+                            "artifacts": [
+                                "sentinelsShield"
+                            ],
+                            "resources": {
+                                "gold": -15000,
+                                "mithril": -2
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "shieldOfTheDamned"
+                                ],
+                                "resources": {
+                                    "gold": 15000,
+                                    "mithril": 2
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nUpgrade your Shield of the Damned to Sentinel's Shield for 15,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "hellstormHelmet"
+                            ],
+                            "artifacts": [
+                                "thunderHelmet"
+                            ],
+                            "resources": {
+                                "gold": -15000,
+                                "mithril": -2
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "hellstormHelmet"
+                                ],
+                                "resources": {
+                                    "gold": 15000,
+                                    "mithril": 2
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nUpgrade your Hellstorm Helmet to Thunder Helmet for 15,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "breastplateOfBrimstone"
+                            ],
+                            "artifacts": [
+                                "titansCuirass"
+                            ],
+                            "resources": {
+                                "gold": -15000,
+                                "mithril": -2
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "breastplateOfBrimstone"
+                                ],
+                                "resources": {
+                                    "gold": 15000,
+                                    "mithril": 2
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nUpgrade your Breastplate of Brimstone to Titan's Cuirass for 15,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "armorOfWonder"
+                            ],
+                            "artifacts": [
+                                "sandalsOfTheSaint"
+                            ],
+                            "resources": {
+                                "gold": -4000,
+                                "mithril": -4
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "armorOfWonder"
+                                ],
+                                "resources": {
+                                    "gold": 4000,
+                                    "mithril": 4
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nUpgrade your Armor of Wonder to Sandals of the Saint for 4,000 gold and 4 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "sandalsOfTheSaint"
+                            ],
+                            "artifacts": [
+                                "celestialNecklaceOfBliss"
+                            ],
+                            "resources": {
+                                "gold": -8000,
+                                "mithril": -8
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "sandalsOfTheSaint"
+                                ],
+                                "resources": {
+                                    "gold": 8000,
+                                    "mithril": 8
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nUpgrade your Sandals of the Saint to Celestial Necklace of Bliss for 8,000 gold and 8 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "celestialNecklaceOfBliss"
+                            ],
+                            "artifacts": [
+                                "lionsShieldOfCourage"
+                            ],
+                            "resources": {
+                                "gold": -12000,
+                                "mithril": -12
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "celestialNecklaceOfBliss"
+                                ],
+                                "resources": {
+                                    "gold": 12000,
+                                    "mithril": 12
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nUpgrade your Celestial Necklace of Bliss to Lion's Shield of Courage for 12,000 gold and 12 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "lionsShieldOfCourage"
+                            ],
+                            "artifacts": [
+                                "swordOfJudgement"
+                            ],
+                            "resources": {
+                                "gold": -16000,
+                                "mithril": -16
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "lionsShieldOfCourage"
+                                ],
+                                "resources": {
+                                    "gold": 16000,
+                                    "mithril": 16
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nUpgrade your Lion's Shield of Courage to Sword of Judgement for 16,000 gold and 16 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "swordOfJudgement"
+                            ],
+                            "artifacts": [
+                                "helmOfHeavenlyEnlightenment"
+                            ],
+                            "resources": {
+                                "gold": -20000,
+                                "mithril": -20
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "swordOfJudgement"
+                                ],
+                                "resources": {
+                                    "gold": 20000,
+                                    "mithril": 20
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nUpgrade your Sword of Judgement to Helm of Heavenly Enlightenment for 20,000 gold and 20 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "stillEyeOfTheDragon"
+                            ],
+                            "artifacts": [
+                                "pendantOfCourage"
+                            ],
+                            "resources": {
+                                "gold": -10000,
+                                "mithril": -2
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "stillEyeOfTheDragon"
+                                ],
+                                "resources": {
+                                    "gold": 10000,
+                                    "mithril": 2
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nUpgrade your Still Eye of the Dragon to Pendant of Courage for 10,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "equestriansGloves"
+                            ],
+                            "artifacts": [
+                                "bootsOfSpeed"
+                            ],
+                            "resources": {
+                                "gold": -15000,
+                                "mithril": -6
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "equestriansGloves"
+                                ],
+                                "resources": {
+                                    "gold": 15000,
+                                    "mithril": 6
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nUpgrade your Equestrian's Gloves to Boots of Speed for 15,000 gold and 6 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "recantersCloak"
+                            ],
+                            "artifacts": [
+                                "orbOfInhibition"
+                            ],
+                            "resources": {
+                                "gold": -20000,
+                                "mithril": -10
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "recantersCloak"
+                                ],
+                                "resources": {
+                                    "gold": 20000,
+                                    "mithril": 10
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nUpgrade your Recanter's Cloak to Orb of Inhibition for 20,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "orbOfTheFirmament"
+                            ],
+                            "artifacts": [
+                                "orbOfSilt"
+                            ],
+                            "resources": {
+                                "gold": -5000,
+                                "mithril": -2
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfTheFirmament"
+                                ],
+                                "resources": {
+                                    "gold": 5000,
+                                    "mithril": 2
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Orb of the Firmament for Orb of Silt at a cost of 5,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "orbOfTheFirmament"
+                            ],
+                            "artifacts": [
+                                "orbOfTempestuousFire"
+                            ],
+                            "resources": {
+                                "gold": -5000,
+                                "mithril": -2
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfTheFirmament"
+                                ],
+                                "resources": {
+                                    "gold": 5000,
+                                    "mithril": 2
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Orb of the Firmament for Orb of Tempestuous Fire at a cost of 5,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "orbOfTheFirmament"
+                            ],
+                            "artifacts": [
+                                "orbOfDrivingRain"
+                            ],
+                            "resources": {
+                                "gold": -5000,
+                                "mithril": -2
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfTheFirmament"
+                                ],
+                                "resources": {
+                                    "gold": 5000,
+                                    "mithril": 2
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Orb of the Firmament for Orb of Driving Rain at a cost of 5,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "orbOfSilt"
+                            ],
+                            "artifacts": [
+                                "orbOfTheFirmament"
+                            ],
+                            "resources": {
+                                "gold": -5000,
+                                "mithril": -2
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfSilt"
+                                ],
+                                "resources": {
+                                    "gold": 5000,
+                                    "mithril": 2
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Orb of Silt for Orb of the Firmament at a cost of 5,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "orbOfSilt"
+                            ],
+                            "artifacts": [
+                                "orbOfTempestuousFire"
+                            ],
+                            "resources": {
+                                "gold": -5000,
+                                "mithril": -2
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfSilt"
+                                ],
+                                "resources": {
+                                    "gold": 5000,
+                                    "mithril": 2
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Orb of Silt for Orb of Tempestuous Fire at a cost of 5,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "orbOfSilt"
+                            ],
+                            "artifacts": [
+                                "orbOfDrivingRain"
+                            ],
+                            "resources": {
+                                "gold": -5000,
+                                "mithril": -2
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfSilt"
+                                ],
+                                "resources": {
+                                    "gold": 5000,
+                                    "mithril": 2
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Orb of Silt for Orb of Driving Rain at a cost of 5,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "orbOfTempestuousFire"
+                            ],
+                            "artifacts": [
+                                "orbOfTheFirmament"
+                            ],
+                            "resources": {
+                                "gold": -5000,
+                                "mithril": -2
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfTempestuousFire"
+                                ],
+                                "resources": {
+                                    "gold": 5000,
+                                    "mithril": 2
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Orb of Tempestuous Fire for Orb of the Firmament at a cost of 5,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "orbOfTempestuousFire"
+                            ],
+                            "artifacts": [
+                                "orbOfSilt"
+                            ],
+                            "resources": {
+                                "gold": -5000,
+                                "mithril": -2
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfTempestuousFire"
+                                ],
+                                "resources": {
+                                    "gold": 5000,
+                                    "mithril": 2
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Orb of Tempestuous Fire for Orb of Silt at a cost of 5,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "orbOfTempestuousFire"
+                            ],
+                            "artifacts": [
+                                "orbOfDrivingRain"
+                            ],
+                            "resources": {
+                                "gold": -5000,
+                                "mithril": -2
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfTempestuousFire"
+                                ],
+                                "resources": {
+                                    "gold": 5000,
+                                    "mithril": 2
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Orb of Tempestuous Fire for Orb of Driving Rain at a cost of 5,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "orbOfDrivingRain"
+                            ],
+                            "artifacts": [
+                                "orbOfTheFirmament"
+                            ],
+                            "resources": {
+                                "gold": -5000,
+                                "mithril": -2
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfDrivingRain"
+                                ],
+                                "resources": {
+                                    "gold": 5000,
+                                    "mithril": 2
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Orb of Driving Rain for Orb of the Firmament at a cost of 5,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "orbOfDrivingRain"
+                            ],
+                            "artifacts": [
+                                "orbOfSilt"
+                            ],
+                            "resources": {
+                                "gold": -5000,
+                                "mithril": -2
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfDrivingRain"
+                                ],
+                                "resources": {
+                                    "gold": 5000,
+                                    "mithril": 2
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Orb of Driving Rain for Orb of Silt at a cost of 5,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "orbOfDrivingRain"
+                            ],
+                            "artifacts": [
+                                "orbOfTempestuousFire"
+                            ],
+                            "resources": {
+                                "gold": -5000,
+                                "mithril": -2
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfDrivingRain"
+                                ],
+                                "resources": {
+                                    "gold": 5000,
+                                    "mithril": 2
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Orb of Driving Rain for Orb of Tempestuous Fire at a cost of 5,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "tomeOfFireMagic"
+                            ],
+                            "artifacts": [
+                                "tomeOfAirMagic"
+                            ],
+                            "resources": {
+                                "gold": -20000,
+                                "mithril": -20
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfFireMagic"
+                                ],
+                                "resources": {
+                                    "gold": 20000,
+                                    "mithril": 20
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Tome of Fire Magic for Tome of Air Magic at a cost of 20,000 gold and 20 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "tomeOfFireMagic"
+                            ],
+                            "artifacts": [
+                                "tomeOfWaterMagic"
+                            ],
+                            "resources": {
+                                "gold": -20000,
+                                "mithril": -20
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfFireMagic"
+                                ],
+                                "resources": {
+                                    "gold": 20000,
+                                    "mithril": 20
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Tome of Fire Magic for Tome of Water Magic at a cost of 20,000 gold and 20 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "tomeOfFireMagic"
+                            ],
+                            "artifacts": [
+                                "tomeOfEarthMagic"
+                            ],
+                            "resources": {
+                                "gold": -20000,
+                                "mithril": -20
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfFireMagic"
+                                ],
+                                "resources": {
+                                    "gold": 20000,
+                                    "mithril": 20
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Tome of Fire Magic for Tome of Earth Magic at a cost of 20,000 gold and 20 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "tomeOfAirMagic"
+                            ],
+                            "artifacts": [
+                                "tomeOfFireMagic"
+                            ],
+                            "resources": {
+                                "gold": -20000,
+                                "mithril": -20
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfAirMagic"
+                                ],
+                                "resources": {
+                                    "gold": 20000,
+                                    "mithril": 20
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Tome of Air Magic for Tome of Fire Magic at a cost of 20,000 gold and 20 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "tomeOfAirMagic"
+                            ],
+                            "artifacts": [
+                                "tomeOfWaterMagic"
+                            ],
+                            "resources": {
+                                "gold": -20000,
+                                "mithril": -20
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfAirMagic"
+                                ],
+                                "resources": {
+                                    "gold": 20000,
+                                    "mithril": 20
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Tome of Air Magic for Tome of Water Magic at a cost of 20,000 gold and 20 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "tomeOfAirMagic"
+                            ],
+                            "artifacts": [
+                                "tomeOfEarthMagic"
+                            ],
+                            "resources": {
+                                "gold": -20000,
+                                "mithril": -20
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfAirMagic"
+                                ],
+                                "resources": {
+                                    "gold": 20000,
+                                    "mithril": 20
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Tome of Air Magic for Tome of Earth Magic at a cost of 20,000 gold and 20 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "tomeOfWaterMagic"
+                            ],
+                            "artifacts": [
+                                "tomeOfFireMagic"
+                            ],
+                            "resources": {
+                                "gold": -20000,
+                                "mithril": -20
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfWaterMagic"
+                                ],
+                                "resources": {
+                                    "gold": 20000,
+                                    "mithril": 20
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Tome of Water Magic for Tome of Fire Magic at a cost of 20,000 gold and 20 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "tomeOfWaterMagic"
+                            ],
+                            "artifacts": [
+                                "tomeOfAirMagic"
+                            ],
+                            "resources": {
+                                "gold": -20000,
+                                "mithril": -20
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfWaterMagic"
+                                ],
+                                "resources": {
+                                    "gold": 20000,
+                                    "mithril": 20
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Tome of Water Magic for Tome of Air Magic at a cost of 20,000 gold and 20 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "tomeOfWaterMagic"
+                            ],
+                            "artifacts": [
+                                "tomeOfEarthMagic"
+                            ],
+                            "resources": {
+                                "gold": -20000,
+                                "mithril": -20
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfWaterMagic"
+                                ],
+                                "resources": {
+                                    "gold": 20000,
+                                    "mithril": 20
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Tome of Water Magic for Tome of Earth Magic at a cost of 20,000 gold and 20 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "tomeOfEarthMagic"
+                            ],
+                            "artifacts": [
+                                "tomeOfFireMagic"
+                            ],
+                            "resources": {
+                                "gold": -20000,
+                                "mithril": -20
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfEarthMagic"
+                                ],
+                                "resources": {
+                                    "gold": 20000,
+                                    "mithril": 20
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Tome of Earth Magic for Tome of Fire Magic at a cost of 20,000 gold and 20 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "tomeOfEarthMagic"
+                            ],
+                            "artifacts": [
+                                "tomeOfAirMagic"
+                            ],
+                            "resources": {
+                                "gold": -20000,
+                                "mithril": -20
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfEarthMagic"
+                                ],
+                                "resources": {
+                                    "gold": 20000,
+                                    "mithril": 20
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Tome of Earth Magic for Tome of Air Magic at a cost of 20,000 gold and 20 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "tomeOfEarthMagic"
+                            ],
+                            "artifacts": [
+                                "tomeOfWaterMagic"
+                            ],
+                            "resources": {
+                                "gold": -20000,
+                                "mithril": -20
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfEarthMagic"
+                                ],
+                                "resources": {
+                                    "gold": 20000,
+                                    "mithril": 20
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Tome of Earth Magic for Tome of Water Magic at a cost of 20,000 gold and 20 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "pendantOfLife"
+                            ],
+                            "artifacts": [
+                                "pendantOfDeath"
+                            ],
+                            "resources": {
+                                "gold": -2000,
+                                "mithril": -2
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "pendantOfLife"
+                                ],
+                                "resources": {
+                                    "gold": 2000,
+                                    "mithril": 2
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Pendant of Life for Pendant of Death at a cost of 2,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "pendantOfDeath"
+                            ],
+                            "artifacts": [
+                                "pendantOfLife"
+                            ],
+                            "resources": {
+                                "gold": -2000,
+                                "mithril": -2
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "artifacts": [
+                                    "pendantOfDeath"
+                                ],
+                                "resources": {
+                                    "gold": 2000,
+                                    "mithril": 2
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nExchange your Pendant of Death for Pendant of Life at a cost of 2,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                        },
+                        {
+                            "takenArtifacts": [
+                                "orbOfTheFirmament",
+                                "orbOfSilt",
+                                "orbOfTempestuousFire",
+                                "orbOfDrivingRain"
+                            ],
+                            "artifacts": [
+                                "orbOfVulnerability"
+                            ],
+                            "resources": {
+                                "gold": -20000,
+                                "mithril": -20
+                            },
+                            "movePoints": -100,
+                            "limiter": {
+                                "allOf": [
+                                    {
+                                        "artifacts": [
+                                            "orbOfTheFirmament"
+                                        ]
+                                    },
+                                    {
+                                        "artifacts": [
+                                            "orbOfSilt"
+                                        ]
+                                    },
+                                    {
+                                        "artifacts": [
+                                            "orbOfTempestuousFire"
+                                        ]
+                                    },
+                                    {
+                                        "artifacts": [
+                                            "orbOfDrivingRain"
+                                        ]
+                                    }
+                                ],
+                                "resources": {
+                                    "gold": 20000,
+                                    "mithril": 20
+                                }
+                            },
+                            "message": "{Artificer}\r\n\r\nCombine your Orb of the Firmament + Orb of Silt + Orb of Tempestuous Fire + Orb of Driving Rain into Orb of Vulnerability for 20,000 gold and 20 mithril.\r\n\r\nDo you agree to this trade?"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

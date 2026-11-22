@@ -1,91 +1,91 @@
 {
-	"wogSorceress" : {
-		"name" : {
-			"singular" : "Arcane Sorceress",
-			"plural" : "Arcane Sorceresses"
-		},
-		"faction" : "neutral",
-		"level" : 6,
-		"cost" : {
-			"gold" : 600
-		},
-		"speed" : 8,
-		"hitPoints" : 35,
-		"attack" : 15,
-		"defense" : 13,
-		"shots" : 24,
-		"damage" : {
-			"min" : 10,
-			"max" : 13
-		},
-		"fightValue" : 200,
-		"aiValue" : 1150,
-		"advMapAmount" : {
-			"min" : 5,
-			"max" : 12
-		},
-		"growth" : 2,
-		"hasDoubleWeek" : false,
-		"abilities" : {
-			"shots" : {
-				"type" : "SHOOTER"
-			},
-			"rangedSpellCaster": {
-				"type": "COMBAT_EVENT_TRIGGER",
-				"subtype": "sorceressRangedSpellcaster",  
-"addInfo": {
-    "messageSingular": "%s casts a spell!",
-    "messagePlural": "%s cast a spell!"
-}				
-			}
-		},
-		"graphics" : {
-			"animation" : "creatures/wogSorceress/ZM193Z",
-			"map" : "creatures/wogSorceress/zmm193z",
-			"iconSmall" : "creatures/wogSorceress/CPrS193Z",
-			"iconLarge" : "creatures/wogSorceress/CPrL193Z",
-			"mapAttackFromRight" : "avwattak/ZNPC193a",
-			"mapAttackFromLeft" : "avwattak/ZNPC193b",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"walk" : 1,
-				"attack" : 1,
-				"idle" : 10
-			},
-			"missile" : {
-				"projectile" : "CPRZEAX",
-				"attackClimaxFrame" : 5,
-				"offset" : {
-					"upperX" : 37,
-					"upperY" : -98,
-					"middleX" : 62,
-					"middleY" : -53,
-					"lowerX" : 28,
-					"lowerY" : 3
-				},
-				"frameAngles" : [
-					90,
-					72,
-					45,
-					27,
-					0,
-					-27,
-					-45,
-					-72,
-					-90,
-					0,
-					0,
-					0
-				]
-			}
-		},
-		"sound" : {
-			"attack" : "MONKATTK.wav",
-			"defend" : "MONKDFND.wav",
-			"killed" : "MONKKILL.wav",
-			"move" : "MONKMOVE.wav",
-			"shoot" : "MONKSHOT.wav",
-			"wince" : "MONKWNCE.wav"
-		}
-	}
+    "wogSorceress": {
+        "name": {
+            "singular": "Arcane Sorceress",
+            "plural": "Arcane Sorceresses"
+        },
+        "faction": "neutral",
+        "level": 6,
+        "cost": {
+            "gold": 600
+        },
+        "speed": 8,
+        "hitPoints": 35,
+        "attack": 15,
+        "defense": 13,
+        "shots": 24,
+        "damage": {
+            "min": 10,
+            "max": 13
+        },
+        "fightValue": 200,
+        "aiValue": 1150,
+        "advMapAmount": {
+            "min": 5,
+            "max": 12
+        },
+        "growth": 2,
+        "hasDoubleWeek": false,
+        "abilities": {
+            "shots": {
+                "type": "SHOOTER"
+            },
+            "rangedSpellCaster": {
+                "type": "COMBAT_EVENT_TRIGGER",
+                "subtype": "sorceressRangedSpellcaster",
+                "addInfo": {
+                    "messageSingular": "%s casts a spell!",
+                    "messagePlural": "%s cast a spell!"
+                }
+            }
+        },
+        "graphics": {
+            "animation": "creatures/wogSorceress/ZM193Z",
+            "map": "creatures/wogSorceress/zmm193z",
+            "iconSmall": "creatures/wogSorceress/CPrS193Z",
+            "iconLarge": "creatures/wogSorceress/CPrL193Z",
+            "mapAttackFromRight": "avwattak/ZNPC193a",
+            "mapAttackFromLeft": "avwattak/ZNPC193b",
+            "timeBetweenFidgets": 1,
+            "animationTime": {
+                "walk": 1,
+                "attack": 1,
+                "idle": 10
+            },
+            "missile": {
+                "projectile": "CPRZEAX",
+                "attackClimaxFrame": 5,
+                "offset": {
+                    "upperX": 37,
+                    "upperY": -98,
+                    "middleX": 62,
+                    "middleY": -53,
+                    "lowerX": 28,
+                    "lowerY": 3
+                },
+                "frameAngles": [
+                    90,
+                    72,
+                    45,
+                    27,
+                    0,
+                    -27,
+                    -45,
+                    -72,
+                    -90,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        "sound": {
+            "attack": "MONKATTK.wav",
+            "defend": "MONKDFND.wav",
+            "killed": "MONKKILL.wav",
+            "move": "MONKMOVE.wav",
+            "shoot": "MONKSHOT.wav",
+            "wince": "MONKWNCE.wav"
+        }
+    }
 }
