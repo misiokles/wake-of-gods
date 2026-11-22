@@ -5,12 +5,13 @@
 			"plural" : "Emissaries of War"
 		},
 		"faction" : "neutral",
-		"special" : true,
+//		"special" : true,
 		"level" : 6,
 		"cost" : {
 			"gold" : 30000
 		},
-		"speed" : 4,
+		"speed" : 12,
+//		"speed" : 4,		
 		"hitPoints" : 2000,
 		"attack" : 0,
 		"defense" : 10,
@@ -65,7 +66,15 @@
 			"spellImmunity" : {
 				"type" : "LEVEL_SPELL_IMMUNITY",
 				"val" : 5
-			}
+			},
+            "noRetaliation": {
+                "type": "NO_RETALIATION"
+            },
+            "emissaryRetreat": {
+                "type": "COMBAT_EVENT_TRIGGER",
+                "subtype": "emissaryRetreat",
+                "val": 1
+            }
 		}
 	}
 }

@@ -5,14 +5,6 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
-	"chinese" : {
-		"name" : "元素使者和神使单位",
-		"description" : "为WoG添加元素使者和神使单位。"
-	},
-	"czech" : {
-		"name" : "Jednotky poslů",
-		"description" : "Přidává jednotky nové jednotky poslů"
-	},
 	"creatures" : [
 		"config/creatures/fireMessenger.json",
 		"config/creatures/earthMessenger.json",
@@ -32,9 +24,43 @@
 		"config/creatureBanks/magiciansMonastery.json",
 		"config/creatureBanks/legendsLibrary.json"
 	],
+	"scripts": {
+		"emissaryRetreat": {
+			"implements": "combatEvent",
+			"script": "combat/emissaryRetreat",
+			"patches": [],
+			"priority": 0,
+			"schema": {
+				"properties": {},
+				"additionalProperties": false
+			},
+			"description": ""
+		},
+		"core:damageCalculator": {
+			"patches": {
+				"append": "damage/emissaryDamageCap.lua"
+			}
+		}
+	},
+	"chinese" : {
+		"name" : "元素使者和神使单位",
+		"description" : "为WoG添加元素使者和神使单位。"
+	},
+	"czech" : {
+		"name" : "Jednotky poslů",
+		"description" : "Přidává jednotky nové jednotky poslů"
+	},	
+	"english" : {
+		"translations": [
+			"config/translations/english.json"
+		]			
+	},	
 	"polish" : {
 		"name" : "Jednostki Posłańców i Emisariuszy",
-		"description" : "Dodaje jednostki Posłańców i Emisariuszy Bogów z WoG."
+		"description" : "Dodaje jednostki Posłańców i Emisariuszy Bogów z WoG.",
+		"translations": [
+			"config/translations/polish.json"
+		]	
 	},
 	"portuguese" : {
 		"name" : "Unidades de Mensageiros e Emissários",

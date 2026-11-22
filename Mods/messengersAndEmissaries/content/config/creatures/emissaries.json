@@ -1,0 +1,13 @@
+{
+    "emissaryRetreat": {
+        "implements": "combatEvent",
+        "script": "combat/emissaryRetreat",
+        "patches": [],
+        "priority": 0,
+        "schema": {
+            "properties": {},
+            "additionalProperties": false
+        },
+        "description": ""
+    }
+}
