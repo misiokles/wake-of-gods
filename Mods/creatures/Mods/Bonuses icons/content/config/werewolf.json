@@ -3,6 +3,9 @@
 		"abilities" : {
 			"selfBerserk" : {
 				"icon" : "bonuses/berserk3.png"
+			},
+			"lycanthropy": {
+				"icon" : "bonuses/wolf.png"
 			}
 		}
 	}

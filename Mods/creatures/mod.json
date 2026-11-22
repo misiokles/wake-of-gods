@@ -25,6 +25,7 @@
 	"scripts" : [
 		"config/creatures/dracolichDodge.json",
 		"config/creatures/hellSteedFireWall.json",
+		"config/creatures/lycanthropy.json",
 		"config/creatures/sorceressSpellcaster.json"		
 	],
 	"english" : {
