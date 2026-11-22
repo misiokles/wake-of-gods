@@ -188,7 +188,7 @@
 						63,
 						31
 					],
-					"zobj026" : [
+					"battleAcademy" : [
 						63,
 						32
 					],
@@ -260,7 +260,7 @@
 						63,
 						50
 					],
-					"zartif1" : [
+					"artificer" : [
 						63,
 						52
 					],
@@ -272,7 +272,7 @@
 						63,
 						54
 					],
-					"ztower1" : [
+					"schoolOfWizardry" : [
 						63,
 						62
 					],
@@ -812,7 +812,7 @@
 					"creatures/supremeArchangel/ZM150Z.def" : "ZM150Z.def",
 					"creatures/supremeArchangel/zmm150z.def" : "zmm150z.def",
 					"objects/zobj025.def" : "zobj025.def",
-					"objects/zobj026.def" : "zobj026.def",
+					"mapObjects/zobj026.def" : "zobj026.def",
 					"objects/zobj028.def" : "zobj028.def",
 					"objects/zobj029.def" : "zobj029.def",
 					"objects/zobj041.def" : "zobj041.def",
@@ -851,12 +851,12 @@
 					"objects/zobj049.def" : "zobj049.def",
 					"objects/zobj050.def" : "zobj050.def",
 					"objects/zlwork1.def" : "zlwork1.def",
-					"objects/zartif1.def" : "zartif1.def",
+					"mapObjects/zartif1.def" : "zartif1.def",
 					"objects/zmark1.def" : "zmark1.def",
 					"objects/zh4obj01.def" : "zh4obj01.def",
 					"objects/skull.def" : "skull.def",
 					"objects/TPTempl1.def" : "TPTempl1.def",
-					"objects/ztower1.def" : "ztower1.def",
+					"mapObjects/ztower1.def" : "ztower1.def",
 					"objects/zchst6.def" : "zchst6.def",
 					"objects/zdent001.def" : "zdent001.def",
 					"objects/zfntng01.def" : "zfntng01.def",

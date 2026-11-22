@@ -940,28 +940,6 @@
 			}
 		}
 	},
-	"zartif1" : {
-		"name" : "Artificer (doesn't work yet)",
-		"handler" : "generic",
-		"types" : {
-			"zartif1" : {
-				"templates" : {
-					"zartif1" : {
-						"animation" : "objects/zartif1.def",
-						"mask" : [
-							"VVVV",
-							"BABV"
-						],
-						"visitableFrom" : [
-							"---",
-							"---",
-							"+++"
-						]
-					}
-				}
-			}
-		}
-	},
 	"zh4obj01" : {
 		"name" : "Object (doesn't work yet)",
 		"handler" : "generic",

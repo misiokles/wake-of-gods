@@ -1,0 +1,5779 @@
+{
+  "battleAcademy": {
+    "name": "Battle Academy",
+    "handler": "configurable",
+    "types": {
+      "battleAcademy": {
+        "name": "Battle Academy",
+        "description": "Train Attack or Defense, learn or improve one daily combat skill, or buy one daily artifact. One lesson or purchase per hero per day.",
+        "rmg": {
+          "value": 6500,
+          "rarity": 50,
+          "zoneLimit": 1
+        },
+		"compatibilityIdentifiers": [
+          "zobj026"
+        ],		
+        "blockedVisitable": false,
+        "selectMode": "selectRandom",
+        "visitMode": "hero",
+        "canRefuse": true,
+        "resetParameters": {
+          "days": 1,
+          "visitors": true,
+          "rewards": true
+        },
+        "onVisitedMessage": "{Battle Academy}\r\n\r\nYou arrive at a huge fortress, but the gate is closed and there's no one to be seen. You think you'd better try tomorrow instead.",
+        "visitedTooltip": "Battle Academy (visited today)",
+        "templates": {
+          "zobj026": {
+            "animation": "mapObjects/zobj026",
+						"mask" : [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVBVV",
+							"VBBBBV",
+							"VVVBAV"
+						],
+						"visitableFrom" : [
+							"---",
+							"---",
+							"-++"
+						]
+          }
+        },
+        "onSelectMessage": "{Battle Academy}\r\n\r\nA veteran welcomes you to the Battle Academy. The tutors can improve your combat skills, and the armorsmith has equipment for sale.\r\n\r\nThe Academy will offer one eligible service at a time. Accept the offer or decline and try again.",
+        "onEmptyMessage": "{Battle Academy}\r\n\r\nThe veteran has no training or equipment you can currently use and afford. Return when you are ready for another offer.",
+        "variables": {
+          "secondarySkill": {
+            "dailySkill": {
+              "anyOf": [
+                "archery",
+                "leadership",
+                "luck",
+                "ballistics",
+                "tactics",
+                "artillery",
+                "offence",
+                "armorer"
+              ]
+            }
+          }
+        },
+        "rewards": [
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 1
+                  }
+                }
+              ]
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point at no cost.\r\n\r\nDo you agree to this training?"
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 2
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 1
+              },
+              "resources": {
+                "gold": 500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 3
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 2
+              },
+              "resources": {
+                "gold": 1000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 1,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -1000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 4
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 3
+              },
+              "resources": {
+                "gold": 1500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 1,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -1500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 5
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 4
+              },
+              "resources": {
+                "gold": 2000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 2,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -2000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 6
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 5
+              },
+              "resources": {
+                "gold": 2500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 2,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -2500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 7
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 6
+              },
+              "resources": {
+                "gold": 3000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 3,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -3000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 8
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 7
+              },
+              "resources": {
+                "gold": 3500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 3,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -3500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 9
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 8
+              },
+              "resources": {
+                "gold": 4000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 4,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -4000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 10
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 9
+              },
+              "resources": {
+                "gold": 4500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 4,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -4500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 11
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 10
+              },
+              "resources": {
+                "gold": 5000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 5,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -5000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 12
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 11
+              },
+              "resources": {
+                "gold": 5500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 5,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -5500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 13
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 12
+              },
+              "resources": {
+                "gold": 6000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 6,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -6000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 14
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 13
+              },
+              "resources": {
+                "gold": 6500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 6,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -6500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 15
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 14
+              },
+              "resources": {
+                "gold": 7000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 7,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -7000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 16
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 15
+              },
+              "resources": {
+                "gold": 7500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 7,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -7500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 17
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 16
+              },
+              "resources": {
+                "gold": 8000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 8,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -8000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 18
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 17
+              },
+              "resources": {
+                "gold": 8500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 8,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -8500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 19
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 18
+              },
+              "resources": {
+                "gold": 9000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 9,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -9000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 20
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 19
+              },
+              "resources": {
+                "gold": 9500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 9,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -9500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 21
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 20
+              },
+              "resources": {
+                "gold": 10000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 10,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -10000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 22
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 21
+              },
+              "resources": {
+                "gold": 10500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 10,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -10500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 23
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 22
+              },
+              "resources": {
+                "gold": 11000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 11,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -11000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 24
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 23
+              },
+              "resources": {
+                "gold": 11500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 11,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -11500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 25
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 24
+              },
+              "resources": {
+                "gold": 12000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 12,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -12000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 26
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 25
+              },
+              "resources": {
+                "gold": 12500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 12,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -12500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 27
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 26
+              },
+              "resources": {
+                "gold": 13000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 13,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -13000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 28
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 27
+              },
+              "resources": {
+                "gold": 13500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 13,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -13500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 29
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 28
+              },
+              "resources": {
+                "gold": 14000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 14,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -14000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 30
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 29
+              },
+              "resources": {
+                "gold": 14500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 14,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -14500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 31
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 30
+              },
+              "resources": {
+                "gold": 15000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 15,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -15000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 32
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 31
+              },
+              "resources": {
+                "gold": 15500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 15,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -15500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 33
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 32
+              },
+              "resources": {
+                "gold": 16000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 16,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -16000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 34
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 33
+              },
+              "resources": {
+                "gold": 16500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 16,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -16500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 35
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 34
+              },
+              "resources": {
+                "gold": 17000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 17,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -17000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 36
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 35
+              },
+              "resources": {
+                "gold": 17500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 17,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -17500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 37
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 36
+              },
+              "resources": {
+                "gold": 18000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 18,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -18000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 38
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 37
+              },
+              "resources": {
+                "gold": 18500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 18,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -18500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 39
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 38
+              },
+              "resources": {
+                "gold": 19000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 19,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -19000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 40
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 39
+              },
+              "resources": {
+                "gold": 19500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 19,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -19500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 41
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 40
+              },
+              "resources": {
+                "gold": 20000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 20,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -20000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 42
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 41
+              },
+              "resources": {
+                "gold": 20500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 20,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -20500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 43
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 42
+              },
+              "resources": {
+                "gold": 21000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 21,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -21000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 44
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 43
+              },
+              "resources": {
+                "gold": 21500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 21,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -21500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 45
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 44
+              },
+              "resources": {
+                "gold": 22000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 22,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -22000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 46
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 45
+              },
+              "resources": {
+                "gold": 22500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 22,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -22500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 47
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 46
+              },
+              "resources": {
+                "gold": 23000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 23,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -23000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 48
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 47
+              },
+              "resources": {
+                "gold": 23500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 23,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -23500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 49
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 48
+              },
+              "resources": {
+                "gold": 24000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 24,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -24000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 50
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 49
+              },
+              "resources": {
+                "gold": 24500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 24,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -24500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 51
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 50
+              },
+              "resources": {
+                "gold": 25000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 25,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -25000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 52
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 51
+              },
+              "resources": {
+                "gold": 25500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 25,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -25500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 53
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 52
+              },
+              "resources": {
+                "gold": 26000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 26,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -26000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 54
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 53
+              },
+              "resources": {
+                "gold": 26500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 26,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -26500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 55
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 54
+              },
+              "resources": {
+                "gold": 27000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 27,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -27000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 56
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 55
+              },
+              "resources": {
+                "gold": 27500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 27,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -27500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 57
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 56
+              },
+              "resources": {
+                "gold": 28000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 28,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -28000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 58
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 57
+              },
+              "resources": {
+                "gold": 28500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 28,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -28500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 59
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 58
+              },
+              "resources": {
+                "gold": 29000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 29,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -29000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 60
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 59
+              },
+              "resources": {
+                "gold": 29500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 29,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -29500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 61
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 60
+              },
+              "resources": {
+                "gold": 30000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 30,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -30000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 62
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 61
+              },
+              "resources": {
+                "gold": 30500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 30,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -30500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 63
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 62
+              },
+              "resources": {
+                "gold": 31000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 31,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -31000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 64
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 63
+              },
+              "resources": {
+                "gold": 31500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 31,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -31500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 65
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 64
+              },
+              "resources": {
+                "gold": 32000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 32,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -32000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 66
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 65
+              },
+              "resources": {
+                "gold": 32500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 32,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -32500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 67
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 66
+              },
+              "resources": {
+                "gold": 33000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 33,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -33000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 68
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 67
+              },
+              "resources": {
+                "gold": 33500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 33,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -33500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 69
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 68
+              },
+              "resources": {
+                "gold": 34000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 34,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -34000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 70
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 69
+              },
+              "resources": {
+                "gold": 34500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 34,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -34500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 71
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 70
+              },
+              "resources": {
+                "gold": 35000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 35,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -35000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 72
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 71
+              },
+              "resources": {
+                "gold": 35500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 35,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -35500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 73
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 72
+              },
+              "resources": {
+                "gold": 36000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 36,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -36000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 74
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 73
+              },
+              "resources": {
+                "gold": 36500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 36,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -36500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 75
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 74
+              },
+              "resources": {
+                "gold": 37000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 37,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -37000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 76
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 75
+              },
+              "resources": {
+                "gold": 37500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 37,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -37500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 77
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 76
+              },
+              "resources": {
+                "gold": 38000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 38,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -38000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 78
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 77
+              },
+              "resources": {
+                "gold": 38500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 38,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -38500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 79
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 78
+              },
+              "resources": {
+                "gold": 39000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 39,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -39000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 80
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 79
+              },
+              "resources": {
+                "gold": 39500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 39,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -39500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 81
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 80
+              },
+              "resources": {
+                "gold": 40000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 40,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -40000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 82
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 81
+              },
+              "resources": {
+                "gold": 40500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 40,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -40500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 83
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 82
+              },
+              "resources": {
+                "gold": 41000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 41,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -41000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 84
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 83
+              },
+              "resources": {
+                "gold": 41500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 41,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -41500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 85
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 84
+              },
+              "resources": {
+                "gold": 42000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 42,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -42000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 86
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 85
+              },
+              "resources": {
+                "gold": 42500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 42,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -42500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 87
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 86
+              },
+              "resources": {
+                "gold": 43000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 43,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -43000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 88
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 87
+              },
+              "resources": {
+                "gold": 43500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 43,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -43500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 89
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 88
+              },
+              "resources": {
+                "gold": 44000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 44,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -44000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 90
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 89
+              },
+              "resources": {
+                "gold": 44500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 44,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -44500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 91
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 90
+              },
+              "resources": {
+                "gold": 45000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 45,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -45000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 92
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 91
+              },
+              "resources": {
+                "gold": 45500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 45,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -45500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 93
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 92
+              },
+              "resources": {
+                "gold": 46000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 46,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -46000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 94
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 93
+              },
+              "resources": {
+                "gold": 46500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 46,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -46500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 95
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 94
+              },
+              "resources": {
+                "gold": 47000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 47,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -47000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 96
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 95
+              },
+              "resources": {
+                "gold": 47500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 47,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -47500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 97
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 96
+              },
+              "resources": {
+                "gold": 48000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 48,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -48000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 98
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 97
+              },
+              "resources": {
+                "gold": 48500
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 48,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -48500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "attack": 99
+                  }
+                }
+              ],
+              "primary": {
+                "attack": 98
+              },
+              "resources": {
+                "gold": 49000
+              }
+            },
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Attack by 1 point for 49,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -49000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 1
+                  }
+                }
+              ]
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point at no cost.\r\n\r\nDo you agree to this training?"
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 2
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 1
+              },
+              "resources": {
+                "gold": 500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 3
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 2
+              },
+              "resources": {
+                "gold": 1000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 1,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -1000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 4
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 3
+              },
+              "resources": {
+                "gold": 1500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 1,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -1500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 5
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 4
+              },
+              "resources": {
+                "gold": 2000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 2,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -2000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 6
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 5
+              },
+              "resources": {
+                "gold": 2500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 2,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -2500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 7
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 6
+              },
+              "resources": {
+                "gold": 3000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 3,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -3000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 8
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 7
+              },
+              "resources": {
+                "gold": 3500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 3,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -3500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 9
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 8
+              },
+              "resources": {
+                "gold": 4000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 4,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -4000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 10
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 9
+              },
+              "resources": {
+                "gold": 4500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 4,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -4500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 11
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 10
+              },
+              "resources": {
+                "gold": 5000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 5,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -5000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 12
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 11
+              },
+              "resources": {
+                "gold": 5500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 5,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -5500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 13
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 12
+              },
+              "resources": {
+                "gold": 6000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 6,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -6000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 14
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 13
+              },
+              "resources": {
+                "gold": 6500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 6,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -6500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 15
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 14
+              },
+              "resources": {
+                "gold": 7000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 7,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -7000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 16
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 15
+              },
+              "resources": {
+                "gold": 7500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 7,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -7500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 17
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 16
+              },
+              "resources": {
+                "gold": 8000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 8,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -8000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 18
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 17
+              },
+              "resources": {
+                "gold": 8500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 8,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -8500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 19
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 18
+              },
+              "resources": {
+                "gold": 9000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 9,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -9000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 20
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 19
+              },
+              "resources": {
+                "gold": 9500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 9,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -9500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 21
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 20
+              },
+              "resources": {
+                "gold": 10000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 10,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -10000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 22
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 21
+              },
+              "resources": {
+                "gold": 10500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 10,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -10500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 23
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 22
+              },
+              "resources": {
+                "gold": 11000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 11,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -11000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 24
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 23
+              },
+              "resources": {
+                "gold": 11500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 11,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -11500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 25
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 24
+              },
+              "resources": {
+                "gold": 12000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 12,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -12000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 26
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 25
+              },
+              "resources": {
+                "gold": 12500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 12,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -12500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 27
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 26
+              },
+              "resources": {
+                "gold": 13000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 13,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -13000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 28
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 27
+              },
+              "resources": {
+                "gold": 13500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 13,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -13500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 29
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 28
+              },
+              "resources": {
+                "gold": 14000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 14,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -14000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 30
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 29
+              },
+              "resources": {
+                "gold": 14500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 14,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -14500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 31
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 30
+              },
+              "resources": {
+                "gold": 15000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 15,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -15000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 32
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 31
+              },
+              "resources": {
+                "gold": 15500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 15,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -15500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 33
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 32
+              },
+              "resources": {
+                "gold": 16000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 16,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -16000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 34
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 33
+              },
+              "resources": {
+                "gold": 16500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 16,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -16500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 35
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 34
+              },
+              "resources": {
+                "gold": 17000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 17,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -17000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 36
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 35
+              },
+              "resources": {
+                "gold": 17500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 17,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -17500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 37
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 36
+              },
+              "resources": {
+                "gold": 18000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 18,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -18000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 38
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 37
+              },
+              "resources": {
+                "gold": 18500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 18,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -18500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 39
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 38
+              },
+              "resources": {
+                "gold": 19000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 19,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -19000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 40
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 39
+              },
+              "resources": {
+                "gold": 19500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 19,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -19500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 41
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 40
+              },
+              "resources": {
+                "gold": 20000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 20,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -20000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 42
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 41
+              },
+              "resources": {
+                "gold": 20500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 20,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -20500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 43
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 42
+              },
+              "resources": {
+                "gold": 21000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 21,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -21000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 44
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 43
+              },
+              "resources": {
+                "gold": 21500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 21,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -21500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 45
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 44
+              },
+              "resources": {
+                "gold": 22000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 22,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -22000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 46
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 45
+              },
+              "resources": {
+                "gold": 22500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 22,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -22500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 47
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 46
+              },
+              "resources": {
+                "gold": 23000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 23,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -23000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 48
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 47
+              },
+              "resources": {
+                "gold": 23500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 23,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -23500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 49
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 48
+              },
+              "resources": {
+                "gold": 24000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 24,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -24000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 50
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 49
+              },
+              "resources": {
+                "gold": 24500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 24,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -24500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 51
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 50
+              },
+              "resources": {
+                "gold": 25000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 25,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -25000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 52
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 51
+              },
+              "resources": {
+                "gold": 25500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 25,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -25500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 53
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 52
+              },
+              "resources": {
+                "gold": 26000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 26,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -26000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 54
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 53
+              },
+              "resources": {
+                "gold": 26500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 26,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -26500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 55
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 54
+              },
+              "resources": {
+                "gold": 27000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 27,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -27000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 56
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 55
+              },
+              "resources": {
+                "gold": 27500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 27,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -27500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 57
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 56
+              },
+              "resources": {
+                "gold": 28000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 28,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -28000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 58
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 57
+              },
+              "resources": {
+                "gold": 28500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 28,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -28500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 59
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 58
+              },
+              "resources": {
+                "gold": 29000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 29,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -29000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 60
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 59
+              },
+              "resources": {
+                "gold": 29500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 29,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -29500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 61
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 60
+              },
+              "resources": {
+                "gold": 30000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 30,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -30000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 62
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 61
+              },
+              "resources": {
+                "gold": 30500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 30,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -30500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 63
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 62
+              },
+              "resources": {
+                "gold": 31000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 31,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -31000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 64
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 63
+              },
+              "resources": {
+                "gold": 31500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 31,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -31500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 65
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 64
+              },
+              "resources": {
+                "gold": 32000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 32,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -32000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 66
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 65
+              },
+              "resources": {
+                "gold": 32500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 32,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -32500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 67
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 66
+              },
+              "resources": {
+                "gold": 33000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 33,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -33000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 68
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 67
+              },
+              "resources": {
+                "gold": 33500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 33,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -33500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 69
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 68
+              },
+              "resources": {
+                "gold": 34000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 34,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -34000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 70
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 69
+              },
+              "resources": {
+                "gold": 34500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 34,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -34500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 71
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 70
+              },
+              "resources": {
+                "gold": 35000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 35,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -35000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 72
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 71
+              },
+              "resources": {
+                "gold": 35500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 35,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -35500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 73
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 72
+              },
+              "resources": {
+                "gold": 36000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 36,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -36000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 74
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 73
+              },
+              "resources": {
+                "gold": 36500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 36,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -36500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 75
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 74
+              },
+              "resources": {
+                "gold": 37000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 37,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -37000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 76
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 75
+              },
+              "resources": {
+                "gold": 37500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 37,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -37500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 77
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 76
+              },
+              "resources": {
+                "gold": 38000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 38,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -38000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 78
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 77
+              },
+              "resources": {
+                "gold": 38500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 38,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -38500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 79
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 78
+              },
+              "resources": {
+                "gold": 39000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 39,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -39000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 80
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 79
+              },
+              "resources": {
+                "gold": 39500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 39,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -39500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 81
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 80
+              },
+              "resources": {
+                "gold": 40000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 40,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -40000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 82
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 81
+              },
+              "resources": {
+                "gold": 40500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 40,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -40500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 83
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 82
+              },
+              "resources": {
+                "gold": 41000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 41,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -41000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 84
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 83
+              },
+              "resources": {
+                "gold": 41500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 41,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -41500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 85
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 84
+              },
+              "resources": {
+                "gold": 42000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 42,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -42000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 86
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 85
+              },
+              "resources": {
+                "gold": 42500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 42,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -42500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 87
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 86
+              },
+              "resources": {
+                "gold": 43000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 43,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -43000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 88
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 87
+              },
+              "resources": {
+                "gold": 43500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 43,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -43500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 89
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 88
+              },
+              "resources": {
+                "gold": 44000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 44,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -44000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 90
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 89
+              },
+              "resources": {
+                "gold": 44500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 44,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -44500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 91
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 90
+              },
+              "resources": {
+                "gold": 45000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 45,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -45000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 92
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 91
+              },
+              "resources": {
+                "gold": 45500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 45,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -45500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 93
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 92
+              },
+              "resources": {
+                "gold": 46000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 46,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -46000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 94
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 93
+              },
+              "resources": {
+                "gold": 46500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 46,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -46500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 95
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 94
+              },
+              "resources": {
+                "gold": 47000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 47,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -47000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 96
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 95
+              },
+              "resources": {
+                "gold": 47500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 47,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -47500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 97
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 96
+              },
+              "resources": {
+                "gold": 48000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 48,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -48000
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 98
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 97
+              },
+              "resources": {
+                "gold": 48500
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 48,500 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -48500
+            }
+          },
+          {
+            "limiter": {
+              "noneOf": [
+                {
+                  "primary": {
+                    "defence": 99
+                  }
+                }
+              ],
+              "primary": {
+                "defence": 98
+              },
+              "resources": {
+                "gold": 49000
+              }
+            },
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              }
+            ],
+            "message": "{Battle Academy}\r\n\r\nIncrease your Defence by 1 point for 49,000 gold.\r\n\r\nDo you agree to this training?",
+            "resources": {
+              "gold": -49000
+            }
+          },
+          {
+            "limiter": {
+              "resources": {
+                "gold": 3000
+              },
+              "canLearnSkills": true,
+              "noneOf": [
+                {
+                  "secondary": {
+                    "@dailySkill": 1
+                  }
+                }
+              ]
+            },
+            "secondary": [
+              {
+                "type": "@dailySkill",
+                "amount": 1
+              }
+            ],
+            "resources": {
+              "gold": -3000
+            },
+            "message": "{Battle Academy}\r\n\r\nTrain the combat skill offered today to Basic level for 3,000 gold. The skill is chosen by the Academy for the day.\r\n\r\nDo you agree to this training?"
+          },
+          {
+            "limiter": {
+              "resources": {
+                "gold": 3000
+              },
+              "secondary": {
+                "@dailySkill": 1
+              },
+              "noneOf": [
+                {
+                  "secondary": {
+                    "@dailySkill": 2
+                  }
+                }
+              ]
+            },
+            "secondary": [
+              {
+                "type": "@dailySkill",
+                "amount": 1
+              }
+            ],
+            "resources": {
+              "gold": -3000
+            },
+            "message": "{Battle Academy}\r\n\r\nTrain the combat skill offered today to Advanced level for 3,000 gold. The skill is chosen by the Academy for the day.\r\n\r\nDo you agree to this training?"
+          },
+          {
+            "limiter": {
+              "resources": {
+                "gold": 3000
+              },
+              "secondary": {
+                "@dailySkill": 2
+              },
+              "noneOf": [
+                {
+                  "secondary": {
+                    "@dailySkill": 3
+                  }
+                }
+              ]
+            },
+            "secondary": [
+              {
+                "type": "@dailySkill",
+                "amount": 1
+              }
+            ],
+            "resources": {
+              "gold": -3000
+            },
+            "message": "{Battle Academy}\r\n\r\nTrain the combat skill offered today to Expert level for 3,000 gold. The skill is chosen by the Academy for the day.\r\n\r\nDo you agree to this training?"
+          },
+          {
+            "appearChance": {
+              "dice": 14,
+              "min": 0,
+              "max": 6
+            },
+            "limiter": {
+              "resources": {
+                "gold": 6000
+              }
+            },
+            "artifacts": [
+              "centaurAxe"
+            ],
+            "resources": {
+              "gold": -6000
+            },
+            "message": "{Battle Academy}\r\n\r\nBuy the artifact %s for 6,000 gold.\r\n\r\nDo you agree to this purchase?"
+          },
+          {
+            "appearChance": {
+              "dice": 14,
+              "min": 6,
+              "max": 12
+            },
+            "limiter": {
+              "resources": {
+                "gold": 9000
+              }
+            },
+            "artifacts": [
+              "blackshardOfTheDeadKnight"
+            ],
+            "resources": {
+              "gold": -9000
+            },
+            "message": "{Battle Academy}\r\n\r\nBuy the artifact %s for 9,000 gold.\r\n\r\nDo you agree to this purchase?"
+          },
+          {
+            "appearChance": {
+              "dice": 14,
+              "min": 12,
+              "max": 18
+            },
+            "limiter": {
+              "resources": {
+                "gold": 12000
+              }
+            },
+            "artifacts": [
+              "greaterGnollsFlail"
+            ],
+            "resources": {
+              "gold": -12000
+            },
+            "message": "{Battle Academy}\r\n\r\nBuy the artifact %s for 12,000 gold.\r\n\r\nDo you agree to this purchase?"
+          },
+          {
+            "appearChance": {
+              "dice": 14,
+              "min": 18,
+              "max": 25
+            },
+            "limiter": {
+              "resources": {
+                "gold": 15000
+              }
+            },
+            "artifacts": [
+              "ogresClubOfHavoc"
+            ],
+            "resources": {
+              "gold": -15000
+            },
+            "message": "{Battle Academy}\r\n\r\nBuy the artifact %s for 15,000 gold.\r\n\r\nDo you agree to this purchase?"
+          },
+          {
+            "appearChance": {
+              "dice": 14,
+              "min": 25,
+              "max": 31
+            },
+            "limiter": {
+              "resources": {
+                "gold": 18000
+              }
+            },
+            "artifacts": [
+              "swordOfHellfire"
+            ],
+            "resources": {
+              "gold": -18000
+            },
+            "message": "{Battle Academy}\r\n\r\nBuy the artifact %s for 18,000 gold.\r\n\r\nDo you agree to this purchase?"
+          },
+          {
+            "appearChance": {
+              "dice": 14,
+              "min": 31,
+              "max": 37
+            },
+            "limiter": {
+              "resources": {
+                "gold": 30000
+              }
+            },
+            "artifacts": [
+              "sentinelsShield"
+            ],
+            "resources": {
+              "gold": -30000
+            },
+            "message": "{Battle Academy}\r\n\r\nBuy the artifact %s for 30,000 gold.\r\n\r\nDo you agree to this purchase?"
+          },
+          {
+            "appearChance": {
+              "dice": 14,
+              "min": 37,
+              "max": 43
+            },
+            "limiter": {
+              "resources": {
+                "gold": 3000
+              }
+            },
+            "artifacts": [
+              "helmOfTheAlabasterUnicorn"
+            ],
+            "resources": {
+              "gold": -3000
+            },
+            "message": "{Battle Academy}\r\n\r\nBuy the artifact %s for 3,000 gold.\r\n\r\nDo you agree to this purchase?"
+          },
+          {
+            "appearChance": {
+              "dice": 14,
+              "min": 43,
+              "max": 50
+            },
+            "limiter": {
+              "resources": {
+                "gold": 9000
+              }
+            },
+            "artifacts": [
+              "skullHelmet"
+            ],
+            "resources": {
+              "gold": -9000
+            },
+            "message": "{Battle Academy}\r\n\r\nBuy the artifact %s for 9,000 gold.\r\n\r\nDo you agree to this purchase?"
+          },
+          {
+            "appearChance": {
+              "dice": 14,
+              "min": 50,
+              "max": 56
+            },
+            "limiter": {
+              "resources": {
+                "gold": 12000
+              }
+            },
+            "artifacts": [
+              "helmOfChaos"
+            ],
+            "resources": {
+              "gold": -12000
+            },
+            "message": "{Battle Academy}\r\n\r\nBuy the artifact %s for 12,000 gold.\r\n\r\nDo you agree to this purchase?"
+          },
+          {
+            "appearChance": {
+              "dice": 14,
+              "min": 56,
+              "max": 62
+            },
+            "limiter": {
+              "resources": {
+                "gold": 15000
+              }
+            },
+            "artifacts": [
+              "crownOfTheSupremeMagi"
+            ],
+            "resources": {
+              "gold": -15000
+            },
+            "message": "{Battle Academy}\r\n\r\nBuy the artifact %s for 15,000 gold.\r\n\r\nDo you agree to this purchase?"
+          },
+          {
+            "appearChance": {
+              "dice": 14,
+              "min": 62,
+              "max": 68
+            },
+            "limiter": {
+              "resources": {
+                "gold": 12000
+              }
+            },
+            "artifacts": [
+              "armorOfWonder"
+            ],
+            "resources": {
+              "gold": -12000
+            },
+            "message": "{Battle Academy}\r\n\r\nBuy the artifact %s for 12,000 gold.\r\n\r\nDo you agree to this purchase?"
+          },
+          {
+            "appearChance": {
+              "dice": 14,
+              "min": 68,
+              "max": 75
+            },
+            "limiter": {
+              "resources": {
+                "gold": 12000
+              }
+            },
+            "artifacts": [
+              "redDragonFlameTongue"
+            ],
+            "resources": {
+              "gold": -12000
+            },
+            "message": "{Battle Academy}\r\n\r\nBuy the artifact %s for 12,000 gold.\r\n\r\nDo you agree to this purchase?"
+          },
+          {
+            "appearChance": {
+              "dice": 14,
+              "min": 75,
+              "max": 81
+            },
+            "limiter": {
+              "resources": {
+                "gold": 18000
+              }
+            },
+            "artifacts": [
+              "dragonScaleShield"
+            ],
+            "resources": {
+              "gold": -18000
+            },
+            "message": "{Battle Academy}\r\n\r\nBuy the artifact %s for 18,000 gold.\r\n\r\nDo you agree to this purchase?"
+          },
+          {
+            "appearChance": {
+              "dice": 14,
+              "min": 81,
+              "max": 87
+            },
+            "limiter": {
+              "resources": {
+                "gold": 24000
+              }
+            },
+            "artifacts": [
+              "dragonScaleArmor"
+            ],
+            "resources": {
+              "gold": -24000
+            },
+            "message": "{Battle Academy}\r\n\r\nBuy the artifact %s for 24,000 gold.\r\n\r\nDo you agree to this purchase?"
+          },
+          {
+            "appearChance": {
+              "dice": 14,
+              "min": 87,
+              "max": 93
+            },
+            "limiter": {
+              "resources": {
+                "gold": 6000
+              }
+            },
+            "artifacts": [
+              "bowOfElvenCherrywood"
+            ],
+            "resources": {
+              "gold": -6000
+            },
+            "message": "{Battle Academy}\r\n\r\nBuy the artifact %s for 6,000 gold.\r\n\r\nDo you agree to this purchase?"
+          },
+          {
+            "appearChance": {
+              "dice": 14,
+              "min": 93,
+              "max": 100
+            },
+            "limiter": {
+              "resources": {
+                "gold": 24000
+              }
+            },
+            "artifacts": [
+              "goldenBow"
+            ],
+            "resources": {
+              "gold": -24000
+            },
+            "message": "{Battle Academy}\r\n\r\nBuy the artifact %s for 24,000 gold.\r\n\r\nDo you agree to this purchase?"
+          }
+        ]
+      }
+    }
+  }
+}

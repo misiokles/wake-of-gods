@@ -13,7 +13,10 @@
 		"config/mapObjects/sphinx.json",
 		"config/mapObjects/fountains.json",
 		"config/mapObjects/arcaneTower.json",
-		"config/mapObjects/junkMerchant.json"
+		"config/mapObjects/artificer.json",
+		"config/mapObjects/junkMerchant.json",
+		"config/mapObjects/schoolOfWizardry.json",
+		"config/mapObjects/battleAcademy.json"
 	],
 	"artifacts" : [
 		"config/artifacts/berserkerPotion.json",
