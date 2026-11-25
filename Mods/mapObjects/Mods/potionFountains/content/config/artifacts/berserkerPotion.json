@@ -1,42 +1,46 @@
 {
-    "berserkerPotion": {
-        "type": [
-            "HERO"
-        ],
-        "slot": "MISC",
-        "class": "SPECIAL",
-        "value": 6000,
-        "text": {
-            "name": "Berserker Potion",
-            "description": "{Berserker Potion}\r\n\r\nIncreases Attack by 10 and boosts luck to maximum but prevents to cast spells during combat. Vanishes after 3 battles.",
-            "event": ""
-        },
-        "graphics": {
-            "image": "artifacts/berserkerPotion.png",
-            "scenarioBonus": "artifacts/null.png",
-            "map": "artifacts/null.def"
-        },
-        "charged": {
-            "usageType": "BATTLE",
-            "removeOnDepletion": true,
-            "startingCharges": 3
-        },
-        "bonuses": {
-            "luck": {
-                "type": "LUCK",
-                "val": 3,
-                "valueType": "INDEPENDENT_MAX"
-            },
-            "attack": {
-                "subtype": "attack",
-                "type": "PRIMARY_SKILL",
-                "val": 10,
-                "valueType": "BASE_NUMBER"
-            },
-            "blockCasting": {
-                "type": "BLOCK_MAGIC_BELOW",
-                "val": 6
-            }
-        }
+  "berserkerPotion": {
+    "type": [
+      "HERO"
+    ],
+    "slot": "MISC",
+    "class": "SPECIAL",
+    "value": 6000,
+    "text": {
+      "name": "Berserker Potion",
+      "description": "{Berserker Potion}\n\nWith this potion equipped, you gain +10 Attack and maximum Luck... but you will not be able to cast spells in combat.\n\nOne dose is used after each battle in which the flask is equipped. Keep it in your backpack to save doses. The empty flask vanishes. Return to its fountain to obtain a full flask of three doses.",
+      "event": ""
+    },
+    "graphics": {
+      "image": "artifacts/berserkerPotion.png",
+      "scenarioBonus": "artifacts/null.png",
+      "map": "artifacts/null.def"
+    },
+    "charged": {
+      "usageType": "BATTLE",
+      "removeOnDepletion": true,
+      "startingCharges": 3
+    },
+    "bonuses": {
+      "luck": {
+        "type": "LUCK",
+        "val": 3,
+        "valueType": "AT_LEAST",
+        "stacking": "wogPotion.berserkerPotion"
+      },
+      "attack": {
+        "subtype": "attack",
+        "type": "PRIMARY_SKILL",
+        "val": 10,
+        "valueType": "BASE_NUMBER",
+        "stacking": "wogPotion.berserkerPotion"
+      },
+      "blockCasting": {
+        "type": "HERO_SPELL_CASTS_PER_COMBAT_TURN",
+        "val": 0,
+        "stacking": "wogPotion.berserkerPotion",
+        "valueType": "AT_MOST"
+      }
     }
+  }
 }

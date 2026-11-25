@@ -1,0 +1,20 @@
+{
+  "name": "Forgotten Shrine (Script 60).",
+  "description": "Adds the Forgotten Shrine adventure object.",
+  "version": "0.1.2",
+  "modType": "Objects",
+  "author": "WoG adaptation / VCMI Lua & JSON community",
+  "objects": [
+    "config/forgottenShrine.json"
+  ],
+  "polish": {
+    "name": "Zapomniana świątynia (Skrypt 60)",
+    "description": "Dodaje zapomnianą świątynię.",
+    "translations": [
+      "translations/polish.json"
+    ]
+  },
+  "translations": [
+    "translations/english.json"
+  ]
+}

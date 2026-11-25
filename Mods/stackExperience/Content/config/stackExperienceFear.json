@@ -1,0 +1,14 @@
+{
+  "stackExperienceFear": {
+    "implements": "combatEvent",
+    "script": "combat/stackExperienceFear",
+    "patches": [],
+    "priority": 0,
+    "schema": {
+      "type": "object",
+      "properties": {},
+      "additionalProperties": false
+    },
+    "description": "{Fear} Living enemies may skip their turns."
+  }
+}

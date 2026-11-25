@@ -1,0 +1,1 @@
+WoG 3.59 alpha Script 16 (Battle Academy 1.41). Original ERM/ERT bytes and all 40 numbered texts are preserved. Active messages adapt runtime placeholders to VCMI; menu, post-purchase and extra skill-slot dialogs remain archival.

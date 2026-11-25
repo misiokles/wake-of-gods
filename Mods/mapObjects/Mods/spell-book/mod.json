@@ -1,0 +1,20 @@
+{
+  "name": "WoG Scripts: Spell Book",
+  "description": "A WoG-inspired map spellbook teaching random spells; disappears when collected.",
+  "version": "0.1.3",
+  "modType": "Objects",
+  "author": "WoG adaptation / VCMI Lua & JSON community",
+  "objects": [
+    "config/spellBook.json"
+  ],
+  "polish": {
+    "name": "WoG Scripts: Spell Book",
+    "description": "Księga zaklęć WoG: uczy losowych zaklęć i znika z mapy po podniesieniu.",
+    "translations": [
+      "translations/polish.json"
+    ]
+  },
+  "translations": [
+    "translations/english.json"
+  ]
+}

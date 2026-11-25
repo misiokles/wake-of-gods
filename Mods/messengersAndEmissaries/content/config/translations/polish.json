@@ -1,4 +1,8 @@
 {
-    "wake-of-gods.creatures.battleLog.emissary.retreat.singular": "%s odmawia walki i po zadaniu symbolicznych obrażeń teleportuje się z dala od wojennego zgiełku!",
-    "wake-of-gods.creatures.battleLog.emissary.retreat.plural": "%s odmawiają walki i po zadaniu symbolicznych obrażeń teleportują się z dala od wojennego zgiełku!"
+  "wake-of-gods.creatures.battleLog.emissary.retreat.singular": "%s odmawia walki i po zadaniu symbolicznych obrażeń teleportuje się z dala od wojennego zgiełku!",
+  "wake-of-gods.creatures.battleLog.emissary.retreat.plural": "%s odmawiają walki i po zadaniu symbolicznych obrażeń teleportują się z dala od wojennego zgiełku!",
+  "wake-of-gods.messengersandemissaries.battleLog.summon.repeat.singular": "%s przyzywa %d jednostek: %s!",
+  "wake-of-gods.messengersandemissaries.battleLog.summon.repeat.plural": "%s przyzywają %d jednostek: %s!",
+  "wake-of-gods.messengersandemissaries.battleLog.fireWall.singular": "%s rzuca Ścianę Ognia!",
+  "wake-of-gods.messengersandemissaries.battleLog.fireWall.plural": "%s rzucają Ścianę Ognia!"
 }

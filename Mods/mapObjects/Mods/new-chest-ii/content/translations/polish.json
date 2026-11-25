@@ -1,0 +1,14 @@
+{
+    "wake-of-gods.mapobjects.new-chest-ii.dialog.choose": "W skrzyni odkrywasz tajemniczy skarb.\n\nJeśli znajdziesz sakiewkę złotych monet i zwój, zachowasz zwój czy zniszczysz go, by zdobyć jego magiczną energię?\n\nJeśli odkryjesz obszerne KSIĘGI WIEDZY, wybierz jeden tom do studiowania, a o pozostałe niech spierają się twoi żołnierze. Od razu opanujesz wszystkie jego nauki.",
+    "wake-of-gods.mapobjects.new-chest-ii.dialog.keepScroll": "W skrzyni znajdujesz sakiewkę złotych monet i zwój zaklęcia {%s}. Zachowujesz zwój.",
+    "wake-of-gods.mapobjects.new-chest-ii.dialog.tome": "W skrzyni odkrywasz obszerną KSIĘGĘ WIEDZY.\n\nOpanowujesz wszystkie jej nauki i osiągasz poziom ekspercki wybranej umiejętności.",
+    "wake-of-gods.mapobjects.new-chest-ii.dialog.deedSubstitute": "W skrzyni znajdujesz akt własności odległej kopalni!\n\nNie mogąc przejąć kopalni, sprzedajesz dokument przejezdnemu kupcowi za 2000 sztuk złota.",
+    "wake-of-gods.mapobjects.new-chest-ii.dialog.empty": "Nie ma tu niczego, co mogłoby ci się przydać.",
+    "wake-of-gods.mapobjects.new-chest-ii.dialog.destroyScroll1": "Niszczysz zwój i zyskujesz 30 punktów magii. Zachowujesz także sakiewkę złotych monet.",
+    "wake-of-gods.mapobjects.new-chest-ii.dialog.destroyScroll2": "Niszczysz zwój i zyskujesz 60 punktów magii. Zachowujesz także sakiewkę złotych monet.",
+    "wake-of-gods.mapobjects.new-chest-ii.dialog.destroyScroll3": "Niszczysz zwój i zyskujesz 90 punktów magii. Zachowujesz także sakiewkę złotych monet.",
+    "wake-of-gods.mapobjects.new-chest-ii.dialog.destroyScroll4": "Niszczysz zwój i zyskujesz 120 punktów magii. Zachowujesz także sakiewkę złotych monet.",
+    "wake-of-gods.mapobjects.new-chest-ii.dialog.destroyScroll5": "Niszczysz zwój i zyskujesz 150 punktów magii. Zachowujesz także sakiewkę złotych monet.",
+    "mapObject.wake-of-gods.mapobjects.new-chest-ii.newChestII.newChestII.name": "Skrzynia skarbów",
+    "mapObject.wake-of-gods.mapobjects.new-chest-ii.newChestII.newChestII.description": "Rzadka i tajemnicza skrzynia skarbów."
+}

@@ -5,13 +5,13 @@ A magical college offering **Spell Power and Knowledge training**, lessons in ma
 ## Visiting the school
 
 - The School presents **one offer you can currently use and afford**. Refusing an offer is free; you can return and look for another possible service.
-- Only **one accepted lesson or purchase per hero, per particular school, per day**. The next day's lessons may include different spells or skills.
+- Only **one accepted lesson or purchase per hero per day across all Schools of Wizardry**. The next day's lessons may include different spells or skills. Each school draws its own daily selection. Buying a spellbook also counts as the daily service.
 - Daily spell and skill selections are fixed for that day: rejecting an offer does **not** generate a completely new daily spell.
 - No movement-point fee is charged for the School's listed services.
 
 ## Raise Spell Power or Knowledge
 
-Each lesson raises one attribute by **1 point**. Training from current values **0 or 1 is free**. For higher values the price is **500 gold × (current attribute − 1)**.
+Each lesson raises one attribute by **1 point**. Training from current values **0 or 1 is free**. For higher values the price is **500 gold × (current effective attribute − 1)**.
 
 | Current Spell Power / Knowledge | Price for +1 |
 | --- | --- |
@@ -23,7 +23,10 @@ Each lesson raises one attribute by **1 point**. Training from current values **
 | 10 | 4,500 gold |
 | 25 | 12,000 gold |
 | 50 | 24,500 gold |
-| 99 | 49,000 gold |
+| 98 | 48,500 gold |
+| 99 | No training offered |
+
+Prices use the effective attribute, including equipment and other bonuses; remove relevant artifacts before training if you want to avoid a higher price.
 
 ## Magical secondary skills
 
@@ -98,7 +101,7 @@ The school may offer one of the spells below for a fixed gold price. The hero ne
 
 ## Copy a scroll into your spellbook
 
-If you own a spell scroll, the school may offer to **consume the scroll and permanently teach the spell**. Each copy costs **700 gold**.
+If you own a spell scroll, the school may offer to **consume the scroll and permanently teach the spell**. Each copy costs **100–2,000 gold**, depending on the spell (the original WoG price table). For example, Magic Arrow costs 600 gold, Slow 800 gold and Town Portal 2,000 gold. A direct lesson, when offered, costs five times the corresponding scroll-copy price.
 
 **Expert Wisdom is required for every scroll-copy service**, including low-level spells. The hero must also be able to learn the particular spell. This strict requirement makes the school's copying service an advanced option rather than a substitute for developing a town's Mage Guild.
 
@@ -122,3 +125,7 @@ Forgetfulness, Blind, Teleport, Remove Obstacle, Clone, Fire Elemental, Earth El
 ## Buy a Spellbook
 
 A hero without a spellbook can purchase one for **250 gold**. This service does not automatically teach any spells.
+
+## Differences from WoG 3.59
+
+The original uses a shared daily skill and spell, with the spell level following a 44-day cycle. This port draws per school using the existing weighted pools; it presents one eligible offer per visit rather than a nested menu. Refusal costs nothing. Unlike the original, a new skill cannot be learned beyond the normal slot limit, and a spellbook purchase is a separate daily service. Primary training prices use effective rather than base attributes; AI-specific free training is not reproduced. Original Script 28 ERM/ERT and all 78 entries are archived under `description/wog-original`.

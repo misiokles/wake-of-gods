@@ -1,0 +1,16 @@
+{
+  "wake-of-gods.mapobjects.potionfountains.fountainOfFortune.refill": "{Fountain} {of} {Fortune}\n\nYou fill a flask with water from the fountain.\nNow you have three doses of {Hydromel} {Potion}.\n\nThis potion increases Attack and Defense while equipped.\n\nEquip the flask before a battle to use one dose. Keep it in your backpack to save the potion.",
+  "wake-of-gods.mapobjects.potionfountains.fountainOfFortune.description": "The enchanted waters refill your Hydromel Potion to three doses. The fountain also changes Luck until the next battle, if its blessing is not already active.",
+  "wake-of-gods.mapobjects.potionfountains.valhallasFountain.refill": "{Valhalla's} {Fountain}\n\nYou fill a flask with water from the fountain.\nNow you have three doses of {Berserker} {Potion}.\n\nThis potion increases Attack and Luck while equipped, but prevents the drinker from casting spells in combat.\n\nEquip the flask before a battle to use one dose. Keep it in your backpack to save the potion.",
+  "wake-of-gods.mapobjects.potionfountains.valhallasFountain.description": "The waters of Valhalla refill your Berserker Potion to three doses on every visit.",
+  "wake-of-gods.mapobjects.potionfountains.venusFountain.refill": "{Venus's} {Blessing}\n\nYou arrive in front of a magnificent statue...\n\nYou fill a flask with water from the Magic Fountain.\nNow you have three doses of {Venus's} {Blessing}.\n\nThis potion increases morale and luck while equipped.\n\nEquip the flask before a battle to use one dose. Keep it in your backpack to save the potion.",
+  "wake-of-gods.mapobjects.potionfountains.venusFountain.description": "The Magic Fountain refills your Venus’s Blessing to three doses on every visit.",
+  "artifact.wake-of-gods.mapobjects.potionfountains.hydromelPotion.name": "Hydromel Potion",
+  "artifact.wake-of-gods.mapobjects.potionfountains.hydromelPotion.description": "{Hydromel Potion}\n\nWith this potion equipped, you gain +2 Attack and +2 Defense.\n\nOne dose is used after each battle in which the flask is equipped. Keep it in your backpack to save doses. The empty flask vanishes. Return to its fountain to obtain a full flask of three doses.",
+  "artifact.wake-of-gods.mapobjects.potionfountains.venusBlessing.name": "Venus's Blessing",
+  "artifact.wake-of-gods.mapobjects.potionfountains.venusBlessing.description": "{Venus's Blessing}\n\nWith this potion equipped, you have maximum Morale and Luck.\n\nOne dose is used after each battle in which the flask is equipped. Keep it in your backpack to save doses. The empty flask vanishes. Return to its fountain to obtain a full flask of three doses.",
+  "artifact.wake-of-gods.mapobjects.potionfountains.berserkerPotion.name": "Berserker Potion",
+  "artifact.wake-of-gods.mapobjects.potionfountains.berserkerPotion.description": "{Berserker Potion}\n\nWith this potion equipped, you gain +10 Attack and maximum Luck... but you will not be able to cast spells in combat.\n\nOne dose is used after each battle in which the flask is equipped. Keep it in your backpack to save doses. The empty flask vanishes. Return to its fountain to obtain a full flask of three doses.",
+  "object.wake-of-gods.mapobjects.potionfountains.valhallasFountain.name": "Valhalla's Fountain",
+  "object.wake-of-gods.mapobjects.potionfountains.venusFountain.name": "Venus's Fountain"
+}

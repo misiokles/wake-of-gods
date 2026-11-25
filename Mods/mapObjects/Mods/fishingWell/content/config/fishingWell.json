@@ -1,0 +1,890 @@
+{
+  "fishingWell": {
+    "name": "Fishing Well",
+    "handler": "configurable",
+    "types": {
+      "fishingWell": {
+        "name": "Fishing Well",
+        "description": "@wake-of-gods.mapobjects.fishingwell.dialog.description",
+        "rmg": {
+          "value": 7500,
+          "rarity": 28,
+          "zoneLimit": 1
+        },
+        "templates": {
+          "fishingWell": {
+            "animation": "AVXwelg0.def",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+++",
+              "+++"
+            ]
+          }
+        },
+        "sounds": {
+          "visit": [
+            "MYSTERY"
+          ]
+        },
+        "visitMode": "once",
+        "selectMode": "selectFirst",
+        "blockedVisitable": true,
+        "canRefuse": false,
+        "rewards": [
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.0",
+            "appearChance": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.1",
+            "appearChance": {
+              "min": 2,
+              "max": 4
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.2",
+            "appearChance": {
+              "min": 4,
+              "max": 6
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.3",
+            "appearChance": {
+              "min": 6,
+              "max": 8
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.4",
+            "appearChance": {
+              "min": 8,
+              "max": 10
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.5",
+            "appearChance": {
+              "min": 10,
+              "max": 12
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.6",
+            "appearChance": {
+              "min": 12,
+              "max": 14
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.7",
+            "appearChance": {
+              "min": 14,
+              "max": 16
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.8",
+            "appearChance": {
+              "min": 16,
+              "max": 18
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.9",
+            "appearChance": {
+              "min": 18,
+              "max": 19
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.10",
+            "appearChance": {
+              "min": 19,
+              "max": 20
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.11",
+            "appearChance": {
+              "min": 20,
+              "max": 21
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.12",
+            "appearChance": {
+              "min": 21,
+              "max": 22
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.13",
+            "appearChance": {
+              "min": 22,
+              "max": 23
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.14",
+            "appearChance": {
+              "min": 23,
+              "max": 24
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.15",
+            "appearChance": {
+              "min": 24,
+              "max": 25
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.16",
+            "appearChance": {
+              "min": 25,
+              "max": 26
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.17",
+            "appearChance": {
+              "min": 26,
+              "max": 27
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.18",
+            "appearChance": {
+              "min": 27,
+              "max": 28
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.19",
+            "appearChance": {
+              "min": 28,
+              "max": 29
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.20",
+            "appearChance": {
+              "min": 29,
+              "max": 30
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.looseCoins",
+            "resources": {
+              "gold": [
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90,
+                91,
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101,
+                102,
+                103,
+                104,
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116,
+                117,
+                118,
+                119,
+                120,
+                121,
+                122,
+                123,
+                124,
+                125,
+                126,
+                127,
+                128,
+                129,
+                130,
+                131,
+                132,
+                133,
+                134,
+                135,
+                136,
+                137,
+                138,
+                139,
+                140,
+                141,
+                142,
+                143,
+                144,
+                145,
+                146,
+                147,
+                148,
+                149,
+                150,
+                151,
+                152,
+                153,
+                154,
+                155,
+                156,
+                157,
+                158,
+                159,
+                160,
+                161,
+                162,
+                163,
+                164,
+                165,
+                166,
+                167,
+                168,
+                169,
+                170,
+                171,
+                172,
+                173,
+                174,
+                175,
+                176,
+                177,
+                178,
+                179,
+                180,
+                181,
+                182,
+                183,
+                184,
+                185,
+                186,
+                187,
+                188,
+                189,
+                190,
+                191,
+                192,
+                193,
+                194,
+                195,
+                196,
+                197,
+                198,
+                199,
+                200
+              ]
+            },
+            "appearChance": {
+              "min": 30,
+              "max": 33
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.chestGold",
+            "resources": {
+              "gold": [
+                200,
+                300,
+                400,
+                500,
+                600,
+                700,
+                800,
+                900
+              ]
+            },
+            "appearChance": {
+              "min": 33,
+              "max": 37
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.chestGold",
+            "resources": {
+              "gold": [
+                200,
+                300,
+                400,
+                500,
+                600,
+                700,
+                800,
+                900
+              ]
+            },
+            "appearChance": {
+              "min": 37,
+              "max": 40
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.24",
+            "resources": {
+              "wood": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ]
+            },
+            "appearChance": {
+              "min": 40,
+              "max": 44
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.25",
+            "resources": {
+              "ore": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ]
+            },
+            "appearChance": {
+              "min": 44,
+              "max": 47
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.26",
+            "resources": {
+              "mercury": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ]
+            },
+            "appearChance": {
+              "min": 47,
+              "max": 51
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.27",
+            "resources": {
+              "sulfur": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ]
+            },
+            "appearChance": {
+              "min": 51,
+              "max": 54
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.28",
+            "resources": {
+              "crystal": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ]
+            },
+            "appearChance": {
+              "min": 54,
+              "max": 58
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.29",
+            "resources": {
+              "gems": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ]
+            },
+            "appearChance": {
+              "min": 58,
+              "max": 61
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.30",
+            "artifacts": [
+              {
+                "class": "TREASURE"
+              }
+            ],
+            "appearChance": {
+              "min": 61,
+              "max": 64
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.31",
+            "artifacts": [
+              {
+                "class": "MINOR"
+              }
+            ],
+            "appearChance": {
+              "min": 64,
+              "max": 67
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.32",
+            "scrolls": [
+              {
+                "level": 1
+              }
+            ],
+            "appearChance": {
+              "min": 67,
+              "max": 70
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.33",
+            "scrolls": [
+              {
+                "level": 2
+              }
+            ],
+            "appearChance": {
+              "min": 70,
+              "max": 73
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.34",
+            "scrolls": [
+              {
+                "level": 3
+              }
+            ],
+            "appearChance": {
+              "min": 73,
+              "max": 76
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.35",
+            "creatures": [
+              {
+                "type": "imp",
+                "amount": 3
+              }
+            ],
+            "appearChance": {
+              "min": 76,
+              "max": 79
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.36",
+            "creatures": [
+              {
+                "type": "imp",
+                "amount": 6
+              }
+            ],
+            "appearChance": {
+              "min": 79,
+              "max": 82
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.37",
+            "heroExperience": 500,
+            "appearChance": {
+              "min": 82,
+              "max": 85
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.38",
+            "bonuses": [
+              {
+                "type": "MORALE",
+                "val": -1,
+                "duration": "ONE_BATTLE"
+              }
+            ],
+            "appearChance": {
+              "min": 85,
+              "max": 88
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.39",
+            "bonuses": [
+              {
+                "type": "LUCK",
+                "val": -1,
+                "duration": "ONE_BATTLE"
+              }
+            ],
+            "appearChance": {
+              "min": 88,
+              "max": 91
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.40",
+            "guards": [
+              {
+                "type": "goblin",
+                "amount": 15
+              }
+            ],
+            "resources": {
+              "gold": 500
+            },
+            "appearChance": {
+              "min": 91,
+              "max": 94
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.41",
+            "guards": [
+              {
+                "type": "goblinWolfRider",
+                "amount": 6
+              }
+            ],
+            "resources": {
+              "gold": 500
+            },
+            "appearChance": {
+              "min": 94,
+              "max": 97
+            }
+          },
+          {
+            "limiter": {
+              "movePoints": 1
+            },
+            "manaPercentage": 100,
+            "movePercentage": 0,
+            "message": "@wake-of-gods.mapobjects.fishingwell.dialog.catch.42",
+            "guards": [
+              {
+                "type": "troglodyte",
+                "amount": 15
+              }
+            ],
+            "resources": {
+              "gold": 500
+            },
+            "appearChance": {
+              "min": 97,
+              "max": 100
+            }
+          }
+        ],
+        "resetParameters": {
+          "days": 0,
+          "weeks": 1,
+          "months": 0,
+          "visitors": true,
+          "rewards": true
+        },
+        "onVisitedMessage": "@wake-of-gods.mapobjects.fishingwell.dialog.visited",
+        "onEmptyMessage": "@wake-of-gods.mapobjects.fishingwell.dialog.tired",
+        "guardsLayout": "default",
+        "onGuardedMessage": "@wake-of-gods.mapobjects.fishingwell.dialog.guarded",
+        "notVisitedTooltip": "@wake-of-gods.mapobjects.fishingwell.dialog.available",
+        "visitedTooltip": "@wake-of-gods.mapobjects.fishingwell.dialog.used",
+        "showScoutedPreview": false
+      }
+    }
+  }
+}

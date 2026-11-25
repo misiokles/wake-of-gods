@@ -1,0 +1,477 @@
+{
+  "deathChamberKing1": {
+    "name": {
+      "singular": "Undead King",
+      "plural": "Undead Kings"
+    },
+    "description": "Death Chamber boss, WoG tier 1.",
+    "faction": "necropolis",
+    "special": true,
+    "excludeFromRandomization": true,
+    "level": 5,
+    "growth": 0,
+    "cost": {
+      "gold": 0
+    },
+    "attack": 100,
+    "defense": 100,
+    "damage": {
+      "min": 16,
+      "max": 16
+    },
+    "speed": 40,
+    "hitPoints": 160,
+    "shots": 24,
+    "aiValue": 15000,
+    "fightValue": 15000,
+    "abilities": {
+      "undead": {
+        "type": "UNDEAD"
+      },
+      "shooter": {
+        "type": "SHOOTER"
+      },
+      "deathCloud": {
+        "type": "SPELL_LIKE_ATTACK",
+        "subtype": "deathCloud"
+      },
+      "doubleAttack": {
+        "type": "ADDITIONAL_ATTACK",
+        "val": 1
+      },
+      "manyRetaliations": {
+        "type": "UNLIMITED_RETALIATIONS"
+      },
+      "chamberScript": {
+        "type": "COMBAT_EVENT_TRIGGER",
+        "subtype": "deathChamberKingScript",
+        "val": 1
+      },
+      "chamberArmageddonPower": {
+        "type": "SPECIFIC_SPELL_POWER",
+        "subtype": "core:armageddon",
+        "val": 80
+      }
+    },
+    "graphics": {
+      "animation": "CPLICH.DEF",
+      "iconSmall": "undeadKing/0_67small.png",
+      "iconLarge": "undeadKing/0_67big.png",
+      "missile": {
+        "projectile": "PLICH.DEF",
+        "frameAngles": [
+          90,
+          45,
+          0,
+          -45,
+          -90
+        ],
+        "attackClimaxFrame": 5,
+        "offset": {
+          "lowerX": 0,
+          "lowerY": 0,
+          "middleX": 0,
+          "middleY": 0,
+          "upperX": 0,
+          "upperY": 0
+        }
+      },
+      "mapAttackFromRight": "AvWattak.def:0:130",
+      "mapAttackFromLeft": "AvWattak.def:0:131",
+      "timeBetweenFidgets": 10,
+      "animationTime": {
+        "attack": 1.0,
+        "walk": 1.0,
+        "idle": 10.0
+      }
+    },
+    "sound": {
+      "attack": "PLCHATTK.wav",
+      "defend": "PLCHDFND.wav",
+      "killed": "PLCHKILL.wav",
+      "move": "PLCHMOVE.wav",
+      "shoot": "PLCHSHOT.wav",
+      "wince": "PLCHWNCE.wav"
+    }
+  },
+  "deathChamberKing2": {
+    "name": {
+      "singular": "Undead King",
+      "plural": "Undead Kings"
+    },
+    "description": "Death Chamber boss, WoG tier 2.",
+    "faction": "necropolis",
+    "special": true,
+    "excludeFromRandomization": true,
+    "level": 5,
+    "growth": 0,
+    "cost": {
+      "gold": 0
+    },
+    "attack": 100,
+    "defense": 100,
+    "damage": {
+      "min": 18,
+      "max": 18
+    },
+    "speed": 40,
+    "hitPoints": 180,
+    "shots": 24,
+    "aiValue": 30000,
+    "fightValue": 30000,
+    "abilities": {
+      "undead": {
+        "type": "UNDEAD"
+      },
+      "shooter": {
+        "type": "SHOOTER"
+      },
+      "deathCloud": {
+        "type": "SPELL_LIKE_ATTACK",
+        "subtype": "deathCloud"
+      },
+      "doubleAttack": {
+        "type": "ADDITIONAL_ATTACK",
+        "val": 1
+      },
+      "manyRetaliations": {
+        "type": "UNLIMITED_RETALIATIONS"
+      },
+      "chamberScript": {
+        "type": "COMBAT_EVENT_TRIGGER",
+        "subtype": "deathChamberKingScript",
+        "val": 2
+      },
+      "chamberArmageddonPower": {
+        "type": "SPECIFIC_SPELL_POWER",
+        "subtype": "core:armageddon",
+        "val": 80
+      }
+    },
+    "graphics": {
+      "animation": "CPLICH.DEF",
+      "iconSmall": "undeadKing/0_67small.png",
+      "iconLarge": "undeadKing/0_67big.png",
+      "missile": {
+        "projectile": "PLICH.DEF",
+        "frameAngles": [
+          90,
+          45,
+          0,
+          -45,
+          -90
+        ],
+        "attackClimaxFrame": 5,
+        "offset": {
+          "lowerX": 0,
+          "lowerY": 0,
+          "middleX": 0,
+          "middleY": 0,
+          "upperX": 0,
+          "upperY": 0
+        }
+      },
+      "mapAttackFromRight": "AvWattak.def:0:130",
+      "mapAttackFromLeft": "AvWattak.def:0:131",
+      "timeBetweenFidgets": 10,
+      "animationTime": {
+        "attack": 1.0,
+        "walk": 1.0,
+        "idle": 10.0
+      }
+    },
+    "sound": {
+      "attack": "PLCHATTK.wav",
+      "defend": "PLCHDFND.wav",
+      "killed": "PLCHKILL.wav",
+      "move": "PLCHMOVE.wav",
+      "shoot": "PLCHSHOT.wav",
+      "wince": "PLCHWNCE.wav"
+    }
+  },
+  "deathChamberKing3": {
+    "name": {
+      "singular": "Undead King",
+      "plural": "Undead Kings"
+    },
+    "description": "Death Chamber boss, WoG tier 3.",
+    "faction": "necropolis",
+    "special": true,
+    "excludeFromRandomization": true,
+    "level": 5,
+    "growth": 0,
+    "cost": {
+      "gold": 0
+    },
+    "attack": 100,
+    "defense": 100,
+    "damage": {
+      "min": 20,
+      "max": 20
+    },
+    "speed": 40,
+    "hitPoints": 200,
+    "shots": 24,
+    "aiValue": 45000,
+    "fightValue": 45000,
+    "abilities": {
+      "undead": {
+        "type": "UNDEAD"
+      },
+      "shooter": {
+        "type": "SHOOTER"
+      },
+      "deathCloud": {
+        "type": "SPELL_LIKE_ATTACK",
+        "subtype": "deathCloud"
+      },
+      "doubleAttack": {
+        "type": "ADDITIONAL_ATTACK",
+        "val": 1
+      },
+      "manyRetaliations": {
+        "type": "UNLIMITED_RETALIATIONS"
+      },
+      "chamberScript": {
+        "type": "COMBAT_EVENT_TRIGGER",
+        "subtype": "deathChamberKingScript",
+        "val": 3
+      },
+      "chamberArmageddonPower": {
+        "type": "SPECIFIC_SPELL_POWER",
+        "subtype": "core:armageddon",
+        "val": 80
+      }
+    },
+    "graphics": {
+      "animation": "CPLICH.DEF",
+      "iconSmall": "undeadKing/0_67small.png",
+      "iconLarge": "undeadKing/0_67big.png",
+      "missile": {
+        "projectile": "PLICH.DEF",
+        "frameAngles": [
+          90,
+          45,
+          0,
+          -45,
+          -90
+        ],
+        "attackClimaxFrame": 5,
+        "offset": {
+          "lowerX": 0,
+          "lowerY": 0,
+          "middleX": 0,
+          "middleY": 0,
+          "upperX": 0,
+          "upperY": 0
+        }
+      },
+      "mapAttackFromRight": "AvWattak.def:0:130",
+      "mapAttackFromLeft": "AvWattak.def:0:131",
+      "timeBetweenFidgets": 10,
+      "animationTime": {
+        "attack": 1.0,
+        "walk": 1.0,
+        "idle": 10.0
+      }
+    },
+    "sound": {
+      "attack": "PLCHATTK.wav",
+      "defend": "PLCHDFND.wav",
+      "killed": "PLCHKILL.wav",
+      "move": "PLCHMOVE.wav",
+      "shoot": "PLCHSHOT.wav",
+      "wince": "PLCHWNCE.wav"
+    }
+  },
+  "deathChamberKing4": {
+    "name": {
+      "singular": "Undead King",
+      "plural": "Undead Kings"
+    },
+    "description": "Death Chamber boss, WoG tier 4.",
+    "faction": "necropolis",
+    "special": true,
+    "excludeFromRandomization": true,
+    "level": 5,
+    "growth": 0,
+    "cost": {
+      "gold": 0
+    },
+    "attack": 100,
+    "defense": 100,
+    "damage": {
+      "min": 22,
+      "max": 22
+    },
+    "speed": 40,
+    "hitPoints": 220,
+    "shots": 24,
+    "aiValue": 60000,
+    "fightValue": 60000,
+    "abilities": {
+      "undead": {
+        "type": "UNDEAD"
+      },
+      "shooter": {
+        "type": "SHOOTER"
+      },
+      "deathCloud": {
+        "type": "SPELL_LIKE_ATTACK",
+        "subtype": "deathCloud"
+      },
+      "doubleAttack": {
+        "type": "ADDITIONAL_ATTACK",
+        "val": 1
+      },
+      "manyRetaliations": {
+        "type": "UNLIMITED_RETALIATIONS"
+      },
+      "chamberScript": {
+        "type": "COMBAT_EVENT_TRIGGER",
+        "subtype": "deathChamberKingScript",
+        "val": 4
+      },
+      "chamberArmageddonPower": {
+        "type": "SPECIFIC_SPELL_POWER",
+        "subtype": "core:armageddon",
+        "val": 80
+      }
+    },
+    "graphics": {
+      "animation": "CPLICH.DEF",
+      "iconSmall": "undeadKing/0_67small.png",
+      "iconLarge": "undeadKing/0_67big.png",
+      "missile": {
+        "projectile": "PLICH.DEF",
+        "frameAngles": [
+          90,
+          45,
+          0,
+          -45,
+          -90
+        ],
+        "attackClimaxFrame": 5,
+        "offset": {
+          "lowerX": 0,
+          "lowerY": 0,
+          "middleX": 0,
+          "middleY": 0,
+          "upperX": 0,
+          "upperY": 0
+        }
+      },
+      "mapAttackFromRight": "AvWattak.def:0:130",
+      "mapAttackFromLeft": "AvWattak.def:0:131",
+      "timeBetweenFidgets": 10,
+      "animationTime": {
+        "attack": 1.0,
+        "walk": 1.0,
+        "idle": 10.0
+      }
+    },
+    "sound": {
+      "attack": "PLCHATTK.wav",
+      "defend": "PLCHDFND.wav",
+      "killed": "PLCHKILL.wav",
+      "move": "PLCHMOVE.wav",
+      "shoot": "PLCHSHOT.wav",
+      "wince": "PLCHWNCE.wav"
+    }
+  },
+  "deathChamberKing5": {
+    "name": {
+      "singular": "Undead King",
+      "plural": "Undead Kings"
+    },
+    "description": "Death Chamber boss, WoG tier 5.",
+    "faction": "necropolis",
+    "special": true,
+    "excludeFromRandomization": true,
+    "level": 5,
+    "growth": 0,
+    "cost": {
+      "gold": 0
+    },
+    "attack": 100,
+    "defense": 100,
+    "damage": {
+      "min": 24,
+      "max": 24
+    },
+    "speed": 40,
+    "hitPoints": 240,
+    "shots": 24,
+    "aiValue": 60000,
+    "fightValue": 60000,
+    "abilities": {
+      "undead": {
+        "type": "UNDEAD"
+      },
+      "shooter": {
+        "type": "SHOOTER"
+      },
+      "deathCloud": {
+        "type": "SPELL_LIKE_ATTACK",
+        "subtype": "deathCloud"
+      },
+      "doubleAttack": {
+        "type": "ADDITIONAL_ATTACK",
+        "val": 1
+      },
+      "manyRetaliations": {
+        "type": "UNLIMITED_RETALIATIONS"
+      },
+      "chamberScript": {
+        "type": "COMBAT_EVENT_TRIGGER",
+        "subtype": "deathChamberKingScript",
+        "val": 5
+      },
+      "chamberArmageddonPower": {
+        "type": "SPECIFIC_SPELL_POWER",
+        "subtype": "core:armageddon",
+        "val": 80
+      }
+    },
+    "graphics": {
+      "animation": "CPLICH.DEF",
+      "iconSmall": "undeadKing/0_67small.png",
+      "iconLarge": "undeadKing/0_67big.png",
+      "missile": {
+        "projectile": "PLICH.DEF",
+        "frameAngles": [
+          90,
+          45,
+          0,
+          -45,
+          -90
+        ],
+        "attackClimaxFrame": 5,
+        "offset": {
+          "lowerX": 0,
+          "lowerY": 0,
+          "middleX": 0,
+          "middleY": 0,
+          "upperX": 0,
+          "upperY": 0
+        }
+      },
+      "mapAttackFromRight": "AvWattak.def:0:130",
+      "mapAttackFromLeft": "AvWattak.def:0:131",
+      "timeBetweenFidgets": 10,
+      "animationTime": {
+        "attack": 1.0,
+        "walk": 1.0,
+        "idle": 10.0
+      }
+    },
+    "sound": {
+      "attack": "PLCHATTK.wav",
+      "defend": "PLCHDFND.wav",
+      "killed": "PLCHKILL.wav",
+      "move": "PLCHMOVE.wav",
+      "shoot": "PLCHSHOT.wav",
+      "wince": "PLCHWNCE.wav"
+    }
+  }
+}

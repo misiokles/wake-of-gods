@@ -3,14 +3,14 @@
         "types": {
             "junkMerchant": {
                 "rewards": {
-                    "modify@22": {
+                    "modify@23": {
                         "creatures": [
                             {
                                 "type": "supremeArchangel",
                                 "amount": 2
                             }
                         ],
-                        "message": "{Junk Merchant}\r\n\r\nAngel Wings! I can trade them for 2 Supreme Archangels. Do we have a deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.level8.trade.angelWings"
                     }
                 }
             }

@@ -1,0 +1,33 @@
+{
+  "stackExperienceClone": {
+    "implements": "combatEvent",
+    "script": "combat/stackExperienceClone",
+    "patches": [],
+    "priority": 100,
+    "stringRegistrations": [
+      "messageSingular",
+      "messagePlural"
+    ],
+    "schema": {
+      "type": "object",
+      "required": [
+        "creature",
+        "messageSingular",
+        "messagePlural"
+      ],
+      "properties": {
+        "creature": {
+          "type": "string"
+        },
+        "messageSingular": {
+          "type": "string"
+        },
+        "messagePlural": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "description": "{Stack Experience Clones} Starting with round two, this stack summons an independent illusory stack every round into an adjacent free hex. Summoned count equals val percent of its living stack size. The clones remain after summoner death."
+  }
+}

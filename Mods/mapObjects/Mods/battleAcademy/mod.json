@@ -1,39 +1,45 @@
 {
-    "name": "Battle Academy (Script 16)",
-    "description": "This module enables Battle Academy object.",
-    "modType": "Objects",
-    "author": "WoG Team",
-    "contact": "http://forum.vcmi.eu/index.php",
-    "version": "1.0",
-    "objects": [
-        "config/mapObjects/battleAcademy.json"
-    ],
-    "chinese": {
-        "name": "地图物体",
-        "description": "这个模组启用新地图物体。"
-    },
-    "czech": {
-        "name": "Objekty na mapě",
-        "description": "Tento modul aktivuje nové objekty na mapě."
-    },
-    "polish": {
-        "name": "Obiekty na mapie",
-        "description": "Ten moduł dodaje nowe obiekty na mapie."
-    },
-    "portuguese": {
-        "name": "Objetos do Mapa",
-        "description": "Este módulo ativa novos objetos de mapa."
-    },
-    "russian": {
-        "name": "Объекты на карте",
-        "description": "Этот модуль позволяет создавать новые объекты на карте."
-    },
-    "ukrainian": {
-        "name": "Об’єкти мапи",
-        "description": "Цей модуль додає нові об’єкти мапи."
-    },
-    "vietnamese": {
-        "name": "Đối tượng bản đồ",
-        "description": "Mô-đun này bật các đối tượng mới trên bản đồ."
-    }
+  "name": "Battle Academy (Script 16)",
+  "description": "This module enables Battle Academy object.",
+  "modType": "Objects",
+  "author": "WoG Team",
+  "contact": "http://forum.vcmi.eu/index.php",
+  "version": "1.0.1",
+  "objects": [
+    "config/mapObjects/battleAcademy.json"
+  ],
+  "chinese": {
+    "name": "地图物体",
+    "description": "这个模组启用新地图物体。"
+  },
+  "czech": {
+    "name": "Objekty na mapě",
+    "description": "Tento modul aktivuje nové objekty na mapě."
+  },
+  "polish": {
+    "name": "Akademia Wojenna (Skrypt 16)",
+    "description": "Szkolenie bohaterów i sprzedaż wyposażenia.",
+    "translations": [
+      "translations/polish.json"
+    ]
+  },
+  "portuguese": {
+    "name": "Objetos do Mapa",
+    "description": "Este módulo ativa novos objetos de mapa."
+  },
+  "russian": {
+    "name": "Объекты на карте",
+    "description": "Этот модуль позволяет создавать новые объекты на карте."
+  },
+  "ukrainian": {
+    "name": "Об’єкти мапи",
+    "description": "Цей модуль додає нові об’єкти мапи."
+  },
+  "vietnamese": {
+    "name": "Đối tượng bản đồ",
+    "description": "Mô-đun này bật các đối tượng mới trên bản đồ."
+  },
+  "translations": [
+    "translations/english.json"
+  ]
 }

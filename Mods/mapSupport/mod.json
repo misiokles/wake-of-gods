@@ -9,7 +9,8 @@
         "min": "1.6.0"
     },
     "depends": [
-        "wake-of-gods.artifacts",
+        "wake-of-gods.altar-of-transformation",
+		"wake-of-gods.artifacts",
         "wake-of-gods.creaturebanks",
         "wake-of-gods.creatures",
         "wake-of-gods.level8units",
@@ -19,9 +20,13 @@
         "wake-of-gods.mapobjects.arcaneTower",
         "wake-of-gods.mapobjects.artificer",
         "wake-of-gods.mapobjects.battleAcademy",
+        "wake-of-gods.mapobjects.deathChamber",
         "wake-of-gods.mapobjects.junkMerchant",
+        "wake-of-gods.mapobjects.forgottenShrine",
         "wake-of-gods.mapobjects.magicMushrooms",
         "wake-of-gods.mapobjects.mirrorOfTheHomeWay",
+        "wake-of-gods.mapobjects.new-chest-i",
+        "wake-of-gods.mapobjects.new-chest-ii",
         "wake-of-gods.mapobjects.palaceOfDreams",
         "wake-of-gods.mapobjects.potionFountains",
         "wake-of-gods.mapobjects.schoolOfWizardry",
@@ -94,457 +99,31 @@
                     "ornateMinotaursHorn": 170
                 },
                 "objects": {
-                    "zh4obj01": [
-                        63,
-                        1
-                    ],
-                    "venusFountain": [
-                        63,
-                        2
-                    ],
-                    "zobj001": [
-                        63,
-                        3
-                    ],
-                    "zobj002": [
-                        63,
-                        4
-                    ],
-                    "zobj003": [
-                        63,
-                        5
-                    ],
-                    "zobj004": [
-                        63,
-                        6
-                    ],
-                    "zobj005": [
-                        63,
-                        7
-                    ],
-                    "junkMerchant": [
-                        63,
-                        8
-                    ],
-                    "arcaneTower": [
-                        63,
-                        9
-                    ],
-                    "zsphnx10": [
-                        63,
-                        10
-                    ],
-                    "zsphnx11": [
-                        63,
-                        11
-                    ],
-                    "zsphnx12": [
-                        63,
-                        12
-                    ],
-                    "zsphnx13": [
-                        63,
-                        13
-                    ],
-                    "zobj009": [
-                        63,
-                        15
-                    ],
-                    "zobj010": [
-                        63,
-                        16
-                    ],
-                    "zobj011": [
-                        63,
-                        17
-                    ],
-                    "zobj013": [
-                        63,
-                        19
-                    ],
-                    "zobj014": [
-                        63,
-                        20
-                    ],
-                    "zobj015": [
-                        63,
-                        21
-                    ],
-                    "zobj016": [
-                        63,
-                        22
-                    ],
-                    "zobj019": [
-                        63,
-                        25
-                    ],
-                    "zobj020": [
-                        63,
-                        26
-                    ],
-                    "zobj021": [
-                        63,
-                        27
-                    ],
-                    "zobj022": [
-                        63,
-                        28
-                    ],
-                    "zobj024": [
-                        63,
-                        30
-                    ],
-                    "zobj025": [
-                        63,
-                        31
-                    ],
-                    "battleAcademy": [
-                        63,
-                        32
-                    ],
-                    "zobj028": [
-                        63,
-                        34
-                    ],
-                    "zobj029": [
-                        63,
-                        35
-                    ],
-                    "zobj030": [
-                        63,
-                        36
-                    ],
-                    "zobj031": [
-                        63,
-                        37
-                    ],
-                    "zobj032": [
-                        63,
-                        38
-                    ],
-                    "zobj033": [
-                        63,
-                        39
-                    ],
-                    "zobj034": [
-                        63,
-                        40
-                    ],
-                    "zobj035": [
-                        63,
-                        41
-                    ],
-                    "zobj036": [
-                        63,
-                        42
-                    ],
-                    "zobj037": [
-                        63,
-                        43
-                    ],
-                    "zobj038": [
-                        63,
-                        44
-                    ],
-                    "zobj039": [
-                        63,
-                        45
-                    ],
-                    "zobj040": [
-                        63,
-                        46
-                    ],
-                    "zobj041": [
-                        63,
-                        47
-                    ],
-                    "valhallasFountain": [
-                        63,
-                        48
-                    ],
-                    "zobj043": [
-                        63,
-                        49
-                    ],
-                    "wogskull": [
-                        63,
-                        50
-                    ],
-                    "artificer": [
-                        63,
-                        52
-                    ],
-                    "zlwork1": [
-                        63,
-                        53
-                    ],
-                    "zmark1": [
-                        63,
-                        54
-                    ],
-                    "schoolOfWizardry": [
-                        63,
-                        62
-                    ],
-                    "zobj044": [
-                        63,
-                        63
-                    ],
-                    "zobj049": [
-                        63,
-                        64
-                    ],
-                    "zobj050": [
-                        63,
-                        65
-                    ],
                     "airMagicMushroom": [
                         63,
                         14
-                    ],
-                    "waterMagicMushroom": [
-                        63,
-                        18
-                    ],
-                    "earthMagicMushroom": [
-                        63,
-                        23
                     ],
                     "almsHouse": [
                         63,
                         24
                     ],
-                    "fireMagicMushroom": [
+                    "arcaneTower": [
                         63,
-                        29
+                        9
                     ],
-                    "palaceOfDreams": [
+                    "artificer": [
                         63,
-                        33
+                        52
                     ],
-                    "mirrorOfTheHomeWay": [
-                        63,
-                        66
-                    ],
-                    "shrineOfMagicLevel3": {
-                        "wogShrineOfMagicLevel3": [
-                            90,
-                            1
+                    "barrel": {
+                        "treasureChest": [
+                            101,
+                            6
                         ]
                     },
-                    "idolOfFortune": {
-                        "wogIdolOfFortune": [
-                            38,
-                            1
-                        ]
-                    },
-                    "learningStone": {
-                        "wogLearningStone": [
-                            100,
-                            1
-                        ]
-                    },
-                    "witchHut": {
-                        "wogWitchHut": [
-                            113,
-                            1
-                        ]
-                    },
-                    "magicWell": {
-                        "wogMagicWell": [
-                            49,
-                            1
-                        ]
-                    },
-                    "treeOfKnowledge": {
-                        "wogTreeOfKnowledge": [
-                            102,
-                            0
-                        ]
-                    },
-                    "tavern": {
-                        "wogTavern": [
-                            95,
-                            1
-                        ]
-                    },
-                    "subterraneanGate": {
-                        "wogSubterraneanGate": [
-                            103,
-                            1
-                        ]
-                    },
-                    "libraryOfEnlightenment": {
-                        "wogLibraryOfEnlightenment": [
-                            41,
-                            1
-                        ]
-                    },
-                    "zrain00": [
-                        40,
-                        2
-                    ],
-                    "zsnow001": [
-                        40,
-                        0
-                    ],
-                    "monolithTwoWay": {
-                        "monolith8wog": [
-                            45,
-                            7
-                        ]
-                    },
-                    "zzzz": [
-                        207,
-                        1
-                    ],
-                    "zflame1": [
-                        40,
-                        0
-                    ],
-                    "zdec0002": [
-                        40,
-                        0
-                    ],
-                    "zdec0003": [
-                        40,
-                        0
-                    ],
-                    "zdec0004": [
-                        40,
-                        0
-                    ],
-                    "lavam": [
-                        40,
-                        1
-                    ],
-                    "zdec0001": [
-                        40,
-                        0
-                    ],
-                    "zdec1001": [
-                        40,
-                        0
-                    ],
-                    "zdec0005": [
-                        40,
-                        0
-                    ],
-                    "zdec0007": [
-                        40,
-                        0
-                    ],
-                    "zdec0008": [
-                        40,
-                        0
-                    ],
-                    "zdec0009": [
-                        40,
-                        0
-                    ],
-                    "zdec0010": [
-                        40,
-                        0
-                    ],
-                    "zdec0011": [
-                        40,
-                        0
-                    ],
-                    "zdec0012": [
-                        40,
-                        0
-                    ],
-                    "zwall001": [
-                        40,
-                        0
-                    ],
-                    "zwall002": [
-                        40,
-                        0
-                    ],
-                    "zwall003": [
-                        40,
-                        0
-                    ],
-                    "wall1": [
-                        40,
-                        0
-                    ],
-                    "wall2": [
-                        40,
-                        0
-                    ],
-                    "zwfall01": [
-                        40,
-                        0
-                    ],
-                    "zwfall02": [
-                        40,
-                        0
-                    ],
-                    "zwfall03": [
-                        40,
-                        0
-                    ],
-                    "zcave1": [
+                    "battleAcademy": [
                         63,
-                        57
-                    ],
-                    "zcave2": [
-                        63,
-                        58
-                    ],
-                    "zcave3": [
-                        63,
-                        59
-                    ],
-                    "zcave4": [
-                        63,
-                        60
-                    ],
-                    "zcave5": [
-                        63,
-                        61
-                    ],
-                    "z358o9": [
-                        63,
-                        67
-                    ],
-                    "z358o10": [
-                        63,
-                        68
-                    ],
-                    "zyzop1": [
-                        63,
-                        55
-                    ],
-                    "zyzop2": [
-                        63,
-                        56
-                    ],
-                    "z358o11": [
-                        63,
-                        69
-                    ],
-                    "z358o12": [
-                        63,
-                        70
-                    ],
-                    "z358o13": [
-                        63,
-                        71
-                    ],
-                    "z358o14": [
-                        63,
-                        72
-                    ],
-                    "z358o15": [
-                        63,
-                        73
-                    ],
-                    "z358o16": [
-                        63,
-                        74
+                        32
                     ],
                     "catap_ml": [
                         63,
@@ -554,44 +133,6 @@
                         63,
                         77
                     ],
-                    "z358o8": [
-                        63,
-                        78
-                    ],
-                    "barrel": {
-                        "treasureChest": [
-                            101,
-                            6
-                        ]
-                    },
-                    "treasureChest": {
-                        "zchst1": [
-                            101,
-                            1
-                        ],
-                        "zchst2": [
-                            101,
-                            2
-                        ],
-                        "zchst3": [
-                            101,
-                            3
-                        ],
-                        "zchst4": [
-                            101,
-                            4
-                        ],
-                        "zchst5": [
-                            101,
-                            5
-                        ]
-                    },
-                    "resource": {
-                        "mithril": [
-                            79,
-                            7
-                        ]
-                    },
                     "creatureBank": {
                         "huntingLodge": [
                             16,
@@ -731,7 +272,475 @@
                             17,
                             100
                         ]
-                    }
+                    },
+                    "deathChamber": [
+                        63,
+                        15
+                    ],
+                    "earthMagicMushroom": [
+                        63,
+                        23
+                    ],
+                    "fireMagicMushroom": [
+                        63,
+                        29
+                    ],
+                    "forgottenShrine": [
+                        63,
+                        22
+                    ],
+                    "idolOfFortune": {
+                        "wogIdolOfFortune": [
+                            38,
+                            1
+                        ]
+                    },
+                    "junkMerchant": [
+                        63,
+                        8
+                    ],
+                    "lavam": [
+                        40,
+                        1
+                    ],
+                    "learningStone": {
+                        "wogLearningStone": [
+                            100,
+                            1
+                        ]
+                    },
+                    "libraryOfEnlightenment": {
+                        "wogLibraryOfEnlightenment": [
+                            41,
+                            1
+                        ]
+                    },
+                    "magicWell": {
+                        "wogMagicWell": [
+                            49,
+                            1
+                        ]
+                    },
+                    "mirrorOfTheHomeWay": [
+                        63,
+                        66
+                    ],
+                    "monolithTwoWay": {
+                        "monolith8wog": [
+                            45,
+                            7
+                        ]
+                    },
+                    "newChestGold": {
+                        "newChestGold": [
+                            101,
+                            1
+                        ]
+                    },
+                    "newChestII": {
+                        "newChestII": [
+                            101,
+                            5
+                        ]
+                    },
+                    "palaceOfDreams": [
+                        63,
+                        33
+                    ],
+                    "resource": {
+                        "mithril": [
+                            79,
+                            7
+                        ]
+                    },
+                    "schoolOfWizardry": [
+                        63,
+                        62
+                    ],
+                    "shrineOfMagicLevel3": {
+                        "wogShrineOfMagicLevel3": [
+                            90,
+                            1
+                        ]
+                    },
+                    "subterraneanGate": {
+                        "wogSubterraneanGate": [
+                            103,
+                            1
+                        ]
+                    },
+                    "tavern": {
+                        "wogTavern": [
+                            95,
+                            1
+                        ]
+                    },
+                    "treasureChest": {
+                        "zchst2": [
+                            101,
+                            2
+                        ],
+                        "zchst3": [
+                            101,
+                            3
+                        ],
+                        "zchst4": [
+                            101,
+                            4
+                        ]
+                    },
+                    "treeOfKnowledge": {
+                        "wogTreeOfKnowledge": [
+                            102,
+                            0
+                        ]
+                    },
+                    "valhallasFountain": [
+                        63,
+                        48
+                    ],
+                    "venusFountain": [
+                        63,
+                        2
+                    ],
+                    "wall1": [
+                        40,
+                        0
+                    ],
+                    "wall2": [
+                        40,
+                        0
+                    ],
+                    "waterMagicMushroom": [
+                        63,
+                        18
+                    ],
+                    "witchHut": {
+                        "wogWitchHut": [
+                            113,
+                            1
+                        ]
+                    },
+                    "wogskull": [
+                        63,
+                        50
+                    ],
+                    "z358o10": [
+                        63,
+                        68
+                    ],
+                    "z358o11": [
+                        63,
+                        69
+                    ],
+                    "z358o12": [
+                        63,
+                        70
+                    ],
+                    "z358o13": [
+                        63,
+                        71
+                    ],
+                    "z358o14": [
+                        63,
+                        72
+                    ],
+                    "z358o15": [
+                        63,
+                        73
+                    ],
+                    "z358o16": [
+                        63,
+                        74
+                    ],
+                    "z358o8": [
+                        63,
+                        78
+                    ],
+                    "z358o9": [
+                        63,
+                        67
+                    ],
+                    "zcave1": [
+                        63,
+                        57
+                    ],
+                    "zcave2": [
+                        63,
+                        58
+                    ],
+                    "zcave3": [
+                        63,
+                        59
+                    ],
+                    "zcave4": [
+                        63,
+                        60
+                    ],
+                    "zcave5": [
+                        63,
+                        61
+                    ],
+                    "zdec0001": [
+                        40,
+                        0
+                    ],
+                    "zdec0002": [
+                        40,
+                        0
+                    ],
+                    "zdec0003": [
+                        40,
+                        0
+                    ],
+                    "zdec0004": [
+                        40,
+                        0
+                    ],
+                    "zdec0005": [
+                        40,
+                        0
+                    ],
+                    "zdec0007": [
+                        40,
+                        0
+                    ],
+                    "zdec0008": [
+                        40,
+                        0
+                    ],
+                    "zdec0009": [
+                        40,
+                        0
+                    ],
+                    "zdec0010": [
+                        40,
+                        0
+                    ],
+                    "zdec0011": [
+                        40,
+                        0
+                    ],
+                    "zdec0012": [
+                        40,
+                        0
+                    ],
+                    "zdec1001": [
+                        40,
+                        0
+                    ],
+                    "zflame1": [
+                        40,
+                        0
+                    ],
+                    "zh4obj01": [
+                        63,
+                        1
+                    ],
+                    "zlwork1": [
+                        63,
+                        53
+                    ],
+                    "zmark1": [
+                        63,
+                        54
+                    ],
+                    "zobj001": [
+                        63,
+                        3
+                    ],
+                    "zobj002": [
+                        63,
+                        4
+                    ],
+                    "zobj003": [
+                        63,
+                        5
+                    ],
+                    "zobj004": [
+                        63,
+                        6
+                    ],
+                    "zobj005": [
+                        63,
+                        7
+                    ],
+                    "zobj010": [
+                        63,
+                        16
+                    ],
+                    "zobj011": [
+                        63,
+                        17
+                    ],
+                    "zobj013": [
+                        63,
+                        19
+                    ],
+                    "altarOfTransformation": [
+                        63,
+                        20
+                    ],
+                    "zobj015": [
+                        63,
+                        21
+                    ],
+                    "zobj019": [
+                        63,
+                        25
+                    ],
+                    "zobj020": [
+                        63,
+                        26
+                    ],
+                    "zobj021": [
+                        63,
+                        27
+                    ],
+                    "zobj022": [
+                        63,
+                        28
+                    ],
+                    "zobj024": [
+                        63,
+                        30
+                    ],
+                    "zobj025": [
+                        63,
+                        31
+                    ],
+                    "zobj028": [
+                        63,
+                        34
+                    ],
+                    "zobj029": [
+                        63,
+                        35
+                    ],
+                    "zobj030": [
+                        63,
+                        36
+                    ],
+                    "zobj031": [
+                        63,
+                        37
+                    ],
+                    "zobj032": [
+                        63,
+                        38
+                    ],
+                    "zobj033": [
+                        63,
+                        39
+                    ],
+                    "zobj034": [
+                        63,
+                        40
+                    ],
+                    "zobj035": [
+                        63,
+                        41
+                    ],
+                    "zobj036": [
+                        63,
+                        42
+                    ],
+                    "zobj037": [
+                        63,
+                        43
+                    ],
+                    "zobj038": [
+                        63,
+                        44
+                    ],
+                    "zobj039": [
+                        63,
+                        45
+                    ],
+                    "zobj040": [
+                        63,
+                        46
+                    ],
+                    "zobj041": [
+                        63,
+                        47
+                    ],
+                    "zobj043": [
+                        63,
+                        49
+                    ],
+                    "zobj044": [
+                        63,
+                        63
+                    ],
+                    "zobj049": [
+                        63,
+                        64
+                    ],
+                    "zobj050": [
+                        63,
+                        65
+                    ],
+                    "zrain00": [
+                        40,
+                        2
+                    ],
+                    "zsnow001": [
+                        40,
+                        0
+                    ],
+                    "zsphnx10": [
+                        63,
+                        10
+                    ],
+                    "zsphnx11": [
+                        63,
+                        11
+                    ],
+                    "zsphnx12": [
+                        63,
+                        12
+                    ],
+                    "zsphnx13": [
+                        63,
+                        13
+                    ],
+                    "zwall001": [
+                        40,
+                        0
+                    ],
+                    "zwall002": [
+                        40,
+                        0
+                    ],
+                    "zwall003": [
+                        40,
+                        0
+                    ],
+                    "zwfall01": [
+                        40,
+                        0
+                    ],
+                    "zwfall02": [
+                        40,
+                        0
+                    ],
+                    "zwfall03": [
+                        40,
+                        0
+                    ],
+                    "zyzop1": [
+                        63,
+                        55
+                    ],
+                    "zyzop2": [
+                        63,
+                        56
+                    ],
+                    "zzzz": [
+                        207,
+                        1
+                    ]
                 },
                 "templates": {
                     "artifacts/zart158.def": "zart158.def",
@@ -822,7 +831,6 @@
                     "creatures/supremeArchangel/ZM150Z.def": "ZM150Z.def",
                     "creatures/supremeArchangel/zmm150z.def": "zmm150z.def",
                     "objects/zobj025.def": "zobj025.def",
-                    "mapObjects/zobj026.def": "zobj026.def",
                     "objects/zobj028.def": "zobj028.def",
                     "objects/zobj029.def": "zobj029.def",
                     "objects/zobj041.def": "zobj041.def",
@@ -831,13 +839,10 @@
                     "objects/zobj003.def": "zobj003.def",
                     "objects/zobj004.def": "zobj004.def",
                     "objects/zobj005.def": "zobj005.def",
-                    "objects/zobj009.def": "zobj009.def",
                     "objects/zobj010.def": "zobj010.def",
                     "objects/zobj011.def": "zobj011.def",
                     "objects/zobj013.def": "zobj013.def",
-                    "objects/zobj014.def": "zobj014.def",
                     "objects/zobj015.def": "zobj015.def",
-                    "objects/zobj016.def": "zobj016.def",
                     "objects/zobj019_1.def": "zobj019_1.def",
                     "objects/zobj019.def": "zobj019.def",
                     "objects/zobj020_1.def": "zobj020_1.def",
@@ -861,12 +866,10 @@
                     "objects/zobj049.def": "zobj049.def",
                     "objects/zobj050.def": "zobj050.def",
                     "objects/zlwork1.def": "zlwork1.def",
-                    "mapObjects/zartif1.def": "zartif1.def",
                     "objects/zmark1.def": "zmark1.def",
                     "objects/zh4obj01.def": "zh4obj01.def",
                     "objects/skull.def": "skull.def",
                     "objects/TPTempl1.def": "TPTempl1.def",
-                    "mapObjects/ztower1.def": "ztower1.def",
                     "objects/zchst6.def": "zchst6.def",
                     "objects/zdent001.def": "zdent001.def",
                     "objects/zfntng01.def": "zfntng01.def",
@@ -888,11 +891,9 @@
                     "objects/zobj048.def": "zobj048.def",
                     "objects/z358o5.def": "z358o5.def",
                     "objects/z358o7.def": "z358o7.def",
-                    "objects/zchst1.def": "zchst1.def",
                     "objects/zchst2.def": "zchst2.def",
                     "objects/zchst3.def": "zchst3.def",
                     "objects/zchst4.def": "zchst4.def",
-                    "objects/zchst5.def": "zchst5.def",
                     "objects/z358o6.def": "z358o6.def",
                     "objects/z358o4.def": "z358o4.def",
                     "objects/zdec0013.def": "zdec0013.def",
@@ -968,6 +969,14 @@
                     "mapObjects/zsphnx15.def": "zsphnx15.def",
                     "mapObjects/zobj042.def": "zobj042.def",
                     "mapObjects/zh4obj02.def": "zh4obj02.def",
+                    "mapObjects/zobj026.def": "zobj026.def",
+                    "mapObjects/zobj009.def": "zobj009.def",
+                    "mapObjects/zartif1.def": "zartif1.def",
+                    "mapObjects/ztower1.def": "ztower1.def",
+                    "mapObjects/zobj016.def": "zobj016.def",
+                    "mapObjects/zchst1.def": "zchst1.def",
+                    "mapObjects/zchst5.def": "zchst5.def",
+					"mapObjects/zobj014.def": "zobj014.def",
                     "creatureBanks/ZCrBGod4.def": "ZCrBGod4.def",
                     "creatureBanks/ZCrBGod3.def": "ZCrBGod3.def",
                     "creatureBanks/ZCrBGod1.def": "ZCrBGod1.def",

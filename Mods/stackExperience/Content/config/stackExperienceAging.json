@@ -1,0 +1,14 @@
+{
+  "stackExperienceAging": {
+    "implements": "combatEvent",
+    "script": "combat/stackExperienceAging",
+    "patches": [],
+    "priority": 0,
+    "schema": {
+      "type": "object",
+      "properties": {},
+      "additionalProperties": false
+    },
+    "description": "{Aging} Has an independent ${val}% chance to age the attacked stack."
+  }
+}

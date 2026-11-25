@@ -4,7 +4,7 @@
     "modType": "Objects",
     "author": "WoG Team",
     "contact": "http://forum.vcmi.eu/index.php",
-    "version": "1.0",
+    "version": "1.0.3",
     "objects": [
         "config/mapObjects/almsHouse.json"
     ],
@@ -17,8 +17,11 @@
         "description": "Tento modul aktivuje nové objekty na mapě."
     },
     "polish": {
-        "name": "Obiekty na mapie",
-        "description": "Ten moduł dodaje nowe obiekty na mapie."
+        "name": "Dom jałmużny (Script 18)",
+        "description": "Dodaje dom jałmużny.",
+        "translations": [
+            "translations/polish.json"
+        ]
     },
     "portuguese": {
         "name": "Objetos do Mapa",
@@ -35,5 +38,11 @@
     "vietnamese": {
         "name": "Đối tượng bản đồ",
         "description": "Mô-đun này bật các đối tượng mới trên bản đồ."
-    }
+    },
+    "compatibility": {
+        "min": "1.8.0"
+    },
+    "translations": [
+        "translations/english.json"
+    ]
 }

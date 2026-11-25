@@ -6,13 +6,17 @@ The Artificer turns old artifacts into better ones, swaps similar relics or comb
 
 - When you enter, the workshop presents **one offer you can currently afford**. Declining costs nothing and lets you look for a different eligible offer on a later interaction.
 - Every successful trade consumes **100 movement points** in addition to gold and, where required, Mithril.
-- **The first successful service of the day** uses the prices below. **Further services on the same day cost double** the gold and Mithril, but still 100 movement points each.
+- **One successful service per hero, per workshop, per day.** After accepting a trade, return the next day. Repeated visits after a completed trade are free and do not trigger another transaction. You need at least 100 remaining movement points to receive an offer.
 - New eligible offers can be made available by adding the optional **Mithril** or **Commanders** mods.
 - With Mithril disabled there are **80 gold-only recipes**. With Mithril enabled **39 additional recipes** are unlocked, for **119** in total. The Dragon Eye Ring is a further optional recipe when *both* Mithril and Commanders are enabled (**120** total).
 
+## Dialogue and feedback (1.0.2)
+
+The workshop uses the original WoG-style offer wording. If no offer can be accepted, it explains a missing currency for a matching recipe, insufficient movement, or the absence of eligible artifacts. After a successful trade, a repeat visit reports that the Artificer is tired. The original separate success window is not available in the current VCMI rewardable-object configuration. The transaction rules above are unchanged.
+
 ## Upgrade chains — each step is a separate trade
 
-You must own the artifact on the left to receive the artifact on the right. The price in the table is for *one normal-priced service*; later services in the same day are twice as expensive.
+You must own the artifact on the left to receive the artifact on the right. The price in the table is the fixed price of one service.
 
 | Surrender | Receive | Normal price |
 | --- | --- | --- |
@@ -47,7 +51,7 @@ You must own the artifact on the left to receive the artifact on the right. The 
 | Dragonbone Greaves | Dragon Wing Tabard | 2,000 gold |
 | Dragon Wing Tabard | Necklace Of Dragonteeth | 3,000 gold |
 | Necklace Of Dragonteeth | Crown Of Dragontooth | 4,000 gold |
-| Still Eye Of The Dragon | Pendant Of Courage | 5,000 gold + 1 mithril |
+| Still Eye Of The Dragon | Pendant Of Courage | 6,000 gold + 1 mithril |
 | Amulet Of The Undertaker | Vampires Cowl | 1,500 gold |
 | Vampires Cowl | Dead Mans Boots | 3,000 gold |
 | Garniture Of Interference | Surcoat Of Counterpoise | 1,500 gold |
@@ -76,7 +80,7 @@ You must own the artifact on the left to receive the artifact on the right. The 
 | Torso Of Legion | Arms Of Legion | 2,000 gold |
 | Arms Of Legion | Head Of Legion | 2,500 gold |
 
-If you follow an upgrade chain for several steps in one day, remember that the second and every subsequent trade costs twice the amount shown.
+Each step in an upgrade chain is a separate trade. At the same workshop, wait until the next day before using the same hero for another step.
 
 ## Exchanges — choose the direction carefully
 
@@ -154,6 +158,10 @@ You must possess **every** artifact in the required set; all ingredients are con
 
 ## Optional Commander combination
 
-With **Commanders and Mithril enabled**, combine **Quiet Eye of the Dragon + Still Eye of the Dragon** into the **Dragon Eye Ring** for **5,000 gold and 5 Mithril** (or **10,000 gold and 10 Mithril** if this is a later service on the same day). The ring is intended for a Commander and provides dragon-related combat abilities.
+With **Commanders and Mithril enabled**, combine **Quiet Eye of the Dragon + Still Eye of the Dragon** into the **Dragon Eye Ring** for **5,000 gold and 5 Mithril**. The ring is intended for a Commander and provides dragon-related combat abilities.
 
 Prices including Mithril in the tables are available only if the Mithril submod is enabled. No Mithril is charged for gold-only recipes.
+
+
+## Version 1.0.3 audit
+Corrected Still Eye of the Dragon -> Pendant of Courage to 6,000 gold + 1 Mithril (original ERM FU171), including both affordability and shortage messages. Original ERM is now archived alongside ERT. All 120 recipe definitions checked against the baseline ERM price tables and artifact IDs (59 upgrades, 58 exchanges, 3 combinations); all input, movement and resource thresholds checked statically. The original second service at double cost, dynamic price adjustments, equipped-only restriction and banned-output filtering are not reproduced by this JSON implementation. The Polish input artifact names remain English as previously documented; the output uses the localized native placeholder. Optional recipes were not loaded in the current runtime because Mithril and Commanders are absent.

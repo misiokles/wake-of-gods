@@ -1,81 +1,144 @@
 {
-    "name": "Messengers and Emissaries units",
-    "description": "Adds Messengers and Emissaries of Gods units for WoG.\r\n ,",
-    "modType": "Creatures",
-    "author": "WoG Team",
-    "contact": "http://forum.vcmi.eu/index.php",
-    "version": "1.0",
-    "creatures": [
-        "config/creatures/fireMessenger.json",
-        "config/creatures/earthMessenger.json",
-        "config/creatures/airMessenger.json",
-        "config/creatures/waterMessenger.json",
-        "config/creatures/emissaryOfWar.json",
-        "config/creatures/emissaryOfPeace.json",
-        "config/creatures/emissaryOfMana.json",
-        "config/creatures/emissaryOfLore.json",
-        "config/creatures/stackExperience/messengers.json",
-        "config/creatures/stackExperience/emissaries.json"
-    ],
-    "objects": [
-        "config/dwellings/messengers.json",
-        "config/creatureBanks/martialSpiritPalace.json",
-        "config/creatureBanks/pacificationCitadel.json",
-        "config/creatureBanks/magiciansMonastery.json",
-        "config/creatureBanks/legendsLibrary.json"
-    ],
-    "scripts": {
-        "emissaryRetreat": {
-            "implements": "combatEvent",
-            "script": "combat/emissaryRetreat",
-            "patches": [],
-            "priority": 0,
-            "schema": {
-                "properties": {},
-                "additionalProperties": false
-            },
-            "description": ""
+  "name": "Messengers and Emissaries units",
+  "description": "Adds Messengers and Emissaries of Gods units for WoG.\r\n ,",
+  "modType": "Creatures",
+  "author": "WoG Team",
+  "contact": "http://forum.vcmi.eu/index.php",
+  "version": "1.0",
+  "creatures": [
+    "config/creatures/fireMessenger.json",
+    "config/creatures/earthMessenger.json",
+    "config/creatures/airMessenger.json",
+    "config/creatures/waterMessenger.json",
+    "config/creatures/emissaryOfWar.json",
+    "config/creatures/emissaryOfPeace.json",
+    "config/creatures/emissaryOfMana.json",
+    "config/creatures/emissaryOfLore.json",
+    "config/creatures/stackExperience/messengers.json",
+    "config/creatures/stackExperience/emissaries.json"
+  ],
+  "objects": [
+    "config/dwellings/messengers.json",
+    "config/creatureBanks/martialSpiritPalace.json",
+    "config/creatureBanks/pacificationCitadel.json",
+    "config/creatureBanks/magiciansMonastery.json",
+    "config/creatureBanks/legendsLibrary.json"
+  ],
+  "scripts": {
+    "emissaryRetreat": {
+      "implements": "combatEvent",
+      "script": "combat/emissaryRetreat",
+      "patches": [],
+      "priority": 0,
+      "schema": {
+        "properties": {},
+        "additionalProperties": false
+      },
+      "description": ""
+    },
+    "core:damageCalculator": {
+      "patches": {
+        "append": "damage/emissaryDamageCap.lua"
+      }
+    },
+    "stackExperienceAttackSummon": {
+      "implements": "combatEvent",
+      "script": "combat/stackExperienceAttackSummon",
+      "patches": [],
+      "priority": 100,
+      "stringRegistrations": [
+        "messageSingular",
+        "messagePlural"
+      ],
+      "schema": {
+        "type": "object",
+        "required": [
+          "creature",
+          "messageSingular",
+          "messagePlural"
+        ],
+        "properties": {
+          "creature": {
+            "type": "string"
+          },
+          "messageSingular": {
+            "type": "string"
+          },
+          "messagePlural": {
+            "type": "string"
+          },
+          "fixedCount": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 10000
+          }
         },
-        "core:damageCalculator": {
-            "patches": {
-                "append": "damage/emissaryDamageCap.lua"
-            }
-        }
+        "additionalProperties": false
+      },
+      "description": "{Elemental Summoning} Has a ${val}% chance before an attack to summon 12 temporary Elementals."
     },
-    "chinese": {
-        "name": "元素使者和神使单位",
-        "description": "为WoG添加元素使者和神使单位。"
-    },
-    "czech": {
-        "name": "Jednotky poslů",
-        "description": "Přidává jednotky nové jednotky poslů"
-    },
-    "english": {
-        "translations": [
-            "config/translations/english.json"
-        ]
-    },
-    "polish": {
-        "name": "Jednostki Posłańców i Emisariuszy",
-        "description": "Dodaje jednostki Posłańców i Emisariuszy Bogów z WoG.",
-        "translations": [
-            "config/translations/polish.json"
-        ]
-    },
-    "portuguese": {
-        "name": "Unidades de Mensageiros e Emissários",
-        "description": "Adiciona as unidades Mensageiros e Emissários dos Deuses para o WoG."
-    },
-    "russian": {
-        "name": "Отряды посыльных и эмиссаров",
-        "description": "Добавляет в WoG юнитов \"Вестники\" и \"эмиссары богов\".\n ,"
-    },
-    "ukrainian": {
-        "name": "Посланці та емісари",
-        "description": "Додає до WoG Посланців та Емісарів богів."
-    },
-    "vietnamese": {
-        "name": "Đơn vị Messengers và Emissaries",
-        "description": "Thêm các đơn vị Messengers và Emissaries từ bản WoG.\r\n ,"
+    "stackExperienceFireWall": {
+      "implements": "combatEvent",
+      "script": "combat/stackExperienceFireWall",
+      "patches": [],
+      "priority": 0,
+      "stringRegistrations": [
+        "messageSingular",
+        "messagePlural"
+      ],
+      "schema": {
+        "type": "object",
+        "required": [
+          "messageSingular",
+          "messagePlural"
+        ],
+        "properties": {
+          "messageSingular": {
+            "type": "string"
+          },
+          "messagePlural": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "description": "{Fire Wall} Has a ${val}% chance after a melee attack to create a Basic Wall of Fire (spell power 3) on and beside the surviving target."
     }
+  },
+  "chinese": {
+    "name": "元素使者和神使单位",
+    "description": "为WoG添加元素使者和神使单位。"
+  },
+  "czech": {
+    "name": "Jednotky poslů",
+    "description": "Přidává jednotky nové jednotky poslů"
+  },
+  "english": {
+    "translations": [
+      "config/translations/english.json"
+    ]
+  },
+  "polish": {
+    "name": "Jednostki Posłańców i Emisariuszy",
+    "description": "Dodaje jednostki Posłańców i Emisariuszy Bogów z WoG.",
+    "translations": [
+      "config/translations/polish.json"
+    ]
+  },
+  "portuguese": {
+    "name": "Unidades de Mensageiros e Emissários",
+    "description": "Adiciona as unidades Mensageiros e Emissários dos Deuses para o WoG."
+  },
+  "russian": {
+    "name": "Отряды посыльных и эмиссаров",
+    "description": "Добавляет в WoG юнитов \"Вестники\" и \"эмиссары богов\".\n ,"
+  },
+  "ukrainian": {
+    "name": "Посланці та емісари",
+    "description": "Додає до WoG Посланців та Емісарів богів."
+  },
+  "vietnamese": {
+    "name": "Đơn vị Messengers và Emissaries",
+    "description": "Thêm các đơn vị Messengers và Emissaries từ bản WoG.\r\n ,"
+  }
 }

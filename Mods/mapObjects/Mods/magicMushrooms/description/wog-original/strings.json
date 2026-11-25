@@ -1,0 +1,22 @@
+{
+  "110000": "Magic Water Mushroom (Not Visited)",
+  "110001": "Magic Water Mushroom (Visited)",
+  "110002": "Magic Fire Mushroom (Not Visited)",
+  "110003": "Magic Fire Mushroom (Visited)",
+  "110004": "Magic Earth Mushroom (Not Visited)",
+  "110005": "Magic Earth Mushroom (Visited)",
+  "110006": "Magic Air Mushroom (Not Visited)",
+  "110007": "Magic Air Mushroom (Visited)",
+  "110008": "{Magic Water Mushroom}\n\nThe Magic Water Mushroom gives Expert Water Magic until the end of the week...\n\nSince you already have Expert Water Magic, the mushroom can't help you.",
+  "110009": "{Magic Water Mushroom}\n\nYou have already visited a Magic Water Mushroom this week.\nTry again next week.",
+  "110010": "{Magic Water Mushroom}\n\nThe Magic Water Mushroom gives Expert Water Magic until the end of the week...\n\nYou inhale the spores of the magic mushroom...\n\nYou learn Expert Water Magic!",
+  "110011": "{Magic Fire Mushroom}\n\nThe Magic Fire Mushroom gives Expert Fire Magic until the end of the week...\n\nSince you already have Expert Fire Magic, the mushroom can't help you.",
+  "110012": "{Magic Fire Mushroom}\n\nYou have already visited a Magic Fire Mushroom this week.\nTry again next week.",
+  "110013": "{Magic Fire Mushroom}\n\nThe Magic Fire Mushroom gives Expert Fire Magic until the end of the week...\n\nYou inhale the spores of the magic mushroom...\n\nYou learn Expert Fire Magic!",
+  "110014": "{Magic Earth Mushroom}\n\nThe Magic Earth Mushroom gives Expert Earth Magic until the end of the week...\n\nSince you already have Expert Earth Magic, the mushroom can't help you.",
+  "110015": "{Magic Earth Mushroom}\n\nYou have already visited a Magic Earth Mushroom this week.\nTry again next week.",
+  "110016": "{Magic Earth Mushroom}\n\nThe Magic Earth Mushroom gives Expert Earth Magic until the end of the week...\n\nYou inhale the spores of the magic mushroom...\n\nYou learn Expert Earth Magic!",
+  "110017": "{Magic Air Mushroom}\n\nThe Magic Air Mushroom gives Expert Air Magic until the end of the week...\n\nSince you already have Expert Air Magic, the mushroom can't help you.",
+  "110018": "{Magic Air Mushroom}\n\nYou have already visited a Magic Air Mushroom this week.\nTry again next week.",
+  "110019": "{Magic Air Mushroom}\n\nThe Magic Air Mushroom gives Expert Air Magic until the end of the week...\n\nYou inhale the spores of the magic mushroom...\n\nYou learn Expert Air Magic!"
+}

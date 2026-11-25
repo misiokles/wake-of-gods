@@ -1,0 +1,47 @@
+{
+  "stackExperienceDeflect": {
+    "implements": "combatEvent",
+    "script": "combat/stackExperienceDeflect",
+    "patches": [],
+    "priority": 500,
+    "stringRegistrations": [
+      "messageSingular",
+      "messagePlural"
+    ],
+    "schema": {
+      "type": "object",
+      "required": [
+        "mode",
+        "fixed",
+        "messageSingular",
+        "messagePlural"
+      ],
+      "properties": {
+        "mode": {
+          "type": "string",
+          "enum": [
+            "chance",
+            "reduction"
+          ]
+        },
+        "fixed": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "messageSingular": {
+          "type": "string"
+        },
+        "messagePlural": {
+          "type": "string"
+        },
+        "blockFully": {
+          "type": "boolean",
+          "description": "When true, a successful proc blocks the entire physical hit, including VCMI minimum damage."
+        }
+      },
+      "additionalProperties": false
+    },
+    "description": "{Deflect / Block}\nPhysical attack mitigation scaled by Stack Experience rank; Block negates the full hit."
+  }
+}

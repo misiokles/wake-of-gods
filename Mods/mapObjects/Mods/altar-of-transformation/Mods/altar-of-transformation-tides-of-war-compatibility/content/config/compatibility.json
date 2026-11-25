@@ -1,0 +1,6450 @@
+{
+  "wake-of-gods.mapobjects.altar-of-transformation:altarOfTransformation": {
+    "types": {
+      "altarOfTransformation": {
+        "rewards": {
+          "modify@1": {
+            "changeCreatures": {
+              "mdtAbyssalTriton": "griffin",
+              "mdtAlhoon": "monk",
+              "mdtCouatl": "cavalier",
+              "mdtDireWerewolf": "swordsman",
+              "mdtDragonGolem": "angel",
+              "mdtDrakeGolem": "angel",
+              "mdtDryad": "swordsman",
+              "mdtIllithid": "monk",
+              "mdtLilim": "swordsman",
+              "mdtOakDryad": "swordsman",
+              "mdtPaladin": "angel",
+              "mdtQuetzalcouatl": "cavalier",
+              "mdtSukkub": "swordsman",
+              "mdtTemplar": "angel",
+              "mdtTriton": "griffin",
+              "mdtTrollHag": "monk",
+              "mdtTrollWitch": "monk",
+              "mdtWerewolf": "swordsman"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@2": {
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              "noneOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@21": {
+            "changeCreatures": {
+              "mdtAbyssalTriton": "griffin",
+              "mdtAlhoon": "monk",
+              "mdtCouatl": "cavalier",
+              "mdtDireWerewolf": "swordsman",
+              "mdtDragonGolem": "angel",
+              "mdtDrakeGolem": "angel",
+              "mdtDryad": "swordsman",
+              "mdtIllithid": "monk",
+              "mdtLilim": "swordsman",
+              "mdtOakDryad": "swordsman",
+              "mdtPaladin": "angel",
+              "mdtQuetzalcouatl": "cavalier",
+              "mdtSukkub": "swordsman",
+              "mdtTemplar": "angel",
+              "mdtTriton": "griffin",
+              "mdtTrollHag": "monk",
+              "mdtTrollWitch": "monk",
+              "mdtWerewolf": "swordsman"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@3": {
+            "changeCreatures": {
+              "mdtAbyssalTriton": "woodElf",
+              "mdtAlhoon": "dendroidGuard",
+              "mdtCouatl": "unicorn",
+              "mdtDireWerewolf": "pegasus",
+              "mdtDragonGolem": "greenDragon",
+              "mdtDrakeGolem": "greenDragon",
+              "mdtDryad": "pegasus",
+              "mdtIllithid": "dendroidGuard",
+              "mdtLilim": "pegasus",
+              "mdtOakDryad": "pegasus",
+              "mdtPaladin": "greenDragon",
+              "mdtQuetzalcouatl": "unicorn",
+              "mdtSukkub": "pegasus",
+              "mdtTemplar": "greenDragon",
+              "mdtTriton": "woodElf",
+              "mdtTrollHag": "dendroidGuard",
+              "mdtTrollWitch": "dendroidGuard",
+              "mdtWerewolf": "pegasus"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@4": {
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              "noneOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@22": {
+            "changeCreatures": {
+              "mdtAbyssalTriton": "woodElf",
+              "mdtAlhoon": "dendroidGuard",
+              "mdtCouatl": "unicorn",
+              "mdtDireWerewolf": "pegasus",
+              "mdtDragonGolem": "greenDragon",
+              "mdtDrakeGolem": "greenDragon",
+              "mdtDryad": "pegasus",
+              "mdtIllithid": "dendroidGuard",
+              "mdtLilim": "pegasus",
+              "mdtOakDryad": "pegasus",
+              "mdtPaladin": "greenDragon",
+              "mdtQuetzalcouatl": "unicorn",
+              "mdtSukkub": "pegasus",
+              "mdtTemplar": "greenDragon",
+              "mdtTriton": "woodElf",
+              "mdtTrollHag": "dendroidGuard",
+              "mdtTrollWitch": "dendroidGuard",
+              "mdtWerewolf": "pegasus"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@5": {
+            "changeCreatures": {
+              "mdtAbyssalTriton": "ironGolem",
+              "mdtAlhoon": "genie",
+              "mdtCouatl": "naga",
+              "mdtDireWerewolf": "mage",
+              "mdtDragonGolem": "giant",
+              "mdtDrakeGolem": "giant",
+              "mdtDryad": "mage",
+              "mdtIllithid": "genie",
+              "mdtLilim": "mage",
+              "mdtOakDryad": "mage",
+              "mdtPaladin": "giant",
+              "mdtQuetzalcouatl": "naga",
+              "mdtSukkub": "mage",
+              "mdtTemplar": "giant",
+              "mdtTriton": "ironGolem",
+              "mdtTrollHag": "genie",
+              "mdtTrollWitch": "genie",
+              "mdtWerewolf": "mage"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@6": {
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              "noneOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@23": {
+            "changeCreatures": {
+              "mdtAbyssalTriton": "ironGolem",
+              "mdtAlhoon": "genie",
+              "mdtCouatl": "naga",
+              "mdtDireWerewolf": "mage",
+              "mdtDragonGolem": "giant",
+              "mdtDrakeGolem": "giant",
+              "mdtDryad": "mage",
+              "mdtIllithid": "genie",
+              "mdtLilim": "mage",
+              "mdtOakDryad": "mage",
+              "mdtPaladin": "giant",
+              "mdtQuetzalcouatl": "naga",
+              "mdtSukkub": "mage",
+              "mdtTemplar": "giant",
+              "mdtTriton": "ironGolem",
+              "mdtTrollHag": "genie",
+              "mdtTrollWitch": "genie",
+              "mdtWerewolf": "mage"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@7": {
+            "changeCreatures": {
+              "mdtAbyssalTriton": "hellHound",
+              "mdtAlhoon": "pitFiend",
+              "mdtCouatl": "efreet",
+              "mdtDireWerewolf": "demon",
+              "mdtDragonGolem": "devil",
+              "mdtDrakeGolem": "devil",
+              "mdtDryad": "demon",
+              "mdtIllithid": "pitFiend",
+              "mdtLilim": "demon",
+              "mdtOakDryad": "demon",
+              "mdtPaladin": "devil",
+              "mdtQuetzalcouatl": "efreet",
+              "mdtSukkub": "demon",
+              "mdtTemplar": "devil",
+              "mdtTriton": "hellHound",
+              "mdtTrollHag": "pitFiend",
+              "mdtTrollWitch": "pitFiend",
+              "mdtWerewolf": "demon"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@8": {
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              "noneOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@24": {
+            "changeCreatures": {
+              "mdtAbyssalTriton": "hellHound",
+              "mdtAlhoon": "pitFiend",
+              "mdtCouatl": "efreet",
+              "mdtDireWerewolf": "demon",
+              "mdtDragonGolem": "devil",
+              "mdtDrakeGolem": "devil",
+              "mdtDryad": "demon",
+              "mdtIllithid": "pitFiend",
+              "mdtLilim": "demon",
+              "mdtOakDryad": "demon",
+              "mdtPaladin": "devil",
+              "mdtQuetzalcouatl": "efreet",
+              "mdtSukkub": "demon",
+              "mdtTemplar": "devil",
+              "mdtTriton": "hellHound",
+              "mdtTrollHag": "pitFiend",
+              "mdtTrollWitch": "pitFiend",
+              "mdtWerewolf": "demon"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@9": {
+            "changeCreatures": {
+              "mdtAbyssalTriton": "orc",
+              "mdtAlhoon": "roc",
+              "mdtCouatl": "cyclop",
+              "mdtDireWerewolf": "ogre",
+              "mdtDragonGolem": "behemoth",
+              "mdtDrakeGolem": "behemoth",
+              "mdtDryad": "ogre",
+              "mdtIllithid": "roc",
+              "mdtLilim": "ogre",
+              "mdtOakDryad": "ogre",
+              "mdtPaladin": "behemoth",
+              "mdtQuetzalcouatl": "cyclop",
+              "mdtSukkub": "ogre",
+              "mdtTemplar": "behemoth",
+              "mdtTriton": "orc",
+              "mdtTrollHag": "roc",
+              "mdtTrollWitch": "roc",
+              "mdtWerewolf": "ogre"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@10": {
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              "noneOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@25": {
+            "changeCreatures": {
+              "mdtAbyssalTriton": "orc",
+              "mdtAlhoon": "roc",
+              "mdtCouatl": "cyclop",
+              "mdtDireWerewolf": "ogre",
+              "mdtDragonGolem": "behemoth",
+              "mdtDrakeGolem": "behemoth",
+              "mdtDryad": "ogre",
+              "mdtIllithid": "roc",
+              "mdtLilim": "ogre",
+              "mdtOakDryad": "ogre",
+              "mdtPaladin": "behemoth",
+              "mdtQuetzalcouatl": "cyclop",
+              "mdtSukkub": "ogre",
+              "mdtTemplar": "behemoth",
+              "mdtTriton": "orc",
+              "mdtTrollHag": "roc",
+              "mdtTrollWitch": "roc",
+              "mdtWerewolf": "ogre"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@11": {
+            "changeCreatures": {
+              "mdtAbyssalTriton": "wight",
+              "mdtAlhoon": "lich",
+              "mdtCouatl": "blackKnight",
+              "mdtDireWerewolf": "vampire",
+              "mdtDragonGolem": "boneDragon",
+              "mdtDrakeGolem": "boneDragon",
+              "mdtDryad": "vampire",
+              "mdtIllithid": "lich",
+              "mdtLilim": "vampire",
+              "mdtOakDryad": "vampire",
+              "mdtPaladin": "boneDragon",
+              "mdtQuetzalcouatl": "blackKnight",
+              "mdtSukkub": "vampire",
+              "mdtTemplar": "boneDragon",
+              "mdtTriton": "wight",
+              "mdtTrollHag": "lich",
+              "mdtTrollWitch": "lich",
+              "mdtWerewolf": "vampire"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@12": {
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              "noneOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@26": {
+            "changeCreatures": {
+              "mdtAbyssalTriton": "wight",
+              "mdtAlhoon": "lich",
+              "mdtCouatl": "blackKnight",
+              "mdtDireWerewolf": "vampire",
+              "mdtDragonGolem": "boneDragon",
+              "mdtDrakeGolem": "boneDragon",
+              "mdtDryad": "vampire",
+              "mdtIllithid": "lich",
+              "mdtLilim": "vampire",
+              "mdtOakDryad": "vampire",
+              "mdtPaladin": "boneDragon",
+              "mdtQuetzalcouatl": "blackKnight",
+              "mdtSukkub": "vampire",
+              "mdtTemplar": "boneDragon",
+              "mdtTriton": "wight",
+              "mdtTrollHag": "lich",
+              "mdtTrollWitch": "lich",
+              "mdtWerewolf": "vampire"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@13": {
+            "changeCreatures": {
+              "mdtAbyssalTriton": "beholder",
+              "mdtAlhoon": "minotaur",
+              "mdtCouatl": "manticore",
+              "mdtDireWerewolf": "medusa",
+              "mdtDragonGolem": "redDragon",
+              "mdtDrakeGolem": "redDragon",
+              "mdtDryad": "medusa",
+              "mdtIllithid": "minotaur",
+              "mdtLilim": "medusa",
+              "mdtOakDryad": "medusa",
+              "mdtPaladin": "redDragon",
+              "mdtQuetzalcouatl": "manticore",
+              "mdtSukkub": "medusa",
+              "mdtTemplar": "redDragon",
+              "mdtTriton": "beholder",
+              "mdtTrollHag": "minotaur",
+              "mdtTrollWitch": "minotaur",
+              "mdtWerewolf": "medusa"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@14": {
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              "noneOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@27": {
+            "changeCreatures": {
+              "mdtAbyssalTriton": "beholder",
+              "mdtAlhoon": "minotaur",
+              "mdtCouatl": "manticore",
+              "mdtDireWerewolf": "medusa",
+              "mdtDragonGolem": "redDragon",
+              "mdtDrakeGolem": "redDragon",
+              "mdtDryad": "medusa",
+              "mdtIllithid": "minotaur",
+              "mdtLilim": "medusa",
+              "mdtOakDryad": "medusa",
+              "mdtPaladin": "redDragon",
+              "mdtQuetzalcouatl": "manticore",
+              "mdtSukkub": "medusa",
+              "mdtTemplar": "redDragon",
+              "mdtTriton": "beholder",
+              "mdtTrollHag": "minotaur",
+              "mdtTrollWitch": "minotaur",
+              "mdtWerewolf": "medusa"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@15": {
+            "changeCreatures": {
+              "mdtAbyssalTriton": "serpentFly",
+              "mdtAlhoon": "gorgon",
+              "mdtCouatl": "wyvern",
+              "mdtDireWerewolf": "basilisk",
+              "mdtDragonGolem": "hydra",
+              "mdtDrakeGolem": "hydra",
+              "mdtDryad": "basilisk",
+              "mdtIllithid": "gorgon",
+              "mdtLilim": "basilisk",
+              "mdtOakDryad": "basilisk",
+              "mdtPaladin": "hydra",
+              "mdtQuetzalcouatl": "wyvern",
+              "mdtSukkub": "basilisk",
+              "mdtTemplar": "hydra",
+              "mdtTriton": "serpentFly",
+              "mdtTrollHag": "gorgon",
+              "mdtTrollWitch": "gorgon",
+              "mdtWerewolf": "basilisk"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@16": {
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              "noneOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@28": {
+            "changeCreatures": {
+              "mdtAbyssalTriton": "serpentFly",
+              "mdtAlhoon": "gorgon",
+              "mdtCouatl": "wyvern",
+              "mdtDireWerewolf": "basilisk",
+              "mdtDragonGolem": "hydra",
+              "mdtDrakeGolem": "hydra",
+              "mdtDryad": "basilisk",
+              "mdtIllithid": "gorgon",
+              "mdtLilim": "basilisk",
+              "mdtOakDryad": "basilisk",
+              "mdtPaladin": "hydra",
+              "mdtQuetzalcouatl": "wyvern",
+              "mdtSukkub": "basilisk",
+              "mdtTemplar": "hydra",
+              "mdtTriton": "serpentFly",
+              "mdtTrollHag": "gorgon",
+              "mdtTrollWitch": "gorgon",
+              "mdtWerewolf": "basilisk"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@17": {
+            "changeCreatures": {
+              "mdtAbyssalTriton": "waterElemental",
+              "mdtAlhoon": "earthElemental",
+              "mdtCouatl": "psychicElemental",
+              "mdtDireWerewolf": "fireElemental",
+              "mdtDragonGolem": "firebird",
+              "mdtDrakeGolem": "firebird",
+              "mdtDryad": "fireElemental",
+              "mdtIllithid": "earthElemental",
+              "mdtLilim": "fireElemental",
+              "mdtOakDryad": "fireElemental",
+              "mdtPaladin": "firebird",
+              "mdtQuetzalcouatl": "psychicElemental",
+              "mdtSukkub": "fireElemental",
+              "mdtTemplar": "firebird",
+              "mdtTriton": "waterElemental",
+              "mdtTrollHag": "earthElemental",
+              "mdtTrollWitch": "earthElemental",
+              "mdtWerewolf": "fireElemental"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@18": {
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              "noneOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@29": {
+            "changeCreatures": {
+              "mdtAbyssalTriton": "waterElemental",
+              "mdtAlhoon": "earthElemental",
+              "mdtCouatl": "psychicElemental",
+              "mdtDireWerewolf": "fireElemental",
+              "mdtDragonGolem": "firebird",
+              "mdtDrakeGolem": "firebird",
+              "mdtDryad": "fireElemental",
+              "mdtIllithid": "earthElemental",
+              "mdtLilim": "fireElemental",
+              "mdtOakDryad": "fireElemental",
+              "mdtPaladin": "firebird",
+              "mdtQuetzalcouatl": "psychicElemental",
+              "mdtSukkub": "fireElemental",
+              "mdtTemplar": "firebird",
+              "mdtTriton": "waterElemental",
+              "mdtTrollHag": "earthElemental",
+              "mdtTrollWitch": "earthElemental",
+              "mdtWerewolf": "fireElemental"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@19": {
+            "changeCreatures": {
+              "mdtAbyssalTriton": "mummy",
+              "mdtAlhoon": "goldGolem",
+              "mdtCouatl": "enchanter",
+              "mdtDireWerewolf": "sharpshooter",
+              "mdtDragonGolem": "gorynych",
+              "mdtDrakeGolem": "gorynych",
+              "mdtDryad": "sharpshooter",
+              "mdtIllithid": "goldGolem",
+              "mdtLilim": "sharpshooter",
+              "mdtOakDryad": "sharpshooter",
+              "mdtPaladin": "gorynych",
+              "mdtQuetzalcouatl": "enchanter",
+              "mdtSukkub": "sharpshooter",
+              "mdtTemplar": "gorynych",
+              "mdtTriton": "mummy",
+              "mdtTrollHag": "goldGolem",
+              "mdtTrollWitch": "goldGolem",
+              "mdtWerewolf": "sharpshooter"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@20": {
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              "noneOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@30": {
+            "changeCreatures": {
+              "mdtAbyssalTriton": "mummy",
+              "mdtAlhoon": "goldGolem",
+              "mdtCouatl": "enchanter",
+              "mdtDireWerewolf": "sharpshooter",
+              "mdtDragonGolem": "gorynych",
+              "mdtDrakeGolem": "gorynych",
+              "mdtDryad": "sharpshooter",
+              "mdtIllithid": "goldGolem",
+              "mdtLilim": "sharpshooter",
+              "mdtOakDryad": "sharpshooter",
+              "mdtPaladin": "gorynych",
+              "mdtQuetzalcouatl": "enchanter",
+              "mdtSukkub": "sharpshooter",
+              "mdtTemplar": "gorynych",
+              "mdtTriton": "mummy",
+              "mdtTrollHag": "goldGolem",
+              "mdtTrollWitch": "goldGolem",
+              "mdtWerewolf": "sharpshooter"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAbyssalTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtAlhoon",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtCouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDireWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDragonGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDrakeGolem",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtIllithid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtLilim",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtOakDryad",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtPaladin",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtQuetzalcouatl",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtSukkub",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTemplar",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTriton",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollHag",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtTrollWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "mdtWerewolf",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

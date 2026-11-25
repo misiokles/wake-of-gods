@@ -1,0 +1,389 @@
+{
+  "forgottenShrine": {
+    "name": "Forgotten Shrine",
+    "handler": "configurable",
+    "types": {
+      "forgottenShrine": {
+        "name": "Forgotten Shrine",
+        "description": "@wake-of-gods.mapobjects.forgottenshrine.dialog.description",
+        "compatibilityIdentifiers": [
+          "zobj016"
+        ],
+        "rmg": {
+          "value": 8500,
+          "rarity": 25,
+          "zoneLimit": 1
+        },
+        "templates": {
+          "forgottenShrine": {
+            "animation": "mapObjects/zobj016.def",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "+++",
+              "+++",
+              "+++"
+            ]
+          }
+        },
+        "sounds": {
+          "visit": [
+            "MYSTERY"
+          ]
+        },
+        "visitMode": "bonus",
+        "selectMode": "selectRandom",
+        "blockedVisitable": true,
+        "canRefuse": true,
+        "rewards": [
+          {
+            "limiter": {
+              "movePoints": 201
+            },
+            "movePercentage": 0,
+            "bonuses": [
+              {
+                "type": "OPENING_BATTLE_SPELL",
+                "subtype": "shield",
+                "val": 50,
+                "addInfo": 3,
+                "duration": "ONE_BATTLE",
+                "description": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160002"
+              }
+            ],
+            "message": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160005"
+          },
+          {
+            "limiter": {
+              "movePoints": 201
+            },
+            "movePercentage": 0,
+            "bonuses": [
+              {
+                "type": "OPENING_BATTLE_SPELL",
+                "subtype": "airShield",
+                "val": 50,
+                "addInfo": 3,
+                "duration": "ONE_BATTLE",
+                "description": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160002"
+              }
+            ],
+            "message": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160005"
+          },
+          {
+            "limiter": {
+              "movePoints": 201
+            },
+            "movePercentage": 0,
+            "bonuses": [
+              {
+                "type": "OPENING_BATTLE_SPELL",
+                "subtype": "fireShield",
+                "val": 50,
+                "addInfo": 3,
+                "duration": "ONE_BATTLE",
+                "description": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160002"
+              }
+            ],
+            "message": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160005"
+          },
+          {
+            "limiter": {
+              "movePoints": 201
+            },
+            "movePercentage": 0,
+            "bonuses": [
+              {
+                "type": "OPENING_BATTLE_SPELL",
+                "subtype": "protectAir",
+                "val": 50,
+                "addInfo": 3,
+                "duration": "ONE_BATTLE",
+                "description": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160002"
+              }
+            ],
+            "message": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160005"
+          },
+          {
+            "limiter": {
+              "movePoints": 201
+            },
+            "movePercentage": 0,
+            "bonuses": [
+              {
+                "type": "OPENING_BATTLE_SPELL",
+                "subtype": "protectFire",
+                "val": 50,
+                "addInfo": 3,
+                "duration": "ONE_BATTLE",
+                "description": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160002"
+              }
+            ],
+            "message": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160005"
+          },
+          {
+            "limiter": {
+              "movePoints": 201
+            },
+            "movePercentage": 0,
+            "bonuses": [
+              {
+                "type": "OPENING_BATTLE_SPELL",
+                "subtype": "protectWater",
+                "val": 50,
+                "addInfo": 3,
+                "duration": "ONE_BATTLE",
+                "description": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160002"
+              }
+            ],
+            "message": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160005"
+          },
+          {
+            "limiter": {
+              "movePoints": 201
+            },
+            "movePercentage": 0,
+            "bonuses": [
+              {
+                "type": "OPENING_BATTLE_SPELL",
+                "subtype": "protectEarth",
+                "val": 50,
+                "addInfo": 3,
+                "duration": "ONE_BATTLE",
+                "description": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160002"
+              }
+            ],
+            "message": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160005"
+          },
+          {
+            "limiter": {
+              "movePoints": 201
+            },
+            "movePercentage": 0,
+            "bonuses": [
+              {
+                "type": "OPENING_BATTLE_SPELL",
+                "subtype": "antiMagic",
+                "val": 50,
+                "addInfo": 3,
+                "duration": "ONE_BATTLE",
+                "description": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160002"
+              }
+            ],
+            "message": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160005"
+          },
+          {
+            "limiter": {
+              "movePoints": 201
+            },
+            "movePercentage": 0,
+            "bonuses": [
+              {
+                "type": "OPENING_BATTLE_SPELL",
+                "subtype": "bless",
+                "val": 50,
+                "addInfo": 3,
+                "duration": "ONE_BATTLE",
+                "description": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160002"
+              }
+            ],
+            "message": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160005"
+          },
+          {
+            "limiter": {
+              "movePoints": 201
+            },
+            "movePercentage": 0,
+            "bonuses": [
+              {
+                "type": "OPENING_BATTLE_SPELL",
+                "subtype": "bloodlust",
+                "val": 50,
+                "addInfo": 3,
+                "duration": "ONE_BATTLE",
+                "description": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160002"
+              }
+            ],
+            "message": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160005"
+          },
+          {
+            "limiter": {
+              "movePoints": 201
+            },
+            "movePercentage": 0,
+            "bonuses": [
+              {
+                "type": "OPENING_BATTLE_SPELL",
+                "subtype": "precision",
+                "val": 50,
+                "addInfo": 3,
+                "duration": "ONE_BATTLE",
+                "description": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160002"
+              }
+            ],
+            "message": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160005"
+          },
+          {
+            "limiter": {
+              "movePoints": 201
+            },
+            "movePercentage": 0,
+            "bonuses": [
+              {
+                "type": "OPENING_BATTLE_SPELL",
+                "subtype": "stoneSkin",
+                "val": 50,
+                "addInfo": 3,
+                "duration": "ONE_BATTLE",
+                "description": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160002"
+              }
+            ],
+            "message": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160005"
+          },
+          {
+            "limiter": {
+              "movePoints": 201
+            },
+            "movePercentage": 0,
+            "bonuses": [
+              {
+                "type": "OPENING_BATTLE_SPELL",
+                "subtype": "prayer",
+                "val": 50,
+                "addInfo": 3,
+                "duration": "ONE_BATTLE",
+                "description": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160002"
+              }
+            ],
+            "message": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160005"
+          },
+          {
+            "limiter": {
+              "movePoints": 201
+            },
+            "movePercentage": 0,
+            "bonuses": [
+              {
+                "type": "OPENING_BATTLE_SPELL",
+                "subtype": "mirth",
+                "val": 50,
+                "addInfo": 3,
+                "duration": "ONE_BATTLE",
+                "description": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160002"
+              }
+            ],
+            "message": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160005"
+          },
+          {
+            "limiter": {
+              "movePoints": 201
+            },
+            "movePercentage": 0,
+            "bonuses": [
+              {
+                "type": "OPENING_BATTLE_SPELL",
+                "subtype": "fortune",
+                "val": 50,
+                "addInfo": 3,
+                "duration": "ONE_BATTLE",
+                "description": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160002"
+              }
+            ],
+            "message": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160005"
+          },
+          {
+            "limiter": {
+              "movePoints": 201
+            },
+            "movePercentage": 0,
+            "bonuses": [
+              {
+                "type": "OPENING_BATTLE_SPELL",
+                "subtype": "haste",
+                "val": 50,
+                "addInfo": 3,
+                "duration": "ONE_BATTLE",
+                "description": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160002"
+              }
+            ],
+            "message": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160005"
+          },
+          {
+            "limiter": {
+              "movePoints": 201
+            },
+            "movePercentage": 0,
+            "bonuses": [
+              {
+                "type": "OPENING_BATTLE_SPELL",
+                "subtype": "slayer",
+                "val": 50,
+                "addInfo": 3,
+                "duration": "ONE_BATTLE",
+                "description": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160002"
+              }
+            ],
+            "message": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160005"
+          },
+          {
+            "limiter": {
+              "movePoints": 201
+            },
+            "movePercentage": 0,
+            "bonuses": [
+              {
+                "type": "OPENING_BATTLE_SPELL",
+                "subtype": "frenzy",
+                "val": 50,
+                "addInfo": 3,
+                "duration": "ONE_BATTLE",
+                "description": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160002"
+              }
+            ],
+            "message": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160005"
+          },
+          {
+            "limiter": {
+              "movePoints": 201
+            },
+            "movePercentage": 0,
+            "bonuses": [
+              {
+                "type": "OPENING_BATTLE_SPELL",
+                "subtype": "counterstrike",
+                "val": 50,
+                "addInfo": 3,
+                "duration": "ONE_BATTLE",
+                "description": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160002"
+              }
+            ],
+            "message": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160005"
+          },
+          {
+            "limiter": {
+              "movePoints": 201
+            },
+            "movePercentage": 0,
+            "bonuses": [
+              {
+                "type": "OPENING_BATTLE_SPELL",
+                "subtype": "magicMirror",
+                "val": 50,
+                "addInfo": 3,
+                "duration": "ONE_BATTLE",
+                "description": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160002"
+              }
+            ],
+            "message": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160005"
+          }
+        ],
+        "onVisitedMessage": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160007",
+        "onEmptyMessage": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160008",
+        "notVisitedTooltip": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160000",
+        "visitedTooltip": "@wake-of-gods.mapobjects.forgottenshrine.dialog.160001"
+      }
+    }
+  }
+}

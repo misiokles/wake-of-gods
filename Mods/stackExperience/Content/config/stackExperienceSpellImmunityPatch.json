@@ -1,0 +1,32 @@
+{
+  "core:damage": {
+    "patches": {
+      "append": "spells/stackExperienceSpellImmunity"
+    }
+  },
+  "core:timed": {
+    "patches": {
+      "append": "spells/stackExperienceSpellImmunity"
+    }
+  },
+  "core:heal": {
+    "patches": {
+      "append": "spells/stackExperienceSpellImmunity"
+    }
+  },
+  "core:dispel": {
+    "patches": {
+      "append": "spells/stackExperienceSpellImmunity"
+    }
+  },
+  "core:clone": {
+    "patches": {
+      "append": "spells/stackExperienceSpellImmunity"
+    }
+  },
+  "core:attachCombatScript": {
+    "patches": {
+      "append": "spells/stackExperienceSpellImmunity"
+    }
+  }
+}

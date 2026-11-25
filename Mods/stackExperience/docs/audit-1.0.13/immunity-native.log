@@ -1,0 +1,322 @@
+[1;32m	Initialization: 22 ms
+[0m[1;32m	Data loading: 4 ms
+[0m[1;32m	Mod handler: 52 ms
+[0m[1;32m	Mod filesystems: 30 ms
+[0m[1;32mInitialized logging system based on settings successfully.
+[0m[1;32m[log level] ai => not set
+[0m[1;32m[log level] animation => not set
+[0m[1;32m[log level] bonus => not set
+[0m[1;32m[log level] global => trace
+[0m[1;32m[log level] mod => not set
+[0m[1;32m[log level] network => not set
+[0m[1;32m[log level] rng => info
+[0m[1;32m[log level] script => not set
+[0m[1;32m	Initializing content handler
+[0m[1;32m		Parsing mod: OK (core)
+[0m[1;32m		Parsing mod: OK (wake-of-gods)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.artifacts)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.artifacts.bonuses icons)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.creatures)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.creatures.bonuses icons)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.heroes3datapatch)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.heroes3datapatch.heroes3datapatchera)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.level8units)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.level8units.bonuses icons)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapdecorations)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.almshouse)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.altar-of-transformation)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.arcanetower)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.artificer)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.battleacademy)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.deathchamber)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.fishingwell)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.forgottenshrine)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.junkmerchant)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.junkmerchant.level8units)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.magicmushrooms)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.mirrorofthehomeway)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.new-chest-i)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.new-chest-ii)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.palaceofdreams)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.potionfountains)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.schoolofwizardry)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.spell-book)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.sphinxes)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.warmachinesonmap)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.messengersandemissaries)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.messengersandemissaries.bonuses icons)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.messengersandemissaries.vivid-battlefields)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.stackexperience)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.commanders)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.commanders.bonuses icons)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.commanders.newstonesgraphic)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.creaturebanks)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.battleacademy.commanderartifacts)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.stackartifacts)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.stackartifacts.stackartifactindication)
+[0m[1;32m	Parsing mod data
+[0m[1;32m		Loading mod: OK (core)
+[0m[1;32m		Loading mod: OK (wake-of-gods)
+[0m[1;32m		Loading mod: OK (wake-of-gods.artifacts)
+[0m[1;32m		Loading mod: OK (wake-of-gods.artifacts.bonuses icons)
+[0m[1;32m		Loading mod: OK (wake-of-gods.creatures)
+[0m[1;32m		Loading mod: OK (wake-of-gods.creatures.bonuses icons)
+[0m[1;32m		Loading mod: OK (wake-of-gods.heroes3datapatch)
+[0m[1;32m		Loading mod: OK (wake-of-gods.heroes3datapatch.heroes3datapatchera)
+[0m[1;32m		Loading mod: OK (wake-of-gods.level8units)
+[0m[1;32m		Loading mod: OK (wake-of-gods.level8units.bonuses icons)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapdecorations)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.almshouse)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.altar-of-transformation)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.arcanetower)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.artificer)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.battleacademy)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.deathchamber)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.fishingwell)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.forgottenshrine)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.junkmerchant)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.junkmerchant.level8units)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.magicmushrooms)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.mirrorofthehomeway)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.new-chest-i)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.new-chest-ii)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.palaceofdreams)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.potionfountains)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.schoolofwizardry)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.spell-book)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.sphinxes)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.warmachinesonmap)
+[0m[1;32m		Loading mod: OK (wake-of-gods.messengersandemissaries)
+[0m[1;32m		Loading mod: OK (wake-of-gods.messengersandemissaries.bonuses icons)
+[0m[1;32m		Loading mod: OK (wake-of-gods.messengersandemissaries.vivid-battlefields)
+[0m[1;32m		Loading mod: OK (wake-of-gods.stackexperience)
+[0m[1;32m		Loading mod: OK (wake-of-gods.commanders)
+[0m[1;32m		Loading mod: OK (wake-of-gods.commanders.bonuses icons)
+[0m[1;32m		Loading mod: OK (wake-of-gods.commanders.newstonesgraphic)
+[0m[1;32m		Loading mod: OK (wake-of-gods.creaturebanks)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.battleacademy.commanderartifacts)
+[0m[1;32m		Loading mod: OK (wake-of-gods.stackartifacts)
+[0m[1;32m		Loading mod: OK (wake-of-gods.stackartifacts.stackartifactindication)
+[0m[1;32m	Loading mod data
+[0m[1;32m	Resolving identifiers
+[0m[1;32m	Handlers post-load finalization
+[0m[1;32m	All game content loaded
+[0m[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=69 NAME=Ghost Dragons LEVEL=7
+DEFENDER_RANK=0 XP_PER_UNIT=0
+ORB_OK rank=0 orb=0
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=69 NAME=Ghost Dragons LEVEL=7
+DEFENDER_RANK=0 XP_PER_UNIT=0
+ORB_OK rank=0 orb=1
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=69 NAME=Ghost Dragons LEVEL=7
+DEFENDER_RANK=0 XP_PER_UNIT=0
+ORB_OK rank=0 orb=2
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=69 NAME=Ghost Dragons LEVEL=7
+DEFENDER_RANK=3 XP_PER_UNIT=22400
+ORB_OK rank=3 orb=0
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=69 NAME=Ghost Dragons LEVEL=7
+DEFENDER_RANK=3 XP_PER_UNIT=22400
+ORB_OK rank=3 orb=1
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=69 NAME=Ghost Dragons LEVEL=7
+DEFENDER_RANK=3 XP_PER_UNIT=22400
+ORB_OK rank=3 orb=2
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=69 NAME=Ghost Dragons LEVEL=7
+DEFENDER_RANK=5 XP_PER_UNIT=43400
+ORB_OK rank=5 orb=0
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=69 NAME=Ghost Dragons LEVEL=7
+DEFENDER_RANK=5 XP_PER_UNIT=43400
+ORB_OK rank=5 orb=1
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=69 NAME=Ghost Dragons LEVEL=7
+DEFENDER_RANK=5 XP_PER_UNIT=43400
+ORB_OK rank=5 orb=2
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=69 NAME=Ghost Dragons LEVEL=7
+DEFENDER_RANK=7 XP_PER_UNIT=70000
+ORB_OK rank=7 orb=0
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=69 NAME=Ghost Dragons LEVEL=7
+DEFENDER_RANK=7 XP_PER_UNIT=70000
+ORB_OK rank=7 orb=1
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=69 NAME=Ghost Dragons LEVEL=7
+DEFENDER_RANK=7 XP_PER_UNIT=70000
+ORB_OK rank=7 orb=2
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=69 NAME=Ghost Dragons LEVEL=7
+DEFENDER_RANK=9 XP_PER_UNIT=102200
+ORB_OK rank=9 orb=0
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=69 NAME=Ghost Dragons LEVEL=7
+DEFENDER_RANK=9 XP_PER_UNIT=102200
+ORB_OK rank=9 orb=1
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=69 NAME=Ghost Dragons LEVEL=7
+DEFENDER_RANK=9 XP_PER_UNIT=102200
+ORB_OK rank=9 orb=2
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=69 NAME=Ghost Dragons LEVEL=7
+DEFENDER_RANK=10 XP_PER_UNIT=120400
+ORB_OK rank=10 orb=0
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=69 NAME=Ghost Dragons LEVEL=7
+DEFENDER_RANK=10 XP_PER_UNIT=120400
+ORB_OK rank=10 orb=1
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=69 NAME=Ghost Dragons LEVEL=7
+DEFENDER_RANK=10 XP_PER_UNIT=120400
+ORB_OK rank=10 orb=2
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=27 NAME=Gold Dragons LEVEL=7
+DEFENDER_RANK=6 XP_PER_UNIT=56000
+RECEPTIVE_RESULT core:goldDragon rank=6 spell=haste applied=0
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=27 NAME=Gold Dragons LEVEL=7
+DEFENDER_RANK=7 XP_PER_UNIT=70000
+RECEPTIVE_RESULT core:goldDragon rank=7 spell=haste applied=1
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=27 NAME=Gold Dragons LEVEL=7
+DEFENDER_RANK=10 XP_PER_UNIT=120400
+RECEPTIVE_RESULT core:goldDragon rank=10 spell=haste applied=1
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=83 NAME=Black Dragons LEVEL=7
+DEFENDER_RANK=7 XP_PER_UNIT=70000
+RECEPTIVE_RESULT core:blackDragon rank=7 spell=haste applied=0
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=83 NAME=Black Dragons LEVEL=7
+DEFENDER_RANK=8 XP_PER_UNIT=85400
+RECEPTIVE_RESULT core:blackDragon rank=8 spell=haste applied=1
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=83 NAME=Black Dragons LEVEL=7
+DEFENDER_RANK=10 XP_PER_UNIT=120400
+RECEPTIVE_RESULT core:blackDragon rank=10 spell=haste applied=1
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=121 NAME=Magic Elementals LEVEL=6
+DEFENDER_RANK=8 XP_PER_UNIT=73200
+RECEPTIVE_RESULT core:magicElemental rank=8 spell=haste applied=0
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=121 NAME=Magic Elementals LEVEL=6
+DEFENDER_RANK=9 XP_PER_UNIT=87600
+RECEPTIVE_RESULT core:magicElemental rank=9 spell=haste applied=1
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=121 NAME=Magic Elementals LEVEL=6
+DEFENDER_RANK=10 XP_PER_UNIT=103200
+RECEPTIVE_RESULT core:magicElemental rank=10 spell=haste applied=1
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=52 NAME=Efreet LEVEL=6
+DEFENDER_RANK=3 XP_PER_UNIT=19200
+RECEPTIVE_RESULT core:efreet rank=3 spell=bloodlust applied=0
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=52 NAME=Efreet LEVEL=6
+DEFENDER_RANK=4 XP_PER_UNIT=27600
+RECEPTIVE_RESULT core:efreet rank=4 spell=bloodlust applied=1
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=52 NAME=Efreet LEVEL=6
+DEFENDER_RANK=10 XP_PER_UNIT=103200
+RECEPTIVE_RESULT core:efreet rank=10 spell=bloodlust applied=1
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=114 NAME=Fire Elementals LEVEL=4
+DEFENDER_RANK=9 XP_PER_UNIT=58400
+RECEPTIVE_RESULT core:fireElemental rank=9 spell=bloodlust applied=0
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=114 NAME=Fire Elementals LEVEL=4
+DEFENDER_RANK=10 XP_PER_UNIT=68800
+RECEPTIVE_RESULT core:fireElemental rank=10 spell=bloodlust applied=1
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=114 NAME=Fire Elementals LEVEL=4
+DEFENDER_RANK=10 XP_PER_UNIT=68800
+RECEPTIVE_RESULT core:fireElemental rank=10 spell=bloodlust applied=1
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=165 NAME=Diamond Dragons LEVEL=8
+DEFENDER_RANK=8 XP_PER_UNIT=97600
+RECEPTIVE_RESULT wake-of-gods.level8units:diamondDragon rank=8 spell=haste applied=0
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=165 NAME=Diamond Dragons LEVEL=8
+DEFENDER_RANK=9 XP_PER_UNIT=116800
+RECEPTIVE_RESULT wake-of-gods.level8units:diamondDragon rank=9 spell=haste applied=1
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=165 NAME=Diamond Dragons LEVEL=8
+DEFENDER_RANK=10 XP_PER_UNIT=137600
+RECEPTIVE_RESULT wake-of-gods.level8units:diamondDragon rank=10 spell=haste applied=1
+IMMUNITY_RESULT cases=36 failures=0 checks=198

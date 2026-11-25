@@ -1,216 +1,268 @@
 {
-    "waterMagicMushroom": {
-        "name": "Water Magic Mushroom",
-        "handler": "configurable",
-        "types": {
-            "waterMagicMushroom": {
-                "name": "Magic Water Mushroom",
-                "description": "(grant expert Water Magic until end of the week)",
-                "onVisitedMessage": "{Magic Water Mushroom}\r\n\r\nYou already visited this mushroom this week.",
-                "visitMode": "bonus",
-                "rmg": {
-                    "value": 2000,
-                    "rarity": 20,
-                    "zoneLimit": 1
-                },
-                "sounds": {
-                    "ambient": [
-                        "LOOPFAER"
-                    ],
-                    "visit": [
-                        "LUCK"
-                    ]
-                },
-                "rewards": [
-                    {
-                        "bonuses": [
-                            {
-                                "type": "MAGIC_SCHOOL_SKILL",
-                                "subtype": "water",
-                                "val": 3,
-                                "duration": "ONE_WEEK"
-                            }
-                        ],
-                        "message": "{Magic Water Mushroom}\r\n\r\nThe influence of this mysterious mushroom allows you to cast Water Magic spells at expert level until the end of the week."
-                    }
-                ],
-                "templates": {
-                    "zobj008": {
-                        "animation": "mapObjects/zobj008.def",
-                        "mask": [
-                            "VVVV",
-                            "VVVV",
-                            "VVBV",
-                            "VVAV"
-                        ],
-                        "visitableFrom": [
-                            "---",
-                            "+++",
-                            "+++"
-                        ]
-                    }
+  "waterMagicMushroom": {
+    "name": "Magic Water Mushroom",
+    "handler": "configurable",
+    "types": {
+      "waterMagicMushroom": {
+        "name": "Magic Water Mushroom",
+        "description": "@wake-of-gods.mapobjects.magicmushrooms.dialog.water.description",
+        "onVisitedMessage": "@wake-of-gods.mapobjects.magicmushrooms.dialog.water.visited",
+        "visitMode": "bonus",
+        "rmg": {
+          "value": 2000,
+          "rarity": 20,
+          "zoneLimit": 1
+        },
+        "sounds": {
+          "ambient": [
+            "LOOPFAER"
+          ],
+          "visit": [
+            "LUCK"
+          ]
+        },
+        "rewards": [
+          {
+            "bonuses": [
+              {
+                "type": "MAGIC_SCHOOL_SKILL",
+                "subtype": "water",
+                "val": 3,
+                "duration": "ONE_WEEK",
+                "valueType": "AT_LEAST"
+              }
+            ],
+            "message": "@wake-of-gods.mapobjects.magicmushrooms.dialog.water.reward",
+            "limiter": {
+              "noneOf": [
+                {
+                  "secondary": {
+                    "waterMagic": 3
+                  }
                 }
+              ]
             }
-        }
-    },
-    "airMagicMushroom": {
-        "name": "Air Magic Mushroom",
-        "handler": "configurable",
-        "types": {
-            "airMagicMushroom": {
-                "name": "Magic Air Mushroom",
-                "description": "(grant expert Air Magic until end of the week)",
-                "onVisitedMessage": "{Magic Air Mushroom}\r\n\r\nYou already visited this mushroom this week.",
-                "visitMode": "bonus",
-                "rmg": {
-                    "value": 2000,
-                    "rarity": 20,
-                    "zoneLimit": 1
-                },
-                "sounds": {
-                    "ambient": [
-                        "LOOPFAER"
-                    ],
-                    "visit": [
-                        "LUCK"
-                    ]
-                },
-                "rewards": [
-                    {
-                        "bonuses": [
-                            {
-                                "type": "MAGIC_SCHOOL_SKILL",
-                                "subtype": "air",
-                                "val": 3,
-                                "duration": "ONE_WEEK"
-                            }
-                        ],
-                        "message": "{Magic Air Mushroom}\r\n\r\nThe influence of this mysterious mushroom allows you to cast Air Magic spells at expert level until the end of the week."
-                    }
-                ],
-                "templates": {
-                    "zobj012": {
-                        "animation": "mapObjects/zobj012.def",
-                        "mask": [
-                            "VVV",
-                            "VVV",
-                            "VAV"
-                        ],
-                        "visitableFrom": [
-                            "---",
-                            "+++",
-                            "+++"
-                        ]
-                    }
-                }
-            }
-        }
-    },
-    "earthMagicMushroom": {
-        "name": "Earth Magic Mushroom",
-        "handler": "configurable",
-        "types": {
-            "earthMagicMushroom": {
-                "name": "Magic Earth Mushroom",
-                "description": "(grant expert Earth Magic until end of the week)",
-                "onVisitedMessage": "{Magic Earth Mushroom}\r\n\r\nYou already visited this mushroom this week.",
-                "visitMode": "bonus",
-                "rmg": {
-                    "value": 2000,
-                    "rarity": 20,
-                    "zoneLimit": 1
-                },
-                "sounds": {
-                    "ambient": [
-                        "LOOPFAER"
-                    ],
-                    "visit": [
-                        "LUCK"
-                    ]
-                },
-                "rewards": [
-                    {
-                        "bonuses": [
-                            {
-                                "type": "MAGIC_SCHOOL_SKILL",
-                                "subtype": "earth",
-                                "val": 3,
-                                "duration": "ONE_WEEK"
-                            }
-                        ],
-                        "message": "{Magic Earth Mushroom}\r\n\r\nThe influence of this mysterious mushroom allows you to cast Earth Magic spells at expert level until the end of the week."
-                    }
-                ],
-                "templates": {
-                    "zobj017": {
-                        "animation": "mapObjects/zobj017.def",
-                        "mask": [
-                            "VVVV",
-                            "VVBV",
-                            "VVAV"
-                        ],
-                        "visitableFrom": [
-                            "---",
-                            "+++",
-                            "+++"
-                        ]
-                    }
-                }
-            }
-        }
-    },
-    "fireMagicMushroom": {
-        "name": "Fire Magic Mushroom",
-        "handler": "configurable",
-        "types": {
-            "fireMagicMushroom": {
-                "name": "Magic Fire Mushroom",
-                "description": "(grant expert Fire Magic until end of the week)",
-                "onVisitedMessage": "{Magic Fire Mushroom}\r\n\r\nYou already visited this mushroom this week.",
-                "visitMode": "bonus",
-                "rmg": {
-                    "value": 2000,
-                    "rarity": 20,
-                    "zoneLimit": 1
-                },
-                "sounds": {
-                    "ambient": [
-                        "LOOPFAER"
-                    ],
-                    "visit": [
-                        "LUCK"
-                    ]
-                },
-                "rewards": [
-                    {
-                        "bonuses": [
-                            {
-                                "type": "MAGIC_SCHOOL_SKILL",
-                                "subtype": "fire",
-                                "val": 3,
-                                "duration": "ONE_WEEK"
-                            }
-                        ],
-                        "message": "{Magic Fire Mushroom}\r\n\r\nThe influence of this mysterious mushroom allows you to cast Fire Magic spells at expert level until the end of the week."
-                    }
-                ],
-                "templates": {
-                    "zobj023": {
-                        "animation": "mapObjects/zobj023.def",
-                        "mask": [
-                            "VVV",
-                            "VVV",
-                            "VVV",
-                            "VAV"
-                        ],
-                        "visitableFrom": [
-                            "---",
-                            "+++",
-                            "+++"
-                        ]
-                    }
-                }
-            }
-        }
+          }
+        ],
+        "templates": {
+          "zobj008": {
+            "animation": "mapObjects/zobj008.def",
+            "mask": [
+              "VVVV",
+              "VVVV",
+              "VVBV",
+              "VVAV"
+            ],
+            "visitableFrom": [
+              "---",
+              "+++",
+              "+++"
+            ]
+          }
+        },
+        "onEmptyMessage": "@wake-of-gods.mapobjects.magicmushrooms.dialog.water.expert",
+        "notVisitedTooltip": "@wake-of-gods.mapobjects.magicmushrooms.dialog.water.available",
+        "visitedTooltip": "@wake-of-gods.mapobjects.magicmushrooms.dialog.water.used"
+      }
     }
+  },
+  "airMagicMushroom": {
+    "name": "Magic Air Mushroom",
+    "handler": "configurable",
+    "types": {
+      "airMagicMushroom": {
+        "name": "Magic Air Mushroom",
+        "description": "@wake-of-gods.mapobjects.magicmushrooms.dialog.air.description",
+        "onVisitedMessage": "@wake-of-gods.mapobjects.magicmushrooms.dialog.air.visited",
+        "visitMode": "bonus",
+        "rmg": {
+          "value": 2000,
+          "rarity": 20,
+          "zoneLimit": 1
+        },
+        "sounds": {
+          "ambient": [
+            "LOOPFAER"
+          ],
+          "visit": [
+            "LUCK"
+          ]
+        },
+        "rewards": [
+          {
+            "bonuses": [
+              {
+                "type": "MAGIC_SCHOOL_SKILL",
+                "subtype": "air",
+                "val": 3,
+                "duration": "ONE_WEEK",
+                "valueType": "AT_LEAST"
+              }
+            ],
+            "message": "@wake-of-gods.mapobjects.magicmushrooms.dialog.air.reward",
+            "limiter": {
+              "noneOf": [
+                {
+                  "secondary": {
+                    "airMagic": 3
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "templates": {
+          "zobj012": {
+            "animation": "mapObjects/zobj012.def",
+            "mask": [
+              "VVV",
+              "VVV",
+              "VAV"
+            ],
+            "visitableFrom": [
+              "---",
+              "+++",
+              "+++"
+            ]
+          }
+        },
+        "onEmptyMessage": "@wake-of-gods.mapobjects.magicmushrooms.dialog.air.expert",
+        "notVisitedTooltip": "@wake-of-gods.mapobjects.magicmushrooms.dialog.air.available",
+        "visitedTooltip": "@wake-of-gods.mapobjects.magicmushrooms.dialog.air.used"
+      }
+    }
+  },
+  "earthMagicMushroom": {
+    "name": "Magic Earth Mushroom",
+    "handler": "configurable",
+    "types": {
+      "earthMagicMushroom": {
+        "name": "Magic Earth Mushroom",
+        "description": "@wake-of-gods.mapobjects.magicmushrooms.dialog.earth.description",
+        "onVisitedMessage": "@wake-of-gods.mapobjects.magicmushrooms.dialog.earth.visited",
+        "visitMode": "bonus",
+        "rmg": {
+          "value": 2000,
+          "rarity": 20,
+          "zoneLimit": 1
+        },
+        "sounds": {
+          "ambient": [
+            "LOOPFAER"
+          ],
+          "visit": [
+            "LUCK"
+          ]
+        },
+        "rewards": [
+          {
+            "bonuses": [
+              {
+                "type": "MAGIC_SCHOOL_SKILL",
+                "subtype": "earth",
+                "val": 3,
+                "duration": "ONE_WEEK",
+                "valueType": "AT_LEAST"
+              }
+            ],
+            "message": "@wake-of-gods.mapobjects.magicmushrooms.dialog.earth.reward",
+            "limiter": {
+              "noneOf": [
+                {
+                  "secondary": {
+                    "earthMagic": 3
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "templates": {
+          "zobj017": {
+            "animation": "mapObjects/zobj017.def",
+            "mask": [
+              "VVVV",
+              "VVBV",
+              "VVAV"
+            ],
+            "visitableFrom": [
+              "---",
+              "+++",
+              "+++"
+            ]
+          }
+        },
+        "onEmptyMessage": "@wake-of-gods.mapobjects.magicmushrooms.dialog.earth.expert",
+        "notVisitedTooltip": "@wake-of-gods.mapobjects.magicmushrooms.dialog.earth.available",
+        "visitedTooltip": "@wake-of-gods.mapobjects.magicmushrooms.dialog.earth.used"
+      }
+    }
+  },
+  "fireMagicMushroom": {
+    "name": "Magic Fire Mushroom",
+    "handler": "configurable",
+    "types": {
+      "fireMagicMushroom": {
+        "name": "Magic Fire Mushroom",
+        "description": "@wake-of-gods.mapobjects.magicmushrooms.dialog.fire.description",
+        "onVisitedMessage": "@wake-of-gods.mapobjects.magicmushrooms.dialog.fire.visited",
+        "visitMode": "bonus",
+        "rmg": {
+          "value": 2000,
+          "rarity": 20,
+          "zoneLimit": 1
+        },
+        "sounds": {
+          "ambient": [
+            "LOOPFAER"
+          ],
+          "visit": [
+            "LUCK"
+          ]
+        },
+        "rewards": [
+          {
+            "bonuses": [
+              {
+                "type": "MAGIC_SCHOOL_SKILL",
+                "subtype": "fire",
+                "val": 3,
+                "duration": "ONE_WEEK",
+                "valueType": "AT_LEAST"
+              }
+            ],
+            "message": "@wake-of-gods.mapobjects.magicmushrooms.dialog.fire.reward",
+            "limiter": {
+              "noneOf": [
+                {
+                  "secondary": {
+                    "fireMagic": 3
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "templates": {
+          "zobj023": {
+            "animation": "mapObjects/zobj023.def",
+            "mask": [
+              "VVV",
+              "VVV",
+              "VVV",
+              "VAV"
+            ],
+            "visitableFrom": [
+              "---",
+              "+++",
+              "+++"
+            ]
+          }
+        },
+        "onEmptyMessage": "@wake-of-gods.mapobjects.magicmushrooms.dialog.fire.expert",
+        "notVisitedTooltip": "@wake-of-gods.mapobjects.magicmushrooms.dialog.fire.available",
+        "visitedTooltip": "@wake-of-gods.mapobjects.magicmushrooms.dialog.fire.used"
+      }
+    }
+  }
 }

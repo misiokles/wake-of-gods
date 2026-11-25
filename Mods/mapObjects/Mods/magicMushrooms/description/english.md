@@ -1,22 +1,24 @@
-# Magic Mushrooms
+# Magic Mushrooms (Script 10) — 1.0.3
 
-These rare mushrooms temporarily let a hero cast spells as if they had **Expert mastery** of one school of magic. The effect helps even heroes who have never learned that magic-school skill.
+Four rare mushrooms temporarily allow a hero to cast spells at Expert mastery in their corresponding school of magic.
 
-## Four varieties
-
-| Mushroom | Temporary benefit |
+| Mushroom | Benefit |
 | --- | --- |
-| Water Magic Mushroom | Expert Water Magic |
-| Air Magic Mushroom | Expert Air Magic |
-| Earth Magic Mushroom | Expert Earth Magic |
-| Fire Magic Mushroom | Expert Fire Magic |
+| Magic Water Mushroom | Expert Water Magic |
+| Magic Fire Mushroom | Expert Fire Magic |
+| Magic Earth Mushroom | Expert Earth Magic |
+| Magic Air Mushroom | Expert Air Magic |
 
 ## Visiting
 
-- **Free:** no gold, resources, artifacts or movement points are charged by the mushroom.
-- The magic lasts **until the end of the week**. It does not permanently teach or upgrade your hero's secondary skill.
-- Each mushroom gives mastery in **only its own school**. A Water mushroom does not improve Fire, Air or Earth magic.
-- The mushroom recognizes whether the hero currently has the relevant magic bonus; returning while the same effect is active is not a way to stack multiple Expert levels.
-- Once the benefit ends, the hero may seek out magical mushrooms again.
+- No gold, resources, artifacts, or extra movement points are charged by the object.
+- The effect lasts until the end of the current week, not seven days from the visit. It expires at the beginning of the next week.
+- A hero without the corresponding secondary skill, or with Basic or Advanced mastery, can benefit. A hero with the permanent Expert skill receives no additional bonus.
+- Each school has its own visit marker, shared by all mushrooms of that school for the same hero. A second visit does not stack the effect. Other heroes and other schools are independent.
+- The benefit does not require an empty secondary skill slot. It is a temporary spell-mastery bonus, not an actual secondary skill. Your permanent skill level is unchanged. Requirements and specialties based on the learned secondary skill may still see the original level.
 
-*Example:* A hero with Basic Earth Magic who visits an Earth mushroom gains temporary Expert-level Earth spell effects, but their permanent Earth Magic skill remains Basic.
+Example: a hero with Basic Fire Magic receives Expert spell mastery until Monday. The permanent Fire Magic skill remains Basic throughout.
+
+## Differences from WoG
+
+WoG temporarily changes the actual secondary skill and restores its saved level on Monday. VCMI instead grants `MAGIC_SCHOOL_SKILL` with `AT_LEAST`, value 3 and `ONE_WEEK`. This avoids overwriting normal skill progression, but does not reproduce all secondary-skill-dependent interactions. The twenty original ERT text records are preserved in `description/wog-original`; active texts have separate English and Polish translations. The success text describes spell mastery rather than learning a permanent skill. RMG settings are unchanged.

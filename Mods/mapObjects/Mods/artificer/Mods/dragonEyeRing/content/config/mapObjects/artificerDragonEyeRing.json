@@ -32,45 +32,105 @@
                             "resources": {
                                 "gold": 5000,
                                 "mithril": 5
-                            }
+                            },
+                            "movePoints": 100
                         },
-                        "message": "{Artificer}\r\n\r\nCombine Quiet Eye of the Dragon and Still Eye of the Dragon into a Dragon Eye Ring for 5,000 gold and 5 mithril.\r\n\r\nDo you agree to this trade?"
+                        "message": "@wake-of-gods.mapobjects.artificer.offer.combine.quietEyeOfTheDragon.stillEyeOfTheDragon.dragonEyeRing"
                     }
                 },
-                "onVisited": {
-                    "append": {
-                        "takenArtifacts": [
-                            "quietEyeOfTheDragon",
-                            "stillEyeOfTheDragon"
-                        ],
-                        "artifacts": [
-                            "dragonEyeRing"
-                        ],
-                        "resources": {
-                            "gold": -10000,
-                            "mithril": -10
+                "onEmpty": {
+                    "appendItems": [
+                        {
+                            "limiter": {
+                                "allOf": [
+                                    {
+                                        "artifacts": [
+                                            "quietEyeOfTheDragon"
+                                        ]
+                                    },
+                                    {
+                                        "artifacts": [
+                                            "stillEyeOfTheDragon"
+                                        ]
+                                    }
+                                ],
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 5000
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 5
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.5000.5"
                         },
-                        "movePoints": -100,
-                        "limiter": {
-                            "allOf": [
-                                {
-                                    "artifacts": [
-                                        "quietEyeOfTheDragon"
-                                    ]
-                                },
-                                {
-                                    "artifacts": [
-                                        "stillEyeOfTheDragon"
-                                    ]
-                                }
-                            ],
-                            "resources": {
-                                "gold": 10000,
-                                "mithril": 10
-                            }
+                        {
+                            "limiter": {
+                                "allOf": [
+                                    {
+                                        "artifacts": [
+                                            "quietEyeOfTheDragon"
+                                        ]
+                                    },
+                                    {
+                                        "artifacts": [
+                                            "stillEyeOfTheDragon"
+                                        ]
+                                    },
+                                    {
+                                        "resources": {
+                                            "gold": 5000
+                                        }
+                                    }
+                                ],
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 5
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.5"
                         },
-                        "message": "{Artificer}\r\n\r\nCombine Quiet Eye of the Dragon and Still Eye of the Dragon into a Dragon Eye Ring for 10,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
-                    }
+                        {
+                            "limiter": {
+                                "allOf": [
+                                    {
+                                        "artifacts": [
+                                            "quietEyeOfTheDragon"
+                                        ]
+                                    },
+                                    {
+                                        "artifacts": [
+                                            "stillEyeOfTheDragon"
+                                        ]
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 5
+                                        }
+                                    }
+                                ],
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 5000
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.5000"
+                        }
+                    ]
                 }
             }
         }

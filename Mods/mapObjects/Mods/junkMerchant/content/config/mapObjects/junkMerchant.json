@@ -5,7 +5,7 @@
         "types": {
             "junkMerchant": {
                 "name": "Junk Merchant",
-                "description": "Offers trades for 32 artifacts, mostly weak ones, plus spell scrolls.",
+                "description": "@wake-of-gods.mapobjects.junkmerchant.description",
                 "rmg": {
                     "value": 7000,
                     "rarity": 75,
@@ -38,7 +38,7 @@
                                 "centaurAxe"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Centaur Axe! You know what's better than that? ... I'll tell you! Centaurs! What's an Axe with no Centaurs! Am I right? I'll give you... oh, I can be generous... 50 Centaur Captains for the Axe. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.centaurAxe"
                     },
                     {
                         "takenArtifacts": [
@@ -55,7 +55,7 @@
                                 "shieldOfTheDwarvenLords"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Shield Of The Dwarven Lords! You know what's better than that? ... I'll tell you! Dwarves! They're better! I'm such a great guy, I'll give you... say... 15 Battle Dwarves for the Shield. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.shieldOfTheDwarvenLords"
                     },
                     {
                         "takenArtifacts": [
@@ -69,7 +69,7 @@
                                 "bucklerOfTheGnollKing"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Buckler Of The Gnoll King! You know what's better than that? ... I'll tell you! A Targ Of The Rampaging Ogre! +5 instead of +4! It's just better! I must be crazy but I'll do it! I'll give you the Targ for the Buckler! Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.bucklerOfTheGnollKing"
                     },
                     {
                         "takenArtifacts": [
@@ -83,7 +83,7 @@
                                 "helmOfTheAlabasterUnicorn"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Helm Of The Alabaster Unicorn! What junk! You know what's better than that? ... I'll tell you! Unicorns! And to build their glade you need gems! Which is what I'll give you! 5 gems! Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.helmOfTheAlabasterUnicorn"
                     },
                     {
                         "takenArtifacts": [
@@ -100,7 +100,7 @@
                                 "breastplateOfPetrifiedWood"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Breastplate Of Petrified Wood! You're actually wearing that? Tell you what, give me the Breastplate, and I'll teach you +1 spell power! Like a Breastplate without having to wear it! Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.breastplateOfPetrifiedWood"
                     },
                     {
                         "takenArtifacts": [
@@ -114,7 +114,7 @@
                                 "cloverOfFortune"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Clover Of Fortune! Blimey! You're still using garbage like that? I suppose I could take it off your hands for... I dunno... 1500 gold. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.cloverOfFortune"
                     },
                     {
                         "takenArtifacts": [
@@ -128,7 +128,7 @@
                                 "cardsOfProphecy"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nCards Of Prophecy! What junk! You wanna know the future, just wet your finger and hold it in the wind, pal! Tell you what, I'll take the Cards from you for... say... 1500 gold. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.cardsOfProphecy"
                     },
                     {
                         "takenArtifacts": [
@@ -142,7 +142,7 @@
                                 "ladybirdOfLuck"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Ladybird Of Luck! Are you superstitious or what, pal? Aw, I'm kidding you! That's a fine... thingie. I'll give you 1500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.ladybirdOfLuck"
                     },
                     {
                         "takenArtifacts": [
@@ -156,7 +156,7 @@
                                 "badgeOfCourage"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Badge Of Courage! What'd you do, save a dog from a burning building? I suppose I could melt it down... I'll give you 1500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.badgeOfCourage"
                     },
                     {
                         "takenArtifacts": [
@@ -170,7 +170,7 @@
                                 "crestOfValor"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Crest Of Valor! Runs in the family, huh? Well, it's kind of pretty. I could part with... say... 1500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.crestOfValor"
                     },
                     {
                         "takenArtifacts": [
@@ -184,7 +184,7 @@
                                 "glyphOfGallantry"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Glyph Of Gallantry! Man, I thought they stopped making these! Don't they have +2 morale artifacts now? Well, for the nostalgia of it, I could give you... maybe... 1500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.glyphOfGallantry"
                     },
                     {
                         "takenArtifacts": [
@@ -195,7 +195,7 @@
                                 "speculum"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Speculabob! I mean Speculum! What utter crud! You know what's better than that? ... I'll tell you! A map! Just a map of the neighborhood! I'll give you a map of these parts for the Specuthingie. Deal?",
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.speculum",
                         "revealTiles": {
                             "radius": 30,
                             "surface": 1,
@@ -216,7 +216,7 @@
                                 "spyglass"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Spyglass! Man, isn't that like the worst artifact ever? Just totally useless! But I'm such a pal, I'll give you, I'll give you, thirt... no... fift... Uh... I'll give you 1830 gold for it! Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.spyglass"
                     },
                     {
                         "takenArtifacts": [
@@ -230,7 +230,7 @@
                                 "amuletOfTheUndertaker"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nAn Amulet Of The Undertaker! Spooky! Those are bad luck, you know. I'll take it off of you for... I dunno... 600 gold. That's all it's worth, if you want to know the truth. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.amuletOfTheUndertaker"
                     },
                     {
                         "takenArtifacts": [
@@ -244,7 +244,7 @@
                                 "vampiresCowl"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Vampire's Cowl! I thought you guys couldn't go out in daylight? Just kidding! Well it's a nice conversation piece. I'll give you... what... 2500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.vampiresCowl"
                     },
                     {
                         "takenArtifacts": [
@@ -258,7 +258,7 @@
                                 "deadMansBoots"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nDead Man's Boots! Where did you get those? They're awfully scarce in these parts! In fact I'll give you... 2000 gold for them! Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.deadMansBoots"
                     },
                     {
                         "takenArtifacts": [
@@ -272,7 +272,7 @@
                                 "surcoatOfCounterpoise"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Surcoat Of Counterpoise! That would go great with my Surpants Of Counterpoise! I've gotta have it! I'll give you... 4000 gold for it! Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.surcoatOfCounterpoise"
                     },
                     {
                         "takenArtifacts": [
@@ -289,7 +289,7 @@
                                 "birdOfPerception"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Bird Of Perception! You know what's better than that? ... I'll tell you! Birds! Griffins even! Much better than a little statue! I'm such a guy, I'll give you... 15 Royal Griffins for it! Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.birdOfPerception"
                     },
                     {
                         "takenArtifacts": [
@@ -303,7 +303,7 @@
                                 "statesmansMedal"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Statesman's Medal! I guess I should call you \"sir\" or something, huh pal? Just kidding! Well it's a little tarnished... I'll give you... 10 crystals for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.statesmansMedal"
                     },
                     {
                         "takenArtifacts": [
@@ -317,7 +317,7 @@
                                 "diplomatsRing"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Diplomat's Ring! What did you do, take it off a corpse? Just kidding! Sheesh you're sensitive! Tell you what, to make it up to you, I'll give you... 10 gems for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.diplomatsRing"
                     },
                     {
                         "takenArtifacts": [
@@ -331,7 +331,7 @@
                                 "ambassadorsSash"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nAn Ambassador's Sash! Where are you from, Enroth? Well what does an Ambaddador need but castles? And how do you build castles? Sometimes, with mercury! Lotsa mercury! I'll give you 10 mercury for the Sash. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.ambassadorsSash"
                     },
                     {
                         "takenArtifacts": [
@@ -345,7 +345,7 @@
                                 "necklaceOfOceanGuidance"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Necklace Of Ocean Guidance! Man, somebody got to you before me, I can tell! What a gyp! You know what sailing around gets you? Nothing but wood! Mounds and mounds of sea debris! To save you time, I'll give you 15 wood for the Necklace. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.necklaceOfOceanGuidance"
                     },
                     {
                         "takenArtifacts": [
@@ -362,7 +362,7 @@
                                 "angelWings"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nAngel Wings! I can trade them for 5 Archangels. Do we have a deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.angelWings"
                     },
                     {
                         "takenArtifacts": [
@@ -374,7 +374,7 @@
                                 "charmOfMana"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Charm Of Mana! What a useless toy! One spell point a day! Tell you what, pal, I'll give you 60 spell points for it! That's like two months from the Charm! Deal?",
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.charmOfMana",
                         "manaOverflowFactor": 100
                     },
                     {
@@ -389,7 +389,7 @@
                                 "slow"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Collar Of Conjuring! Man, does that chafe your neck or what? Tell you what, to show you what a great guy I am, give me the Collar and I'll teach you the best spell ever! That's right, Slow! Deal?",
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.collarOfConjuring",
                         "spells": [
                             "slow"
                         ]
@@ -406,7 +406,7 @@
                                 "recantersCloak"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Recanter's Cloak! Well, at least it keeps the rain off your back! You know what else keeps the rain off your back? Money! If you buy a house with it! I'll give you 2500 gold for the Cloak. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.recantersCloak"
                     },
                     {
                         "takenArtifacts": [
@@ -420,7 +420,7 @@
                                 "spiritOfOppression"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Spirit Of Oppression! You've gotta be kidding! No-one would ever want that except maybe a necrom... hmmm. Hey, maybe if I shine it up, it might look good on my mantle. I'll give you 2000 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.spiritOfOppression"
                     },
                     {
                         "takenArtifacts": [
@@ -434,7 +434,7 @@
                                 "hourglassOfTheEvilHour"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nAn Hourglass Of The Evil something! What trash! I think I just threw one of those away - were you rooting around in my garbage? Just kidding! Aw, I'm a sucker for a sad face. I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.hourglassOfTheEvilHour"
                     },
                     {
                         "takenArtifacts": [
@@ -446,7 +446,7 @@
                                 "sphereOfPermanence"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Sphere Of Permanence! Wow, completely immune to Dispel! Hold me back! You know what you need, pal? Some experience! So you don't use junk like that! Give me the Sphere, I'll teach you a lesson worth 2000 experience. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.sphereOfPermanence"
                     },
                     {
                         "takenArtifacts": [
@@ -460,7 +460,7 @@
                                 "orbOfVulnerability"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nAn Orb Of Vulnerability! Makes a nice paperweight, doesn't it! Aw, I pity you, pal, I really do. Out of the goodness of my heart, I'll give you an Orb Of The Firmament for your Orb. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.orbOfVulnerability"
                     },
                     {
                         "takenArtifacts": [
@@ -474,7 +474,7 @@
                                 "lightningBolt"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Pendant Of Negativity! What are you, a scaredy cat? You know what's better than that? ... I'll tell you! A Lightning Bolt of your own! Just frying everything in sight! I'll teach you Lightning Bolt in exchange for the Pendant. Deal?",
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.pendantOfNegativity",
                         "spells": [
                             "lightningBolt"
                         ]
@@ -491,7 +491,7 @@
                                 "legsOfLegion"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nLegs Of Legion! Those belong in a museum! Just kidding! They aren't worth the rock they're carved out of! Which is what I'm offering you! 15 Ore for the Legs. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.trade.legsOfLegion"
                     },
                     {
                         "takenScrolls": [
@@ -505,7 +505,7 @@
                                 "summonBoat"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Summon Boat? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.summonBoat"
                     },
                     {
                         "takenScrolls": [
@@ -519,7 +519,7 @@
                                 "scuttleBoat"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Scuttle Boat? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.scuttleBoat"
                     },
                     {
                         "takenScrolls": [
@@ -533,7 +533,7 @@
                                 "visions"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Visions? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.visions"
                     },
                     {
                         "takenScrolls": [
@@ -547,7 +547,7 @@
                                 "viewEarth"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? View Earth? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.viewEarth"
                     },
                     {
                         "takenScrolls": [
@@ -561,7 +561,7 @@
                                 "disguise"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Disguise? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.disguise"
                     },
                     {
                         "takenScrolls": [
@@ -575,7 +575,7 @@
                                 "viewAir"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? View Air? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.viewAir"
                     },
                     {
                         "takenScrolls": [
@@ -589,7 +589,7 @@
                                 "fly"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Fly? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.fly"
                     },
                     {
                         "takenScrolls": [
@@ -603,7 +603,7 @@
                                 "waterWalk"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Water Walk? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.waterWalk"
                     },
                     {
                         "takenScrolls": [
@@ -617,7 +617,7 @@
                                 "dimensionDoor"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Dimension Door? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.dimensionDoor"
                     },
                     {
                         "takenScrolls": [
@@ -631,7 +631,7 @@
                                 "townPortal"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Town Portal? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.townPortal"
                     },
                     {
                         "takenScrolls": [
@@ -645,7 +645,7 @@
                                 "quicksand"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Quicksand? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.quicksand"
                     },
                     {
                         "takenScrolls": [
@@ -659,7 +659,7 @@
                                 "landMine"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Land Mine? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.landMine"
                     },
                     {
                         "takenScrolls": [
@@ -673,7 +673,7 @@
                                 "forceField"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Force Field? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.forceField"
                     },
                     {
                         "takenScrolls": [
@@ -687,7 +687,7 @@
                                 "fireWall"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Fire Wall? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.fireWall"
                     },
                     {
                         "takenScrolls": [
@@ -701,7 +701,7 @@
                                 "earthquake"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Earthquake? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.earthquake"
                     },
                     {
                         "takenScrolls": [
@@ -715,7 +715,7 @@
                                 "magicArrow"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Magic Arrow? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.magicArrow"
                     },
                     {
                         "takenScrolls": [
@@ -729,7 +729,7 @@
                                 "iceBolt"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Ice Bolt? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.iceBolt"
                     },
                     {
                         "takenScrolls": [
@@ -743,7 +743,7 @@
                                 "lightningBolt"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Lightning Bolt? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.lightningBolt"
                     },
                     {
                         "takenScrolls": [
@@ -757,7 +757,7 @@
                                 "implosion"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Implosion? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.implosion"
                     },
                     {
                         "takenScrolls": [
@@ -771,7 +771,7 @@
                                 "chainLightning"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Chain Lightning? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.chainLightning"
                     },
                     {
                         "takenScrolls": [
@@ -785,7 +785,7 @@
                                 "titanBolt"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Titan's Lightning Bolt? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.titanBolt"
                     },
                     {
                         "takenScrolls": [
@@ -799,7 +799,7 @@
                                 "frostRing"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Frost Ring? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.frostRing"
                     },
                     {
                         "takenScrolls": [
@@ -813,7 +813,7 @@
                                 "fireball"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Fireball? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.fireball"
                     },
                     {
                         "takenScrolls": [
@@ -827,7 +827,7 @@
                                 "inferno"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Inferno? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.inferno"
                     },
                     {
                         "takenScrolls": [
@@ -841,7 +841,7 @@
                                 "meteorShower"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Meteor Shower? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.meteorShower"
                     },
                     {
                         "takenScrolls": [
@@ -855,7 +855,7 @@
                                 "deathRipple"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Death Ripple? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.deathRipple"
                     },
                     {
                         "takenScrolls": [
@@ -869,7 +869,7 @@
                                 "destroyUndead"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Destroy Undead? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.destroyUndead"
                     },
                     {
                         "takenScrolls": [
@@ -883,7 +883,7 @@
                                 "armageddon"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Armageddon? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.armageddon"
                     },
                     {
                         "takenScrolls": [
@@ -897,7 +897,7 @@
                                 "shield"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Shield? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.shield"
                     },
                     {
                         "takenScrolls": [
@@ -911,7 +911,7 @@
                                 "airShield"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Air Shield? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.airShield"
                     },
                     {
                         "takenScrolls": [
@@ -925,7 +925,7 @@
                                 "fireShield"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Fire Shield? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.fireShield"
                     },
                     {
                         "takenScrolls": [
@@ -939,7 +939,7 @@
                                 "protectAir"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Protection from Air? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.protectAir"
                     },
                     {
                         "takenScrolls": [
@@ -953,7 +953,7 @@
                                 "protectFire"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Protection from Fire? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.protectFire"
                     },
                     {
                         "takenScrolls": [
@@ -967,7 +967,7 @@
                                 "protectWater"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Protection from Water? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.protectWater"
                     },
                     {
                         "takenScrolls": [
@@ -981,7 +981,7 @@
                                 "protectEarth"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Protection from Earth? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.protectEarth"
                     },
                     {
                         "takenScrolls": [
@@ -995,7 +995,7 @@
                                 "antiMagic"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Anti-Magic? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.antiMagic"
                     },
                     {
                         "takenScrolls": [
@@ -1009,7 +1009,7 @@
                                 "dispel"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Dispel? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.dispel"
                     },
                     {
                         "takenScrolls": [
@@ -1023,7 +1023,7 @@
                                 "magicMirror"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Magic Mirror? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.magicMirror"
                     },
                     {
                         "takenScrolls": [
@@ -1037,7 +1037,7 @@
                                 "cure"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Cure? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.cure"
                     },
                     {
                         "takenScrolls": [
@@ -1051,7 +1051,7 @@
                                 "resurrection"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Resurrection? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.resurrection"
                     },
                     {
                         "takenScrolls": [
@@ -1065,7 +1065,7 @@
                                 "animateDead"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Animate Dead? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.animateDead"
                     },
                     {
                         "takenScrolls": [
@@ -1079,7 +1079,7 @@
                                 "sacrifice"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Sacrifice? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.sacrifice"
                     },
                     {
                         "takenScrolls": [
@@ -1093,7 +1093,7 @@
                                 "bless"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Bless? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.bless"
                     },
                     {
                         "takenScrolls": [
@@ -1107,7 +1107,7 @@
                                 "curse"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Curse? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.curse"
                     },
                     {
                         "takenScrolls": [
@@ -1121,7 +1121,7 @@
                                 "bloodlust"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Bloodlust? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.bloodlust"
                     },
                     {
                         "takenScrolls": [
@@ -1135,7 +1135,7 @@
                                 "precision"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Precision? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.precision"
                     },
                     {
                         "takenScrolls": [
@@ -1149,7 +1149,7 @@
                                 "weakness"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Weakness? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.weakness"
                     },
                     {
                         "takenScrolls": [
@@ -1163,7 +1163,7 @@
                                 "stoneSkin"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Stone Skin? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.stoneSkin"
                     },
                     {
                         "takenScrolls": [
@@ -1177,7 +1177,7 @@
                                 "disruptingRay"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Disrupting Ray? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.disruptingRay"
                     },
                     {
                         "takenScrolls": [
@@ -1191,7 +1191,7 @@
                                 "prayer"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Prayer? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.prayer"
                     },
                     {
                         "takenScrolls": [
@@ -1205,7 +1205,7 @@
                                 "mirth"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Mirth? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.mirth"
                     },
                     {
                         "takenScrolls": [
@@ -1219,7 +1219,7 @@
                                 "sorrow"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Sorrow? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.sorrow"
                     },
                     {
                         "takenScrolls": [
@@ -1233,7 +1233,7 @@
                                 "fortune"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Fortune? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.fortune"
                     },
                     {
                         "takenScrolls": [
@@ -1247,7 +1247,7 @@
                                 "misfortune"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Misfortune? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.misfortune"
                     },
                     {
                         "takenScrolls": [
@@ -1261,7 +1261,7 @@
                                 "haste"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Haste? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.haste"
                     },
                     {
                         "takenScrolls": [
@@ -1275,7 +1275,7 @@
                                 "slow"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Slow? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.slow"
                     },
                     {
                         "takenScrolls": [
@@ -1289,7 +1289,7 @@
                                 "slayer"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Slayer? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.slayer"
                     },
                     {
                         "takenScrolls": [
@@ -1303,7 +1303,7 @@
                                 "frenzy"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Frenzy? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.frenzy"
                     },
                     {
                         "takenScrolls": [
@@ -1317,7 +1317,7 @@
                                 "counterstrike"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Counterstrike? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.counterstrike"
                     },
                     {
                         "takenScrolls": [
@@ -1331,7 +1331,7 @@
                                 "berserk"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Berserk? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.berserk"
                     },
                     {
                         "takenScrolls": [
@@ -1345,7 +1345,7 @@
                                 "hypnotize"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Hypnotize? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.hypnotize"
                     },
                     {
                         "takenScrolls": [
@@ -1359,7 +1359,7 @@
                                 "forgetfulness"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Forgetfulness? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.forgetfulness"
                     },
                     {
                         "takenScrolls": [
@@ -1373,7 +1373,7 @@
                                 "blind"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Blind? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.blind"
                     },
                     {
                         "takenScrolls": [
@@ -1387,7 +1387,7 @@
                                 "teleport"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Teleport? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.teleport"
                     },
                     {
                         "takenScrolls": [
@@ -1401,7 +1401,7 @@
                                 "removeObstacle"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Remove Obstacle? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.removeObstacle"
                     },
                     {
                         "takenScrolls": [
@@ -1415,7 +1415,7 @@
                                 "clone"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Clone? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.clone"
                     },
                     {
                         "takenScrolls": [
@@ -1429,7 +1429,7 @@
                                 "fireElemental"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Summon Fire Elemental? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.fireElemental"
                     },
                     {
                         "takenScrolls": [
@@ -1443,7 +1443,7 @@
                                 "earthElemental"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Summon Earth Elemental? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.earthElemental"
                     },
                     {
                         "takenScrolls": [
@@ -1457,7 +1457,7 @@
                                 "waterElemental"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Summon Water Elemental? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.waterElemental"
                     },
                     {
                         "takenScrolls": [
@@ -1471,10 +1471,10 @@
                                 "airElemental"
                             ]
                         },
-                        "message": "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? Summon Air Elemental? Whatever! I'll give you 500 gold for it. Deal?"
+                        "message": "@wake-of-gods.mapobjects.junkmerchant.scroll.airElemental"
                     }
                 ],
-                "onEmptyMessage": "{Junk Merchant}\r\n\r\nWell, unless there's something else you want to take off and show me, I guess we won't be doing business today. No hard feelings though - come back anytime!",
+                "onEmptyMessage": "@wake-of-gods.mapobjects.junkmerchant.empty",
                 "selectMode": "selectRandom",
                 "visitMode": "unlimited",
                 "canRefuse": true,

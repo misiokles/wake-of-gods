@@ -1,0 +1,1 @@
+Original Script 10 from the supplied WoG 3.59 alpha archive (v1.10g). ERM/ERT bytes unchanged. All 20 records preserved. Success wording adapted to temporary spell mastery rather than a learned secondary skill.

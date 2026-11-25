@@ -1,0 +1,5430 @@
+{
+  "wake-of-gods.mapobjects.altar-of-transformation:altarOfTransformation": {
+    "types": {
+      "altarOfTransformation": {
+        "rewards": {
+          "modify@1": {
+            "changeCreatures": {
+              "nymph": "pikeman",
+              "oceanid": "halberdier",
+              "crewmate": "archer",
+              "seaman": "marksman",
+              "pirate": "griffin",
+              "corsair": "royalGriffin",
+              "seadog": "royalGriffin",
+              "stormbird": "swordsman",
+              "ayssid": "crusader",
+              "seaWitch": "monk",
+              "sorceress": "zealot",
+              "nix": "cavalier",
+              "nixWarrior": "champion",
+              "seaserpent": "angel",
+              "haspid": "archangel"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@2": {
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              "noneOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@21": {
+            "changeCreatures": {
+              "nymph": "pikeman",
+              "oceanid": "halberdier",
+              "crewmate": "archer",
+              "seaman": "marksman",
+              "pirate": "griffin",
+              "corsair": "royalGriffin",
+              "seadog": "royalGriffin",
+              "stormbird": "swordsman",
+              "ayssid": "crusader",
+              "seaWitch": "monk",
+              "sorceress": "zealot",
+              "nix": "cavalier",
+              "nixWarrior": "champion",
+              "seaserpent": "angel",
+              "haspid": "archangel"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@3": {
+            "changeCreatures": {
+              "nymph": "centaur",
+              "oceanid": "centaurCaptain",
+              "crewmate": "dwarf",
+              "seaman": "battleDwarf",
+              "pirate": "woodElf",
+              "corsair": "grandElf",
+              "seadog": "grandElf",
+              "stormbird": "pegasus",
+              "ayssid": "silverPegasus",
+              "seaWitch": "dendroidGuard",
+              "sorceress": "dendroidSoldier",
+              "nix": "unicorn",
+              "nixWarrior": "warUnicorn",
+              "seaserpent": "greenDragon",
+              "haspid": "goldDragon"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@4": {
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              "noneOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@22": {
+            "changeCreatures": {
+              "nymph": "centaur",
+              "oceanid": "centaurCaptain",
+              "crewmate": "dwarf",
+              "seaman": "battleDwarf",
+              "pirate": "woodElf",
+              "corsair": "grandElf",
+              "seadog": "grandElf",
+              "stormbird": "pegasus",
+              "ayssid": "silverPegasus",
+              "seaWitch": "dendroidGuard",
+              "sorceress": "dendroidSoldier",
+              "nix": "unicorn",
+              "nixWarrior": "warUnicorn",
+              "seaserpent": "greenDragon",
+              "haspid": "goldDragon"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@5": {
+            "changeCreatures": {
+              "nymph": "gremlin",
+              "oceanid": "masterGremlin",
+              "crewmate": "stoneGargoyle",
+              "seaman": "obsidianGargoyle",
+              "pirate": "ironGolem",
+              "corsair": "stoneGolem",
+              "seadog": "stoneGolem",
+              "stormbird": "mage",
+              "ayssid": "archMage",
+              "seaWitch": "genie",
+              "sorceress": "masterGenie",
+              "nix": "naga",
+              "nixWarrior": "nagaQueen",
+              "seaserpent": "giant",
+              "haspid": "titan"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@6": {
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              "noneOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@23": {
+            "changeCreatures": {
+              "nymph": "gremlin",
+              "oceanid": "masterGremlin",
+              "crewmate": "stoneGargoyle",
+              "seaman": "obsidianGargoyle",
+              "pirate": "ironGolem",
+              "corsair": "stoneGolem",
+              "seadog": "stoneGolem",
+              "stormbird": "mage",
+              "ayssid": "archMage",
+              "seaWitch": "genie",
+              "sorceress": "masterGenie",
+              "nix": "naga",
+              "nixWarrior": "nagaQueen",
+              "seaserpent": "giant",
+              "haspid": "titan"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@7": {
+            "changeCreatures": {
+              "nymph": "imp",
+              "oceanid": "familiar",
+              "crewmate": "gog",
+              "seaman": "magog",
+              "pirate": "hellHound",
+              "corsair": "cerberus",
+              "seadog": "cerberus",
+              "stormbird": "demon",
+              "ayssid": "hornedDemon",
+              "seaWitch": "pitFiend",
+              "sorceress": "pitLord",
+              "nix": "efreet",
+              "nixWarrior": "efreetSultan",
+              "seaserpent": "devil",
+              "haspid": "archDevil"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@8": {
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              "noneOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@24": {
+            "changeCreatures": {
+              "nymph": "imp",
+              "oceanid": "familiar",
+              "crewmate": "gog",
+              "seaman": "magog",
+              "pirate": "hellHound",
+              "corsair": "cerberus",
+              "seadog": "cerberus",
+              "stormbird": "demon",
+              "ayssid": "hornedDemon",
+              "seaWitch": "pitFiend",
+              "sorceress": "pitLord",
+              "nix": "efreet",
+              "nixWarrior": "efreetSultan",
+              "seaserpent": "devil",
+              "haspid": "archDevil"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@9": {
+            "changeCreatures": {
+              "nymph": "goblin",
+              "oceanid": "hobgoblin",
+              "crewmate": "goblinWolfRider",
+              "seaman": "hobgoblinWolfRider",
+              "pirate": "orc",
+              "corsair": "orcChieftain",
+              "seadog": "orcChieftain",
+              "stormbird": "ogre",
+              "ayssid": "ogreMage",
+              "seaWitch": "roc",
+              "sorceress": "thunderbird",
+              "nix": "cyclop",
+              "nixWarrior": "cyclopKing",
+              "seaserpent": "behemoth",
+              "haspid": "ancientBehemoth"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@10": {
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              "noneOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@25": {
+            "changeCreatures": {
+              "nymph": "goblin",
+              "oceanid": "hobgoblin",
+              "crewmate": "goblinWolfRider",
+              "seaman": "hobgoblinWolfRider",
+              "pirate": "orc",
+              "corsair": "orcChieftain",
+              "seadog": "orcChieftain",
+              "stormbird": "ogre",
+              "ayssid": "ogreMage",
+              "seaWitch": "roc",
+              "sorceress": "thunderbird",
+              "nix": "cyclop",
+              "nixWarrior": "cyclopKing",
+              "seaserpent": "behemoth",
+              "haspid": "ancientBehemoth"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@11": {
+            "changeCreatures": {
+              "nymph": "skeleton",
+              "oceanid": "skeletonWarrior",
+              "crewmate": "walkingDead",
+              "seaman": "zombieLord",
+              "pirate": "wight",
+              "corsair": "wraith",
+              "seadog": "wraith",
+              "stormbird": "vampire",
+              "ayssid": "vampireLord",
+              "seaWitch": "lich",
+              "sorceress": "powerLich",
+              "nix": "blackKnight",
+              "nixWarrior": "dreadKnight",
+              "seaserpent": "boneDragon",
+              "haspid": "ghostDragon"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@12": {
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              "noneOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@26": {
+            "changeCreatures": {
+              "nymph": "skeleton",
+              "oceanid": "skeletonWarrior",
+              "crewmate": "walkingDead",
+              "seaman": "zombieLord",
+              "pirate": "wight",
+              "corsair": "wraith",
+              "seadog": "wraith",
+              "stormbird": "vampire",
+              "ayssid": "vampireLord",
+              "seaWitch": "lich",
+              "sorceress": "powerLich",
+              "nix": "blackKnight",
+              "nixWarrior": "dreadKnight",
+              "seaserpent": "boneDragon",
+              "haspid": "ghostDragon"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@13": {
+            "changeCreatures": {
+              "nymph": "troglodyte",
+              "oceanid": "infernalTroglodyte",
+              "crewmate": "harpy",
+              "seaman": "harpyHag",
+              "pirate": "beholder",
+              "corsair": "evilEye",
+              "seadog": "evilEye",
+              "stormbird": "medusa",
+              "ayssid": "medusaQueen",
+              "seaWitch": "minotaur",
+              "sorceress": "minotaurKing",
+              "nix": "manticore",
+              "nixWarrior": "scorpicore",
+              "seaserpent": "redDragon",
+              "haspid": "blackDragon"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@14": {
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              "noneOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@27": {
+            "changeCreatures": {
+              "nymph": "troglodyte",
+              "oceanid": "infernalTroglodyte",
+              "crewmate": "harpy",
+              "seaman": "harpyHag",
+              "pirate": "beholder",
+              "corsair": "evilEye",
+              "seadog": "evilEye",
+              "stormbird": "medusa",
+              "ayssid": "medusaQueen",
+              "seaWitch": "minotaur",
+              "sorceress": "minotaurKing",
+              "nix": "manticore",
+              "nixWarrior": "scorpicore",
+              "seaserpent": "redDragon",
+              "haspid": "blackDragon"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@15": {
+            "changeCreatures": {
+              "nymph": "gnoll",
+              "oceanid": "gnollMarauder",
+              "crewmate": "lizardman",
+              "seaman": "lizardWarrior",
+              "pirate": "serpentFly",
+              "corsair": "fireDragonFly",
+              "seadog": "fireDragonFly",
+              "stormbird": "basilisk",
+              "ayssid": "greaterBasilisk",
+              "seaWitch": "gorgon",
+              "sorceress": "mightyGorgon",
+              "nix": "wyvern",
+              "nixWarrior": "wyvernMonarch",
+              "seaserpent": "hydra",
+              "haspid": "chaosHydra"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@16": {
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              "noneOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@28": {
+            "changeCreatures": {
+              "nymph": "gnoll",
+              "oceanid": "gnollMarauder",
+              "crewmate": "lizardman",
+              "seaman": "lizardWarrior",
+              "pirate": "serpentFly",
+              "corsair": "fireDragonFly",
+              "seadog": "fireDragonFly",
+              "stormbird": "basilisk",
+              "ayssid": "greaterBasilisk",
+              "seaWitch": "gorgon",
+              "sorceress": "mightyGorgon",
+              "nix": "wyvern",
+              "nixWarrior": "wyvernMonarch",
+              "seaserpent": "hydra",
+              "haspid": "chaosHydra"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@17": {
+            "changeCreatures": {
+              "nymph": "pixie",
+              "oceanid": "sprite",
+              "crewmate": "airElemental",
+              "seaman": "stormElemental",
+              "pirate": "waterElemental",
+              "corsair": "iceElemental",
+              "seadog": "iceElemental",
+              "stormbird": "fireElemental",
+              "ayssid": "energyElemental",
+              "seaWitch": "earthElemental",
+              "sorceress": "magmaElemental",
+              "nix": "psychicElemental",
+              "nixWarrior": "magicElemental",
+              "seaserpent": "firebird",
+              "haspid": "phoenix"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@18": {
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              "noneOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@29": {
+            "changeCreatures": {
+              "nymph": "pixie",
+              "oceanid": "sprite",
+              "crewmate": "airElemental",
+              "seaman": "stormElemental",
+              "pirate": "waterElemental",
+              "corsair": "iceElemental",
+              "seadog": "iceElemental",
+              "stormbird": "fireElemental",
+              "ayssid": "energyElemental",
+              "seaWitch": "earthElemental",
+              "sorceress": "magmaElemental",
+              "nix": "psychicElemental",
+              "nixWarrior": "magicElemental",
+              "seaserpent": "firebird",
+              "haspid": "phoenix"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@19": {
+            "changeCreatures": {
+              "nymph": "halfling",
+              "oceanid": "halfling",
+              "crewmate": "rogue",
+              "seaman": "boar",
+              "pirate": "mummy",
+              "corsair": "nomad",
+              "seadog": "nomad",
+              "stormbird": "sharpshooter",
+              "ayssid": "werewolf",
+              "seaWitch": "arcticSharpshooter",
+              "sorceress": "arcticSharpshooter",
+              "nix": "enchanter",
+              "nixWarrior": "nightmare",
+              "seaserpent": "gorynych",
+              "haspid": "gorynych"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@20": {
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              "noneOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "modify@30": {
+            "changeCreatures": {
+              "nymph": "halfling",
+              "oceanid": "halfling",
+              "crewmate": "rogue",
+              "seaman": "boar",
+              "pirate": "mummy",
+              "corsair": "nomad",
+              "seadog": "nomad",
+              "stormbird": "sharpshooter",
+              "ayssid": "werewolf",
+              "seaWitch": "arcticSharpshooter",
+              "sorceress": "arcticSharpshooter",
+              "nix": "enchanter",
+              "nixWarrior": "nightmare",
+              "seaserpent": "gorynych",
+              "haspid": "gorynych"
+            },
+            "limiter": {
+              "anyOf": {
+                "appendItems": [
+                  {
+                    "creatures": [
+                      {
+                        "type": "ayssid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "corsair",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "crewmate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "haspid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nix",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nixWarrior",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "nymph",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "oceanid",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "pirate",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaWitch",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seadog",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaman",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "seaserpent",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "sorceress",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "creatures": [
+                      {
+                        "type": "stormbird",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

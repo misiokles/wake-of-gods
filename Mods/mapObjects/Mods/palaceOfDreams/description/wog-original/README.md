@@ -1,0 +1,1 @@
+Original WoG 3.59 alpha script011.erm and script011.ert, unmodified. All 23 records (including two blank records) are retained. ERM placeholders and repeat-play questions are preserved only in the archive; the active VCMI text is adapted to the one-game mechanic.

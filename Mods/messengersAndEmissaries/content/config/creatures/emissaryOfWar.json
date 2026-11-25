@@ -5,11 +5,12 @@
             "plural": "Emissaries of War"
         },
         "faction": "neutral",
+		"special": true,
         "level": 6,
         "cost": {
             "gold": 30000
         },
-        "speed": 12,
+        "speed": 4,
         "hitPoints": 2000,
         "attack": 0,
         "defense": 10,

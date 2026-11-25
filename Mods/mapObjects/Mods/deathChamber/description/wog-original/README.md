@@ -1,0 +1,1 @@
+Original WoG 3.59 alpha Script 70 ERM/ERT, preserved without changes. All 59 numbered ERT records (170000–170058), including two image-path records, are also available in strings.json. Active English dialogue uses one fixed combination of the original warning fragments; unused variants and technical strings are archived, not shown. Polish active translations are adaptations.

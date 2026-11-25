@@ -1,0 +1,21 @@
+{
+  "newChestGasTrap": {
+    "implements": "combatEvent",
+    "script": "combat/newChestGasTrap",
+    "patches": [],
+    "priority": 0,
+    "description": "Gas trap: applies its spell once at the start of the next battle.",
+    "schema": {
+      "required": [
+        "spell"
+      ],
+      "properties": {
+        "spell": {
+          "type": "string",
+          "entity": "spell"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

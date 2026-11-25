@@ -1,0 +1,1 @@
+Original WoG 3.59 alpha Script 04 v1.7 and all 16 ERT records. The introduction, trade premise and payment questions are adapted in active dialog; nested selection, refusal response and post-trade/repeat messages are retained here because the rewardable object does not expose equivalent hooks.

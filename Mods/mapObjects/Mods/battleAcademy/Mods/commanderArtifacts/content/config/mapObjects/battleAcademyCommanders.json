@@ -1,107 +1,137 @@
 {
-    "wake-of-gods.mapobjects.battleacademy:battleAcademy": {
-        "types": {
-            "battleAcademy": {
-                "rewards": {
-                    "appendItems": [
-                        {
-                            "appearChance": {
-                                "dice": 15,
-                                "min": 0,
-                                "max": 20
-                            },
-                            "limiter": {
-                                "resources": {
-                                    "gold": 15000
-                                }
-                            },
-                            "artifacts": [
-                                "axeOfSmashing"
-                            ],
-                            "resources": {
-                                "gold": -15000
-                            },
-                            "message": "{Battle Academy}\r\n\r\nBuy the Commander artifact %s for 15,000 gold.\r\n\r\nDo you agree to this purchase?"
-                        },
-                        {
-                            "appearChance": {
-                                "dice": 15,
-                                "min": 20,
-                                "max": 40
-                            },
-                            "limiter": {
-                                "resources": {
-                                    "gold": 15000
-                                }
-                            },
-                            "artifacts": [
-                                "mithrilMail"
-                            ],
-                            "resources": {
-                                "gold": -15000
-                            },
-                            "message": "{Battle Academy}\r\n\r\nBuy the Commander artifact %s for 15,000 gold.\r\n\r\nDo you agree to this purchase?"
-                        },
-                        {
-                            "appearChance": {
-                                "dice": 15,
-                                "min": 40,
-                                "max": 60
-                            },
-                            "limiter": {
-                                "resources": {
-                                    "gold": 15000
-                                }
-                            },
-                            "artifacts": [
-                                "swordOfSharpness"
-                            ],
-                            "resources": {
-                                "gold": -15000
-                            },
-                            "message": "{Battle Academy}\r\n\r\nBuy the Commander artifact %s for 15,000 gold.\r\n\r\nDo you agree to this purchase?"
-                        },
-                        {
-                            "appearChance": {
-                                "dice": 15,
-                                "min": 60,
-                                "max": 80
-                            },
-                            "limiter": {
-                                "resources": {
-                                    "gold": 15000
-                                }
-                            },
-                            "artifacts": [
-                                "bowOfSeeking"
-                            ],
-                            "resources": {
-                                "gold": -15000
-                            },
-                            "message": "{Battle Academy}\r\n\r\nBuy the Commander artifact %s for 15,000 gold.\r\n\r\nDo you agree to this purchase?"
-                        },
-                        {
-                            "appearChance": {
-                                "dice": 15,
-                                "min": 80,
-                                "max": 100
-                            },
-                            "limiter": {
-                                "resources": {
-                                    "gold": 15000
-                                }
-                            },
-                            "artifacts": [
-                                "hardenedShield"
-                            ],
-                            "resources": {
-                                "gold": -15000
-                            },
-                            "message": "{Battle Academy}\r\n\r\nBuy the Commander artifact %s for 15,000 gold.\r\n\r\nDo you agree to this purchase?"
-                        }
-                    ]
+  "wake-of-gods.mapobjects.battleacademy:battleAcademy": {
+    "types": {
+      "battleAcademy": {
+        "rewards": {
+          "appendItems": [
+            {
+              "appearChance": {
+                "dice": 15,
+                "min": 0,
+                "max": 20
+              },
+              "limiter": {
+                "resources": {
+                  "gold": 15000
                 }
+              },
+              "artifacts": [
+                "axeOfSmashing"
+              ],
+              "resources": {
+                "gold": -15000
+              },
+              "message": "@wake-of-gods.mapobjects.battleacademy.artifact.axeOfSmashing",
+              "bonuses": [
+                {
+                  "type": "NONE",
+                  "duration": "ONE_DAY"
+                }
+              ]
+            },
+            {
+              "appearChance": {
+                "dice": 15,
+                "min": 20,
+                "max": 40
+              },
+              "limiter": {
+                "resources": {
+                  "gold": 15000
+                }
+              },
+              "artifacts": [
+                "mithrilMail"
+              ],
+              "resources": {
+                "gold": -15000
+              },
+              "message": "@wake-of-gods.mapobjects.battleacademy.artifact.mithrilMail",
+              "bonuses": [
+                {
+                  "type": "NONE",
+                  "duration": "ONE_DAY"
+                }
+              ]
+            },
+            {
+              "appearChance": {
+                "dice": 15,
+                "min": 40,
+                "max": 60
+              },
+              "limiter": {
+                "resources": {
+                  "gold": 15000
+                }
+              },
+              "artifacts": [
+                "swordOfSharpness"
+              ],
+              "resources": {
+                "gold": -15000
+              },
+              "message": "@wake-of-gods.mapobjects.battleacademy.artifact.swordOfSharpness",
+              "bonuses": [
+                {
+                  "type": "NONE",
+                  "duration": "ONE_DAY"
+                }
+              ]
+            },
+            {
+              "appearChance": {
+                "dice": 15,
+                "min": 60,
+                "max": 80
+              },
+              "limiter": {
+                "resources": {
+                  "gold": 15000
+                }
+              },
+              "artifacts": [
+                "bowOfSeeking"
+              ],
+              "resources": {
+                "gold": -15000
+              },
+              "message": "@wake-of-gods.mapobjects.battleacademy.artifact.bowOfSeeking",
+              "bonuses": [
+                {
+                  "type": "NONE",
+                  "duration": "ONE_DAY"
+                }
+              ]
+            },
+            {
+              "appearChance": {
+                "dice": 15,
+                "min": 80,
+                "max": 100
+              },
+              "limiter": {
+                "resources": {
+                  "gold": 15000
+                }
+              },
+              "artifacts": [
+                "hardenedShield"
+              ],
+              "resources": {
+                "gold": -15000
+              },
+              "message": "@wake-of-gods.mapobjects.battleacademy.artifact.hardenedShield",
+              "bonuses": [
+                {
+                  "type": "NONE",
+                  "duration": "ONE_DAY"
+                }
+              ]
             }
+          ]
         }
+      }
     }
+  }
 }

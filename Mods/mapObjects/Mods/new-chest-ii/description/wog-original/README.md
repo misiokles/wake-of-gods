@@ -1,0 +1,1 @@
+Original WoG 3.59 alpha script031.erm/.ert, unmodified. strings.json separates 35 active entries from 29 older # entries. ERM placeholders are preserved for reference; only adapted VCMI-safe strings are wired into gameplay.

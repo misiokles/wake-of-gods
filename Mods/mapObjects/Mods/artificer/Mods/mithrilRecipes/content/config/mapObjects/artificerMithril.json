@@ -23,9 +23,10 @@
                                 "resources": {
                                     "gold": 7500,
                                     "mithril": 1
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nUpgrade your Sword of Hellfire to Titan's Gladius for 7,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.upgrade.swordOfHellfire.titansGladius"
                         },
                         {
                             "takenArtifacts": [
@@ -46,9 +47,10 @@
                                 "resources": {
                                     "gold": 7500,
                                     "mithril": 1
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nUpgrade your Shield of the Damned to Sentinel's Shield for 7,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.upgrade.shieldOfTheDamned.sentinelsShield"
                         },
                         {
                             "takenArtifacts": [
@@ -69,9 +71,10 @@
                                 "resources": {
                                     "gold": 7500,
                                     "mithril": 1
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nUpgrade your Hellstorm Helmet to Thunder Helmet for 7,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.upgrade.hellstormHelmet.thunderHelmet"
                         },
                         {
                             "takenArtifacts": [
@@ -92,9 +95,10 @@
                                 "resources": {
                                     "gold": 7500,
                                     "mithril": 1
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nUpgrade your Breastplate of Brimstone to Titan's Cuirass for 7,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.upgrade.breastplateOfBrimstone.titansCuirass"
                         },
                         {
                             "takenArtifacts": [
@@ -115,9 +119,10 @@
                                 "resources": {
                                     "gold": 2000,
                                     "mithril": 2
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nUpgrade your Armor of Wonder to Sandals of the Saint for 2,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.upgrade.armorOfWonder.sandalsOfTheSaint"
                         },
                         {
                             "takenArtifacts": [
@@ -138,9 +143,10 @@
                                 "resources": {
                                     "gold": 4000,
                                     "mithril": 4
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nUpgrade your Sandals of the Saint to Celestial Necklace of Bliss for 4,000 gold and 4 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.upgrade.sandalsOfTheSaint.celestialNecklaceOfBliss"
                         },
                         {
                             "takenArtifacts": [
@@ -161,9 +167,10 @@
                                 "resources": {
                                     "gold": 6000,
                                     "mithril": 6
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nUpgrade your Celestial Necklace of Bliss to Lion's Shield of Courage for 6,000 gold and 6 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.upgrade.celestialNecklaceOfBliss.lionsShieldOfCourage"
                         },
                         {
                             "takenArtifacts": [
@@ -184,9 +191,10 @@
                                 "resources": {
                                     "gold": 8000,
                                     "mithril": 8
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nUpgrade your Lion's Shield of Courage to Sword of Judgement for 8,000 gold and 8 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.upgrade.lionsShieldOfCourage.swordOfJudgement"
                         },
                         {
                             "takenArtifacts": [
@@ -207,9 +215,10 @@
                                 "resources": {
                                     "gold": 10000,
                                     "mithril": 10
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nUpgrade your Sword of Judgement to Helm of Heavenly Enlightenment for 10,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.upgrade.swordOfJudgement.helmOfHeavenlyEnlightenment"
                         },
                         {
                             "takenArtifacts": [
@@ -219,7 +228,7 @@
                                 "pendantOfCourage"
                             ],
                             "resources": {
-                                "gold": -5000,
+                                "gold": -6000,
                                 "mithril": -1
                             },
                             "movePoints": -100,
@@ -228,11 +237,12 @@
                                     "stillEyeOfTheDragon"
                                 ],
                                 "resources": {
-                                    "gold": 5000,
+                                    "gold": 6000,
                                     "mithril": 1
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nUpgrade your Still Eye of the Dragon to Pendant of Courage for 5,000 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.upgrade.stillEyeOfTheDragon.pendantOfCourage"
                         },
                         {
                             "takenArtifacts": [
@@ -253,9 +263,10 @@
                                 "resources": {
                                     "gold": 7500,
                                     "mithril": 3
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nUpgrade your Equestrian's Gloves to Boots of Speed for 7,500 gold and 3 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.upgrade.equestriansGloves.bootsOfSpeed"
                         },
                         {
                             "takenArtifacts": [
@@ -276,9 +287,10 @@
                                 "resources": {
                                     "gold": 10000,
                                     "mithril": 5
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nUpgrade your Recanter's Cloak to Orb of Inhibition for 10,000 gold and 5 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.upgrade.recantersCloak.orbOfInhibition"
                         },
                         {
                             "takenArtifacts": [
@@ -299,9 +311,10 @@
                                 "resources": {
                                     "gold": 2500,
                                     "mithril": 1
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Orb of the Firmament for Orb of Silt at a cost of 2,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.exchange.orbOfTheFirmament.orbOfSilt"
                         },
                         {
                             "takenArtifacts": [
@@ -322,9 +335,10 @@
                                 "resources": {
                                     "gold": 2500,
                                     "mithril": 1
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Orb of the Firmament for Orb of Tempestuous Fire at a cost of 2,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.exchange.orbOfTheFirmament.orbOfTempestuousFire"
                         },
                         {
                             "takenArtifacts": [
@@ -345,9 +359,10 @@
                                 "resources": {
                                     "gold": 2500,
                                     "mithril": 1
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Orb of the Firmament for Orb of Driving Rain at a cost of 2,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.exchange.orbOfTheFirmament.orbOfDrivingRain"
                         },
                         {
                             "takenArtifacts": [
@@ -368,9 +383,10 @@
                                 "resources": {
                                     "gold": 2500,
                                     "mithril": 1
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Orb of Silt for Orb of the Firmament at a cost of 2,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.exchange.orbOfSilt.orbOfTheFirmament"
                         },
                         {
                             "takenArtifacts": [
@@ -391,9 +407,10 @@
                                 "resources": {
                                     "gold": 2500,
                                     "mithril": 1
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Orb of Silt for Orb of Tempestuous Fire at a cost of 2,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.exchange.orbOfSilt.orbOfTempestuousFire"
                         },
                         {
                             "takenArtifacts": [
@@ -414,9 +431,10 @@
                                 "resources": {
                                     "gold": 2500,
                                     "mithril": 1
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Orb of Silt for Orb of Driving Rain at a cost of 2,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.exchange.orbOfSilt.orbOfDrivingRain"
                         },
                         {
                             "takenArtifacts": [
@@ -437,9 +455,10 @@
                                 "resources": {
                                     "gold": 2500,
                                     "mithril": 1
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Orb of Tempestuous Fire for Orb of the Firmament at a cost of 2,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.exchange.orbOfTempestuousFire.orbOfTheFirmament"
                         },
                         {
                             "takenArtifacts": [
@@ -460,9 +479,10 @@
                                 "resources": {
                                     "gold": 2500,
                                     "mithril": 1
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Orb of Tempestuous Fire for Orb of Silt at a cost of 2,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.exchange.orbOfTempestuousFire.orbOfSilt"
                         },
                         {
                             "takenArtifacts": [
@@ -483,9 +503,10 @@
                                 "resources": {
                                     "gold": 2500,
                                     "mithril": 1
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Orb of Tempestuous Fire for Orb of Driving Rain at a cost of 2,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.exchange.orbOfTempestuousFire.orbOfDrivingRain"
                         },
                         {
                             "takenArtifacts": [
@@ -506,9 +527,10 @@
                                 "resources": {
                                     "gold": 2500,
                                     "mithril": 1
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Orb of Driving Rain for Orb of the Firmament at a cost of 2,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.exchange.orbOfDrivingRain.orbOfTheFirmament"
                         },
                         {
                             "takenArtifacts": [
@@ -529,9 +551,10 @@
                                 "resources": {
                                     "gold": 2500,
                                     "mithril": 1
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Orb of Driving Rain for Orb of Silt at a cost of 2,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.exchange.orbOfDrivingRain.orbOfSilt"
                         },
                         {
                             "takenArtifacts": [
@@ -552,9 +575,10 @@
                                 "resources": {
                                     "gold": 2500,
                                     "mithril": 1
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Orb of Driving Rain for Orb of Tempestuous Fire at a cost of 2,500 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.exchange.orbOfDrivingRain.orbOfTempestuousFire"
                         },
                         {
                             "takenArtifacts": [
@@ -575,9 +599,10 @@
                                 "resources": {
                                     "gold": 10000,
                                     "mithril": 10
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Tome of Fire Magic for Tome of Air Magic at a cost of 10,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.exchange.tomeOfFireMagic.tomeOfAirMagic"
                         },
                         {
                             "takenArtifacts": [
@@ -598,9 +623,10 @@
                                 "resources": {
                                     "gold": 10000,
                                     "mithril": 10
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Tome of Fire Magic for Tome of Water Magic at a cost of 10,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.exchange.tomeOfFireMagic.tomeOfWaterMagic"
                         },
                         {
                             "takenArtifacts": [
@@ -621,9 +647,10 @@
                                 "resources": {
                                     "gold": 10000,
                                     "mithril": 10
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Tome of Fire Magic for Tome of Earth Magic at a cost of 10,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.exchange.tomeOfFireMagic.tomeOfEarthMagic"
                         },
                         {
                             "takenArtifacts": [
@@ -644,9 +671,10 @@
                                 "resources": {
                                     "gold": 10000,
                                     "mithril": 10
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Tome of Air Magic for Tome of Fire Magic at a cost of 10,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.exchange.tomeOfAirMagic.tomeOfFireMagic"
                         },
                         {
                             "takenArtifacts": [
@@ -667,9 +695,10 @@
                                 "resources": {
                                     "gold": 10000,
                                     "mithril": 10
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Tome of Air Magic for Tome of Water Magic at a cost of 10,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.exchange.tomeOfAirMagic.tomeOfWaterMagic"
                         },
                         {
                             "takenArtifacts": [
@@ -690,9 +719,10 @@
                                 "resources": {
                                     "gold": 10000,
                                     "mithril": 10
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Tome of Air Magic for Tome of Earth Magic at a cost of 10,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.exchange.tomeOfAirMagic.tomeOfEarthMagic"
                         },
                         {
                             "takenArtifacts": [
@@ -713,9 +743,10 @@
                                 "resources": {
                                     "gold": 10000,
                                     "mithril": 10
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Tome of Water Magic for Tome of Fire Magic at a cost of 10,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.exchange.tomeOfWaterMagic.tomeOfFireMagic"
                         },
                         {
                             "takenArtifacts": [
@@ -736,9 +767,10 @@
                                 "resources": {
                                     "gold": 10000,
                                     "mithril": 10
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Tome of Water Magic for Tome of Air Magic at a cost of 10,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.exchange.tomeOfWaterMagic.tomeOfAirMagic"
                         },
                         {
                             "takenArtifacts": [
@@ -759,9 +791,10 @@
                                 "resources": {
                                     "gold": 10000,
                                     "mithril": 10
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Tome of Water Magic for Tome of Earth Magic at a cost of 10,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.exchange.tomeOfWaterMagic.tomeOfEarthMagic"
                         },
                         {
                             "takenArtifacts": [
@@ -782,9 +815,10 @@
                                 "resources": {
                                     "gold": 10000,
                                     "mithril": 10
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Tome of Earth Magic for Tome of Fire Magic at a cost of 10,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.exchange.tomeOfEarthMagic.tomeOfFireMagic"
                         },
                         {
                             "takenArtifacts": [
@@ -805,9 +839,10 @@
                                 "resources": {
                                     "gold": 10000,
                                     "mithril": 10
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Tome of Earth Magic for Tome of Air Magic at a cost of 10,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.exchange.tomeOfEarthMagic.tomeOfAirMagic"
                         },
                         {
                             "takenArtifacts": [
@@ -828,9 +863,10 @@
                                 "resources": {
                                     "gold": 10000,
                                     "mithril": 10
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Tome of Earth Magic for Tome of Water Magic at a cost of 10,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.exchange.tomeOfEarthMagic.tomeOfWaterMagic"
                         },
                         {
                             "takenArtifacts": [
@@ -851,9 +887,10 @@
                                 "resources": {
                                     "gold": 1000,
                                     "mithril": 1
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Pendant of Life for Pendant of Death at a cost of 1,000 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.exchange.pendantOfLife.pendantOfDeath"
                         },
                         {
                             "takenArtifacts": [
@@ -874,9 +911,10 @@
                                 "resources": {
                                     "gold": 1000,
                                     "mithril": 1
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Pendant of Death for Pendant of Life at a cost of 1,000 gold and 1 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.exchange.pendantOfDeath.pendantOfLife"
                         },
                         {
                             "takenArtifacts": [
@@ -919,903 +957,2562 @@
                                 "resources": {
                                     "gold": 10000,
                                     "mithril": 10
-                                }
+                                },
+                                "movePoints": 100
                             },
-                            "message": "{Artificer}\r\n\r\nCombine your Orb of the Firmament + Orb of Silt + Orb of Tempestuous Fire + Orb of Driving Rain into Orb of Vulnerability for 10,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.offer.combine.orbOfTheFirmament.orbOfSilt.orbOfTempestuousFire.orbOfDrivingRain.orbOfVulnerability"
                         }
                     ]
                 },
-                "onVisited": {
+                "onEmpty": {
                     "appendItems": [
                         {
-                            "takenArtifacts": [
-                                "swordOfHellfire"
-                            ],
-                            "artifacts": [
-                                "titansGladius"
-                            ],
-                            "resources": {
-                                "gold": -15000,
-                                "mithril": -2
-                            },
-                            "movePoints": -100,
                             "limiter": {
                                 "artifacts": [
                                     "swordOfHellfire"
                                 ],
-                                "resources": {
-                                    "gold": 15000,
-                                    "mithril": 2
-                                }
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 7500
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nUpgrade your Sword of Hellfire to Titan's Gladius for 15,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.7500.1"
                         },
                         {
-                            "takenArtifacts": [
-                                "shieldOfTheDamned"
-                            ],
-                            "artifacts": [
-                                "sentinelsShield"
-                            ],
-                            "resources": {
-                                "gold": -15000,
-                                "mithril": -2
+                            "limiter": {
+                                "artifacts": [
+                                    "swordOfHellfire"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 7500
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
                             },
-                            "movePoints": -100,
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.1"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "swordOfHellfire"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 7500
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.7500"
+                        },
+                        {
                             "limiter": {
                                 "artifacts": [
                                     "shieldOfTheDamned"
                                 ],
-                                "resources": {
-                                    "gold": 15000,
-                                    "mithril": 2
-                                }
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 7500
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nUpgrade your Shield of the Damned to Sentinel's Shield for 15,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.7500.1"
                         },
                         {
-                            "takenArtifacts": [
-                                "hellstormHelmet"
-                            ],
-                            "artifacts": [
-                                "thunderHelmet"
-                            ],
-                            "resources": {
-                                "gold": -15000,
-                                "mithril": -2
+                            "limiter": {
+                                "artifacts": [
+                                    "shieldOfTheDamned"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 7500
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
                             },
-                            "movePoints": -100,
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.1"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "shieldOfTheDamned"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 7500
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.7500"
+                        },
+                        {
                             "limiter": {
                                 "artifacts": [
                                     "hellstormHelmet"
                                 ],
-                                "resources": {
-                                    "gold": 15000,
-                                    "mithril": 2
-                                }
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 7500
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nUpgrade your Hellstorm Helmet to Thunder Helmet for 15,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.7500.1"
                         },
                         {
-                            "takenArtifacts": [
-                                "breastplateOfBrimstone"
-                            ],
-                            "artifacts": [
-                                "titansCuirass"
-                            ],
-                            "resources": {
-                                "gold": -15000,
-                                "mithril": -2
+                            "limiter": {
+                                "artifacts": [
+                                    "hellstormHelmet"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 7500
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
                             },
-                            "movePoints": -100,
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.1"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "hellstormHelmet"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 7500
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.7500"
+                        },
+                        {
                             "limiter": {
                                 "artifacts": [
                                     "breastplateOfBrimstone"
                                 ],
-                                "resources": {
-                                    "gold": 15000,
-                                    "mithril": 2
-                                }
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 7500
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nUpgrade your Breastplate of Brimstone to Titan's Cuirass for 15,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.7500.1"
                         },
                         {
-                            "takenArtifacts": [
-                                "armorOfWonder"
-                            ],
-                            "artifacts": [
-                                "sandalsOfTheSaint"
-                            ],
-                            "resources": {
-                                "gold": -4000,
-                                "mithril": -4
+                            "limiter": {
+                                "artifacts": [
+                                    "breastplateOfBrimstone"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 7500
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
                             },
-                            "movePoints": -100,
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.1"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "breastplateOfBrimstone"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 7500
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.7500"
+                        },
+                        {
                             "limiter": {
                                 "artifacts": [
                                     "armorOfWonder"
                                 ],
-                                "resources": {
-                                    "gold": 4000,
-                                    "mithril": 4
-                                }
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2000
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 2
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nUpgrade your Armor of Wonder to Sandals of the Saint for 4,000 gold and 4 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.2000.2"
                         },
                         {
-                            "takenArtifacts": [
-                                "sandalsOfTheSaint"
-                            ],
-                            "artifacts": [
-                                "celestialNecklaceOfBliss"
-                            ],
-                            "resources": {
-                                "gold": -8000,
-                                "mithril": -8
+                            "limiter": {
+                                "artifacts": [
+                                    "armorOfWonder"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2000
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 2
+                                        }
+                                    }
+                                ]
                             },
-                            "movePoints": -100,
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.2"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "armorOfWonder"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 2
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2000
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.2000"
+                        },
+                        {
                             "limiter": {
                                 "artifacts": [
                                     "sandalsOfTheSaint"
                                 ],
-                                "resources": {
-                                    "gold": 8000,
-                                    "mithril": 8
-                                }
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 4000
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 4
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nUpgrade your Sandals of the Saint to Celestial Necklace of Bliss for 8,000 gold and 8 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.4000.4"
                         },
                         {
-                            "takenArtifacts": [
-                                "celestialNecklaceOfBliss"
-                            ],
-                            "artifacts": [
-                                "lionsShieldOfCourage"
-                            ],
-                            "resources": {
-                                "gold": -12000,
-                                "mithril": -12
+                            "limiter": {
+                                "artifacts": [
+                                    "sandalsOfTheSaint"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 4000
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 4
+                                        }
+                                    }
+                                ]
                             },
-                            "movePoints": -100,
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.4"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "sandalsOfTheSaint"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 4
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 4000
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.4000"
+                        },
+                        {
                             "limiter": {
                                 "artifacts": [
                                     "celestialNecklaceOfBliss"
                                 ],
-                                "resources": {
-                                    "gold": 12000,
-                                    "mithril": 12
-                                }
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 6000
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 6
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nUpgrade your Celestial Necklace of Bliss to Lion's Shield of Courage for 12,000 gold and 12 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.6000.6"
                         },
                         {
-                            "takenArtifacts": [
-                                "lionsShieldOfCourage"
-                            ],
-                            "artifacts": [
-                                "swordOfJudgement"
-                            ],
-                            "resources": {
-                                "gold": -16000,
-                                "mithril": -16
+                            "limiter": {
+                                "artifacts": [
+                                    "celestialNecklaceOfBliss"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 6000
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 6
+                                        }
+                                    }
+                                ]
                             },
-                            "movePoints": -100,
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.6"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "celestialNecklaceOfBliss"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 6
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 6000
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.6000"
+                        },
+                        {
                             "limiter": {
                                 "artifacts": [
                                     "lionsShieldOfCourage"
                                 ],
-                                "resources": {
-                                    "gold": 16000,
-                                    "mithril": 16
-                                }
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 8000
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 8
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nUpgrade your Lion's Shield of Courage to Sword of Judgement for 16,000 gold and 16 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.8000.8"
                         },
                         {
-                            "takenArtifacts": [
-                                "swordOfJudgement"
-                            ],
-                            "artifacts": [
-                                "helmOfHeavenlyEnlightenment"
-                            ],
-                            "resources": {
-                                "gold": -20000,
-                                "mithril": -20
+                            "limiter": {
+                                "artifacts": [
+                                    "lionsShieldOfCourage"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 8000
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 8
+                                        }
+                                    }
+                                ]
                             },
-                            "movePoints": -100,
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.8"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "lionsShieldOfCourage"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 8
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 8000
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.8000"
+                        },
+                        {
                             "limiter": {
                                 "artifacts": [
                                     "swordOfJudgement"
                                 ],
-                                "resources": {
-                                    "gold": 20000,
-                                    "mithril": 20
-                                }
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nUpgrade your Sword of Judgement to Helm of Heavenly Enlightenment for 20,000 gold and 20 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.10000.10"
                         },
                         {
-                            "takenArtifacts": [
-                                "stillEyeOfTheDragon"
-                            ],
-                            "artifacts": [
-                                "pendantOfCourage"
-                            ],
-                            "resources": {
-                                "gold": -10000,
-                                "mithril": -2
+                            "limiter": {
+                                "artifacts": [
+                                    "swordOfJudgement"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ]
                             },
-                            "movePoints": -100,
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.10"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "swordOfJudgement"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.10000"
+                        },
+                        {
                             "limiter": {
                                 "artifacts": [
                                     "stillEyeOfTheDragon"
                                 ],
-                                "resources": {
-                                    "gold": 10000,
-                                    "mithril": 2
-                                }
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 6000
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nUpgrade your Still Eye of the Dragon to Pendant of Courage for 10,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.6000.1"
                         },
                         {
-                            "takenArtifacts": [
-                                "equestriansGloves"
-                            ],
-                            "artifacts": [
-                                "bootsOfSpeed"
-                            ],
-                            "resources": {
-                                "gold": -15000,
-                                "mithril": -6
+                            "limiter": {
+                                "artifacts": [
+                                    "stillEyeOfTheDragon"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 6000
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
                             },
-                            "movePoints": -100,
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.1"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "stillEyeOfTheDragon"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 6000
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.6000"
+                        },
+                        {
                             "limiter": {
                                 "artifacts": [
                                     "equestriansGloves"
                                 ],
-                                "resources": {
-                                    "gold": 15000,
-                                    "mithril": 6
-                                }
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 7500
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 3
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nUpgrade your Equestrian's Gloves to Boots of Speed for 15,000 gold and 6 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.7500.3"
                         },
                         {
-                            "takenArtifacts": [
-                                "recantersCloak"
-                            ],
-                            "artifacts": [
-                                "orbOfInhibition"
-                            ],
-                            "resources": {
-                                "gold": -20000,
-                                "mithril": -10
+                            "limiter": {
+                                "artifacts": [
+                                    "equestriansGloves"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 7500
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 3
+                                        }
+                                    }
+                                ]
                             },
-                            "movePoints": -100,
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.3"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "equestriansGloves"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 3
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 7500
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.7500"
+                        },
+                        {
                             "limiter": {
                                 "artifacts": [
                                     "recantersCloak"
                                 ],
-                                "resources": {
-                                    "gold": 20000,
-                                    "mithril": 10
-                                }
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 5
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nUpgrade your Recanter's Cloak to Orb of Inhibition for 20,000 gold and 10 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.10000.5"
                         },
                         {
-                            "takenArtifacts": [
-                                "orbOfTheFirmament"
-                            ],
-                            "artifacts": [
-                                "orbOfSilt"
-                            ],
-                            "resources": {
-                                "gold": -5000,
-                                "mithril": -2
+                            "limiter": {
+                                "artifacts": [
+                                    "recantersCloak"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 5
+                                        }
+                                    }
+                                ]
                             },
-                            "movePoints": -100,
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.5"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "recantersCloak"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 5
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.10000"
+                        },
+                        {
                             "limiter": {
                                 "artifacts": [
                                     "orbOfTheFirmament"
                                 ],
-                                "resources": {
-                                    "gold": 5000,
-                                    "mithril": 2
-                                }
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Orb of the Firmament for Orb of Silt at a cost of 5,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.2500.1"
                         },
                         {
-                            "takenArtifacts": [
-                                "orbOfTheFirmament"
-                            ],
-                            "artifacts": [
-                                "orbOfTempestuousFire"
-                            ],
-                            "resources": {
-                                "gold": -5000,
-                                "mithril": -2
-                            },
-                            "movePoints": -100,
                             "limiter": {
                                 "artifacts": [
                                     "orbOfTheFirmament"
                                 ],
-                                "resources": {
-                                    "gold": 5000,
-                                    "mithril": 2
-                                }
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Orb of the Firmament for Orb of Tempestuous Fire at a cost of 5,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.1"
                         },
                         {
-                            "takenArtifacts": [
-                                "orbOfTheFirmament"
-                            ],
-                            "artifacts": [
-                                "orbOfDrivingRain"
-                            ],
-                            "resources": {
-                                "gold": -5000,
-                                "mithril": -2
-                            },
-                            "movePoints": -100,
                             "limiter": {
                                 "artifacts": [
                                     "orbOfTheFirmament"
                                 ],
-                                "resources": {
-                                    "gold": 5000,
-                                    "mithril": 2
-                                }
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Orb of the Firmament for Orb of Driving Rain at a cost of 5,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.2500"
                         },
                         {
-                            "takenArtifacts": [
-                                "orbOfSilt"
-                            ],
-                            "artifacts": [
-                                "orbOfTheFirmament"
-                            ],
-                            "resources": {
-                                "gold": -5000,
-                                "mithril": -2
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfTheFirmament"
+                                ],
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
                             },
-                            "movePoints": -100,
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.2500.1"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfTheFirmament"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.1"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfTheFirmament"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.2500"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfTheFirmament"
+                                ],
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.2500.1"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfTheFirmament"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.1"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfTheFirmament"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.2500"
+                        },
+                        {
                             "limiter": {
                                 "artifacts": [
                                     "orbOfSilt"
                                 ],
-                                "resources": {
-                                    "gold": 5000,
-                                    "mithril": 2
-                                }
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Orb of Silt for Orb of the Firmament at a cost of 5,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.2500.1"
                         },
                         {
-                            "takenArtifacts": [
-                                "orbOfSilt"
-                            ],
-                            "artifacts": [
-                                "orbOfTempestuousFire"
-                            ],
-                            "resources": {
-                                "gold": -5000,
-                                "mithril": -2
-                            },
-                            "movePoints": -100,
                             "limiter": {
                                 "artifacts": [
                                     "orbOfSilt"
                                 ],
-                                "resources": {
-                                    "gold": 5000,
-                                    "mithril": 2
-                                }
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Orb of Silt for Orb of Tempestuous Fire at a cost of 5,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.1"
                         },
                         {
-                            "takenArtifacts": [
-                                "orbOfSilt"
-                            ],
-                            "artifacts": [
-                                "orbOfDrivingRain"
-                            ],
-                            "resources": {
-                                "gold": -5000,
-                                "mithril": -2
-                            },
-                            "movePoints": -100,
                             "limiter": {
                                 "artifacts": [
                                     "orbOfSilt"
                                 ],
-                                "resources": {
-                                    "gold": 5000,
-                                    "mithril": 2
-                                }
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Orb of Silt for Orb of Driving Rain at a cost of 5,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.2500"
                         },
                         {
-                            "takenArtifacts": [
-                                "orbOfTempestuousFire"
-                            ],
-                            "artifacts": [
-                                "orbOfTheFirmament"
-                            ],
-                            "resources": {
-                                "gold": -5000,
-                                "mithril": -2
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfSilt"
+                                ],
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
                             },
-                            "movePoints": -100,
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.2500.1"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfSilt"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.1"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfSilt"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.2500"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfSilt"
+                                ],
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.2500.1"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfSilt"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.1"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfSilt"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.2500"
+                        },
+                        {
                             "limiter": {
                                 "artifacts": [
                                     "orbOfTempestuousFire"
                                 ],
-                                "resources": {
-                                    "gold": 5000,
-                                    "mithril": 2
-                                }
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Orb of Tempestuous Fire for Orb of the Firmament at a cost of 5,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.2500.1"
                         },
                         {
-                            "takenArtifacts": [
-                                "orbOfTempestuousFire"
-                            ],
-                            "artifacts": [
-                                "orbOfSilt"
-                            ],
-                            "resources": {
-                                "gold": -5000,
-                                "mithril": -2
-                            },
-                            "movePoints": -100,
                             "limiter": {
                                 "artifacts": [
                                     "orbOfTempestuousFire"
                                 ],
-                                "resources": {
-                                    "gold": 5000,
-                                    "mithril": 2
-                                }
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Orb of Tempestuous Fire for Orb of Silt at a cost of 5,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.1"
                         },
                         {
-                            "takenArtifacts": [
-                                "orbOfTempestuousFire"
-                            ],
-                            "artifacts": [
-                                "orbOfDrivingRain"
-                            ],
-                            "resources": {
-                                "gold": -5000,
-                                "mithril": -2
-                            },
-                            "movePoints": -100,
                             "limiter": {
                                 "artifacts": [
                                     "orbOfTempestuousFire"
                                 ],
-                                "resources": {
-                                    "gold": 5000,
-                                    "mithril": 2
-                                }
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Orb of Tempestuous Fire for Orb of Driving Rain at a cost of 5,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.2500"
                         },
                         {
-                            "takenArtifacts": [
-                                "orbOfDrivingRain"
-                            ],
-                            "artifacts": [
-                                "orbOfTheFirmament"
-                            ],
-                            "resources": {
-                                "gold": -5000,
-                                "mithril": -2
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfTempestuousFire"
+                                ],
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
                             },
-                            "movePoints": -100,
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.2500.1"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfTempestuousFire"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.1"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfTempestuousFire"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.2500"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfTempestuousFire"
+                                ],
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.2500.1"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfTempestuousFire"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.1"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfTempestuousFire"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.2500"
+                        },
+                        {
                             "limiter": {
                                 "artifacts": [
                                     "orbOfDrivingRain"
                                 ],
-                                "resources": {
-                                    "gold": 5000,
-                                    "mithril": 2
-                                }
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Orb of Driving Rain for Orb of the Firmament at a cost of 5,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.2500.1"
                         },
                         {
-                            "takenArtifacts": [
-                                "orbOfDrivingRain"
-                            ],
-                            "artifacts": [
-                                "orbOfSilt"
-                            ],
-                            "resources": {
-                                "gold": -5000,
-                                "mithril": -2
-                            },
-                            "movePoints": -100,
                             "limiter": {
                                 "artifacts": [
                                     "orbOfDrivingRain"
                                 ],
-                                "resources": {
-                                    "gold": 5000,
-                                    "mithril": 2
-                                }
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Orb of Driving Rain for Orb of Silt at a cost of 5,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.1"
                         },
                         {
-                            "takenArtifacts": [
-                                "orbOfDrivingRain"
-                            ],
-                            "artifacts": [
-                                "orbOfTempestuousFire"
-                            ],
-                            "resources": {
-                                "gold": -5000,
-                                "mithril": -2
-                            },
-                            "movePoints": -100,
                             "limiter": {
                                 "artifacts": [
                                     "orbOfDrivingRain"
                                 ],
-                                "resources": {
-                                    "gold": 5000,
-                                    "mithril": 2
-                                }
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Orb of Driving Rain for Orb of Tempestuous Fire at a cost of 5,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.2500"
                         },
                         {
-                            "takenArtifacts": [
-                                "tomeOfFireMagic"
-                            ],
-                            "artifacts": [
-                                "tomeOfAirMagic"
-                            ],
-                            "resources": {
-                                "gold": -20000,
-                                "mithril": -20
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfDrivingRain"
+                                ],
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
                             },
-                            "movePoints": -100,
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.2500.1"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfDrivingRain"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.1"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfDrivingRain"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.2500"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfDrivingRain"
+                                ],
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.2500.1"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfDrivingRain"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.1"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "orbOfDrivingRain"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 2500
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.2500"
+                        },
+                        {
                             "limiter": {
                                 "artifacts": [
                                     "tomeOfFireMagic"
                                 ],
-                                "resources": {
-                                    "gold": 20000,
-                                    "mithril": 20
-                                }
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Tome of Fire Magic for Tome of Air Magic at a cost of 20,000 gold and 20 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.10000.10"
                         },
                         {
-                            "takenArtifacts": [
-                                "tomeOfFireMagic"
-                            ],
-                            "artifacts": [
-                                "tomeOfWaterMagic"
-                            ],
-                            "resources": {
-                                "gold": -20000,
-                                "mithril": -20
-                            },
-                            "movePoints": -100,
                             "limiter": {
                                 "artifacts": [
                                     "tomeOfFireMagic"
                                 ],
-                                "resources": {
-                                    "gold": 20000,
-                                    "mithril": 20
-                                }
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Tome of Fire Magic for Tome of Water Magic at a cost of 20,000 gold and 20 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.10"
                         },
                         {
-                            "takenArtifacts": [
-                                "tomeOfFireMagic"
-                            ],
-                            "artifacts": [
-                                "tomeOfEarthMagic"
-                            ],
-                            "resources": {
-                                "gold": -20000,
-                                "mithril": -20
-                            },
-                            "movePoints": -100,
                             "limiter": {
                                 "artifacts": [
                                     "tomeOfFireMagic"
                                 ],
-                                "resources": {
-                                    "gold": 20000,
-                                    "mithril": 20
-                                }
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Tome of Fire Magic for Tome of Earth Magic at a cost of 20,000 gold and 20 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.10000"
                         },
                         {
-                            "takenArtifacts": [
-                                "tomeOfAirMagic"
-                            ],
-                            "artifacts": [
-                                "tomeOfFireMagic"
-                            ],
-                            "resources": {
-                                "gold": -20000,
-                                "mithril": -20
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfFireMagic"
+                                ],
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ]
                             },
-                            "movePoints": -100,
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.10000.10"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfFireMagic"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.10"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfFireMagic"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.10000"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfFireMagic"
+                                ],
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.10000.10"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfFireMagic"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.10"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfFireMagic"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.10000"
+                        },
+                        {
                             "limiter": {
                                 "artifacts": [
                                     "tomeOfAirMagic"
                                 ],
-                                "resources": {
-                                    "gold": 20000,
-                                    "mithril": 20
-                                }
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Tome of Air Magic for Tome of Fire Magic at a cost of 20,000 gold and 20 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.10000.10"
                         },
                         {
-                            "takenArtifacts": [
-                                "tomeOfAirMagic"
-                            ],
-                            "artifacts": [
-                                "tomeOfWaterMagic"
-                            ],
-                            "resources": {
-                                "gold": -20000,
-                                "mithril": -20
-                            },
-                            "movePoints": -100,
                             "limiter": {
                                 "artifacts": [
                                     "tomeOfAirMagic"
                                 ],
-                                "resources": {
-                                    "gold": 20000,
-                                    "mithril": 20
-                                }
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Tome of Air Magic for Tome of Water Magic at a cost of 20,000 gold and 20 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.10"
                         },
                         {
-                            "takenArtifacts": [
-                                "tomeOfAirMagic"
-                            ],
-                            "artifacts": [
-                                "tomeOfEarthMagic"
-                            ],
-                            "resources": {
-                                "gold": -20000,
-                                "mithril": -20
-                            },
-                            "movePoints": -100,
                             "limiter": {
                                 "artifacts": [
                                     "tomeOfAirMagic"
                                 ],
-                                "resources": {
-                                    "gold": 20000,
-                                    "mithril": 20
-                                }
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Tome of Air Magic for Tome of Earth Magic at a cost of 20,000 gold and 20 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.10000"
                         },
                         {
-                            "takenArtifacts": [
-                                "tomeOfWaterMagic"
-                            ],
-                            "artifacts": [
-                                "tomeOfFireMagic"
-                            ],
-                            "resources": {
-                                "gold": -20000,
-                                "mithril": -20
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfAirMagic"
+                                ],
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ]
                             },
-                            "movePoints": -100,
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.10000.10"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfAirMagic"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.10"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfAirMagic"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.10000"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfAirMagic"
+                                ],
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.10000.10"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfAirMagic"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.10"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfAirMagic"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.10000"
+                        },
+                        {
                             "limiter": {
                                 "artifacts": [
                                     "tomeOfWaterMagic"
                                 ],
-                                "resources": {
-                                    "gold": 20000,
-                                    "mithril": 20
-                                }
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Tome of Water Magic for Tome of Fire Magic at a cost of 20,000 gold and 20 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.10000.10"
                         },
                         {
-                            "takenArtifacts": [
-                                "tomeOfWaterMagic"
-                            ],
-                            "artifacts": [
-                                "tomeOfAirMagic"
-                            ],
-                            "resources": {
-                                "gold": -20000,
-                                "mithril": -20
-                            },
-                            "movePoints": -100,
                             "limiter": {
                                 "artifacts": [
                                     "tomeOfWaterMagic"
                                 ],
-                                "resources": {
-                                    "gold": 20000,
-                                    "mithril": 20
-                                }
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Tome of Water Magic for Tome of Air Magic at a cost of 20,000 gold and 20 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.10"
                         },
                         {
-                            "takenArtifacts": [
-                                "tomeOfWaterMagic"
-                            ],
-                            "artifacts": [
-                                "tomeOfEarthMagic"
-                            ],
-                            "resources": {
-                                "gold": -20000,
-                                "mithril": -20
-                            },
-                            "movePoints": -100,
                             "limiter": {
                                 "artifacts": [
                                     "tomeOfWaterMagic"
                                 ],
-                                "resources": {
-                                    "gold": 20000,
-                                    "mithril": 20
-                                }
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Tome of Water Magic for Tome of Earth Magic at a cost of 20,000 gold and 20 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.10000"
                         },
                         {
-                            "takenArtifacts": [
-                                "tomeOfEarthMagic"
-                            ],
-                            "artifacts": [
-                                "tomeOfFireMagic"
-                            ],
-                            "resources": {
-                                "gold": -20000,
-                                "mithril": -20
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfWaterMagic"
+                                ],
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ]
                             },
-                            "movePoints": -100,
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.10000.10"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfWaterMagic"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.10"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfWaterMagic"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.10000"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfWaterMagic"
+                                ],
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.10000.10"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfWaterMagic"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.10"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfWaterMagic"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.10000"
+                        },
+                        {
                             "limiter": {
                                 "artifacts": [
                                     "tomeOfEarthMagic"
                                 ],
-                                "resources": {
-                                    "gold": 20000,
-                                    "mithril": 20
-                                }
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Tome of Earth Magic for Tome of Fire Magic at a cost of 20,000 gold and 20 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.10000.10"
                         },
                         {
-                            "takenArtifacts": [
-                                "tomeOfEarthMagic"
-                            ],
-                            "artifacts": [
-                                "tomeOfAirMagic"
-                            ],
-                            "resources": {
-                                "gold": -20000,
-                                "mithril": -20
-                            },
-                            "movePoints": -100,
                             "limiter": {
                                 "artifacts": [
                                     "tomeOfEarthMagic"
                                 ],
-                                "resources": {
-                                    "gold": 20000,
-                                    "mithril": 20
-                                }
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Tome of Earth Magic for Tome of Air Magic at a cost of 20,000 gold and 20 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.10"
                         },
                         {
-                            "takenArtifacts": [
-                                "tomeOfEarthMagic"
-                            ],
-                            "artifacts": [
-                                "tomeOfWaterMagic"
-                            ],
-                            "resources": {
-                                "gold": -20000,
-                                "mithril": -20
-                            },
-                            "movePoints": -100,
                             "limiter": {
                                 "artifacts": [
                                     "tomeOfEarthMagic"
                                 ],
-                                "resources": {
-                                    "gold": 20000,
-                                    "mithril": 20
-                                }
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Tome of Earth Magic for Tome of Water Magic at a cost of 20,000 gold and 20 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.10000"
                         },
                         {
-                            "takenArtifacts": [
-                                "pendantOfLife"
-                            ],
-                            "artifacts": [
-                                "pendantOfDeath"
-                            ],
-                            "resources": {
-                                "gold": -2000,
-                                "mithril": -2
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfEarthMagic"
+                                ],
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ]
                             },
-                            "movePoints": -100,
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.10000.10"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfEarthMagic"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.10"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfEarthMagic"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.10000"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfEarthMagic"
+                                ],
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.10000.10"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfEarthMagic"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.10"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "tomeOfEarthMagic"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.10000"
+                        },
+                        {
                             "limiter": {
                                 "artifacts": [
                                     "pendantOfLife"
                                 ],
-                                "resources": {
-                                    "gold": 2000,
-                                    "mithril": 2
-                                }
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 1000
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Pendant of Life for Pendant of Death at a cost of 2,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.1000.1"
                         },
                         {
-                            "takenArtifacts": [
-                                "pendantOfDeath"
-                            ],
-                            "artifacts": [
-                                "pendantOfLife"
-                            ],
-                            "resources": {
-                                "gold": -2000,
-                                "mithril": -2
+                            "limiter": {
+                                "artifacts": [
+                                    "pendantOfLife"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 1000
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
                             },
-                            "movePoints": -100,
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.1"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "pendantOfLife"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 1000
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.1000"
+                        },
+                        {
                             "limiter": {
                                 "artifacts": [
                                     "pendantOfDeath"
                                 ],
-                                "resources": {
-                                    "gold": 2000,
-                                    "mithril": 2
-                                }
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 1000
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nExchange your Pendant of Death for Pendant of Life at a cost of 2,000 gold and 2 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.1000.1"
                         },
                         {
-                            "takenArtifacts": [
-                                "orbOfTheFirmament",
-                                "orbOfSilt",
-                                "orbOfTempestuousFire",
-                                "orbOfDrivingRain"
-                            ],
-                            "artifacts": [
-                                "orbOfVulnerability"
-                            ],
-                            "resources": {
-                                "gold": -20000,
-                                "mithril": -20
+                            "limiter": {
+                                "artifacts": [
+                                    "pendantOfDeath"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 1000
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ]
                             },
-                            "movePoints": -100,
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.1"
+                        },
+                        {
+                            "limiter": {
+                                "artifacts": [
+                                    "pendantOfDeath"
+                                ],
+                                "movePoints": 100,
+                                "allOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 1
+                                        }
+                                    }
+                                ],
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 1000
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.1000"
+                        },
+                        {
                             "limiter": {
                                 "allOf": [
                                     {
@@ -1839,12 +3536,101 @@
                                         ]
                                     }
                                 ],
-                                "resources": {
-                                    "gold": 20000,
-                                    "mithril": 20
-                                }
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ]
                             },
-                            "message": "{Artificer}\r\n\r\nCombine your Orb of the Firmament + Orb of Silt + Orb of Tempestuous Fire + Orb of Driving Rain into Orb of Vulnerability for 20,000 gold and 20 mithril.\r\n\r\nDo you agree to this trade?"
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.both.10000.10"
+                        },
+                        {
+                            "limiter": {
+                                "allOf": [
+                                    {
+                                        "artifacts": [
+                                            "orbOfTheFirmament"
+                                        ]
+                                    },
+                                    {
+                                        "artifacts": [
+                                            "orbOfSilt"
+                                        ]
+                                    },
+                                    {
+                                        "artifacts": [
+                                            "orbOfTempestuousFire"
+                                        ]
+                                    },
+                                    {
+                                        "artifacts": [
+                                            "orbOfDrivingRain"
+                                        ]
+                                    },
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    }
+                                ],
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.mithril.10"
+                        },
+                        {
+                            "limiter": {
+                                "allOf": [
+                                    {
+                                        "artifacts": [
+                                            "orbOfTheFirmament"
+                                        ]
+                                    },
+                                    {
+                                        "artifacts": [
+                                            "orbOfSilt"
+                                        ]
+                                    },
+                                    {
+                                        "artifacts": [
+                                            "orbOfTempestuousFire"
+                                        ]
+                                    },
+                                    {
+                                        "artifacts": [
+                                            "orbOfDrivingRain"
+                                        ]
+                                    },
+                                    {
+                                        "resources": {
+                                            "mithril": 10
+                                        }
+                                    }
+                                ],
+                                "movePoints": 100,
+                                "noneOf": [
+                                    {
+                                        "resources": {
+                                            "gold": 10000
+                                        }
+                                    }
+                                ]
+                            },
+                            "message": "@wake-of-gods.mapobjects.artificer.empty.gold.10000"
                         }
                     ]
                 }

@@ -1,0 +1,12 @@
+{
+  "wake-of-gods.mapobjects.mirrorofthehomeway.dialog.offer": "{Mirror of the Home-Way}\n\nTowns and Villages are flying through the {Mirror's} depths ...\nWhile staring into the mirror you understand that these are {YOUR} lands and those of your allies...\nIf you wish, you may travel to any unoccupied town in these lands right now.\nTo give several gold coins to the {Mirror} Keeper is all that's required.\n\nThe Keeper demands 1,000 gold before revealing the way. The fee will not be returned if you change your mind in the town selection or if no passage is possible.",
+  "wake-of-gods.mapobjects.mirrorofthehomeway.dialog.poor": "{Mirror of the Home-Way}\n\nThe Keeper examines the {coins} he got from you for several seconds... Then he gives them back to you with the words:\n\n\"You can {ENTER} the {Mirror} with your money... but you will never leave it...\"",
+  "wake-of-gods.mapobjects.mirrorofthehomeway.dialog.description": "Travel to an unoccupied town belonging to you or an ally for 1,000 gold, without spending mana or movement points. The fee is paid before town selection and is not refundable.",
+  "object.wake-of-gods.mapobjects.mirrorofthehomeway.mirrorOfTheHomeWay.name": "Mirror of the Home-Way",
+  "mapObject.wake-of-gods.mapobjects.mirrorofthehomeway.mirrorOfTheHomeWay.mirrorOfTheHomeWay.name": "Mirror of the Home-Way",
+  "spell.wake-of-gods.mapobjects.mirrorofthehomeway.mirrorHomeWayPortal.name": "Mirror of the Home-Way",
+  "spell.wake-of-gods.mapobjects.mirrorofthehomeway.mirrorHomeWayPortal.description.none": "Travel to an unoccupied allied town without spending mana or movement points.",
+  "spell.wake-of-gods.mapobjects.mirrorofthehomeway.mirrorHomeWayPortal.description.basic": "Travel to an unoccupied allied town without spending mana or movement points.",
+  "spell.wake-of-gods.mapobjects.mirrorofthehomeway.mirrorHomeWayPortal.description.advanced": "Travel to an unoccupied allied town without spending mana or movement points.",
+  "spell.wake-of-gods.mapobjects.mirrorofthehomeway.mirrorHomeWayPortal.description.expert": "Travel to an unoccupied allied town without spending mana or movement points."
+}

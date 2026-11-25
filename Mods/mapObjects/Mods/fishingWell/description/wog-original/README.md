@@ -1,0 +1,1 @@
+Original WoG 3.59 alpha Script 07, unchanged ERM/ERT bytes; strings.json extracts all 85 numbered records. ERM variables and unused tunnel/trade/trap messages are archival, not active dialogs. Active localized texts adapt the original to weekly fishing.

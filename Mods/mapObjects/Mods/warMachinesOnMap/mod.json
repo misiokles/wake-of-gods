@@ -1,0 +1,39 @@
+{
+  "name": "War Machines on map",
+  "description": "Adds adventure map graphics for war machines and the Grail. Ballista, Ammo Cart and First Aid Tent can enter the random artifact pool. The Catapult and the Grail can be placed on a map.",
+  "modType": "Mechanics",
+  "author": "WoG Team",
+  "contact": "http://forum.vcmi.eu/index.php",
+  "version": "1.0.3",
+  "artifacts": [
+    "config/warMachinesArts.json"
+  ],
+  "chinese": {
+    "name": "地图上的战争机器",
+    "description": "此模组允许战争机器和圣杯出现在冒险地图上，不再将普通魔法书加入随机神器池。"
+  },
+  "czech": {
+    "name": "Válečné stroje na mapě",
+    "description": "Tento modul umožňuje výskyt válečných strojů a Grálu na mapě dobrodružství. Běžnou knihu kouzel již nepřidává mezi náhodné artefakty."
+  },
+  "polish": {
+    "name": "Maszyny wojenne na mapie",
+    "description": "Dodaje grafiki mapowe maszyn wojennych i Graala. Balista, Wóz z amunicją i Namiot medyka mogą trafić do puli losowych artefaktów. Katapultę i Graala można umieścić na mapie."
+  },
+  "portuguese": {
+    "name": "Máquinas de Guerra no Mapa",
+    "description": "Este módulo permite que máquinas de guerra e o Graal apareçam no mapa de aventura. Já não adiciona o livro de feitiços comum à lista de artefatos aleatórios."
+  },
+  "russian": {
+    "name": "Боевые машины на карте",
+    "description": "Этот модуль позволяет боевым машинам и Граалю появляться на карте приключений. Обычная книга заклинаний больше не добавляется в список случайных артефактов."
+  },
+  "ukrainian": {
+    "name": "Бойові машини на мапі",
+    "description": "Цей модуль дозволяє бойовим машинам і Граалю з’являтися на карті пригод. Звичайна книга заклять більше не додається до випадкових артефактів."
+  },
+  "vietnamese": {
+    "name": "Cỗ máy chiến đấu trên bản đồ",
+    "description": "Mô-đun này cho phép các cỗ máy chiến tranh và Chén Thánh xuất hiện trên bản đồ phiêu lưu. Sách phép thông thường không còn được thêm vào nhóm báu vật ngẫu nhiên."
+  }
+}

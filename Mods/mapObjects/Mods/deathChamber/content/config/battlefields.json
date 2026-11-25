@@ -1,0 +1,8 @@
+{
+  "deathChamberEvilFog": {
+    "name": "Death Chamber – Evil Fog",
+    "graphics": "CMBKEF.BMP",
+    "isSpecial": true,
+    "impassableHexes": []
+  }
+}

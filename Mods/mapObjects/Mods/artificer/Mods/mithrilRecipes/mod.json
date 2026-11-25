@@ -1,8 +1,8 @@
 {
     "name": "Artificer — Mithril Recipes",
-    "description": "Adds the 39 Mithril-priced Artificer recipes, including repeated-visit prices.",
-    "version": "1.0",
-	"author": "WoG Team",
+    "description": "Adds the 39 Mithril-priced Artificer recipes.",
+    "version": "1.0.3",
+    "author": "WoG Team",
     "modType": "Compatibility",
     "depends": [
         "wake-of-gods.mithril"

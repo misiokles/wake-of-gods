@@ -1,0 +1,14 @@
+{
+  "wake-of-gods.stackexperience.battleLog.deflect.singular": "%s deflects part of the incoming attack!",
+  "wake-of-gods.stackexperience.battleLog.deflect.plural": "%s deflect part of the incoming attack!",
+  "wake-of-gods.stackexperience.battleLog.block.singular": "%s blocks the incoming attack!",
+  "wake-of-gods.stackexperience.battleLog.block.plural": "%s block the incoming attack!",
+  "wake-of-gods.stackexperience.battleLog.summon.singular": "%s summons %d %s at the beginning of round two!",
+  "wake-of-gods.stackexperience.battleLog.summon.plural": "%s summon %d %s at the beginning of round two!",
+  "wake-of-gods.stackexperience.battleLog.summon.repeat.singular": "%s summons %d %s!",
+  "wake-of-gods.stackexperience.battleLog.summon.repeat.plural": "%s summon %d %s!",
+  "wake-of-gods.stackexperience.battleLog.clone.singular": "%s conjures %d illusory %s!",
+  "wake-of-gods.stackexperience.battleLog.clone.plural": "%s conjure %d illusory %s!",
+  "wake-of-gods.stackexperience.battleLog.fireWall.singular": "%s casts Fire Wall!",
+  "wake-of-gods.stackexperience.battleLog.fireWall.plural": "%s cast Fire Wall!"
+}

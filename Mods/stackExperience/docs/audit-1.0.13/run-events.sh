@@ -1,0 +1,4 @@
+#!/bin/bash
+R=/mnt/data/VCMI_1.8_Headless_Test_Environment/restored; S=$R/source/vcmi-develop; T=/mnt/data/testwork; A=/mnt/data/audit13
+source "$R/env.sh"; export XDG_DATA_HOME=$A/profile/data XDG_CONFIG_HOME=$A/profile/config XDG_CACHE_HOME=$A/profile/cache; cd "$R/build/bin"
+g++ -std=c++20 -O0 -DNDEBUG -fno-access-control -I"$S" -I"$S/lib" -I"$S/server" -I"$S/include" -I"$R/prefix/usr/include" -c "$A/events.cpp" -o "$A/events.o" > "$A/events-compile.log" 2>&1 && g++ -o "$A/events" "$A/events.o" "$T"/regen_{builder,legacy,mock,writer}.o -L"$R/build/bin" -L"$R/prefix/usr/lib/x86_64-linux-gnu" -Wl,-rpath-link,"$R/prefix/usr/lib/x86_64-linux-gnu" -lvcmiservercommon -lvcmi -lboost_filesystem -ltbb -lz -pthread > "$A/events-link.log" 2>&1 && timeout 60 "$A/events" > "$A/events-native.log" 2>&1; echo exit=$?

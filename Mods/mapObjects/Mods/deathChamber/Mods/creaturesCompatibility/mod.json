@@ -1,0 +1,21 @@
+{
+  "name": "Death Chamber - Creatures Compatibility",
+  "description": "Ghost reinforcements and rewards; a separate Dracolich King from week 4.",
+  "version": "1.0.0",
+  "modType": "Compatibility",
+  "depends": [
+    "wake-of-gods.mapobjects.deathchamber",
+    "wake-of-gods.creatures"
+  ],
+  "softDepends": [
+    "wake-of-gods.mapobjects.deathchamber.mithril"
+  ],
+  "creatures": [
+    "config/creatures.json",
+    "config/kingCompatibility.json"
+  ],
+  "objects": [
+    "config/rewards.json"
+  ],
+  "author": "WoG original: Rich Reed / daemon_n; VCMI port"
+}

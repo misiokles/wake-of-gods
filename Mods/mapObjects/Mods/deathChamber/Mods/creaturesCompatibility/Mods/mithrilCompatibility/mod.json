@@ -1,0 +1,17 @@
+{
+  "name": "Death Chamber - Creatures + Mithril Compatibility",
+  "description": "Combines both optional reward lists. Enable when both parent and Mithril rewards are enabled.",
+  "version": "1.0.0",
+  "modType": "Compatibility",
+  "depends": [
+    "wake-of-gods.mapobjects.deathchamber",
+    "wake-of-gods.mapobjects.deathchamber.creaturescompatibility",
+    "wake-of-gods.mapobjects.deathchamber.mithril",
+    "wake-of-gods.creatures",
+    "wake-of-gods.mithril"
+  ],
+  "objects": [
+    "config/rewards.json"
+  ],
+  "author": "WoG original: Rich Reed / daemon_n; VCMI port"
+}

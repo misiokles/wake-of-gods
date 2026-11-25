@@ -1,0 +1,54 @@
+{
+  "name": "Death Chamber (Script 70)",
+  "description": "This submodule enables Death Chamber object.",
+  "author": "VCMI Lua reconstruction from WoG Death Chamber ERM (Rich Reed / daemon_n)",
+  "version": "1.0.1",
+  "modType": "Objects",
+  "objects": [
+    "config/deathChamberObject.json"
+  ],
+  "creatures": [
+    "config/creatures.json"
+  ],
+  "battlefields": [
+    "config/battlefields.json"
+  ],
+  "bonuses": [
+    "config/bonusTypes.json"
+  ],
+  "scripts": [
+    "config/scripts.json"
+  ],
+  "translations": [
+    "translations/english.json"
+  ],
+  "polish": {
+    "name": "Komnata Śmierci (WoG)",
+    "description": "Próba przeniesienia Death Chamber z WoG.",
+    "translations": [
+      "translations/polish.json"
+    ]
+  },
+  "changelog": {
+    "0.9.5": [
+      "Fix Mithril reward submod patch target for nested installation under wake-of-gods.mapobjects.",
+      "No combat changes.",
+      "Requires placement inside WoG Map Objects (wake-of-gods.mapobjects)."
+    ],
+    "0.9.6": [
+      "Fix Mithril reward addon creature dependency: add wake-of-gods.creatures alongside wake-of-gods.mithril.",
+      "No changes to battle Lua, spawning, guards, obstacles or rewards."
+    ],
+    "0.9.7": [
+      "Restore WoG-style warning and confirmation dialog before starting the Death Chamber battle.",
+      "Translate the pre-battle warning into English and Polish.",
+      "No changes to Lua combat scripts, obstacles, enemy waves, Ghost or Mithril rewards."
+    ],
+    "1.0.1": [
+      "Make WoG Creatures optional for the base encounter. The Creatures Compatibility add-on still requires WoG Creatures."
+    ]
+  },
+  "compatibility": {
+    "min": "1.8.0"
+  }
+}

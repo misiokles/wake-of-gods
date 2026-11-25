@@ -1,0 +1,21 @@
+{
+  "name": "Altar of Transformation — Hota Factory Compatibility",
+  "description": "Source creatures only; no additional destination icons.",
+  "author": "VCMI / WoG adaptation",
+  "version": "0.4.1",
+  "modType": "Compatibility",
+  "compatibility": {
+    "min": "1.8.0"
+  },
+  "depends": [
+    "wake-of-gods.mapobjects.altar-of-transformation",
+    "wake-of-gods.creatures",
+    "hota.factory"
+  ],
+  "objects": [
+    "config/compatibility.json"
+  ],
+  "polish": {
+    "name": "Ołtarz przemiany — hota-factory (zgodność)"
+  }
+}

@@ -1,0 +1,592 @@
+{
+  "deathChamberDracolichKing1": {
+    "name": {
+      "singular": "Dracolich King",
+      "plural": "Dracolich Kings"
+    },
+    "faction": "necropolis",
+    "level": 10,
+    "cost": {
+      "gold": 0
+    },
+    "doubleWide": true,
+    "speed": 40,
+    "hitPoints": 785,
+    "shots": 1000,
+    "attack": 100,
+    "defense": 100,
+    "damage": {
+      "min": 61,
+      "max": 61
+    },
+    "fightValue": 40000,
+    "aiValue": 55000,
+    "growth": 0,
+    "hasDoubleWeek": false,
+    "abilities": {
+      "dragon": {
+        "type": "DRAGON_NATURE"
+      },
+      "dragonBreath": {
+        "type": "TWO_HEX_ATTACK_BREATH"
+      },
+      "canFly": {
+        "type": "FLYING"
+      },
+      "undead": {
+        "type": "UNDEAD"
+      },
+      "canShoot": {
+        "type": "SHOOTER"
+      },
+      "deathCloud": {
+        "type": "SPELL_LIKE_ATTACK",
+        "subtype": "deathCloud"
+      },
+      "manyRetaliations": {
+        "type": "UNLIMITED_RETALIATIONS"
+      },
+      "doubleAttack": {
+        "type": "ADDITIONAL_ATTACK",
+        "val": 1
+      },
+      "chamberScript": {
+        "type": "COMBAT_EVENT_TRIGGER",
+        "subtype": "wake-of-gods.mapobjects.deathchamber:deathChamberKingScript",
+        "val": 1,
+        "addInfo": {
+          "creaturesCompatibility": true,
+          "dracolichKing": true
+        }
+      },
+      "chamberArmageddonPower": {
+        "type": "SPECIFIC_SPELL_POWER",
+        "subtype": "core:armageddon",
+        "val": 80
+      }
+    },
+    "graphics": {
+      "animation": "creatures/dracolich/ZM196Z",
+      "map": "creatures/dracolich/zmm196z",
+      "iconSmall": "creatures/dracolich/CPrS196N",
+      "iconLarge": "creatures/dracolich/CPrL196Z",
+      "mapAttackFromRight": "avwattak/ZMON196a",
+      "mapAttackFromLeft": "avwattak/ZMON196b",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 0.75,
+        "attack": 1,
+        "idle": 10
+      },
+      "missile": {
+        "projectile": "creatures/dracolich/ZSHOT196",
+        "attackClimaxFrame": 1,
+        "offset": {
+          "upperX": 41,
+          "upperY": -92,
+          "middleX": 58,
+          "middleY": -79,
+          "lowerX": 29,
+          "lowerY": -14
+        },
+        "frameAngles": [
+          90,
+          72,
+          45,
+          27,
+          0,
+          -27,
+          -45,
+          -72,
+          -90,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "sound": {
+      "attack": "GHDRATTK.wav",
+      "defend": "GHDRDFND.wav",
+      "killed": "GHDRKILL.wav",
+      "move": "GHDRMOVE.wav",
+      "shoot": "creatures/dracolich/GHDRSHOT.wav",
+      "wince": "GHDRWNCE.wav"
+    },
+    "description": "Death Chamber boss, WoG tier 1.",
+    "special": true,
+    "excludeFromRandomization": true
+  },
+  "deathChamberDracolichKing2": {
+    "name": {
+      "singular": "Dracolich King",
+      "plural": "Dracolich Kings"
+    },
+    "faction": "necropolis",
+    "level": 10,
+    "cost": {
+      "gold": 0
+    },
+    "doubleWide": true,
+    "speed": 40,
+    "hitPoints": 800,
+    "shots": 1000,
+    "attack": 100,
+    "defense": 100,
+    "damage": {
+      "min": 63,
+      "max": 63
+    },
+    "fightValue": 40000,
+    "aiValue": 55000,
+    "growth": 0,
+    "hasDoubleWeek": false,
+    "abilities": {
+      "dragon": {
+        "type": "DRAGON_NATURE"
+      },
+      "dragonBreath": {
+        "type": "TWO_HEX_ATTACK_BREATH"
+      },
+      "canFly": {
+        "type": "FLYING"
+      },
+      "undead": {
+        "type": "UNDEAD"
+      },
+      "canShoot": {
+        "type": "SHOOTER"
+      },
+      "deathCloud": {
+        "type": "SPELL_LIKE_ATTACK",
+        "subtype": "deathCloud"
+      },
+      "manyRetaliations": {
+        "type": "UNLIMITED_RETALIATIONS"
+      },
+      "doubleAttack": {
+        "type": "ADDITIONAL_ATTACK",
+        "val": 1
+      },
+      "chamberScript": {
+        "type": "COMBAT_EVENT_TRIGGER",
+        "subtype": "wake-of-gods.mapobjects.deathchamber:deathChamberKingScript",
+        "val": 2,
+        "addInfo": {
+          "creaturesCompatibility": true,
+          "dracolichKing": true
+        }
+      },
+      "chamberArmageddonPower": {
+        "type": "SPECIFIC_SPELL_POWER",
+        "subtype": "core:armageddon",
+        "val": 80
+      }
+    },
+    "graphics": {
+      "animation": "creatures/dracolich/ZM196Z",
+      "map": "creatures/dracolich/zmm196z",
+      "iconSmall": "creatures/dracolich/CPrS196N",
+      "iconLarge": "creatures/dracolich/CPrL196Z",
+      "mapAttackFromRight": "avwattak/ZMON196a",
+      "mapAttackFromLeft": "avwattak/ZMON196b",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 0.75,
+        "attack": 1,
+        "idle": 10
+      },
+      "missile": {
+        "projectile": "creatures/dracolich/ZSHOT196",
+        "attackClimaxFrame": 1,
+        "offset": {
+          "upperX": 41,
+          "upperY": -92,
+          "middleX": 58,
+          "middleY": -79,
+          "lowerX": 29,
+          "lowerY": -14
+        },
+        "frameAngles": [
+          90,
+          72,
+          45,
+          27,
+          0,
+          -27,
+          -45,
+          -72,
+          -90,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "sound": {
+      "attack": "GHDRATTK.wav",
+      "defend": "GHDRDFND.wav",
+      "killed": "GHDRKILL.wav",
+      "move": "GHDRMOVE.wav",
+      "shoot": "creatures/dracolich/GHDRSHOT.wav",
+      "wince": "GHDRWNCE.wav"
+    },
+    "description": "Death Chamber boss, WoG tier 2.",
+    "special": true,
+    "excludeFromRandomization": true
+  },
+  "deathChamberDracolichKing3": {
+    "name": {
+      "singular": "Dracolich King",
+      "plural": "Dracolich Kings"
+    },
+    "faction": "necropolis",
+    "level": 10,
+    "cost": {
+      "gold": 0
+    },
+    "doubleWide": true,
+    "speed": 40,
+    "hitPoints": 815,
+    "shots": 1000,
+    "attack": 100,
+    "defense": 100,
+    "damage": {
+      "min": 65,
+      "max": 65
+    },
+    "fightValue": 40000,
+    "aiValue": 55000,
+    "growth": 0,
+    "hasDoubleWeek": false,
+    "abilities": {
+      "dragon": {
+        "type": "DRAGON_NATURE"
+      },
+      "dragonBreath": {
+        "type": "TWO_HEX_ATTACK_BREATH"
+      },
+      "canFly": {
+        "type": "FLYING"
+      },
+      "undead": {
+        "type": "UNDEAD"
+      },
+      "canShoot": {
+        "type": "SHOOTER"
+      },
+      "deathCloud": {
+        "type": "SPELL_LIKE_ATTACK",
+        "subtype": "deathCloud"
+      },
+      "manyRetaliations": {
+        "type": "UNLIMITED_RETALIATIONS"
+      },
+      "doubleAttack": {
+        "type": "ADDITIONAL_ATTACK",
+        "val": 1
+      },
+      "chamberScript": {
+        "type": "COMBAT_EVENT_TRIGGER",
+        "subtype": "wake-of-gods.mapobjects.deathchamber:deathChamberKingScript",
+        "val": 3,
+        "addInfo": {
+          "creaturesCompatibility": true,
+          "dracolichKing": true
+        }
+      },
+      "chamberArmageddonPower": {
+        "type": "SPECIFIC_SPELL_POWER",
+        "subtype": "core:armageddon",
+        "val": 80
+      }
+    },
+    "graphics": {
+      "animation": "creatures/dracolich/ZM196Z",
+      "map": "creatures/dracolich/zmm196z",
+      "iconSmall": "creatures/dracolich/CPrS196N",
+      "iconLarge": "creatures/dracolich/CPrL196Z",
+      "mapAttackFromRight": "avwattak/ZMON196a",
+      "mapAttackFromLeft": "avwattak/ZMON196b",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 0.75,
+        "attack": 1,
+        "idle": 10
+      },
+      "missile": {
+        "projectile": "creatures/dracolich/ZSHOT196",
+        "attackClimaxFrame": 1,
+        "offset": {
+          "upperX": 41,
+          "upperY": -92,
+          "middleX": 58,
+          "middleY": -79,
+          "lowerX": 29,
+          "lowerY": -14
+        },
+        "frameAngles": [
+          90,
+          72,
+          45,
+          27,
+          0,
+          -27,
+          -45,
+          -72,
+          -90,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "sound": {
+      "attack": "GHDRATTK.wav",
+      "defend": "GHDRDFND.wav",
+      "killed": "GHDRKILL.wav",
+      "move": "GHDRMOVE.wav",
+      "shoot": "creatures/dracolich/GHDRSHOT.wav",
+      "wince": "GHDRWNCE.wav"
+    },
+    "description": "Death Chamber boss, WoG tier 3.",
+    "special": true,
+    "excludeFromRandomization": true
+  },
+  "deathChamberDracolichKing4": {
+    "name": {
+      "singular": "Dracolich King",
+      "plural": "Dracolich Kings"
+    },
+    "faction": "necropolis",
+    "level": 10,
+    "cost": {
+      "gold": 0
+    },
+    "doubleWide": true,
+    "speed": 40,
+    "hitPoints": 830,
+    "shots": 1000,
+    "attack": 100,
+    "defense": 100,
+    "damage": {
+      "min": 67,
+      "max": 67
+    },
+    "fightValue": 40000,
+    "aiValue": 55000,
+    "growth": 0,
+    "hasDoubleWeek": false,
+    "abilities": {
+      "dragon": {
+        "type": "DRAGON_NATURE"
+      },
+      "dragonBreath": {
+        "type": "TWO_HEX_ATTACK_BREATH"
+      },
+      "canFly": {
+        "type": "FLYING"
+      },
+      "undead": {
+        "type": "UNDEAD"
+      },
+      "canShoot": {
+        "type": "SHOOTER"
+      },
+      "deathCloud": {
+        "type": "SPELL_LIKE_ATTACK",
+        "subtype": "deathCloud"
+      },
+      "manyRetaliations": {
+        "type": "UNLIMITED_RETALIATIONS"
+      },
+      "doubleAttack": {
+        "type": "ADDITIONAL_ATTACK",
+        "val": 1
+      },
+      "chamberScript": {
+        "type": "COMBAT_EVENT_TRIGGER",
+        "subtype": "wake-of-gods.mapobjects.deathchamber:deathChamberKingScript",
+        "val": 4,
+        "addInfo": {
+          "creaturesCompatibility": true,
+          "dracolichKing": true
+        }
+      },
+      "chamberArmageddonPower": {
+        "type": "SPECIFIC_SPELL_POWER",
+        "subtype": "core:armageddon",
+        "val": 80
+      }
+    },
+    "graphics": {
+      "animation": "creatures/dracolich/ZM196Z",
+      "map": "creatures/dracolich/zmm196z",
+      "iconSmall": "creatures/dracolich/CPrS196N",
+      "iconLarge": "creatures/dracolich/CPrL196Z",
+      "mapAttackFromRight": "avwattak/ZMON196a",
+      "mapAttackFromLeft": "avwattak/ZMON196b",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 0.75,
+        "attack": 1,
+        "idle": 10
+      },
+      "missile": {
+        "projectile": "creatures/dracolich/ZSHOT196",
+        "attackClimaxFrame": 1,
+        "offset": {
+          "upperX": 41,
+          "upperY": -92,
+          "middleX": 58,
+          "middleY": -79,
+          "lowerX": 29,
+          "lowerY": -14
+        },
+        "frameAngles": [
+          90,
+          72,
+          45,
+          27,
+          0,
+          -27,
+          -45,
+          -72,
+          -90,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "sound": {
+      "attack": "GHDRATTK.wav",
+      "defend": "GHDRDFND.wav",
+      "killed": "GHDRKILL.wav",
+      "move": "GHDRMOVE.wav",
+      "shoot": "creatures/dracolich/GHDRSHOT.wav",
+      "wince": "GHDRWNCE.wav"
+    },
+    "description": "Death Chamber boss, WoG tier 4.",
+    "special": true,
+    "excludeFromRandomization": true
+  },
+  "deathChamberDracolichKing5": {
+    "name": {
+      "singular": "Dracolich King",
+      "plural": "Dracolich Kings"
+    },
+    "faction": "necropolis",
+    "level": 10,
+    "cost": {
+      "gold": 0
+    },
+    "doubleWide": true,
+    "speed": 40,
+    "hitPoints": 845,
+    "shots": 1000,
+    "attack": 100,
+    "defense": 100,
+    "damage": {
+      "min": 69,
+      "max": 69
+    },
+    "fightValue": 40000,
+    "aiValue": 55000,
+    "growth": 0,
+    "hasDoubleWeek": false,
+    "abilities": {
+      "dragon": {
+        "type": "DRAGON_NATURE"
+      },
+      "dragonBreath": {
+        "type": "TWO_HEX_ATTACK_BREATH"
+      },
+      "canFly": {
+        "type": "FLYING"
+      },
+      "undead": {
+        "type": "UNDEAD"
+      },
+      "canShoot": {
+        "type": "SHOOTER"
+      },
+      "deathCloud": {
+        "type": "SPELL_LIKE_ATTACK",
+        "subtype": "deathCloud"
+      },
+      "manyRetaliations": {
+        "type": "UNLIMITED_RETALIATIONS"
+      },
+      "doubleAttack": {
+        "type": "ADDITIONAL_ATTACK",
+        "val": 1
+      },
+      "chamberScript": {
+        "type": "COMBAT_EVENT_TRIGGER",
+        "subtype": "wake-of-gods.mapobjects.deathchamber:deathChamberKingScript",
+        "val": 5,
+        "addInfo": {
+          "creaturesCompatibility": true,
+          "dracolichKing": true
+        }
+      },
+      "chamberArmageddonPower": {
+        "type": "SPECIFIC_SPELL_POWER",
+        "subtype": "core:armageddon",
+        "val": 80
+      }
+    },
+    "graphics": {
+      "animation": "creatures/dracolich/ZM196Z",
+      "map": "creatures/dracolich/zmm196z",
+      "iconSmall": "creatures/dracolich/CPrS196N",
+      "iconLarge": "creatures/dracolich/CPrL196Z",
+      "mapAttackFromRight": "avwattak/ZMON196a",
+      "mapAttackFromLeft": "avwattak/ZMON196b",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 0.75,
+        "attack": 1,
+        "idle": 10
+      },
+      "missile": {
+        "projectile": "creatures/dracolich/ZSHOT196",
+        "attackClimaxFrame": 1,
+        "offset": {
+          "upperX": 41,
+          "upperY": -92,
+          "middleX": 58,
+          "middleY": -79,
+          "lowerX": 29,
+          "lowerY": -14
+        },
+        "frameAngles": [
+          90,
+          72,
+          45,
+          27,
+          0,
+          -27,
+          -45,
+          -72,
+          -90,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "sound": {
+      "attack": "GHDRATTK.wav",
+      "defend": "GHDRDFND.wav",
+      "killed": "GHDRKILL.wav",
+      "move": "GHDRMOVE.wav",
+      "shoot": "creatures/dracolich/GHDRSHOT.wav",
+      "wince": "GHDRWNCE.wav"
+    },
+    "description": "Death Chamber boss, WoG tier 5.",
+    "special": true,
+    "excludeFromRandomization": true
+  }
+}

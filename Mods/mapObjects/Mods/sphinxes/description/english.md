@@ -1,6 +1,6 @@
 # Sphinxes — Trials of Fate
 
-The enigmatic Sphinxes have long guarded ancient paths, forgotten treasures, and secrets that mortals were never meant to uncover. In this VCMI adaptation of *In the Wake of Gods*, their traditional riddles are replaced by a gamble with fate: a passing hero may receive a temporary blessing — or suffer a temporary curse.
+The enigmatic Sphinxes have long guarded ancient paths, forgotten treasures, and secrets that mortals were never meant to uncover. In this VCMI adaptation of *In the Wake of Gods*, the Sphinx tries the hero’s fortune and bestows a temporary blessing or curse.
 
 All **six Sphinx variants** share **exactly the same rules and possible outcomes**. Their appearance and allowed terrain are the only differences.
 
@@ -63,9 +63,9 @@ The 12 blessing types and 12 curse types are **weighted** rather than equally li
 
 Each retains its own map graphics, terrain restrictions and original object identifier. All use the same trial mechanics and reward distribution, so the player does not need to memorize separate rules for different Sphinxes.
 
-## Implementation Notes
+## Differences from WoG
 
-This is a **JSON-only VCMI reinterpretation** of the WoG Sphinx concept, not a recreation of the original riddle system. The implementation uses configurable map objects, random reward selection and timed bonuses; it requires no Lua scripts or engine modifications.
+The classic Sphinx asks a riddle from `ZSphinx0.TXT`. A correct written answer brings a blessing. An incorrect or empty answer brings a curse. The optional WoG Script 98 is a separate game in which the player tries to identify a creature and can win troops or face a battle. This port uses a 50/50 draw and its own blessings and curses. Version 1.0.1 localizes the six Sphinxes and their dialogs in English and Polish.
 
 For the duration roll, the JSON contains separate entries for each possible number of days. Weighted repetitions of entries give every blessing and curse its intended probability. The configuration has **280 selectable reward entries per Sphinx**, with equal overall probability of receiving a blessing or a curse.
 

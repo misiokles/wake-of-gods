@@ -1,0 +1,29 @@
+{
+  "stackExperienceFireWall": {
+    "implements": "combatEvent",
+    "script": "combat/stackExperienceFireWall",
+    "patches": [],
+    "priority": 0,
+    "stringRegistrations": [
+      "messageSingular",
+      "messagePlural"
+    ],
+    "schema": {
+      "type": "object",
+      "required": [
+        "messageSingular",
+        "messagePlural"
+      ],
+      "properties": {
+        "messageSingular": {
+          "type": "string"
+        },
+        "messagePlural": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "description": "{Fire Wall} Has a ${val}% chance after a melee attack to create a Basic Wall of Fire (spell power 3) on and beside the surviving target."
+  }
+}

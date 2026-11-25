@@ -1,0 +1,17 @@
+{
+  "name": "Death Chamber - Mithril rewards",
+  "description": "Adds Mithril to the chamber loot. Works with or without WoG Creatures.",
+  "modType": "Compatibility",
+  "author": "WoG original: Rich Reed / daemon_n; VCMI port",
+  "version": "1.0.2",
+  "compatibility": {
+    "min": "1.8.0"
+  },
+  "depends": [
+    "wake-of-gods.mapobjects.deathchamber",
+    "wake-of-gods.mithril"
+  ],
+  "objects": [
+    "config/deathChamberMithrilRewards.json"
+  ]
+}

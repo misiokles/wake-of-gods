@@ -1,0 +1,6905 @@
+{
+  "wake-of-gods.mapobjects.deathchamber:deathChamber": {
+    "types": {
+      "deathChamber": {
+        "rewards": [
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 1,
+              "noneOf": [
+                {
+                  "daysPassed": 8
+                }
+              ]
+            },
+            "resources": {
+              "gold": 12000,
+              "mithril": 8
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "guards": [
+              {
+                "type": "wake-of-gods.mapobjects.deathchamber:deathChamberKing1",
+                "amount": 1
+              }
+            ],
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 10
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 8,
+              "noneOf": [
+                {
+                  "daysPassed": 15
+                }
+              ]
+            },
+            "resources": {
+              "gold": 12000,
+              "mithril": 8
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 10
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 15,
+              "noneOf": [
+                {
+                  "daysPassed": 22
+                }
+              ]
+            },
+            "resources": {
+              "gold": 12100,
+              "mithril": 9
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 10
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 22,
+              "noneOf": [
+                {
+                  "daysPassed": 29
+                }
+              ]
+            },
+            "resources": {
+              "gold": 16200,
+              "mithril": 14
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 29,
+              "noneOf": [
+                {
+                  "daysPassed": 36
+                }
+              ]
+            },
+            "resources": {
+              "gold": 16300,
+              "mithril": 15
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 36,
+              "noneOf": [
+                {
+                  "daysPassed": 43
+                }
+              ]
+            },
+            "resources": {
+              "gold": 16400,
+              "mithril": 16
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 43,
+              "noneOf": [
+                {
+                  "daysPassed": 50
+                }
+              ]
+            },
+            "resources": {
+              "gold": 16500,
+              "mithril": 17
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 50,
+              "noneOf": [
+                {
+                  "daysPassed": 57
+                }
+              ]
+            },
+            "resources": {
+              "gold": 16600,
+              "mithril": 18
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 57,
+              "noneOf": [
+                {
+                  "daysPassed": 64
+                }
+              ]
+            },
+            "resources": {
+              "gold": 16700,
+              "mithril": 19
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 64,
+              "noneOf": [
+                {
+                  "daysPassed": 71
+                }
+              ]
+            },
+            "resources": {
+              "gold": 16800,
+              "mithril": 20
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 71,
+              "noneOf": [
+                {
+                  "daysPassed": 78
+                }
+              ]
+            },
+            "resources": {
+              "gold": 16900,
+              "mithril": 21
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 78,
+              "noneOf": [
+                {
+                  "daysPassed": 85
+                }
+              ]
+            },
+            "resources": {
+              "gold": 17000,
+              "mithril": 22
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 85,
+              "noneOf": [
+                {
+                  "daysPassed": 92
+                }
+              ]
+            },
+            "resources": {
+              "gold": 17100,
+              "mithril": 23
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 92,
+              "noneOf": [
+                {
+                  "daysPassed": 99
+                }
+              ]
+            },
+            "resources": {
+              "gold": 17200,
+              "mithril": 24
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 99,
+              "noneOf": [
+                {
+                  "daysPassed": 106
+                }
+              ]
+            },
+            "resources": {
+              "gold": 17300,
+              "mithril": 25
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 106,
+              "noneOf": [
+                {
+                  "daysPassed": 113
+                }
+              ]
+            },
+            "resources": {
+              "gold": 17400,
+              "mithril": 26
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 113,
+              "noneOf": [
+                {
+                  "daysPassed": 120
+                }
+              ]
+            },
+            "resources": {
+              "gold": 17500,
+              "mithril": 27
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 120,
+              "noneOf": [
+                {
+                  "daysPassed": 127
+                }
+              ]
+            },
+            "resources": {
+              "gold": 17600,
+              "mithril": 28
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 127,
+              "noneOf": [
+                {
+                  "daysPassed": 134
+                }
+              ]
+            },
+            "resources": {
+              "gold": 17700,
+              "mithril": 29
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 134,
+              "noneOf": [
+                {
+                  "daysPassed": 141
+                }
+              ]
+            },
+            "resources": {
+              "gold": 17800,
+              "mithril": 30
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 141,
+              "noneOf": [
+                {
+                  "daysPassed": 148
+                }
+              ]
+            },
+            "resources": {
+              "gold": 17900,
+              "mithril": 31
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 148,
+              "noneOf": [
+                {
+                  "daysPassed": 155
+                }
+              ]
+            },
+            "resources": {
+              "gold": 18000,
+              "mithril": 32
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 155,
+              "noneOf": [
+                {
+                  "daysPassed": 162
+                }
+              ]
+            },
+            "resources": {
+              "gold": 18100,
+              "mithril": 33
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 162,
+              "noneOf": [
+                {
+                  "daysPassed": 169
+                }
+              ]
+            },
+            "resources": {
+              "gold": 18200,
+              "mithril": 34
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 169,
+              "noneOf": [
+                {
+                  "daysPassed": 176
+                }
+              ]
+            },
+            "resources": {
+              "gold": 18300,
+              "mithril": 35
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 176,
+              "noneOf": [
+                {
+                  "daysPassed": 183
+                }
+              ]
+            },
+            "resources": {
+              "gold": 18400,
+              "mithril": 36
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 183,
+              "noneOf": [
+                {
+                  "daysPassed": 190
+                }
+              ]
+            },
+            "resources": {
+              "gold": 18500,
+              "mithril": 37
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 190,
+              "noneOf": [
+                {
+                  "daysPassed": 197
+                }
+              ]
+            },
+            "resources": {
+              "gold": 18600,
+              "mithril": 38
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 197,
+              "noneOf": [
+                {
+                  "daysPassed": 204
+                }
+              ]
+            },
+            "resources": {
+              "gold": 18700,
+              "mithril": 39
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 204,
+              "noneOf": [
+                {
+                  "daysPassed": 211
+                }
+              ]
+            },
+            "resources": {
+              "gold": 18800,
+              "mithril": 40
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 211,
+              "noneOf": [
+                {
+                  "daysPassed": 218
+                }
+              ]
+            },
+            "resources": {
+              "gold": 18900,
+              "mithril": 41
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 218,
+              "noneOf": [
+                {
+                  "daysPassed": 225
+                }
+              ]
+            },
+            "resources": {
+              "gold": 19000,
+              "mithril": 42
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 225,
+              "noneOf": [
+                {
+                  "daysPassed": 232
+                }
+              ]
+            },
+            "resources": {
+              "gold": 19100,
+              "mithril": 43
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 232,
+              "noneOf": [
+                {
+                  "daysPassed": 239
+                }
+              ]
+            },
+            "resources": {
+              "gold": 19200,
+              "mithril": 44
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 239,
+              "noneOf": [
+                {
+                  "daysPassed": 246
+                }
+              ]
+            },
+            "resources": {
+              "gold": 19300,
+              "mithril": 45
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 246,
+              "noneOf": [
+                {
+                  "daysPassed": 253
+                }
+              ]
+            },
+            "resources": {
+              "gold": 19400,
+              "mithril": 46
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 253,
+              "noneOf": [
+                {
+                  "daysPassed": 260
+                }
+              ]
+            },
+            "resources": {
+              "gold": 19500,
+              "mithril": 47
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 260,
+              "noneOf": [
+                {
+                  "daysPassed": 267
+                }
+              ]
+            },
+            "resources": {
+              "gold": 19600,
+              "mithril": 48
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 267,
+              "noneOf": [
+                {
+                  "daysPassed": 274
+                }
+              ]
+            },
+            "resources": {
+              "gold": 19700,
+              "mithril": 49
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 274,
+              "noneOf": [
+                {
+                  "daysPassed": 281
+                }
+              ]
+            },
+            "resources": {
+              "gold": 19800,
+              "mithril": 50
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 281,
+              "noneOf": [
+                {
+                  "daysPassed": 288
+                }
+              ]
+            },
+            "resources": {
+              "gold": 19900,
+              "mithril": 51
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 288,
+              "noneOf": [
+                {
+                  "daysPassed": 295
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20000,
+              "mithril": 52
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 295,
+              "noneOf": [
+                {
+                  "daysPassed": 302
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20100,
+              "mithril": 53
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 302,
+              "noneOf": [
+                {
+                  "daysPassed": 309
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20200,
+              "mithril": 54
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 309,
+              "noneOf": [
+                {
+                  "daysPassed": 316
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20300,
+              "mithril": 55
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 316,
+              "noneOf": [
+                {
+                  "daysPassed": 323
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20400,
+              "mithril": 56
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 323,
+              "noneOf": [
+                {
+                  "daysPassed": 330
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20500,
+              "mithril": 57
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 330,
+              "noneOf": [
+                {
+                  "daysPassed": 337
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20600,
+              "mithril": 58
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 337,
+              "noneOf": [
+                {
+                  "daysPassed": 344
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20700,
+              "mithril": 59
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 344,
+              "noneOf": [
+                {
+                  "daysPassed": 351
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20800,
+              "mithril": 60
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 351,
+              "noneOf": [
+                {
+                  "daysPassed": 358
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20900,
+              "mithril": 61
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 358,
+              "noneOf": [
+                {
+                  "daysPassed": 365
+                }
+              ]
+            },
+            "resources": {
+              "gold": 21000,
+              "mithril": 62
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "limiter": {
+              "daysPassed": 365
+            },
+            "resources": {
+              "gold": 21100,
+              "mithril": 63
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 1,
+              "noneOf": [
+                {
+                  "daysPassed": 8
+                }
+              ]
+            },
+            "resources": {
+              "gold": 14000,
+              "mithril": 10
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "guards": [
+              {
+                "type": "wake-of-gods.mapobjects.deathchamber:deathChamberKing2",
+                "amount": 1
+              }
+            ],
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 8,
+              "noneOf": [
+                {
+                  "daysPassed": 15
+                }
+              ]
+            },
+            "resources": {
+              "gold": 14000,
+              "mithril": 10
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 15,
+              "noneOf": [
+                {
+                  "daysPassed": 22
+                }
+              ]
+            },
+            "resources": {
+              "gold": 14100,
+              "mithril": 11
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 22,
+              "noneOf": [
+                {
+                  "daysPassed": 29
+                }
+              ]
+            },
+            "resources": {
+              "gold": 18200,
+              "mithril": 16
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 29,
+              "noneOf": [
+                {
+                  "daysPassed": 36
+                }
+              ]
+            },
+            "resources": {
+              "gold": 18300,
+              "mithril": 17
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 36,
+              "noneOf": [
+                {
+                  "daysPassed": 43
+                }
+              ]
+            },
+            "resources": {
+              "gold": 18400,
+              "mithril": 18
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 43,
+              "noneOf": [
+                {
+                  "daysPassed": 50
+                }
+              ]
+            },
+            "resources": {
+              "gold": 18500,
+              "mithril": 19
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 50,
+              "noneOf": [
+                {
+                  "daysPassed": 57
+                }
+              ]
+            },
+            "resources": {
+              "gold": 18600,
+              "mithril": 20
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 57,
+              "noneOf": [
+                {
+                  "daysPassed": 64
+                }
+              ]
+            },
+            "resources": {
+              "gold": 18700,
+              "mithril": 21
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 64,
+              "noneOf": [
+                {
+                  "daysPassed": 71
+                }
+              ]
+            },
+            "resources": {
+              "gold": 18800,
+              "mithril": 22
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 71,
+              "noneOf": [
+                {
+                  "daysPassed": 78
+                }
+              ]
+            },
+            "resources": {
+              "gold": 18900,
+              "mithril": 23
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 78,
+              "noneOf": [
+                {
+                  "daysPassed": 85
+                }
+              ]
+            },
+            "resources": {
+              "gold": 19000,
+              "mithril": 24
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 85,
+              "noneOf": [
+                {
+                  "daysPassed": 92
+                }
+              ]
+            },
+            "resources": {
+              "gold": 19100,
+              "mithril": 25
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 92,
+              "noneOf": [
+                {
+                  "daysPassed": 99
+                }
+              ]
+            },
+            "resources": {
+              "gold": 19200,
+              "mithril": 26
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 99,
+              "noneOf": [
+                {
+                  "daysPassed": 106
+                }
+              ]
+            },
+            "resources": {
+              "gold": 19300,
+              "mithril": 27
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 106,
+              "noneOf": [
+                {
+                  "daysPassed": 113
+                }
+              ]
+            },
+            "resources": {
+              "gold": 19400,
+              "mithril": 28
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 113,
+              "noneOf": [
+                {
+                  "daysPassed": 120
+                }
+              ]
+            },
+            "resources": {
+              "gold": 19500,
+              "mithril": 29
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 120,
+              "noneOf": [
+                {
+                  "daysPassed": 127
+                }
+              ]
+            },
+            "resources": {
+              "gold": 19600,
+              "mithril": 30
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 127,
+              "noneOf": [
+                {
+                  "daysPassed": 134
+                }
+              ]
+            },
+            "resources": {
+              "gold": 19700,
+              "mithril": 31
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 134,
+              "noneOf": [
+                {
+                  "daysPassed": 141
+                }
+              ]
+            },
+            "resources": {
+              "gold": 19800,
+              "mithril": 32
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 141,
+              "noneOf": [
+                {
+                  "daysPassed": 148
+                }
+              ]
+            },
+            "resources": {
+              "gold": 19900,
+              "mithril": 33
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 148,
+              "noneOf": [
+                {
+                  "daysPassed": 155
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20000,
+              "mithril": 34
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 155,
+              "noneOf": [
+                {
+                  "daysPassed": 162
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20100,
+              "mithril": 35
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 162,
+              "noneOf": [
+                {
+                  "daysPassed": 169
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20200,
+              "mithril": 36
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 169,
+              "noneOf": [
+                {
+                  "daysPassed": 176
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20300,
+              "mithril": 37
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 176,
+              "noneOf": [
+                {
+                  "daysPassed": 183
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20400,
+              "mithril": 38
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 183,
+              "noneOf": [
+                {
+                  "daysPassed": 190
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20500,
+              "mithril": 39
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 190,
+              "noneOf": [
+                {
+                  "daysPassed": 197
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20600,
+              "mithril": 40
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 197,
+              "noneOf": [
+                {
+                  "daysPassed": 204
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20700,
+              "mithril": 41
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 204,
+              "noneOf": [
+                {
+                  "daysPassed": 211
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20800,
+              "mithril": 42
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 211,
+              "noneOf": [
+                {
+                  "daysPassed": 218
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20900,
+              "mithril": 43
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 218,
+              "noneOf": [
+                {
+                  "daysPassed": 225
+                }
+              ]
+            },
+            "resources": {
+              "gold": 21000,
+              "mithril": 44
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 225,
+              "noneOf": [
+                {
+                  "daysPassed": 232
+                }
+              ]
+            },
+            "resources": {
+              "gold": 21100,
+              "mithril": 45
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 232,
+              "noneOf": [
+                {
+                  "daysPassed": 239
+                }
+              ]
+            },
+            "resources": {
+              "gold": 21200,
+              "mithril": 46
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 239,
+              "noneOf": [
+                {
+                  "daysPassed": 246
+                }
+              ]
+            },
+            "resources": {
+              "gold": 21300,
+              "mithril": 47
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 246,
+              "noneOf": [
+                {
+                  "daysPassed": 253
+                }
+              ]
+            },
+            "resources": {
+              "gold": 21400,
+              "mithril": 48
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 253,
+              "noneOf": [
+                {
+                  "daysPassed": 260
+                }
+              ]
+            },
+            "resources": {
+              "gold": 21500,
+              "mithril": 49
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 260,
+              "noneOf": [
+                {
+                  "daysPassed": 267
+                }
+              ]
+            },
+            "resources": {
+              "gold": 21600,
+              "mithril": 50
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 267,
+              "noneOf": [
+                {
+                  "daysPassed": 274
+                }
+              ]
+            },
+            "resources": {
+              "gold": 21700,
+              "mithril": 51
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 274,
+              "noneOf": [
+                {
+                  "daysPassed": 281
+                }
+              ]
+            },
+            "resources": {
+              "gold": 21800,
+              "mithril": 52
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 281,
+              "noneOf": [
+                {
+                  "daysPassed": 288
+                }
+              ]
+            },
+            "resources": {
+              "gold": 21900,
+              "mithril": 53
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 288,
+              "noneOf": [
+                {
+                  "daysPassed": 295
+                }
+              ]
+            },
+            "resources": {
+              "gold": 22000,
+              "mithril": 54
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 295,
+              "noneOf": [
+                {
+                  "daysPassed": 302
+                }
+              ]
+            },
+            "resources": {
+              "gold": 22100,
+              "mithril": 55
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 302,
+              "noneOf": [
+                {
+                  "daysPassed": 309
+                }
+              ]
+            },
+            "resources": {
+              "gold": 22200,
+              "mithril": 56
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 309,
+              "noneOf": [
+                {
+                  "daysPassed": 316
+                }
+              ]
+            },
+            "resources": {
+              "gold": 22300,
+              "mithril": 57
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 316,
+              "noneOf": [
+                {
+                  "daysPassed": 323
+                }
+              ]
+            },
+            "resources": {
+              "gold": 22400,
+              "mithril": 58
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 323,
+              "noneOf": [
+                {
+                  "daysPassed": 330
+                }
+              ]
+            },
+            "resources": {
+              "gold": 22500,
+              "mithril": 59
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 330,
+              "noneOf": [
+                {
+                  "daysPassed": 337
+                }
+              ]
+            },
+            "resources": {
+              "gold": 22600,
+              "mithril": 60
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 337,
+              "noneOf": [
+                {
+                  "daysPassed": 344
+                }
+              ]
+            },
+            "resources": {
+              "gold": 22700,
+              "mithril": 61
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 344,
+              "noneOf": [
+                {
+                  "daysPassed": 351
+                }
+              ]
+            },
+            "resources": {
+              "gold": 22800,
+              "mithril": 62
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 351,
+              "noneOf": [
+                {
+                  "daysPassed": 358
+                }
+              ]
+            },
+            "resources": {
+              "gold": 22900,
+              "mithril": 63
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 358,
+              "noneOf": [
+                {
+                  "daysPassed": 365
+                }
+              ]
+            },
+            "resources": {
+              "gold": 23000,
+              "mithril": 64
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 40
+            },
+            "limiter": {
+              "daysPassed": 365
+            },
+            "resources": {
+              "gold": 23100,
+              "mithril": 65
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 1,
+              "noneOf": [
+                {
+                  "daysPassed": 8
+                }
+              ]
+            },
+            "resources": {
+              "gold": 16000,
+              "mithril": 12
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "guards": [
+              {
+                "type": "wake-of-gods.mapobjects.deathchamber:deathChamberKing3",
+                "amount": 1
+              }
+            ],
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 8,
+              "noneOf": [
+                {
+                  "daysPassed": 15
+                }
+              ]
+            },
+            "resources": {
+              "gold": 16000,
+              "mithril": 12
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 15,
+              "noneOf": [
+                {
+                  "daysPassed": 22
+                }
+              ]
+            },
+            "resources": {
+              "gold": 16100,
+              "mithril": 13
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 14
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 22,
+              "noneOf": [
+                {
+                  "daysPassed": 29
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20200,
+              "mithril": 18
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 29,
+              "noneOf": [
+                {
+                  "daysPassed": 36
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20300,
+              "mithril": 19
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 36,
+              "noneOf": [
+                {
+                  "daysPassed": 43
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20400,
+              "mithril": 20
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 43,
+              "noneOf": [
+                {
+                  "daysPassed": 50
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20500,
+              "mithril": 21
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 50,
+              "noneOf": [
+                {
+                  "daysPassed": 57
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20600,
+              "mithril": 22
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 57,
+              "noneOf": [
+                {
+                  "daysPassed": 64
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20700,
+              "mithril": 23
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 64,
+              "noneOf": [
+                {
+                  "daysPassed": 71
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20800,
+              "mithril": 24
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 71,
+              "noneOf": [
+                {
+                  "daysPassed": 78
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20900,
+              "mithril": 25
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 78,
+              "noneOf": [
+                {
+                  "daysPassed": 85
+                }
+              ]
+            },
+            "resources": {
+              "gold": 21000,
+              "mithril": 26
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 85,
+              "noneOf": [
+                {
+                  "daysPassed": 92
+                }
+              ]
+            },
+            "resources": {
+              "gold": 21100,
+              "mithril": 27
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 92,
+              "noneOf": [
+                {
+                  "daysPassed": 99
+                }
+              ]
+            },
+            "resources": {
+              "gold": 21200,
+              "mithril": 28
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 99,
+              "noneOf": [
+                {
+                  "daysPassed": 106
+                }
+              ]
+            },
+            "resources": {
+              "gold": 21300,
+              "mithril": 29
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 106,
+              "noneOf": [
+                {
+                  "daysPassed": 113
+                }
+              ]
+            },
+            "resources": {
+              "gold": 21400,
+              "mithril": 30
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 113,
+              "noneOf": [
+                {
+                  "daysPassed": 120
+                }
+              ]
+            },
+            "resources": {
+              "gold": 21500,
+              "mithril": 31
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 120,
+              "noneOf": [
+                {
+                  "daysPassed": 127
+                }
+              ]
+            },
+            "resources": {
+              "gold": 21600,
+              "mithril": 32
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 127,
+              "noneOf": [
+                {
+                  "daysPassed": 134
+                }
+              ]
+            },
+            "resources": {
+              "gold": 21700,
+              "mithril": 33
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 134,
+              "noneOf": [
+                {
+                  "daysPassed": 141
+                }
+              ]
+            },
+            "resources": {
+              "gold": 21800,
+              "mithril": 34
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 141,
+              "noneOf": [
+                {
+                  "daysPassed": 148
+                }
+              ]
+            },
+            "resources": {
+              "gold": 21900,
+              "mithril": 35
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 148,
+              "noneOf": [
+                {
+                  "daysPassed": 155
+                }
+              ]
+            },
+            "resources": {
+              "gold": 22000,
+              "mithril": 36
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 155,
+              "noneOf": [
+                {
+                  "daysPassed": 162
+                }
+              ]
+            },
+            "resources": {
+              "gold": 22100,
+              "mithril": 37
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 162,
+              "noneOf": [
+                {
+                  "daysPassed": 169
+                }
+              ]
+            },
+            "resources": {
+              "gold": 22200,
+              "mithril": 38
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 169,
+              "noneOf": [
+                {
+                  "daysPassed": 176
+                }
+              ]
+            },
+            "resources": {
+              "gold": 22300,
+              "mithril": 39
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 176,
+              "noneOf": [
+                {
+                  "daysPassed": 183
+                }
+              ]
+            },
+            "resources": {
+              "gold": 22400,
+              "mithril": 40
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 183,
+              "noneOf": [
+                {
+                  "daysPassed": 190
+                }
+              ]
+            },
+            "resources": {
+              "gold": 22500,
+              "mithril": 41
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 190,
+              "noneOf": [
+                {
+                  "daysPassed": 197
+                }
+              ]
+            },
+            "resources": {
+              "gold": 22600,
+              "mithril": 42
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 197,
+              "noneOf": [
+                {
+                  "daysPassed": 204
+                }
+              ]
+            },
+            "resources": {
+              "gold": 22700,
+              "mithril": 43
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 204,
+              "noneOf": [
+                {
+                  "daysPassed": 211
+                }
+              ]
+            },
+            "resources": {
+              "gold": 22800,
+              "mithril": 44
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 211,
+              "noneOf": [
+                {
+                  "daysPassed": 218
+                }
+              ]
+            },
+            "resources": {
+              "gold": 22900,
+              "mithril": 45
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 218,
+              "noneOf": [
+                {
+                  "daysPassed": 225
+                }
+              ]
+            },
+            "resources": {
+              "gold": 23000,
+              "mithril": 46
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 225,
+              "noneOf": [
+                {
+                  "daysPassed": 232
+                }
+              ]
+            },
+            "resources": {
+              "gold": 23100,
+              "mithril": 47
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 232,
+              "noneOf": [
+                {
+                  "daysPassed": 239
+                }
+              ]
+            },
+            "resources": {
+              "gold": 23200,
+              "mithril": 48
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 239,
+              "noneOf": [
+                {
+                  "daysPassed": 246
+                }
+              ]
+            },
+            "resources": {
+              "gold": 23300,
+              "mithril": 49
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 246,
+              "noneOf": [
+                {
+                  "daysPassed": 253
+                }
+              ]
+            },
+            "resources": {
+              "gold": 23400,
+              "mithril": 50
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 253,
+              "noneOf": [
+                {
+                  "daysPassed": 260
+                }
+              ]
+            },
+            "resources": {
+              "gold": 23500,
+              "mithril": 51
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 260,
+              "noneOf": [
+                {
+                  "daysPassed": 267
+                }
+              ]
+            },
+            "resources": {
+              "gold": 23600,
+              "mithril": 52
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 267,
+              "noneOf": [
+                {
+                  "daysPassed": 274
+                }
+              ]
+            },
+            "resources": {
+              "gold": 23700,
+              "mithril": 53
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 274,
+              "noneOf": [
+                {
+                  "daysPassed": 281
+                }
+              ]
+            },
+            "resources": {
+              "gold": 23800,
+              "mithril": 54
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 281,
+              "noneOf": [
+                {
+                  "daysPassed": 288
+                }
+              ]
+            },
+            "resources": {
+              "gold": 23900,
+              "mithril": 55
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 288,
+              "noneOf": [
+                {
+                  "daysPassed": 295
+                }
+              ]
+            },
+            "resources": {
+              "gold": 24000,
+              "mithril": 56
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 295,
+              "noneOf": [
+                {
+                  "daysPassed": 302
+                }
+              ]
+            },
+            "resources": {
+              "gold": 24100,
+              "mithril": 57
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 302,
+              "noneOf": [
+                {
+                  "daysPassed": 309
+                }
+              ]
+            },
+            "resources": {
+              "gold": 24200,
+              "mithril": 58
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 309,
+              "noneOf": [
+                {
+                  "daysPassed": 316
+                }
+              ]
+            },
+            "resources": {
+              "gold": 24300,
+              "mithril": 59
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 316,
+              "noneOf": [
+                {
+                  "daysPassed": 323
+                }
+              ]
+            },
+            "resources": {
+              "gold": 24400,
+              "mithril": 60
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 323,
+              "noneOf": [
+                {
+                  "daysPassed": 330
+                }
+              ]
+            },
+            "resources": {
+              "gold": 24500,
+              "mithril": 61
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 330,
+              "noneOf": [
+                {
+                  "daysPassed": 337
+                }
+              ]
+            },
+            "resources": {
+              "gold": 24600,
+              "mithril": 62
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 337,
+              "noneOf": [
+                {
+                  "daysPassed": 344
+                }
+              ]
+            },
+            "resources": {
+              "gold": 24700,
+              "mithril": 63
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 344,
+              "noneOf": [
+                {
+                  "daysPassed": 351
+                }
+              ]
+            },
+            "resources": {
+              "gold": 24800,
+              "mithril": 64
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 351,
+              "noneOf": [
+                {
+                  "daysPassed": 358
+                }
+              ]
+            },
+            "resources": {
+              "gold": 24900,
+              "mithril": 65
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 358,
+              "noneOf": [
+                {
+                  "daysPassed": 365
+                }
+              ]
+            },
+            "resources": {
+              "gold": 25000,
+              "mithril": 66
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 60
+            },
+            "limiter": {
+              "daysPassed": 365
+            },
+            "resources": {
+              "gold": 25100,
+              "mithril": 67
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 1,
+              "noneOf": [
+                {
+                  "daysPassed": 8
+                }
+              ]
+            },
+            "resources": {
+              "gold": 18000,
+              "mithril": 14
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "guards": [
+              {
+                "type": "wake-of-gods.mapobjects.deathchamber:deathChamberKing4",
+                "amount": 1
+              }
+            ],
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 8,
+              "noneOf": [
+                {
+                  "daysPassed": 15
+                }
+              ]
+            },
+            "resources": {
+              "gold": 18000,
+              "mithril": 14
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 15,
+              "noneOf": [
+                {
+                  "daysPassed": 22
+                }
+              ]
+            },
+            "resources": {
+              "gold": 18100,
+              "mithril": 15
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 16
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 22,
+              "noneOf": [
+                {
+                  "daysPassed": 29
+                }
+              ]
+            },
+            "resources": {
+              "gold": 22200,
+              "mithril": 20
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 29,
+              "noneOf": [
+                {
+                  "daysPassed": 36
+                }
+              ]
+            },
+            "resources": {
+              "gold": 22300,
+              "mithril": 21
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 36,
+              "noneOf": [
+                {
+                  "daysPassed": 43
+                }
+              ]
+            },
+            "resources": {
+              "gold": 22400,
+              "mithril": 22
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 43,
+              "noneOf": [
+                {
+                  "daysPassed": 50
+                }
+              ]
+            },
+            "resources": {
+              "gold": 22500,
+              "mithril": 23
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 50,
+              "noneOf": [
+                {
+                  "daysPassed": 57
+                }
+              ]
+            },
+            "resources": {
+              "gold": 22600,
+              "mithril": 24
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 57,
+              "noneOf": [
+                {
+                  "daysPassed": 64
+                }
+              ]
+            },
+            "resources": {
+              "gold": 22700,
+              "mithril": 25
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 64,
+              "noneOf": [
+                {
+                  "daysPassed": 71
+                }
+              ]
+            },
+            "resources": {
+              "gold": 22800,
+              "mithril": 26
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 71,
+              "noneOf": [
+                {
+                  "daysPassed": 78
+                }
+              ]
+            },
+            "resources": {
+              "gold": 22900,
+              "mithril": 27
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 78,
+              "noneOf": [
+                {
+                  "daysPassed": 85
+                }
+              ]
+            },
+            "resources": {
+              "gold": 23000,
+              "mithril": 28
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 85,
+              "noneOf": [
+                {
+                  "daysPassed": 92
+                }
+              ]
+            },
+            "resources": {
+              "gold": 23100,
+              "mithril": 29
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 92,
+              "noneOf": [
+                {
+                  "daysPassed": 99
+                }
+              ]
+            },
+            "resources": {
+              "gold": 23200,
+              "mithril": 30
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 99,
+              "noneOf": [
+                {
+                  "daysPassed": 106
+                }
+              ]
+            },
+            "resources": {
+              "gold": 23300,
+              "mithril": 31
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 106,
+              "noneOf": [
+                {
+                  "daysPassed": 113
+                }
+              ]
+            },
+            "resources": {
+              "gold": 23400,
+              "mithril": 32
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 113,
+              "noneOf": [
+                {
+                  "daysPassed": 120
+                }
+              ]
+            },
+            "resources": {
+              "gold": 23500,
+              "mithril": 33
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 120,
+              "noneOf": [
+                {
+                  "daysPassed": 127
+                }
+              ]
+            },
+            "resources": {
+              "gold": 23600,
+              "mithril": 34
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 127,
+              "noneOf": [
+                {
+                  "daysPassed": 134
+                }
+              ]
+            },
+            "resources": {
+              "gold": 23700,
+              "mithril": 35
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 134,
+              "noneOf": [
+                {
+                  "daysPassed": 141
+                }
+              ]
+            },
+            "resources": {
+              "gold": 23800,
+              "mithril": 36
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 141,
+              "noneOf": [
+                {
+                  "daysPassed": 148
+                }
+              ]
+            },
+            "resources": {
+              "gold": 23900,
+              "mithril": 37
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 148,
+              "noneOf": [
+                {
+                  "daysPassed": 155
+                }
+              ]
+            },
+            "resources": {
+              "gold": 24000,
+              "mithril": 38
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 155,
+              "noneOf": [
+                {
+                  "daysPassed": 162
+                }
+              ]
+            },
+            "resources": {
+              "gold": 24100,
+              "mithril": 39
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 162,
+              "noneOf": [
+                {
+                  "daysPassed": 169
+                }
+              ]
+            },
+            "resources": {
+              "gold": 24200,
+              "mithril": 40
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 169,
+              "noneOf": [
+                {
+                  "daysPassed": 176
+                }
+              ]
+            },
+            "resources": {
+              "gold": 24300,
+              "mithril": 41
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 176,
+              "noneOf": [
+                {
+                  "daysPassed": 183
+                }
+              ]
+            },
+            "resources": {
+              "gold": 24400,
+              "mithril": 42
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 183,
+              "noneOf": [
+                {
+                  "daysPassed": 190
+                }
+              ]
+            },
+            "resources": {
+              "gold": 24500,
+              "mithril": 43
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 190,
+              "noneOf": [
+                {
+                  "daysPassed": 197
+                }
+              ]
+            },
+            "resources": {
+              "gold": 24600,
+              "mithril": 44
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 197,
+              "noneOf": [
+                {
+                  "daysPassed": 204
+                }
+              ]
+            },
+            "resources": {
+              "gold": 24700,
+              "mithril": 45
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 204,
+              "noneOf": [
+                {
+                  "daysPassed": 211
+                }
+              ]
+            },
+            "resources": {
+              "gold": 24800,
+              "mithril": 46
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 211,
+              "noneOf": [
+                {
+                  "daysPassed": 218
+                }
+              ]
+            },
+            "resources": {
+              "gold": 24900,
+              "mithril": 47
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 218,
+              "noneOf": [
+                {
+                  "daysPassed": 225
+                }
+              ]
+            },
+            "resources": {
+              "gold": 25000,
+              "mithril": 48
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 225,
+              "noneOf": [
+                {
+                  "daysPassed": 232
+                }
+              ]
+            },
+            "resources": {
+              "gold": 25100,
+              "mithril": 49
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 232,
+              "noneOf": [
+                {
+                  "daysPassed": 239
+                }
+              ]
+            },
+            "resources": {
+              "gold": 25200,
+              "mithril": 50
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 239,
+              "noneOf": [
+                {
+                  "daysPassed": 246
+                }
+              ]
+            },
+            "resources": {
+              "gold": 25300,
+              "mithril": 51
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 246,
+              "noneOf": [
+                {
+                  "daysPassed": 253
+                }
+              ]
+            },
+            "resources": {
+              "gold": 25400,
+              "mithril": 52
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 253,
+              "noneOf": [
+                {
+                  "daysPassed": 260
+                }
+              ]
+            },
+            "resources": {
+              "gold": 25500,
+              "mithril": 53
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 260,
+              "noneOf": [
+                {
+                  "daysPassed": 267
+                }
+              ]
+            },
+            "resources": {
+              "gold": 25600,
+              "mithril": 54
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 267,
+              "noneOf": [
+                {
+                  "daysPassed": 274
+                }
+              ]
+            },
+            "resources": {
+              "gold": 25700,
+              "mithril": 55
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 274,
+              "noneOf": [
+                {
+                  "daysPassed": 281
+                }
+              ]
+            },
+            "resources": {
+              "gold": 25800,
+              "mithril": 56
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 281,
+              "noneOf": [
+                {
+                  "daysPassed": 288
+                }
+              ]
+            },
+            "resources": {
+              "gold": 25900,
+              "mithril": 57
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 288,
+              "noneOf": [
+                {
+                  "daysPassed": 295
+                }
+              ]
+            },
+            "resources": {
+              "gold": 26000,
+              "mithril": 58
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 295,
+              "noneOf": [
+                {
+                  "daysPassed": 302
+                }
+              ]
+            },
+            "resources": {
+              "gold": 26100,
+              "mithril": 59
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 302,
+              "noneOf": [
+                {
+                  "daysPassed": 309
+                }
+              ]
+            },
+            "resources": {
+              "gold": 26200,
+              "mithril": 60
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 309,
+              "noneOf": [
+                {
+                  "daysPassed": 316
+                }
+              ]
+            },
+            "resources": {
+              "gold": 26300,
+              "mithril": 61
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 316,
+              "noneOf": [
+                {
+                  "daysPassed": 323
+                }
+              ]
+            },
+            "resources": {
+              "gold": 26400,
+              "mithril": 62
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 323,
+              "noneOf": [
+                {
+                  "daysPassed": 330
+                }
+              ]
+            },
+            "resources": {
+              "gold": 26500,
+              "mithril": 63
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 330,
+              "noneOf": [
+                {
+                  "daysPassed": 337
+                }
+              ]
+            },
+            "resources": {
+              "gold": 26600,
+              "mithril": 64
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 337,
+              "noneOf": [
+                {
+                  "daysPassed": 344
+                }
+              ]
+            },
+            "resources": {
+              "gold": 26700,
+              "mithril": 65
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 344,
+              "noneOf": [
+                {
+                  "daysPassed": 351
+                }
+              ]
+            },
+            "resources": {
+              "gold": 26800,
+              "mithril": 66
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 351,
+              "noneOf": [
+                {
+                  "daysPassed": 358
+                }
+              ]
+            },
+            "resources": {
+              "gold": 26900,
+              "mithril": 67
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 358,
+              "noneOf": [
+                {
+                  "daysPassed": 365
+                }
+              ]
+            },
+            "resources": {
+              "gold": 27000,
+              "mithril": 68
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 60,
+              "max": 80
+            },
+            "limiter": {
+              "daysPassed": 365
+            },
+            "resources": {
+              "gold": 27100,
+              "mithril": 69
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 1,
+              "noneOf": [
+                {
+                  "daysPassed": 8
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20000,
+              "mithril": 16
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "guards": [
+              {
+                "type": "wake-of-gods.mapobjects.deathchamber:deathChamberKing5",
+                "amount": 1
+              }
+            ],
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 8,
+              "noneOf": [
+                {
+                  "daysPassed": 15
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20000,
+              "mithril": 16
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 15,
+              "noneOf": [
+                {
+                  "daysPassed": 22
+                }
+              ]
+            },
+            "resources": {
+              "gold": 20100,
+              "mithril": 17
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 18
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 22,
+              "noneOf": [
+                {
+                  "daysPassed": 29
+                }
+              ]
+            },
+            "resources": {
+              "gold": 24200,
+              "mithril": 22
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 29,
+              "noneOf": [
+                {
+                  "daysPassed": 36
+                }
+              ]
+            },
+            "resources": {
+              "gold": 24300,
+              "mithril": 23
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 36,
+              "noneOf": [
+                {
+                  "daysPassed": 43
+                }
+              ]
+            },
+            "resources": {
+              "gold": 24400,
+              "mithril": 24
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 43,
+              "noneOf": [
+                {
+                  "daysPassed": 50
+                }
+              ]
+            },
+            "resources": {
+              "gold": 24500,
+              "mithril": 25
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 50,
+              "noneOf": [
+                {
+                  "daysPassed": 57
+                }
+              ]
+            },
+            "resources": {
+              "gold": 24600,
+              "mithril": 26
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 57,
+              "noneOf": [
+                {
+                  "daysPassed": 64
+                }
+              ]
+            },
+            "resources": {
+              "gold": 24700,
+              "mithril": 27
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 64,
+              "noneOf": [
+                {
+                  "daysPassed": 71
+                }
+              ]
+            },
+            "resources": {
+              "gold": 24800,
+              "mithril": 28
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 71,
+              "noneOf": [
+                {
+                  "daysPassed": 78
+                }
+              ]
+            },
+            "resources": {
+              "gold": 24900,
+              "mithril": 29
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 78,
+              "noneOf": [
+                {
+                  "daysPassed": 85
+                }
+              ]
+            },
+            "resources": {
+              "gold": 25000,
+              "mithril": 30
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 85,
+              "noneOf": [
+                {
+                  "daysPassed": 92
+                }
+              ]
+            },
+            "resources": {
+              "gold": 25100,
+              "mithril": 31
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 92,
+              "noneOf": [
+                {
+                  "daysPassed": 99
+                }
+              ]
+            },
+            "resources": {
+              "gold": 25200,
+              "mithril": 32
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 99,
+              "noneOf": [
+                {
+                  "daysPassed": 106
+                }
+              ]
+            },
+            "resources": {
+              "gold": 25300,
+              "mithril": 33
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 106,
+              "noneOf": [
+                {
+                  "daysPassed": 113
+                }
+              ]
+            },
+            "resources": {
+              "gold": 25400,
+              "mithril": 34
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 113,
+              "noneOf": [
+                {
+                  "daysPassed": 120
+                }
+              ]
+            },
+            "resources": {
+              "gold": 25500,
+              "mithril": 35
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 120,
+              "noneOf": [
+                {
+                  "daysPassed": 127
+                }
+              ]
+            },
+            "resources": {
+              "gold": 25600,
+              "mithril": 36
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 127,
+              "noneOf": [
+                {
+                  "daysPassed": 134
+                }
+              ]
+            },
+            "resources": {
+              "gold": 25700,
+              "mithril": 37
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 134,
+              "noneOf": [
+                {
+                  "daysPassed": 141
+                }
+              ]
+            },
+            "resources": {
+              "gold": 25800,
+              "mithril": 38
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 141,
+              "noneOf": [
+                {
+                  "daysPassed": 148
+                }
+              ]
+            },
+            "resources": {
+              "gold": 25900,
+              "mithril": 39
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 148,
+              "noneOf": [
+                {
+                  "daysPassed": 155
+                }
+              ]
+            },
+            "resources": {
+              "gold": 26000,
+              "mithril": 40
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 155,
+              "noneOf": [
+                {
+                  "daysPassed": 162
+                }
+              ]
+            },
+            "resources": {
+              "gold": 26100,
+              "mithril": 41
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 162,
+              "noneOf": [
+                {
+                  "daysPassed": 169
+                }
+              ]
+            },
+            "resources": {
+              "gold": 26200,
+              "mithril": 42
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 169,
+              "noneOf": [
+                {
+                  "daysPassed": 176
+                }
+              ]
+            },
+            "resources": {
+              "gold": 26300,
+              "mithril": 43
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 176,
+              "noneOf": [
+                {
+                  "daysPassed": 183
+                }
+              ]
+            },
+            "resources": {
+              "gold": 26400,
+              "mithril": 44
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 183,
+              "noneOf": [
+                {
+                  "daysPassed": 190
+                }
+              ]
+            },
+            "resources": {
+              "gold": 26500,
+              "mithril": 45
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 190,
+              "noneOf": [
+                {
+                  "daysPassed": 197
+                }
+              ]
+            },
+            "resources": {
+              "gold": 26600,
+              "mithril": 46
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 197,
+              "noneOf": [
+                {
+                  "daysPassed": 204
+                }
+              ]
+            },
+            "resources": {
+              "gold": 26700,
+              "mithril": 47
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 204,
+              "noneOf": [
+                {
+                  "daysPassed": 211
+                }
+              ]
+            },
+            "resources": {
+              "gold": 26800,
+              "mithril": 48
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 211,
+              "noneOf": [
+                {
+                  "daysPassed": 218
+                }
+              ]
+            },
+            "resources": {
+              "gold": 26900,
+              "mithril": 49
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 218,
+              "noneOf": [
+                {
+                  "daysPassed": 225
+                }
+              ]
+            },
+            "resources": {
+              "gold": 27000,
+              "mithril": 50
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 225,
+              "noneOf": [
+                {
+                  "daysPassed": 232
+                }
+              ]
+            },
+            "resources": {
+              "gold": 27100,
+              "mithril": 51
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 232,
+              "noneOf": [
+                {
+                  "daysPassed": 239
+                }
+              ]
+            },
+            "resources": {
+              "gold": 27200,
+              "mithril": 52
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 239,
+              "noneOf": [
+                {
+                  "daysPassed": 246
+                }
+              ]
+            },
+            "resources": {
+              "gold": 27300,
+              "mithril": 53
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 246,
+              "noneOf": [
+                {
+                  "daysPassed": 253
+                }
+              ]
+            },
+            "resources": {
+              "gold": 27400,
+              "mithril": 54
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 253,
+              "noneOf": [
+                {
+                  "daysPassed": 260
+                }
+              ]
+            },
+            "resources": {
+              "gold": 27500,
+              "mithril": 55
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 260,
+              "noneOf": [
+                {
+                  "daysPassed": 267
+                }
+              ]
+            },
+            "resources": {
+              "gold": 27600,
+              "mithril": 56
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 267,
+              "noneOf": [
+                {
+                  "daysPassed": 274
+                }
+              ]
+            },
+            "resources": {
+              "gold": 27700,
+              "mithril": 57
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 274,
+              "noneOf": [
+                {
+                  "daysPassed": 281
+                }
+              ]
+            },
+            "resources": {
+              "gold": 27800,
+              "mithril": 58
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 281,
+              "noneOf": [
+                {
+                  "daysPassed": 288
+                }
+              ]
+            },
+            "resources": {
+              "gold": 27900,
+              "mithril": 59
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 288,
+              "noneOf": [
+                {
+                  "daysPassed": 295
+                }
+              ]
+            },
+            "resources": {
+              "gold": 28000,
+              "mithril": 60
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 295,
+              "noneOf": [
+                {
+                  "daysPassed": 302
+                }
+              ]
+            },
+            "resources": {
+              "gold": 28100,
+              "mithril": 61
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 302,
+              "noneOf": [
+                {
+                  "daysPassed": 309
+                }
+              ]
+            },
+            "resources": {
+              "gold": 28200,
+              "mithril": 62
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 309,
+              "noneOf": [
+                {
+                  "daysPassed": 316
+                }
+              ]
+            },
+            "resources": {
+              "gold": 28300,
+              "mithril": 63
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 316,
+              "noneOf": [
+                {
+                  "daysPassed": 323
+                }
+              ]
+            },
+            "resources": {
+              "gold": 28400,
+              "mithril": 64
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 323,
+              "noneOf": [
+                {
+                  "daysPassed": 330
+                }
+              ]
+            },
+            "resources": {
+              "gold": 28500,
+              "mithril": 65
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 330,
+              "noneOf": [
+                {
+                  "daysPassed": 337
+                }
+              ]
+            },
+            "resources": {
+              "gold": 28600,
+              "mithril": 66
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 337,
+              "noneOf": [
+                {
+                  "daysPassed": 344
+                }
+              ]
+            },
+            "resources": {
+              "gold": 28700,
+              "mithril": 67
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 344,
+              "noneOf": [
+                {
+                  "daysPassed": 351
+                }
+              ]
+            },
+            "resources": {
+              "gold": 28800,
+              "mithril": 68
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 351,
+              "noneOf": [
+                {
+                  "daysPassed": 358
+                }
+              ]
+            },
+            "resources": {
+              "gold": 28900,
+              "mithril": 69
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 358,
+              "noneOf": [
+                {
+                  "daysPassed": 365
+                }
+              ]
+            },
+            "resources": {
+              "gold": 29000,
+              "mithril": 70
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 365
+            },
+            "resources": {
+              "gold": 29100,
+              "mithril": 71
+            },
+            "message": "@deathChamberWog.reward.ghost",
+            "creatures": [
+              {
+                "type": "wake-of-gods.creatures:ghost",
+                "amount": 20
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,97 +1,99 @@
-# WoG Scripts — Adventure Map Objects
+# mapObjects 1.0.13 — Differences Between WoG and VCMI 1.8
 
-**In the Wake of Gods** introduced numerous adventure-map locations with unusual services, choices, and hero-specific effects. This submod brings selected WoG objects to **VCMI**, using its configurable map-object and reward systems.
+This guide compares all 19 submods with the classic WoG mechanics and the WoG 3.59 alpha scripts. The headings use the submod names shown in the launcher. Some objects have their own visit rules in VCMI. Others follow the WoG rules through VCMI's dialogs and game mechanics.
 
-The aim is to preserve the spirit of the original objects while making their mechanics practical in VCMI. **Some objects are adaptations, not exact recreations of the original ERM scripts.** The differences below explain what has changed so that players know what to expect.
+## Trading, Training, and Assistance
 
-## Differences from original WoG
+### Alms House — Aid for Heroes in Need
 
-### Arcane Tower
+In WoG, the host helps each hero once. He may provide missing resources, give 100 gold to an empty treasury, give 1,000 experience to a novice hero, or raise very low primary skills. The port keeps those thresholds and most of the original dialogue. In VCMI, a hero who visits with no movement points can come back later. Receiving any gift, including experience alone, uses all remaining movement points. Equipment can affect whether the hero qualifies for a primary skill increase. (WoG Script 18)
 
-- **Original WoG:** The hero chooses which primary skill to increase and which different primary skill to decrease. Several exchanges can be made within the same dialogue. The supplied ERM script does not charge movement points for these exchanges.
-- **VCMI:** One eligible **+1 / −1 primary-skill exchange** is proposed at random. Each accepted exchange costs **300 movement points**. The tower can be used repeatedly, but every trade requires another interaction; an unwanted proposal may be declined.
-- **Limitation:** WoG checks primary skills without artifact bonuses. The corresponding VCMI stat limiters have not been verified to behave identically with equipped artifacts. The original AI-specific experience reward is not included.
+### Artificer — Reworking Artifacts
 
-### Battle Academy
+In WoG, each workshop offers up to two services per day and charges double for the second. Prices can depend on the day and the hero's skills, among other factors. In VCMI, the workshop presents one available offer, which the hero can decline for free. Each hero can accept one service per workshop per day. It costs 100 movement points and has a fixed price. There are 80 base recipes and up to 40 more with Mithril and Commanders. Trading the Still Eye of the Dragon for the Pendant of Courage costs 6,000 gold and 1 Mithril. Some ingredient names still appear in English in the Polish offers. (WoG Script 26)
 
-- **Original WoG:** The player chooses between Attack/Defence training, a combat secondary skill, and an artifact shop, with script-driven menus and eligibility checks.
-- **VCMI:** A single eligible service is offered at random. Attack and Defence training retain the **500 gold × current attribute** price formula, and secondary-skill training costs **3,000 gold**. The Academy also has a defined pool of **16 purchasable artifacts**.
-- **Difference:** Each hero may accept one service per Academy per day. Daily special offers are selected at the daily reset rather than changing whenever a proposal is refused. Special handling of base stats and full secondary-skill slots is simplified.
+### Battle Academy — Training and the Armory
 
-### School of Wizardry
+In WoG, the player chooses a service from a menu. VCMI presents one randomly selected offer for which the hero qualifies, and the player can decline it. Each hero can accept one service per day across all academies. Training grants +1 Attack or Defense and costs 500 gold per point the hero already has in that attribute. WoG uses the base value. VCMI also counts equipment bonuses. Learning a secondary skill costs 3,000 gold and follows the normal skill slot limit. An optional add-on offers Commander equipment. (WoG Script 16)
 
-- **Original WoG:** The player selects magical-stat training, secondary-skill lessons, a daily spell, spell-scroll copying, or a spellbook through a scripted dialogue. The school has additional skill-slot and spell-eligibility logic.
-- **VCMI:** The school proposes one eligible service at a time. It includes Spell Power/Knowledge training, magical secondary skills, **60 purchasable spells**, **69 scroll-copy recipes**, and a spellbook service. One accepted service per hero per school is available each day.
-- **Difference:** The daily spell and skill pools are determined through VCMI reward resets, not a complete copy of WoG's per-turn scripting. Scroll copying requires **Expert Wisdom** in the current configuration, even for lower-level spells. The fixed spell lists do not automatically include spells added by other mods.
+### Arcane Tower — Trading Primary Skill Points
 
-### Artificer
+In WoG, the player can choose both attributes and make up to 30 free exchanges in a single session. VCMI presents one of 12 possible exchanges. Accepting transfers one point and costs 300 movement points. The hero can return on the same day. Remove any equipment and potions that change primary skills before accepting a trade. The port checks the value including bonuses, then deducts the point from the base value. In a test with base Attack of 0 and a temporary Attack bonus, the Tower raised another attribute and charged the movement points while leaving base Attack at 0. (WoG Script 04)
 
-- **Original WoG:** A scripted workshop lets heroes choose artifact upgrades, exchanges, and combinations. It examines artifact conditions and supports special handling for equipped, enhanced, and restricted artifacts. The intended second service on a day costs double.
-- **VCMI:** The workshop provides **119 defined recipes** (59 upgrades, 58 exchanges, and 2 combinations). One eligible recipe is proposed at random. Accepted transactions consume the specified artifacts, charge gold and sometimes mithril, and cost **100 movement points**.
-- **Difference:** Recipes are static rather than generated through the full WoG selection logic. A doubled-price `onVisited` set is configured, but whether it can be reached under the per-hero daily visit restriction needs in-game verification. WoG's special artifact restrictions are not fully reproduced by the map-object configuration.
+### School of Wizardry — Learning Magic
 
-### Junk Merchant
+WoG offers a menu and uses its own timetable for offers. In VCMI, the school presents one offer suited to the hero. Each hero can accept one service per day across all schools. Spell Power and Knowledge training become more expensive as the attribute rises, including equipment bonuses. The school also teaches magic skills, sells spells, and offers a spell book for 250 gold. Copying a spell consumes the matching scroll and requires Expert Wisdom and the ability to learn the spell. The port follows the normal skill slot limit. (WoG Script 28)
 
-- **Original WoG:** The merchant searches the hero's backpack and lets the player navigate scripted choices to exchange selected artifacts or sell spell scrolls.
-- **VCMI:** The merchant has **32 artifact-specific deals** and **70 specified spell-scroll sales**. A single eligible deal is offered at random, and the hero may refuse and interact again. Each listed scroll sale consumes the scroll and awards **500 gold**.
-- **Difference:** There is no full backpack-selection dialogue. The fixed scroll list does not automatically include new spells from other mods; treatment of equipped versus backpack artifacts still requires testing.
+### Junk Merchant — Trading Unwanted Artifacts
 
-### Alms House
+In WoG, the merchant buys items from the backpack and allows several trades in one session. In VCMI, the merchant presents one offer based on the hero's inventory. The hero can return immediately. The port has 32 artifact trades and 70 offers to sell spell scrolls for 500 gold each. VCMI may take an equipped item or disassemble a combination artifact to obtain the required part, so check the hero's inventory before accepting. (WoG Script 08)
 
-- **Original WoG:** A shared per-hero flag prevents receiving aid from multiple Alms Houses. The script may grant several kinds of aid at once; it gives **100 gold** if the player's gold is zero and **1,000 experience** if the hero has fewer than **200 experience points**. After any successful aid, all remaining hero movement is removed.
-- **VCMI:** The house checks the hero's attributes and the player's resources and can provide the corresponding gifts. A zero-gold treasury is rewarded with only **1 gold**. The experience condition uses **hero level below 2** instead of the original experience threshold.
-- **Difference:** Visits are recorded per object rather than through the original shared hero flag, and the current VCMI reward does **not** consume the hero's remaining movement. Its stat tests are expressed as thresholds rather than WoG's exact-value checks.
+## Magic, Travel, and Transformation
 
-### Magic Mushrooms — Air, Earth, Fire, and Water
+### Altar of Transformation — Transforming an Army
 
-- **Original WoG:** Each mushroom temporarily sets the matching **learned secondary skill** to Expert, remembers the hero's previous rank, and restores it at the beginning of the following week. A hero already at Expert cannot benefit. The scripts track use per hero and magic school, even when the hero's eight skill slots are full.
-- **VCMI:** Each mushroom grants a temporary **Expert-level magic-school bonus** with `ONE_WEEK` duration. It does not directly rewrite and later restore the hero's learned skill rank.
-- **Difference:** A weekly timed bonus is an approximation of the original skill-replacement procedure. The JSON does not contain the same already-Expert test, shared per-school visit flag, or explicit restoration of the former skill rank. The precise expiration boundary is controlled by VCMI.
+WoG lets the hero spend mana on a transformation and can roll separately for each stack. VCMI offers 11 icons for the nine classic town factions, Neutral, and Random. Random picks one destination faction for the entire army. Eligible stacks keep their creature count and tier. Standard town creatures also retain their upgrade status. The Neutral option uses its own equivalents. Selecting a faction costs 1,000 gold, while Random costs 500 gold. Both options cost 500 movement points. Each hero gets one paid transformation per week across all altars. Support for additional creatures depends on whether a transformation is defined for them. (WoG Script 14)
 
-### Potion Fountains
+### Magic Mushrooms — Expert Spellcasting Until Monday
 
-**Fountain of Fortune — Hydromel**
+WoG temporarily replaces the level of a magic skill and restores it later. VCMI grants Expert spellcasting in one school of magic until the end of the week. A hero can benefit even with a full set of secondary skills. The learned skill stays at its existing level, so abilities and requirements that read the learned skill may still use that level. (WoG Script 10)
 
-- **Original WoG:** Visiting refills **three Hydromel doses** on the hero. A dose can be used at battle start for **+2 Attack and +2 Defence** during that battle.
-- **VCMI:** Visiting grants **one Hydromel Potion artifact** and one randomly selected Luck effect (**−1, +1, +2, or +3**) lasting one battle.
+### Forgotten Shrine — A Prayer Before Battle
 
-**Valhalla's Fountain — Berserker Potion**
+In both versions, the hero can decline. Accepting requires at least 201 movement points, spends all remaining movement, and grants one of 20 hidden blessings for the next battle. VCMI uses its opening spell mechanic to cast the spell at Expert mastery. The spell's rules, immunities, and battlefield magic restrictions still apply. (WoG Script 60)
 
-- **Original WoG:** Refills **three doses**. Drinking one at battle start gives **+10 Attack and maximum Luck**, temporarily prevents spellcasting by suppressing available mana, and restores mana afterward.
-- **VCMI:** Gives **one Berserker Potion artifact**, with a **weekly visitor reset**.
+### Potion Fountains — Potions With Three Doses
 
-**Venus's Fountain — Venus's Blessing**
+In WoG, heroes carry doses and decide before combat whether to drink a potion. In VCMI, each potion is an artifact with three charges. An equipped potion uses a dose after battle. Keeping it in the backpack saves it for later. Visiting the relevant fountain refills the potion, and some of its bonuses also apply on the adventure map. Mixing Hydromel with the Berserker Potion could cost a point of Spell Power in WoG. The VCMI port omits that interaction. (WoG Script 17)
 
-- **Original WoG:** Refills **three doses**. Drinking one grants **maximum Morale and Luck** for a battle.
-- **VCMI:** Gives **one Venus's Blessing artifact**, with a **weekly visitor reset**.
+### Mirror of the Home-Way — Travel to a Town
 
-**Important:** WoG tracks potion doses per hero, while these VCMI map objects award inventory artifacts. Their actual use, charges, and combat bonuses depend on the separate artifact and combat implementations, not on the map-object JSON alone. In original WoG, combining Hydromel and Berserker in one battle can also cause a permanent **−1 Spell Power** penalty. That interaction is not established by the VCMI fountain definitions.
+WoG lets the player select one of their own towns before charging the fee. VCMI charges 1,000 gold as soon as the hero accepts, before opening the list of the player's and allies' towns. Closing the list or having no valid destination can cost the fee without any travel. The portal uses no mana or additional movement points. (WoG Script 52)
 
-### Mirror of the Home-Way
+### Spell Book — A Book Found on the Map
 
-- **Original WoG (updated script):** Opens a Town Portal destination dialogue without charging mana, movement, or gold. Older comments mentioning a **1,000-gold fee** remain in the ERM file, but the corresponding payment commands are disabled. AI use is disabled in the active script.
-- **VCMI:** Requires and spends **1,000 gold**, then uses an **Expert Town Portal spell-cast reward**. The service can be used repeatedly.
-- **Difference:** The original custom bypass of normal Town Portal restrictions and its special AI handling are not reproduced explicitly; remaining spell requirements depend on VCMI's spell-casting implementation.
+In WoG, picking up an ordinary Spell Book can give the hero spells. VCMI uses a separate object with four quality tiers that depend on Luck and Wisdom. It can also give the hero a Spell Book. The port follows VCMI's rules for selecting and learning spells, so duplicate rolls, Wisdom requirements, and map restrictions can affect the outcome. (WoG Script 27 and the classic script collection entry “51 wog - spell book”)
 
-### Palace of Dreams
+## Treasures and Trials on the Adventure Map
 
-- **Original WoG:** A casino with separate **resource and artifact slot machines**. Each spin costs **100 gold**; a visit consumes **300 movement points**. The player may spin repeatedly (up to 100 times per session) and wins a prize when three reel symbols match.
-- **VCMI:** A simplified random encounter with **five outcomes**: no prize, resources, a Treasure artifact, a Minor artifact with gold, or a Major artifact with gold. A hero must have at least **1,000 gold** to participate, and the object has a **daily reset**.
-- **Difference:** There are no reel animations, resource/artifact machine selection, or repeated spins within the same visit. No movement cost is configured. Two reward branches currently **add 2,000 or 5,000 gold** rather than deducting the expected 1,000; those are the values specified in the VCMI configuration and should not be mistaken for the original WoG slot-machine economy.
+### Fishing Well — A Weekly Catch
 
-### Sphinxes — Blessings and Curses
+WoG expands magic wells with outcomes including tunnels, traps, and monster encounters. VCMI adds a separate well with one catch per week, shared by all heroes. Fishing restores mana and uses all remaining movement points. The 43 possible outcomes include treasure, encounters with guards, and humorous discoveries with no material reward. The port leaves out the original tunnels and traps. (WoG Script 07)
 
-Applies to all six Sphinx variants: `zsphnx10`, `zsphnx11`, `zsphnx12`, `zsphnx13`, `zsphnx14`, and `zsphnx15`.
+### New Chest I — A Choice of Rewards or an Unpleasant Surprise
 
-- **Original WoG:** The Sphinx asks a riddle. A correct answer earns a blessing; an incorrect answer brings a curse. The original system supports various effects with different strengths and durations, displayed in a dedicated Blessings and Curses area on the hero screen.
-- **VCMI:** Riddles are replaced by a direct **50% blessing / 50% curse** roll. Each trial costs **1,280 movement points**. A hero may undertake one trial per Sphinx per day, and the outcome cannot be declined after entering.
-- **Differences:** All six visual variants use the same pool of **12 blessings and 12 curses**, with weighted outcomes lasting **1–7 days**. Effects use VCMI's timed bonus system instead of the original riddle interface and WoG-specific Blessings and Curses display. The outcome is determined by chance, **not by the player's answer**.
+WoG can calculate the cost of upgrading a particular stack and select it automatically. VCMI checks which standard upgrades fit the chest's budget and lets the player choose a creature type. The upgrade applies to all stacks of the chosen type. Other outcomes offer resources, training, or a trap. The WoG gas trap applies a set of spells through ERM. In VCMI, the gas applies a penalty to Morale, Luck, Attack, or Defense. Expert Luck or Expert Intelligence protects the hero against the trap. (WoG Script 29)
 
-## Compatibility and implementation notes
+### New Chest II — Scrolls, Tomes, and a Mine Deed
 
-- These are **VCMI adaptations of WoG mechanics**, not binary-compatible conversions of ERM scripts. Several objects use one random eligible offer instead of the original multi-option dialogue.
-- Where the original script remembers previous skill levels, counts potion charges, modifies combat state, or bypasses spell restrictions, **map-object JSON alone may not reproduce the full behavior**.
-- Prices, reward pools, visit resets, and duration rules above describe the configurations provided with this submod. They should not be treated as promises of identical behavior in every VCMI version or mod combination.
-- The comparisons are primarily based on the supplied WoG ERM/ERT scripts and VCMI object configurations. For the Sphinx, the original riddle and blessing/curse rules are based on published WoG documentation; the exact matching original Sphinx ERM/ERT was not supplied.
+In WoG, studying a tome takes a week, and a deed can claim a mine remotely. In VCMI, if at least two skills qualify, the player can immediately raise one of them to Expert. The deed is worth 2,000 gold. In the scroll outcome, the hero can keep the scroll or exchange it for mana. The hero keeps the gold either way. (WoG Script 31)
 
-For additional context, see the [VCMI rewardable map-object documentation](https://vcmi.eu/modders/Map_Objects/Rewardable/) and the [WoG Sphinx feature description](https://heroes3wog.net/sphinx-blessings-and-curses/).
+### Palace of Dreams — One Bet per Day
+
+WoG lets the player choose between two slot machines, see the symbols, and play several times in one session. The port combines their prizes into one automatic bet per palace per day, shared by all players. A bet costs 100 gold and up to 400 of the hero's remaining movement points. Usually the hero loses the stake, but the game can award a resource, gold, or an artifact. Early cash prizes depend on the day. Later payouts change by the week and are capped. (WoG Script 11)
+
+### Sphinxes — A Trial of Luck
+
+The classic WoG Sphinx asks a riddle from `ZSphinx0.TXT` and the player types an answer. A correct answer brings a blessing. A wrong or blank answer brings a curse. WoG 3.59 also has an optional script in which the player can ask up to three questions about a creature and make up to three guesses. The player can win a stack of those creatures or face them in battle.
+
+In VCMI, all six Sphinxes use the same random trial. A hero needs 1,280 movement points and can visit each Sphinx once per day. A blessing and a curse are equally likely, and the effect lasts from 1 to 7 days. Version 1.0.1 adds Polish and English messages for every outcome. (WoG sources `T1/service.cpp`, `T1/erm.cpp`, and `Script098.erm`)
+
+### War Machines on Map — Finding War Machines and the Grail
+
+This VCMI add-on provides adventure map graphics for war machines and the Grail. The Ballista, Ammo Cart, and First Aid Tent can enter the ordinary random artifact pool. The Catapult and the Grail can be picked up when placed on the map. The ordinary draw skips the Catapult because it is a Special artifact and the Grail because it has no equipment slot. The ordinary Spell Book is unaffected by the add-on. There is no single equivalent ERM script in the WoG sources reviewed.
+
+### Death Chamber — Facing the Undead King
+
+In WoG, the King casts spells including Anti-Magic and Inferno. His death can trigger additional summons if his guards are still alive. With creature bank growth enabled, the chamber respawns 28 days after victory. In VCMI, the hero can decline the fight after the warning or leave the loot after winning and come back for it later. The battlefield has a fixed layout, and further reinforcements depend on the round and whether the King is still alive. The large crypts crumble in round two, and Wraiths or Ghosts can appear in round three. The port uses its own rules for the King's spells and curses. Armageddon targets the attacking army.
+
+Chambers reset at the start of a shared 28-day cycle, such as on days 29 and 57. The base submod works on its own and awards gold. Creatures Compatibility enables Ghosts and the King's transformation into a Dracolich from week four onward. Mithril is a separate option. To combine both rewards, also enable the nested Creatures + Mithril Compatibility add-on. (WoG Script 70)
+
+## What the Tests Confirmed
+
+- **Palace of Dreams.** Across 6,000 visits on the test map, the engine awarded resources 74 times, gold 24 times, and an artifact 55 times. The stake was lost in the remaining 5,847 trials.
+- **Sphinxes.** There were 3,000 trials per language with the same random seed. Each run produced 1,504 blessings and 1,496 curses, with every effect type appearing. A separate test confirmed that the 1,000 gold bonus paid out for the stated number of mornings for both the one-day and seven-day effects.
+- **Training.** The server processed all 12 exchange directions at the Arcane Tower, Attack training at the Battle Academy, and the purchase of a Spell Book and the copying of Haste at the School of Wizardry.
+- **Death Chamber.** The eight scenarios played two rounds and checked the start of round three. The tests then forced a victory to check that the loot could be claimed. They covered four add-on combinations and all five difficulty tiers. In both retreat tests, the chamber remained guarded.
+- **War Machines.** The Ballista, Ammo Cart, and First Aid Tent appeared in 6,000 draws. The Catapult and the Grail were also picked up after being placed on the map.
+
+The static audit and content loading checks cover all 19 submods. Details of the native tests, their logs, and the test program are in the ZIP's `QA` folder. Full regression testing still needs to cover the graphical client, AI, multiplayer, saving and loading, random map generation, WoG Graphic Fix, and third-party factions.

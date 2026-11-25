@@ -1,327 +1,447 @@
 {
-    "arcaneTower": {
+  "arcaneTower": {
+    "name": "Arcane Tower",
+    "handler": "configurable",
+    "types": {
+      "arcaneTower": {
         "name": "Arcane Tower",
-        "handler": "configurable",
-        "types": {
-            "arcaneTower": {
-                "name": "Arcane Tower",
-                "description": "Exchange one primary skill point for another. Each successful exchange costs 300 movement points. Revisit while you have enough movement.",
-                "rmg": {
-                    "value": 7000,
-                    "rarity": 75,
-                    "zoneLimit": 1
-                },
-                "compatibilityIdentifiers": [
-                    "zobj007"
-                ],
-                "sounds": {
-                    "ambient": [
-                        "LOOPMAGI"
-                    ],
-                    "visit": [
-                        "MYSTERY"
-                    ]
-                },
-                "rewards": [
+        "description": "@wake-of-gods.mapobjects.arcanetower.description",
+        "rmg": {
+          "value": 7000,
+          "rarity": 75,
+          "zoneLimit": 1
+        },
+        "compatibilityIdentifiers": [
+          "zobj007"
+        ],
+        "sounds": {
+          "ambient": [
+            "LOOPMAGI"
+          ],
+          "visit": [
+            "MYSTERY"
+          ]
+        },
+        "rewards": [
+          {
+            "message": "@wake-of-gods.mapobjects.arcanetower.trade.attack.defence",
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              },
+              {
+                "type": "defence",
+                "amount": -1
+              }
+            ],
+            "movePoints": -300,
+            "limiter": {
+              "primary": [
+                {
+                  "type": "defence",
+                  "amount": 1
+                }
+              ],
+              "movePoints": 300,
+              "noneOf": [
+                {
+                  "primary": [
                     {
-                        "message": "{Arcane Tower}\r\n\r\nA ghost floats down a staircase and glides up to you. \"It is well that you came here, traveller. I can help you.\"\r\n\r\nI can increase your Attack by 1 point in exchange for 1 point of Defence. This exchange costs 300 movement points.\r\n\r\nDo you agree to this trade?",
-                        "primary": [
-                            {
-                                "type": "attack",
-                                "amount": 1
-                            },
-                            {
-                                "type": "defence",
-                                "amount": -1
-                            }
-                        ],
-                        "movePoints": -300,
-                        "limiter": {
-                            "primary": [
-                                {
-                                    "type": "defence",
-                                    "amount": 1
-                                }
-                            ],
-                            "movePoints": 300
-                        }
-                    },
-                    {
-                        "message": "{Arcane Tower}\r\n\r\nA ghost floats down a staircase and glides up to you. \"It is well that you came here, traveller. I can help you.\"\r\n\r\nI can increase your Attack by 1 point in exchange for 1 point of Spell Power. This exchange costs 300 movement points.\r\n\r\nDo you agree to this trade?",
-                        "primary": [
-                            {
-                                "type": "attack",
-                                "amount": 1
-                            },
-                            {
-                                "type": "spellpower",
-                                "amount": -1
-                            }
-                        ],
-                        "movePoints": -300,
-                        "limiter": {
-                            "primary": [
-                                {
-                                    "type": "spellpower",
-                                    "amount": 2
-                                }
-                            ],
-                            "movePoints": 300
-                        }
-                    },
-                    {
-                        "message": "{Arcane Tower}\r\n\r\nA ghost floats down a staircase and glides up to you. \"It is well that you came here, traveller. I can help you.\"\r\n\r\nI can increase your Attack by 1 point in exchange for 1 point of Knowledge. This exchange costs 300 movement points.\r\n\r\nDo you agree to this trade?",
-                        "primary": [
-                            {
-                                "type": "attack",
-                                "amount": 1
-                            },
-                            {
-                                "type": "knowledge",
-                                "amount": -1
-                            }
-                        ],
-                        "movePoints": -300,
-                        "limiter": {
-                            "primary": [
-                                {
-                                    "type": "knowledge",
-                                    "amount": 2
-                                }
-                            ],
-                            "movePoints": 300
-                        }
-                    },
-                    {
-                        "message": "{Arcane Tower}\r\n\r\nA ghost floats down a staircase and glides up to you. \"It is well that you came here, traveller. I can help you.\"\r\n\r\nI can increase your Defence by 1 point in exchange for 1 point of Attack. This exchange costs 300 movement points.\r\n\r\nDo you agree to this trade?",
-                        "primary": [
-                            {
-                                "type": "defence",
-                                "amount": 1
-                            },
-                            {
-                                "type": "attack",
-                                "amount": -1
-                            }
-                        ],
-                        "movePoints": -300,
-                        "limiter": {
-                            "primary": [
-                                {
-                                    "type": "attack",
-                                    "amount": 1
-                                }
-                            ],
-                            "movePoints": 300
-                        }
-                    },
-                    {
-                        "message": "{Arcane Tower}\r\n\r\nA ghost floats down a staircase and glides up to you. \"It is well that you came here, traveller. I can help you.\"\r\n\r\nI can increase your Defence by 1 point in exchange for 1 point of Spell Power. This exchange costs 300 movement points.\r\n\r\nDo you agree to this trade?",
-                        "primary": [
-                            {
-                                "type": "defence",
-                                "amount": 1
-                            },
-                            {
-                                "type": "spellpower",
-                                "amount": -1
-                            }
-                        ],
-                        "movePoints": -300,
-                        "limiter": {
-                            "primary": [
-                                {
-                                    "type": "spellpower",
-                                    "amount": 2
-                                }
-                            ],
-                            "movePoints": 300
-                        }
-                    },
-                    {
-                        "message": "{Arcane Tower}\r\n\r\nA ghost floats down a staircase and glides up to you. \"It is well that you came here, traveller. I can help you.\"\r\n\r\nI can increase your Defence by 1 point in exchange for 1 point of Knowledge. This exchange costs 300 movement points.\r\n\r\nDo you agree to this trade?",
-                        "primary": [
-                            {
-                                "type": "defence",
-                                "amount": 1
-                            },
-                            {
-                                "type": "knowledge",
-                                "amount": -1
-                            }
-                        ],
-                        "movePoints": -300,
-                        "limiter": {
-                            "primary": [
-                                {
-                                    "type": "knowledge",
-                                    "amount": 2
-                                }
-                            ],
-                            "movePoints": 300
-                        }
-                    },
-                    {
-                        "message": "{Arcane Tower}\r\n\r\nA ghost floats down a staircase and glides up to you. \"It is well that you came here, traveller. I can help you.\"\r\n\r\nI can increase your Spell Power by 1 point in exchange for 1 point of Attack. This exchange costs 300 movement points.\r\n\r\nDo you agree to this trade?",
-                        "primary": [
-                            {
-                                "type": "spellpower",
-                                "amount": 1
-                            },
-                            {
-                                "type": "attack",
-                                "amount": -1
-                            }
-                        ],
-                        "movePoints": -300,
-                        "limiter": {
-                            "primary": [
-                                {
-                                    "type": "attack",
-                                    "amount": 1
-                                }
-                            ],
-                            "movePoints": 300
-                        }
-                    },
-                    {
-                        "message": "{Arcane Tower}\r\n\r\nA ghost floats down a staircase and glides up to you. \"It is well that you came here, traveller. I can help you.\"\r\n\r\nI can increase your Spell Power by 1 point in exchange for 1 point of Defence. This exchange costs 300 movement points.\r\n\r\nDo you agree to this trade?",
-                        "primary": [
-                            {
-                                "type": "spellpower",
-                                "amount": 1
-                            },
-                            {
-                                "type": "defence",
-                                "amount": -1
-                            }
-                        ],
-                        "movePoints": -300,
-                        "limiter": {
-                            "primary": [
-                                {
-                                    "type": "defence",
-                                    "amount": 1
-                                }
-                            ],
-                            "movePoints": 300
-                        }
-                    },
-                    {
-                        "message": "{Arcane Tower}\r\n\r\nA ghost floats down a staircase and glides up to you. \"It is well that you came here, traveller. I can help you.\"\r\n\r\nI can increase your Spell Power by 1 point in exchange for 1 point of Knowledge. This exchange costs 300 movement points.\r\n\r\nDo you agree to this trade?",
-                        "primary": [
-                            {
-                                "type": "spellpower",
-                                "amount": 1
-                            },
-                            {
-                                "type": "knowledge",
-                                "amount": -1
-                            }
-                        ],
-                        "movePoints": -300,
-                        "limiter": {
-                            "primary": [
-                                {
-                                    "type": "knowledge",
-                                    "amount": 2
-                                }
-                            ],
-                            "movePoints": 300
-                        }
-                    },
-                    {
-                        "message": "{Arcane Tower}\r\n\r\nA ghost floats down a staircase and glides up to you. \"It is well that you came here, traveller. I can help you.\"\r\n\r\nI can increase your Knowledge by 1 point in exchange for 1 point of Attack. This exchange costs 300 movement points.\r\n\r\nDo you agree to this trade?",
-                        "primary": [
-                            {
-                                "type": "knowledge",
-                                "amount": 1
-                            },
-                            {
-                                "type": "attack",
-                                "amount": -1
-                            }
-                        ],
-                        "movePoints": -300,
-                        "limiter": {
-                            "primary": [
-                                {
-                                    "type": "attack",
-                                    "amount": 1
-                                }
-                            ],
-                            "movePoints": 300
-                        }
-                    },
-                    {
-                        "message": "{Arcane Tower}\r\n\r\nA ghost floats down a staircase and glides up to you. \"It is well that you came here, traveller. I can help you.\"\r\n\r\nI can increase your Knowledge by 1 point in exchange for 1 point of Defence. This exchange costs 300 movement points.\r\n\r\nDo you agree to this trade?",
-                        "primary": [
-                            {
-                                "type": "knowledge",
-                                "amount": 1
-                            },
-                            {
-                                "type": "defence",
-                                "amount": -1
-                            }
-                        ],
-                        "movePoints": -300,
-                        "limiter": {
-                            "primary": [
-                                {
-                                    "type": "defence",
-                                    "amount": 1
-                                }
-                            ],
-                            "movePoints": 300
-                        }
-                    },
-                    {
-                        "message": "{Arcane Tower}\r\n\r\nA ghost floats down a staircase and glides up to you. \"It is well that you came here, traveller. I can help you.\"\r\n\r\nI can increase your Knowledge by 1 point in exchange for 1 point of Spell Power. This exchange costs 300 movement points.\r\n\r\nDo you agree to this trade?",
-                        "primary": [
-                            {
-                                "type": "knowledge",
-                                "amount": 1
-                            },
-                            {
-                                "type": "spellpower",
-                                "amount": -1
-                            }
-                        ],
-                        "movePoints": -300,
-                        "limiter": {
-                            "primary": [
-                                {
-                                    "type": "spellpower",
-                                    "amount": 2
-                                }
-                            ],
-                            "movePoints": 300
-                        }
+                      "type": "attack",
+                      "amount": 99
                     }
-                ],
-                "onEmptyMessage": "{Arcane Tower}\r\n\r\nThe ghost studies you. \"I cannot offer another exchange right now. You need at least 300 movement points and a primary skill point that you can spare. Spell Power and Knowledge cannot be reduced below 1.\"",
-                "selectMode": "selectRandom",
-                "visitMode": "unlimited",
-                "canRefuse": true,
-                "templates": {
-                    "zobj007": {
-                        "animation": "mapObjects/zobj007",
-                        "mask": [
-                            "VVV",
-                            "VVV",
-                            "VVV",
-                            "VAV"
-                        ],
-                        "visitableFrom": [
-                            "---",
-                            "+++",
-                            "+++"
-                        ]
-                    }
-                },
-                "blockedVisitable": false
+                  ]
+                }
+              ]
             }
-        }
+          },
+          {
+            "message": "@wake-of-gods.mapobjects.arcanetower.trade.attack.spellpower",
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              },
+              {
+                "type": "spellpower",
+                "amount": -1
+              }
+            ],
+            "movePoints": -300,
+            "limiter": {
+              "primary": [
+                {
+                  "type": "spellpower",
+                  "amount": 2
+                }
+              ],
+              "movePoints": 300,
+              "noneOf": [
+                {
+                  "primary": [
+                    {
+                      "type": "attack",
+                      "amount": 99
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "message": "@wake-of-gods.mapobjects.arcanetower.trade.attack.knowledge",
+            "primary": [
+              {
+                "type": "attack",
+                "amount": 1
+              },
+              {
+                "type": "knowledge",
+                "amount": -1
+              }
+            ],
+            "movePoints": -300,
+            "limiter": {
+              "primary": [
+                {
+                  "type": "knowledge",
+                  "amount": 2
+                }
+              ],
+              "movePoints": 300,
+              "noneOf": [
+                {
+                  "primary": [
+                    {
+                      "type": "attack",
+                      "amount": 99
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "message": "@wake-of-gods.mapobjects.arcanetower.trade.defence.attack",
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              },
+              {
+                "type": "attack",
+                "amount": -1
+              }
+            ],
+            "movePoints": -300,
+            "limiter": {
+              "primary": [
+                {
+                  "type": "attack",
+                  "amount": 1
+                }
+              ],
+              "movePoints": 300,
+              "noneOf": [
+                {
+                  "primary": [
+                    {
+                      "type": "defence",
+                      "amount": 99
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "message": "@wake-of-gods.mapobjects.arcanetower.trade.defence.spellpower",
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              },
+              {
+                "type": "spellpower",
+                "amount": -1
+              }
+            ],
+            "movePoints": -300,
+            "limiter": {
+              "primary": [
+                {
+                  "type": "spellpower",
+                  "amount": 2
+                }
+              ],
+              "movePoints": 300,
+              "noneOf": [
+                {
+                  "primary": [
+                    {
+                      "type": "defence",
+                      "amount": 99
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "message": "@wake-of-gods.mapobjects.arcanetower.trade.defence.knowledge",
+            "primary": [
+              {
+                "type": "defence",
+                "amount": 1
+              },
+              {
+                "type": "knowledge",
+                "amount": -1
+              }
+            ],
+            "movePoints": -300,
+            "limiter": {
+              "primary": [
+                {
+                  "type": "knowledge",
+                  "amount": 2
+                }
+              ],
+              "movePoints": 300,
+              "noneOf": [
+                {
+                  "primary": [
+                    {
+                      "type": "defence",
+                      "amount": 99
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "message": "@wake-of-gods.mapobjects.arcanetower.trade.spellpower.attack",
+            "primary": [
+              {
+                "type": "spellpower",
+                "amount": 1
+              },
+              {
+                "type": "attack",
+                "amount": -1
+              }
+            ],
+            "movePoints": -300,
+            "limiter": {
+              "primary": [
+                {
+                  "type": "attack",
+                  "amount": 1
+                }
+              ],
+              "movePoints": 300,
+              "noneOf": [
+                {
+                  "primary": [
+                    {
+                      "type": "spellpower",
+                      "amount": 99
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "message": "@wake-of-gods.mapobjects.arcanetower.trade.spellpower.defence",
+            "primary": [
+              {
+                "type": "spellpower",
+                "amount": 1
+              },
+              {
+                "type": "defence",
+                "amount": -1
+              }
+            ],
+            "movePoints": -300,
+            "limiter": {
+              "primary": [
+                {
+                  "type": "defence",
+                  "amount": 1
+                }
+              ],
+              "movePoints": 300,
+              "noneOf": [
+                {
+                  "primary": [
+                    {
+                      "type": "spellpower",
+                      "amount": 99
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "message": "@wake-of-gods.mapobjects.arcanetower.trade.spellpower.knowledge",
+            "primary": [
+              {
+                "type": "spellpower",
+                "amount": 1
+              },
+              {
+                "type": "knowledge",
+                "amount": -1
+              }
+            ],
+            "movePoints": -300,
+            "limiter": {
+              "primary": [
+                {
+                  "type": "knowledge",
+                  "amount": 2
+                }
+              ],
+              "movePoints": 300,
+              "noneOf": [
+                {
+                  "primary": [
+                    {
+                      "type": "spellpower",
+                      "amount": 99
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "message": "@wake-of-gods.mapobjects.arcanetower.trade.knowledge.attack",
+            "primary": [
+              {
+                "type": "knowledge",
+                "amount": 1
+              },
+              {
+                "type": "attack",
+                "amount": -1
+              }
+            ],
+            "movePoints": -300,
+            "limiter": {
+              "primary": [
+                {
+                  "type": "attack",
+                  "amount": 1
+                }
+              ],
+              "movePoints": 300,
+              "noneOf": [
+                {
+                  "primary": [
+                    {
+                      "type": "knowledge",
+                      "amount": 99
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "message": "@wake-of-gods.mapobjects.arcanetower.trade.knowledge.defence",
+            "primary": [
+              {
+                "type": "knowledge",
+                "amount": 1
+              },
+              {
+                "type": "defence",
+                "amount": -1
+              }
+            ],
+            "movePoints": -300,
+            "limiter": {
+              "primary": [
+                {
+                  "type": "defence",
+                  "amount": 1
+                }
+              ],
+              "movePoints": 300,
+              "noneOf": [
+                {
+                  "primary": [
+                    {
+                      "type": "knowledge",
+                      "amount": 99
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "message": "@wake-of-gods.mapobjects.arcanetower.trade.knowledge.spellpower",
+            "primary": [
+              {
+                "type": "knowledge",
+                "amount": 1
+              },
+              {
+                "type": "spellpower",
+                "amount": -1
+              }
+            ],
+            "movePoints": -300,
+            "limiter": {
+              "primary": [
+                {
+                  "type": "spellpower",
+                  "amount": 2
+                }
+              ],
+              "movePoints": 300,
+              "noneOf": [
+                {
+                  "primary": [
+                    {
+                      "type": "knowledge",
+                      "amount": 99
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "onEmptyMessage": "@wake-of-gods.mapobjects.arcanetower.empty",
+        "selectMode": "selectRandom",
+        "visitMode": "unlimited",
+        "canRefuse": true,
+        "templates": {
+          "zobj007": {
+            "animation": "mapObjects/zobj007",
+            "mask": [
+              "VVV",
+              "VVV",
+              "VVV",
+              "VAV"
+            ],
+            "visitableFrom": [
+              "---",
+              "+++",
+              "+++"
+            ]
+          }
+        },
+        "blockedVisitable": false
+      }
     }
+  }
 }

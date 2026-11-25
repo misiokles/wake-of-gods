@@ -1,0 +1,32 @@
+{
+  "name": "WoG Scripts: Altar of Transformation",
+  "description": "Nine factions, Neutral or Random. Weekly per hero; no mana cost.",
+  "version": "0.4.2",
+  "modType": "Objects",
+  "author": "WoG Team / VCMI adaptation",
+  "compatibility": {
+    "min": "1.8.0"
+  },
+  "depends": [
+    "wake-of-gods.creatures",
+    "wake-of-gods.level8units"
+  ],
+  "objects": [
+    "config/altarOfTransformation.json"
+  ],
+  "english": {
+    "translations": [
+      "translation/english.json"
+    ]
+  },
+  "polish": {
+    "name": "Skrypty WoG: Ołtarz przemiany",
+    "description": "Dziewięć frakcji, neutralne lub losowo. Raz na bohatera w tygodniu, bez kosztu many.",
+    "translations": [
+      "translation/polish.json"
+    ]
+  },
+  "creatures": [
+    "config/altarChoices.json"
+  ]
+}

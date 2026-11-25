@@ -1,0 +1,11 @@
+{
+  "wake-of-gods.mapobjects.forgottenshrine.dialog.description": "Docierasz do świątyni, dawno opuszczonej przez jej sługi. Pradawny duch obdarza twoje wojska losowym zaklęciem na poziomie eksperckim na następną bitwę. Błogosławieństwo przewidziano na 50 rund, z uwzględnieniem zasad danego zaklęcia. Modlitwa pochłania wszystkie pozostałe punkty ruchu.",
+  "wake-of-gods.mapobjects.forgottenshrine.dialog.160007": "{Zapomniana świątynia}\n\nTwoja armia już cieszy się błogosławieństwem pradawnego ducha. Ponowna modlitwa przy ołtarzu nie przyniesie teraz niczego... pożytecznego.",
+  "wake-of-gods.mapobjects.forgottenshrine.dialog.160008": "{Zapomniana świątynia}\n\nModlitwa wymaga niemałej siły ducha i ciała. Musisz odpocząć, nim przystąpisz do modlitwy.\n\nPotrzebujesz więcej niż 200 punktów ruchu.",
+  "object.wake-of-gods.mapobjects.forgottenshrine.forgottenShrine.name": "Zapomniana świątynia",
+  "mapObject.wake-of-gods.mapobjects.forgottenshrine.forgottenShrine.forgottenShrine.name": "Zapomniana świątynia",
+  "wake-of-gods.mapobjects.forgottenshrine.dialog.160000": "(Nieodwiedzona)",
+  "wake-of-gods.mapobjects.forgottenshrine.dialog.160001": "(Odwiedzona)",
+  "wake-of-gods.mapobjects.forgottenshrine.dialog.160002": "Pradawny duch obdarzył cię błogosławieństwem na nadchodzącą bitwę.",
+  "wake-of-gods.mapobjects.forgottenshrine.dialog.160005": "{Zapomniana świątynia}\n\nDocierasz do świątyni, dawno opuszczonej przez jej sługi.\n\nDuchy zamieszkujące to miejsce wciąż mają wielką moc. Czy wejdziesz do świątyni, aby się pomodlić?\n\nJeśli się pomodlisz, duchy obdarzą twoje wojska losowym błogosławieństwem na nadchodzącą bitwę. Modlitwa pochłonie wszystkie pozostałe punkty ruchu."
+}

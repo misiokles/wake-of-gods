@@ -1,4 +1,8 @@
 {
-    "wake-of-gods.creatures.battleLog.emissary.retreat.singular": "The %s refuses to fight and after dealing symbolic damage teleports away from the battlefield!",
-    "wake-of-gods.creatures.battleLog.emissary.retreat.plural": "The %s refuse to fight and after dealing symbolic damage teleport away from the battlefield!"
+  "wake-of-gods.creatures.battleLog.emissary.retreat.singular": "The %s refuses to fight and after dealing symbolic damage teleports away from the battlefield!",
+  "wake-of-gods.creatures.battleLog.emissary.retreat.plural": "The %s refuse to fight and after dealing symbolic damage teleport away from the battlefield!",
+  "wake-of-gods.messengersandemissaries.battleLog.summon.repeat.singular": "%s summons %d %s!",
+  "wake-of-gods.messengersandemissaries.battleLog.summon.repeat.plural": "%s summon %d %s!",
+  "wake-of-gods.messengersandemissaries.battleLog.fireWall.singular": "%s casts Fire Wall!",
+  "wake-of-gods.messengersandemissaries.battleLog.fireWall.plural": "%s cast Fire Wall!"
 }

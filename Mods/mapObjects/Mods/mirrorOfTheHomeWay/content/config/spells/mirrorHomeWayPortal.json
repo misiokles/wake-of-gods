@@ -1,0 +1,80 @@
+{
+  "mirrorHomeWayPortal": {
+    "name": "Mirror of the Home-Way",
+    "type": "adventure",
+    "targetType": "NO_TARGET",
+    "school": {},
+    "level": 4,
+    "power": 0,
+    "defaultGainChance": 0,
+    "gainChance": {},
+    "flags": {
+      "indifferent": true,
+      "special": true
+    },
+    "sounds": {
+      "cast": "TELPTOUT"
+    },
+    "graphics": {
+      "iconBook": "mirrorHomeWay/portal.png",
+      "iconEffect": "mirrorHomeWay/portal.png",
+      "iconScroll": "mirrorHomeWay/portal.png",
+      "iconImmune": "mirrorHomeWay/portal.png",
+      "iconScenarioBonus": "mirrorHomeWay/portal.png"
+    },
+    "levels": {
+      "none": {
+        "range": "X",
+        "description": "Travel to an unoccupied allied town without spending mana or movement points.",
+        "cost": 0,
+        "power": 0,
+        "adventureEffect": {
+          "type": "townPortal",
+          "allowTownSelection": true,
+          "skipOccupiedTowns": true,
+          "movementPointsRequired": 0,
+          "movementPointsTaken": 0
+        }
+      },
+      "basic": {
+        "range": "X",
+        "description": "Travel to an unoccupied allied town without spending mana or movement points.",
+        "cost": 0,
+        "power": 0,
+        "adventureEffect": {
+          "type": "townPortal",
+          "allowTownSelection": true,
+          "skipOccupiedTowns": true,
+          "movementPointsRequired": 0,
+          "movementPointsTaken": 0
+        }
+      },
+      "advanced": {
+        "range": "X",
+        "description": "Travel to an unoccupied allied town without spending mana or movement points.",
+        "cost": 0,
+        "power": 0,
+        "adventureEffect": {
+          "type": "townPortal",
+          "allowTownSelection": true,
+          "skipOccupiedTowns": true,
+          "movementPointsRequired": 0,
+          "movementPointsTaken": 0
+        }
+      },
+      "expert": {
+        "range": "X",
+        "description": "Travel to an unoccupied allied town without spending mana or movement points.",
+        "cost": 0,
+        "power": 0,
+        "adventureEffect": {
+          "type": "townPortal",
+          "allowTownSelection": true,
+          "skipOccupiedTowns": true,
+          "movementPointsRequired": 0,
+          "movementPointsTaken": 0
+        }
+      }
+    }
+  }
+}

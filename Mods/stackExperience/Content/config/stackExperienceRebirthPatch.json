@@ -1,0 +1,7 @@
+{
+  "core:rebirth": {
+    "patches": {
+      "append": "combat/stackExperienceRebirth"
+    }
+  }
+}

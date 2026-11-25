@@ -47,9 +47,9 @@
                 "type": "COMBAT_EVENT_TRIGGER",
                 "subtype": "rebirth",
                 "addInfo": {
-                    "guaranteed": false
+                    "guaranteed": true
                 },
-                "val": 100
+                "val": 20
             },
             "fireShield": {
                 "type": "COMBAT_EVENT_TRIGGER",
@@ -70,7 +70,7 @@
             },
             "spellpower": {
                 "type": "CREATURE_SPELL_POWER",
-                "val": 100
+                "val": 20
             },
             "fearless": {
                 "type": "FEARFUL",

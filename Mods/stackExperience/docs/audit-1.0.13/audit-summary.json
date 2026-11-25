@@ -1,0 +1,16 @@
+{
+  "definitions": 175,
+  "mapped": 175,
+  "rank_arrays": 1567,
+  "explicit_rows": 777,
+  "inherited_rows": 773,
+  "total_rows": 1550,
+  "statuses": {
+    "ZGODNA_TABELA_I_TYP": 833,
+    "KANDYDAT_WEKTOR": 596,
+    "ROZNICA_LUB_TRANSFORMACJA": 107,
+    "ZEROWY_WPIS": 14
+  },
+  "bad_arrays": [],
+  "unmapped": []
+}

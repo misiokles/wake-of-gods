@@ -1,0 +1,36 @@
+{
+  "deathChamberKingScript": {
+    "implements": "combatEvent",
+    "script": "combat/deathChamberKing",
+    "patches": [],
+    "priority": 0,
+    "description": "{Death Chamber}\nSummons the Undead King’s retainers, raises the dead in later rounds, and commands unholy magic.",
+    "schema": {
+      "properties": {
+        "attackerHeroLevelOverride": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100
+        },
+        "creaturesCompatibility": {
+          "type": "boolean"
+        },
+        "dracolichKing": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "deathChamberCurseAction": {
+    "implements": "combatEvent",
+    "script": "combat/deathChamberCurse",
+    "patches": [],
+    "priority": 0,
+    "description": "{Undead King’s Curse}\nThe King curses creatures that act against him.",
+    "schema": {
+      "properties": {},
+      "additionalProperties": true
+    }
+  }
+}

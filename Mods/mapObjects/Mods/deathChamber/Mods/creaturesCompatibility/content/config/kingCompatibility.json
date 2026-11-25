@@ -1,0 +1,47 @@
+{
+  "wake-of-gods.mapobjects.deathchamber:deathChamberKing1": {
+    "abilities": {
+      "chamberScript": {
+        "addInfo": {
+          "creaturesCompatibility": true
+        }
+      }
+    }
+  },
+  "wake-of-gods.mapobjects.deathchamber:deathChamberKing2": {
+    "abilities": {
+      "chamberScript": {
+        "addInfo": {
+          "creaturesCompatibility": true
+        }
+      }
+    }
+  },
+  "wake-of-gods.mapobjects.deathchamber:deathChamberKing3": {
+    "abilities": {
+      "chamberScript": {
+        "addInfo": {
+          "creaturesCompatibility": true
+        }
+      }
+    }
+  },
+  "wake-of-gods.mapobjects.deathchamber:deathChamberKing4": {
+    "abilities": {
+      "chamberScript": {
+        "addInfo": {
+          "creaturesCompatibility": true
+        }
+      }
+    }
+  },
+  "wake-of-gods.mapobjects.deathchamber:deathChamberKing5": {
+    "abilities": {
+      "chamberScript": {
+        "addInfo": {
+          "creaturesCompatibility": true
+        }
+      }
+    }
+  }
+}

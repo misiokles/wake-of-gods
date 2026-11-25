@@ -1,0 +1,13 @@
+{
+  "wake-of-gods.mapobjects.palaceofdreams.dialog.hint": "{Pałac Marzeń}\n\nJedna automatyczna gra dziennie w każdym pałacu: 100 sztuk złota i do 400 punktów ruchu. Wygrane są rzadkie. Wizyta z odpowiednią ilością złota i ruchu rozpoczyna grę bez potwierdzenia.",
+  "wake-of-gods.mapobjects.palaceofdreams.dialog.ready": "Można zagrać",
+  "wake-of-gods.mapobjects.palaceofdreams.dialog.used": "Dzisiaj już grano",
+  "wake-of-gods.mapobjects.palaceofdreams.dialog.loss": "Bębny kręcą się, stukają i wirują.\nKiedy się zatrzymują, widzisz... brak wygranej.\n\nOdwiedź nas ponownie w {Pałacu Marzeń}, gdzie marzenia spełniają się każdego dnia.",
+  "wake-of-gods.mapobjects.palaceofdreams.dialog.resourceWin": "Bębny kręcą się, stukają i wirują.\nKiedy się zatrzymują, widzisz...\n\n{GŁÓWNA WYGRANA!}\n\nZgarniasz wygraną i pakujesz ją do worków.",
+  "wake-of-gods.mapobjects.palaceofdreams.dialog.goldWin": "Bębny kręcą się, stukają i wirują.\nKiedy się zatrzymują, widzisz...\n\n{GŁÓWNA WYGRANA!}\n\nZgarniasz złoto i pakujesz je do worków.",
+  "wake-of-gods.mapobjects.palaceofdreams.dialog.artifactWin": "Bębny kręcą się, stukają i wirują.\nKiedy się zatrzymują, widzisz...\n\n{GŁÓWNA WYGRANA!}\n\nWkładasz wygrany artefakt do plecaka.",
+  "wake-of-gods.mapobjects.palaceofdreams.dialog.visited": "Grasz już od wielu godzin. Czy nie pora wrócić do domu?\nWróć jutro.",
+  "wake-of-gods.mapobjects.palaceofdreams.dialog.tired": "Przykro nam, ale jesteś zbyt zmęczony, aby dzisiaj grać. Wróć jutro.",
+  "wake-of-gods.mapobjects.palaceofdreams.dialog.poor": "Przykro nam, ale masz mniej niż 100 sztuk złota. Wróć, kiedy będziesz bogatszy.",
+  "mapObject.wake-of-gods.mapobjects.palaceofdreams.palaceOfDreams.palaceOfDreams.name": "Pałac Marzeń"
+}

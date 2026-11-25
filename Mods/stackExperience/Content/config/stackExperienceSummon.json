@@ -1,0 +1,39 @@
+{
+  "stackExperienceSummon": {
+    "implements": "combatEvent",
+    "script": "combat/stackExperienceSummon",
+    "patches": [],
+    "priority": 100,
+    "stringRegistrations": [
+      "messageSingular",
+      "messagePlural"
+    ],
+    "schema": {
+      "type": "object",
+      "required": [
+        "creature",
+        "messageSingular",
+        "messagePlural"
+      ],
+      "properties": {
+        "creature": {
+          "type": "string"
+        },
+        "messageSingular": {
+          "type": "string"
+        },
+        "messagePlural": {
+          "type": "string"
+        },
+        "interval": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 64,
+          "description": "0 = once in round 2 (u); 4 = rounds 2,6,10,... (U)"
+        }
+      },
+      "additionalProperties": false
+    },
+    "description": "{Stack Experience Summoning} At the beginning of round two, summons a nearby stack sized as a percentage of the living summoner. Once for u, or every four rounds for U."
+  }
+}

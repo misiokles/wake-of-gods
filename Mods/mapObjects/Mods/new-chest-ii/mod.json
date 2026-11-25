@@ -1,0 +1,23 @@
+{
+  "name": "WoG Scripts: New Chest II",
+  "description": "Rare WoG-inspired treasure chests with scrolls, mana, tomes, and a mine-deed substitute.",
+  "version": "0.1.2",
+  "modType": "Objects",
+  "author": "WoG adaptation / VCMI modding",
+  "objects": [
+    "config/newChestII.json"
+  ],
+  "polish": {
+    "name": "Skrypty WoG: Nowa skrzynia II",
+    "description": "Rzadkie skrzynie ze zwojami, maną, księgami wiedzy i zamiennikiem aktu własności kopalni.",
+    "translations": [
+      "translations/polish.json"
+    ]
+  },
+  "translations": [
+    "translations/english.json"
+  ],
+  "compatibility": {
+    "min": "1.8.0"
+  }
+}

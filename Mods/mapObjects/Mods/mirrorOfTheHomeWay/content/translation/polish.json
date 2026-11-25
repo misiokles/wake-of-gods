@@ -1,0 +1,12 @@
+{
+  "wake-of-gods.mapobjects.mirrorofthehomeway.dialog.offer": "{Zwierciadło Powrotu}\n\nMiasta i wioski przesuwają się w głębi {zwierciadła}...\nWpatrując się w jego toń, rozpoznajesz {SWOJE} ziemie oraz ziemie swych sojuszników...\nJeśli zechcesz, możesz natychmiast przenieść się do dowolnego niezajętego miasta na tych ziemiach.\nWystarczy ofiarować kilka złotych monet strażnikowi {zwierciadła}.\n\nStrażnik żąda 1000 sztuk złota, nim ukaże ci drogę. Nie zwróci opłaty, jeśli rozmyślisz się podczas wyboru miasta lub jeśli podróż okaże się niemożliwa.",
+  "wake-of-gods.mapobjects.mirrorofthehomeway.dialog.poor": "{Zwierciadło Powrotu}\n\nStrażnik przez kilka chwil przygląda się otrzymanym od ciebie {monetom}... Po czym oddaje ci je ze słowami:\n\n„Za te pieniądze możesz {WEJŚĆ} do {zwierciadła}... ale nigdy go nie opuścisz...”",
+  "wake-of-gods.mapobjects.mirrorofthehomeway.dialog.description": "Podróż do niezajętego miasta własnego lub sojusznika za 1000 sztuk złota, bez kosztu many i ruchu. Opłata jest pobierana przed wyborem miasta i nie podlega zwrotowi.",
+  "object.wake-of-gods.mapobjects.mirrorofthehomeway.mirrorOfTheHomeWay.name": "Zwierciadło Powrotu",
+  "mapObject.wake-of-gods.mapobjects.mirrorofthehomeway.mirrorOfTheHomeWay.mirrorOfTheHomeWay.name": "Zwierciadło Powrotu",
+  "spell.wake-of-gods.mapobjects.mirrorofthehomeway.mirrorHomeWayPortal.name": "Zwierciadło Powrotu",
+  "spell.wake-of-gods.mapobjects.mirrorofthehomeway.mirrorHomeWayPortal.description.none": "Przenieś się do niezajętego sojuszniczego miasta bez wydawania many i punktów ruchu.",
+  "spell.wake-of-gods.mapobjects.mirrorofthehomeway.mirrorHomeWayPortal.description.basic": "Przenieś się do niezajętego sojuszniczego miasta bez wydawania many i punktów ruchu.",
+  "spell.wake-of-gods.mapobjects.mirrorofthehomeway.mirrorHomeWayPortal.description.advanced": "Przenieś się do niezajętego sojuszniczego miasta bez wydawania many i punktów ruchu.",
+  "spell.wake-of-gods.mapobjects.mirrorofthehomeway.mirrorHomeWayPortal.description.expert": "Przenieś się do niezajętego sojuszniczego miasta bez wydawania many i punktów ruchu."
+}

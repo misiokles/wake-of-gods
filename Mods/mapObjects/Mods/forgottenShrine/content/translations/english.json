@@ -1,0 +1,11 @@
+{
+  "wake-of-gods.mapobjects.forgottenshrine.dialog.description": "You have reached a shrine, abandoned by its servants long ago. An ancient spirit grants a random expert-level spell for your next battle. The blessing is prepared for 50 rounds, subject to the spell’s own rules. Praying expends all remaining movement points.",
+  "wake-of-gods.mapobjects.forgottenshrine.dialog.160007": "{Forgotten Shrine}\n\nYou already have the blessing of an ancient spirit upon your army. A prayer at the altar right now will not result in anything... beneficial.",
+  "wake-of-gods.mapobjects.forgottenshrine.dialog.160008": "{Forgotten Shrine}\n\nThe prayer requires a good amount of spiritual and physical power. You will need rest before praying.\n\nYou must have more than 200 movement points left.",
+  "object.wake-of-gods.mapobjects.forgottenshrine.forgottenShrine.name": "Forgotten Shrine",
+  "mapObject.wake-of-gods.mapobjects.forgottenshrine.forgottenShrine.forgottenShrine.name": "Forgotten Shrine",
+  "wake-of-gods.mapobjects.forgottenshrine.dialog.160000": "(Not visited)",
+  "wake-of-gods.mapobjects.forgottenshrine.dialog.160001": "(Visited)",
+  "wake-of-gods.mapobjects.forgottenshrine.dialog.160002": "An ancient spirit has granted you a blessing for your next battle.",
+  "wake-of-gods.mapobjects.forgottenshrine.dialog.160005": "{Forgotten Shrine}\n\nYou have reached a shrine, abandoned by its servants long ago.\n\nThe spirits inhabiting this place are still strong. Will you enter the shrine and pray?\n\nIf you pray, the spirits will grant your troops a random blessing for the next battle. The prayer will exhaust all your remaining movement points."
+}

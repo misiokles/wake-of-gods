@@ -117,29 +117,6 @@
 			}
 		}
 	},
-	"zobj009" : {
-		"name" : "Death Chamber (doesn't work yet)",
-		"handler" : "generic",
-		"types" : {
-			"zobj009" : {
-				"templates" : {
-					"zobj009" : {
-						"animation" : "objects/zobj009.def",
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VAV"
-						],
-						"visitableFrom" : [
-							"---",
-							"+++",
-							"+++"
-						]
-					}
-				}
-			}
-		}
-	},
 	"zobj010" : {
 		"name" : "Object (doesn't work yet)",
 		"handler" : "generic",
@@ -211,29 +188,6 @@
 			}
 		}
 	},
-	"zobj014" : {
-		"name" : "Altar of Transformation (doesn't work yet)",
-		"handler" : "generic",
-		"types" : {
-			"zobj014" : {
-				"templates" : {
-					"zobj014" : {
-						"animation" : "objects/zobj014.def",
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VAB"
-						],
-						"visitableFrom" : [
-							"---",
-							"---",
-							"+++"
-						]
-					}
-				}
-			}
-		}
-	},
 	"zobj015" : {
 		"name" : "Summoning Stones (doesn't work yet)",
 		"handler" : "generic",
@@ -251,28 +205,6 @@
 						"visitableFrom" : [
 							"---",
 							"---",
-							"+++"
-						]
-					}
-				}
-			}
-		}
-	},
-	"zobj016" : {
-		"name" : "Forgotten Shrine (doesn't work yet)",
-		"handler" : "generic",
-		"types" : {
-			"zobj016" : {
-				"templates" : {
-					"zobj016" : {
-						"animation" : "objects/zobj016.def",
-						"mask" : [
-							"VV",
-							"VA"
-						],
-						"visitableFrom" : [
-							"+++",
-							"+++",
 							"+++"
 						]
 					}

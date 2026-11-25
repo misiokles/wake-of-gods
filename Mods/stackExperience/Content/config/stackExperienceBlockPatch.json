@@ -1,0 +1,7 @@
+{
+  "core:damageCalculator": {
+    "patches": {
+      "append": "damage/stackExperienceBlockCap"
+    }
+  }
+}

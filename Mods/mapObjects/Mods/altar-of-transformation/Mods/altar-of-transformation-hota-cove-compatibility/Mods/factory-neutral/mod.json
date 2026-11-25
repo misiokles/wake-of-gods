@@ -1,0 +1,15 @@
+{
+  "name": "Neutral tier 1 with HotA Factory",
+  "description": "Use Peasants instead of Halflings for Cove tier-one troops when Factory compatibility is active.",
+  "version": "0.4.1",
+  "modType": "Compatibility",
+  "depends": [
+    "wake-of-gods.mapobjects.altar-of-transformation.altar-of-transformation-hota-compatibility",
+    "wake-of-gods.mapobjects.altar-of-transformation.altar-of-transformation-hota-cove-compatibility",
+    "hota.factory",
+    "hota.cove"
+  ],
+  "objects": [
+    "config/compatibility.json"
+  ]
+}

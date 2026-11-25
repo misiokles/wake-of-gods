@@ -1,0 +1,26 @@
+{
+  "name": "WoG Scripts: New Chest I",
+  "description": "Three WoG chest variants as independently generated adventure objects.",
+  "version": "0.1.2",
+  "modType": "Objects",
+  "author": "WoG adaptation / VCMI Lua & JSON community",
+  "objects": [
+    "config/newChestI.json"
+  ],
+  "polish": {
+    "name": "WoG Scripts: New Chest I",
+    "description": "Three WoG chest variants as independently generated adventure objects.",
+    "translations": [
+      "translations/polish.json"
+    ]
+  },
+  "scripts": [
+    "config/scripts.json"
+  ],
+  "translations": [
+    "translations/english.json"
+  ],
+  "compatibility": {
+    "min": "1.8.0"
+  }
+}

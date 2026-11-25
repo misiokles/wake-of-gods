@@ -1,0 +1,23 @@
+{
+  "stackExperienceRegeneration": {
+    "implements": "combatEvent",
+    "script": "combat/stackExperienceRegeneration",
+    "patches": [],
+    "priority": 0,
+    "schema": {
+      "type": "object",
+      "required": [
+        "chance"
+      ],
+      "properties": {
+        "chance": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        }
+      },
+      "additionalProperties": false
+    },
+    "description": "{Regeneration} Has a ${chance}% chance each round to regenerate up to ${val} health before acting."
+  }
+}

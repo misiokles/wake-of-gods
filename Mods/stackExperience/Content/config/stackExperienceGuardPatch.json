@@ -1,0 +1,7 @@
+{
+  "core:summonGuardians": {
+    "patches": {
+      "append": "combat/stackExperienceGuardBonus"
+    }
+  }
+}

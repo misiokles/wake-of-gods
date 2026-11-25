@@ -1,58 +1,81 @@
 {
-	"name" : "Stack Experience",
-	"description" : "This module enables stack experience feature from WoG",
-	"modType" : "Mechanics",
-	"author" : "WoG Team",
-	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.0",
-	"depends" : [
-		"wake-of-gods.creatures"
-	],
-	"creatures" : [
-		"config/castleCreaturesStackExp.json",
-		"config/rampartCreaturesStackExp.json",
-		"config/towerCreaturesStackExp.json",
-		"config/necropolisCreaturesStackExp.json",
-		"config/infernoCreaturesStackExp.json",
-		"config/dungeonCreaturesStackExp.json",
-		"config/strongholdCreaturesStackExp.json",
-		"config/fortressCreaturesStackExp.json",
-		"config/confluxCreaturesStackExp.json",
-		"config/neutralCreaturesStackExp.json",
-		"config/specialCreaturesStackExp.json",
-		"config/wogCreaturesStackExp.json"
-	],
-	"settings" : {
-		"modules" : {
-			"stackExperience" : true
-		}
-	},
-	"chinese" : {
-		"name" : "生物经验",
-		"description" : "这个模组启用WoG的生物经验功能。"
-	},
-	"czech" : {
-		"name" : "Zkušenosti jednotek",
-		"description" : "Tato modifikace aktivuje funkci zkušeností jednotek"
-	},
-	"polish" : {
-		"name" : "Doświadczenie stacków",
-		"description" : "Ten moduł dodaje funkcję doświadczenia dla jednostek."
-	},
-	"portuguese" : {
-		"name" : "Experiência de Pilha",
-		"description" : "Este módulo ativa a funcionalidade de experiência de pilha do WoG."
-	},
-	"russian" : {
-		"name" : "Опыт стека",
-		"description" : "Модуль активирует функцию начисления опыта стеку. Механику из WoG"
-	},
-	"ukrainian" : {
-		"name" : "Досвід загонів",
-		"description" : "Цей модуль додає механіку досвіду загонів із WoG."
-	},
-	"vietnamese" : {
-		"name" : "Kinh nghiệm đạo quân",
-		"description" : "Mô-đun này kích hoạt tính năng kinh nghiệm đạo quân của WoG"
-	}
+  "name": "Stack Experience",
+  "description": "Stack Experience OH3 + WoG for VCMI 1.8.0: rank abilities, shared spell immunity, regeneration, summon, rebirth, Fear and Death Blow.",
+  "modType": "Mechanics",
+  "author": "WoG Team",
+  "contact": "http://forum.vcmi.eu/index.php",
+  "version": "1.0.13",
+  "depends": [
+    "wake-of-gods.creatures"
+  ],
+  "creatures": [
+    "config/castleCreaturesStackExp.json",
+    "config/confluxCreaturesStackExp.json",
+    "config/dungeonCreaturesStackExp.json",
+    "config/fortressCreaturesStackExp.json",
+    "config/infernoCreaturesStackExp.json",
+    "config/necropolisCreaturesStackExp.json",
+    "config/neutralCreaturesStackExp.json",
+    "config/rampartCreaturesStackExp.json",
+    "config/specialCreaturesStackExp.json",
+    "config/strongholdCreaturesStackExp.json",
+    "config/towerCreaturesStackExp.json",
+    "config/wogCreaturesStackExp.json"
+  ],
+  "settings": {
+    "modules": {
+      "stackExperience": true
+    }
+  },
+  "chinese": {
+    "name": "生物经验",
+    "description": "这个模组启用WoG的生物经验功能。"
+  },
+  "czech": {
+    "name": "Zkušenosti jednotek",
+    "description": "Tato modifikace aktivuje funkci zkušeností jednotek"
+  },
+  "polish": {
+    "name": "Doświadczenie stacków",
+    "description": "Doświadczenie jednostek OH3 i WoG: zdolności rang, przywołania, regeneracja, odrodzenie, strach i odporności magiczne.",
+    "translations": [
+      "config/translations/polish.json"
+    ]
+  },
+  "portuguese": {
+    "name": "Experiência de Pilha",
+    "description": "Este módulo ativa a funcionalidade de experiência de pilha do WoG."
+  },
+  "russian": {
+    "name": "Опыт стека",
+    "description": "Модуль активирует функцию начисления опыта стеку. Механику из WoG"
+  },
+  "ukrainian": {
+    "name": "Досвід загонів",
+    "description": "Цей модуль додає механіку досвіду загонів із WoG."
+  },
+  "vietnamese": {
+    "name": "Kinh nghiệm đạo quân",
+    "description": "Mô-đun này kích hoạt tính năng kinh nghiệm đạo quân của WoG"
+  },
+  "scripts": [
+    "config/stackExperienceDeflect.json",
+    "config/stackExperienceBlockPatch.json",
+    "config/stackExperienceSummon.json",
+    "config/stackExperienceClone.json",
+    "config/stackExperienceGuardPatch.json",
+    "config/stackExperienceRegeneration.json",
+    "config/stackExperienceRebirthPatch.json",
+    "config/stackExperienceFireShieldPatch.json",
+    "config/stackExperienceFireWall.json",
+    "config/stackExperienceAttackSummon.json",
+    "config/stackExperienceSpellImmunityPatch.json",
+    "config/stackExperienceFear.json",
+    "config/stackExperienceAging.json"
+  ],
+  "english": {
+    "translations": [
+      "config/translations/english.json"
+    ]
+  }
 }

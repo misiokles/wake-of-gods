@@ -1,0 +1,21 @@
+{
+  "name": "Altar of Transformation — Tides Of War Compatibility",
+  "description": "Optional transformation tables for tides of war.",
+  "author": "VCMI / WoG adaptation",
+  "version": "0.4.1",
+  "modType": "Compatibility",
+  "compatibility": {
+    "min": "1.8.0"
+  },
+  "depends": [
+    "wake-of-gods.mapobjects.altar-of-transformation",
+    "wake-of-gods.creatures",
+    "tides-of-war.alternative-creatures"
+  ],
+  "objects": [
+    "config/compatibility.json"
+  ],
+  "polish": {
+    "name": "Ołtarz przemiany — tides-of-war (zgodność)"
+  }
+}

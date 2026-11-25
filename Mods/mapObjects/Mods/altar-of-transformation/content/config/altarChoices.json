@@ -1,0 +1,409 @@
+{
+  "aaaAltarChoiceCastle": {
+    "name": {
+      "singular": "Castle",
+      "plural": "Castle"
+    },
+    "description": "Technical Altar menu icon; not a recruitable creature.",
+    "faction": "neutral",
+    "special": true,
+    "excludeFromRandomization": true,
+    "level": 0,
+    "growth": 0,
+    "cost": {
+      "gold": 0
+    },
+    "speed": 1,
+    "hitPoints": 1,
+    "attack": 0,
+    "defense": 0,
+    "damage": {
+      "min": 1,
+      "max": 1
+    },
+    "fightValue": 1,
+    "aiValue": 1,
+    "graphics": {
+      "animation": "CPKMAN.DEF",
+      "animationTime": {
+        "attack": 1.0,
+        "walk": 1.0,
+        "idle": 1.0
+      },
+      "timeBetweenFidgets": 5.0,
+      "iconSmall": "altarChoices/castleSmall",
+      "iconLarge": "altarChoices/castleLarge"
+    },
+    "sound": {}
+  },
+  "aaaAltarChoiceRampart": {
+    "name": {
+      "singular": "Rampart",
+      "plural": "Rampart"
+    },
+    "description": "Technical Altar menu icon; not a recruitable creature.",
+    "faction": "neutral",
+    "special": true,
+    "excludeFromRandomization": true,
+    "level": 0,
+    "growth": 0,
+    "cost": {
+      "gold": 0
+    },
+    "speed": 1,
+    "hitPoints": 1,
+    "attack": 0,
+    "defense": 0,
+    "damage": {
+      "min": 1,
+      "max": 1
+    },
+    "fightValue": 1,
+    "aiValue": 1,
+    "graphics": {
+      "animation": "CPKMAN.DEF",
+      "animationTime": {
+        "attack": 1.0,
+        "walk": 1.0,
+        "idle": 1.0
+      },
+      "timeBetweenFidgets": 5.0,
+      "iconSmall": "altarChoices/rampartSmall",
+      "iconLarge": "altarChoices/rampartLarge"
+    },
+    "sound": {}
+  },
+  "aaaAltarChoiceTower": {
+    "name": {
+      "singular": "Tower",
+      "plural": "Tower"
+    },
+    "description": "Technical Altar menu icon; not a recruitable creature.",
+    "faction": "neutral",
+    "special": true,
+    "excludeFromRandomization": true,
+    "level": 0,
+    "growth": 0,
+    "cost": {
+      "gold": 0
+    },
+    "speed": 1,
+    "hitPoints": 1,
+    "attack": 0,
+    "defense": 0,
+    "damage": {
+      "min": 1,
+      "max": 1
+    },
+    "fightValue": 1,
+    "aiValue": 1,
+    "graphics": {
+      "animation": "CPKMAN.DEF",
+      "animationTime": {
+        "attack": 1.0,
+        "walk": 1.0,
+        "idle": 1.0
+      },
+      "timeBetweenFidgets": 5.0,
+      "iconSmall": "altarChoices/towerSmall",
+      "iconLarge": "altarChoices/towerLarge"
+    },
+    "sound": {}
+  },
+  "aaaAltarChoiceInferno": {
+    "name": {
+      "singular": "Inferno",
+      "plural": "Inferno"
+    },
+    "description": "Technical Altar menu icon; not a recruitable creature.",
+    "faction": "neutral",
+    "special": true,
+    "excludeFromRandomization": true,
+    "level": 0,
+    "growth": 0,
+    "cost": {
+      "gold": 0
+    },
+    "speed": 1,
+    "hitPoints": 1,
+    "attack": 0,
+    "defense": 0,
+    "damage": {
+      "min": 1,
+      "max": 1
+    },
+    "fightValue": 1,
+    "aiValue": 1,
+    "graphics": {
+      "animation": "CPKMAN.DEF",
+      "animationTime": {
+        "attack": 1.0,
+        "walk": 1.0,
+        "idle": 1.0
+      },
+      "timeBetweenFidgets": 5.0,
+      "iconSmall": "altarChoices/infernoSmall",
+      "iconLarge": "altarChoices/infernoLarge"
+    },
+    "sound": {}
+  },
+  "aaaAltarChoiceStronghold": {
+    "name": {
+      "singular": "Stronghold",
+      "plural": "Stronghold"
+    },
+    "description": "Technical Altar menu icon; not a recruitable creature.",
+    "faction": "neutral",
+    "special": true,
+    "excludeFromRandomization": true,
+    "level": 0,
+    "growth": 0,
+    "cost": {
+      "gold": 0
+    },
+    "speed": 1,
+    "hitPoints": 1,
+    "attack": 0,
+    "defense": 0,
+    "damage": {
+      "min": 1,
+      "max": 1
+    },
+    "fightValue": 1,
+    "aiValue": 1,
+    "graphics": {
+      "animation": "CPKMAN.DEF",
+      "animationTime": {
+        "attack": 1.0,
+        "walk": 1.0,
+        "idle": 1.0
+      },
+      "timeBetweenFidgets": 5.0,
+      "iconSmall": "altarChoices/strongholdSmall",
+      "iconLarge": "altarChoices/strongholdLarge"
+    },
+    "sound": {}
+  },
+  "aaaAltarChoiceNecropolis": {
+    "name": {
+      "singular": "Necropolis",
+      "plural": "Necropolis"
+    },
+    "description": "Technical Altar menu icon; not a recruitable creature.",
+    "faction": "neutral",
+    "special": true,
+    "excludeFromRandomization": true,
+    "level": 0,
+    "growth": 0,
+    "cost": {
+      "gold": 0
+    },
+    "speed": 1,
+    "hitPoints": 1,
+    "attack": 0,
+    "defense": 0,
+    "damage": {
+      "min": 1,
+      "max": 1
+    },
+    "fightValue": 1,
+    "aiValue": 1,
+    "graphics": {
+      "animation": "CPKMAN.DEF",
+      "animationTime": {
+        "attack": 1.0,
+        "walk": 1.0,
+        "idle": 1.0
+      },
+      "timeBetweenFidgets": 5.0,
+      "iconSmall": "altarChoices/necropolisSmall",
+      "iconLarge": "altarChoices/necropolisLarge"
+    },
+    "sound": {}
+  },
+  "aaaAltarChoiceDungeon": {
+    "name": {
+      "singular": "Dungeon",
+      "plural": "Dungeon"
+    },
+    "description": "Technical Altar menu icon; not a recruitable creature.",
+    "faction": "neutral",
+    "special": true,
+    "excludeFromRandomization": true,
+    "level": 0,
+    "growth": 0,
+    "cost": {
+      "gold": 0
+    },
+    "speed": 1,
+    "hitPoints": 1,
+    "attack": 0,
+    "defense": 0,
+    "damage": {
+      "min": 1,
+      "max": 1
+    },
+    "fightValue": 1,
+    "aiValue": 1,
+    "graphics": {
+      "animation": "CPKMAN.DEF",
+      "animationTime": {
+        "attack": 1.0,
+        "walk": 1.0,
+        "idle": 1.0
+      },
+      "timeBetweenFidgets": 5.0,
+      "iconSmall": "altarChoices/dungeonSmall",
+      "iconLarge": "altarChoices/dungeonLarge"
+    },
+    "sound": {}
+  },
+  "aaaAltarChoiceFortress": {
+    "name": {
+      "singular": "Fortress",
+      "plural": "Fortress"
+    },
+    "description": "Technical Altar menu icon; not a recruitable creature.",
+    "faction": "neutral",
+    "special": true,
+    "excludeFromRandomization": true,
+    "level": 0,
+    "growth": 0,
+    "cost": {
+      "gold": 0
+    },
+    "speed": 1,
+    "hitPoints": 1,
+    "attack": 0,
+    "defense": 0,
+    "damage": {
+      "min": 1,
+      "max": 1
+    },
+    "fightValue": 1,
+    "aiValue": 1,
+    "graphics": {
+      "animation": "CPKMAN.DEF",
+      "animationTime": {
+        "attack": 1.0,
+        "walk": 1.0,
+        "idle": 1.0
+      },
+      "timeBetweenFidgets": 5.0,
+      "iconSmall": "altarChoices/fortressSmall",
+      "iconLarge": "altarChoices/fortressLarge"
+    },
+    "sound": {}
+  },
+  "aaaAltarChoiceConflux": {
+    "name": {
+      "singular": "Conflux",
+      "plural": "Conflux"
+    },
+    "description": "Technical Altar menu icon; not a recruitable creature.",
+    "faction": "neutral",
+    "special": true,
+    "excludeFromRandomization": true,
+    "level": 0,
+    "growth": 0,
+    "cost": {
+      "gold": 0
+    },
+    "speed": 1,
+    "hitPoints": 1,
+    "attack": 0,
+    "defense": 0,
+    "damage": {
+      "min": 1,
+      "max": 1
+    },
+    "fightValue": 1,
+    "aiValue": 1,
+    "graphics": {
+      "animation": "CPKMAN.DEF",
+      "animationTime": {
+        "attack": 1.0,
+        "walk": 1.0,
+        "idle": 1.0
+      },
+      "timeBetweenFidgets": 5.0,
+      "iconSmall": "altarChoices/confluxSmall",
+      "iconLarge": "altarChoices/confluxLarge"
+    },
+    "sound": {}
+  },
+  "aaaAltarChoiceRandom": {
+    "name": {
+      "singular": "Random",
+      "plural": "Random"
+    },
+    "description": "Technical Altar menu icon; not a recruitable creature.",
+    "faction": "neutral",
+    "special": true,
+    "excludeFromRandomization": true,
+    "level": 0,
+    "growth": 0,
+    "cost": {
+      "gold": 0
+    },
+    "speed": 1,
+    "hitPoints": 1,
+    "attack": 0,
+    "defense": 0,
+    "damage": {
+      "min": 1,
+      "max": 1
+    },
+    "fightValue": 1,
+    "aiValue": 1,
+    "graphics": {
+      "animation": "CPKMAN.DEF",
+      "animationTime": {
+        "attack": 1.0,
+        "walk": 1.0,
+        "idle": 1.0
+      },
+      "timeBetweenFidgets": 5.0,
+      "iconSmall": "altarChoices/randomSmall",
+      "iconLarge": "altarChoices/randomLarge"
+    },
+    "sound": {}
+  },
+  "aaaAltarChoiceNeutral": {
+    "name": {
+      "singular": "Neutral",
+      "plural": "Neutral"
+    },
+    "description": "Technical Altar menu icon; not a recruitable creature.",
+    "faction": "neutral",
+    "special": true,
+    "excludeFromRandomization": true,
+    "level": 0,
+    "growth": 0,
+    "cost": {
+      "gold": 0
+    },
+    "speed": 1,
+    "hitPoints": 1,
+    "attack": 0,
+    "defense": 0,
+    "damage": {
+      "min": 1,
+      "max": 1
+    },
+    "fightValue": 1,
+    "aiValue": 1,
+    "graphics": {
+      "animation": "CPKMAN.DEF",
+      "animationTime": {
+        "attack": 1.0,
+        "walk": 1.0,
+        "idle": 1.0
+      },
+      "timeBetweenFidgets": 5.0,
+      "iconSmall": "altarChoices/neutralSmall",
+      "iconLarge": "altarChoices/neutralLarge"
+    },
+    "sound": {}
+  }
+}

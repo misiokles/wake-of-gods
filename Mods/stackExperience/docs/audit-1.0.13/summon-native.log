@@ -1,0 +1,178 @@
+[1;32m	Initialization: 21 ms
+[0m[1;32m	Data loading: 4 ms
+[0m[1;32m	Mod handler: 50 ms
+[0m[1;32m	Mod filesystems: 29 ms
+[0m[1;32mInitialized logging system based on settings successfully.
+[0m[1;32m[log level] ai => not set
+[0m[1;32m[log level] animation => not set
+[0m[1;32m[log level] bonus => not set
+[0m[1;32m[log level] global => trace
+[0m[1;32m[log level] mod => not set
+[0m[1;32m[log level] network => not set
+[0m[1;32m[log level] rng => info
+[0m[1;32m[log level] script => not set
+[0m[1;32m	Initializing content handler
+[0m[1;32m		Parsing mod: OK (core)
+[0m[1;32m		Parsing mod: OK (wake-of-gods)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.artifacts)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.artifacts.bonuses icons)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.creatures)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.creatures.bonuses icons)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.heroes3datapatch)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.heroes3datapatch.heroes3datapatchera)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.level8units)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.level8units.bonuses icons)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapdecorations)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.almshouse)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.altar-of-transformation)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.arcanetower)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.artificer)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.battleacademy)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.deathchamber)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.fishingwell)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.forgottenshrine)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.junkmerchant)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.junkmerchant.level8units)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.magicmushrooms)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.mirrorofthehomeway)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.new-chest-i)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.new-chest-ii)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.palaceofdreams)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.potionfountains)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.schoolofwizardry)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.spell-book)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.sphinxes)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.warmachinesonmap)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.messengersandemissaries)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.messengersandemissaries.bonuses icons)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.messengersandemissaries.vivid-battlefields)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.stackexperience)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.commanders)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.commanders.bonuses icons)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.commanders.newstonesgraphic)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.creaturebanks)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.mapobjects.battleacademy.commanderartifacts)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.stackartifacts)
+[0m[1;32m		Parsing mod: OK (wake-of-gods.stackartifacts.stackartifactindication)
+[0m[1;32m	Parsing mod data
+[0m[1;32m		Loading mod: OK (core)
+[0m[1;32m		Loading mod: OK (wake-of-gods)
+[0m[1;32m		Loading mod: OK (wake-of-gods.artifacts)
+[0m[1;32m		Loading mod: OK (wake-of-gods.artifacts.bonuses icons)
+[0m[1;32m		Loading mod: OK (wake-of-gods.creatures)
+[0m[1;32m		Loading mod: OK (wake-of-gods.creatures.bonuses icons)
+[0m[1;32m		Loading mod: OK (wake-of-gods.heroes3datapatch)
+[0m[1;32m		Loading mod: OK (wake-of-gods.heroes3datapatch.heroes3datapatchera)
+[0m[1;32m		Loading mod: OK (wake-of-gods.level8units)
+[0m[1;32m		Loading mod: OK (wake-of-gods.level8units.bonuses icons)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapdecorations)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.almshouse)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.altar-of-transformation)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.arcanetower)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.artificer)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.battleacademy)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.deathchamber)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.fishingwell)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.forgottenshrine)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.junkmerchant)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.junkmerchant.level8units)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.magicmushrooms)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.mirrorofthehomeway)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.new-chest-i)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.new-chest-ii)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.palaceofdreams)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.potionfountains)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.schoolofwizardry)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.spell-book)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.sphinxes)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.warmachinesonmap)
+[0m[1;32m		Loading mod: OK (wake-of-gods.messengersandemissaries)
+[0m[1;32m		Loading mod: OK (wake-of-gods.messengersandemissaries.bonuses icons)
+[0m[1;32m		Loading mod: OK (wake-of-gods.messengersandemissaries.vivid-battlefields)
+[0m[1;32m		Loading mod: OK (wake-of-gods.stackexperience)
+[0m[1;32m		Loading mod: OK (wake-of-gods.commanders)
+[0m[1;32m		Loading mod: OK (wake-of-gods.commanders.bonuses icons)
+[0m[1;32m		Loading mod: OK (wake-of-gods.commanders.newstonesgraphic)
+[0m[1;32m		Loading mod: OK (wake-of-gods.creaturebanks)
+[0m[1;32m		Loading mod: OK (wake-of-gods.mapobjects.battleacademy.commanderartifacts)
+[0m[1;32m		Loading mod: OK (wake-of-gods.stackartifacts)
+[0m[1;32m		Loading mod: OK (wake-of-gods.stackartifacts.stackartifactindication)
+[0m[1;32m	Loading mod data
+[0m[1;32m	Resolving identifiers
+[0m[1;32m	Handlers post-load finalization
+[0m[1;32m	All game content loaded
+[0m[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=182 NAME=Fire Messengers LEVEL=5
+DEFENDER_RANK=0 XP_PER_UNIT=0
+MESSENGER_SUMMON_OK fireElemental rank=0 expected=0 actual=0/100
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=182 NAME=Fire Messengers LEVEL=5
+DEFENDER_RANK=5 XP_PER_UNIT=31000
+MESSENGER_SUMMON_OK fireElemental rank=5 expected=10 actual=10/100
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=182 NAME=Fire Messengers LEVEL=5
+DEFENDER_RANK=10 XP_PER_UNIT=86000
+MESSENGER_SUMMON_OK fireElemental rank=10 expected=20 actual=20/100
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=177 NAME=Earth Messengers LEVEL=5
+DEFENDER_RANK=0 XP_PER_UNIT=0
+MESSENGER_SUMMON_OK earthElemental rank=0 expected=0 actual=0/100
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=177 NAME=Earth Messengers LEVEL=5
+DEFENDER_RANK=5 XP_PER_UNIT=31000
+MESSENGER_SUMMON_OK earthElemental rank=5 expected=10 actual=8/100
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=177 NAME=Earth Messengers LEVEL=5
+DEFENDER_RANK=10 XP_PER_UNIT=86000
+MESSENGER_SUMMON_OK earthElemental rank=10 expected=20 actual=18/100
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=176 NAME=Air Messengers LEVEL=5
+DEFENDER_RANK=0 XP_PER_UNIT=0
+MESSENGER_SUMMON_OK airElemental rank=0 expected=0 actual=0/100
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=176 NAME=Air Messengers LEVEL=5
+DEFENDER_RANK=5 XP_PER_UNIT=31000
+MESSENGER_SUMMON_OK airElemental rank=5 expected=10 actual=8/100
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=176 NAME=Air Messengers LEVEL=5
+DEFENDER_RANK=10 XP_PER_UNIT=86000
+MESSENGER_SUMMON_OK airElemental rank=10 expected=20 actual=18/100
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=183 NAME=Water Messengers LEVEL=5
+DEFENDER_RANK=0 XP_PER_UNIT=0
+MESSENGER_SUMMON_OK waterElemental rank=0 expected=0 actual=0/100
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=183 NAME=Water Messengers LEVEL=5
+DEFENDER_RANK=5 XP_PER_UNIT=31000
+MESSENGER_SUMMON_OK waterElemental rank=5 expected=10 actual=8/100
+[1;32mOpen map file: tiny
+[0m[1;33mMap 'tinyh3mfixture': Template animation ah00_e of type (34 0) is missing!
+[0m[1;32mMap loaded!
+[0mACTUAL_DEFENDER_CREATURE_ID=183 NAME=Water Messengers LEVEL=5
+DEFENDER_RANK=10 XP_PER_UNIT=86000
+MESSENGER_SUMMON_OK waterElemental rank=10 expected=20 actual=18/100
+ALL_MESSENGER_SUMMON_PASS scenarios=12 attacks=1200 procs=108

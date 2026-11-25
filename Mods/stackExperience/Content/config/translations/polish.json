@@ -1,0 +1,14 @@
+{
+  "wake-of-gods.stackexperience.battleLog.deflect.singular": "%s odbija część obrażeń nadchodzącego ataku!",
+  "wake-of-gods.stackexperience.battleLog.deflect.plural": "%s odbijają część obrażeń nadchodzącego ataku!",
+  "wake-of-gods.stackexperience.battleLog.block.singular": "%s całkowicie blokuje nadchodzący atak!",
+  "wake-of-gods.stackexperience.battleLog.block.plural": "%s całkowicie blokują nadchodzący atak!",
+  "wake-of-gods.stackexperience.battleLog.summon.singular": "%s przyzywa %d jednostek: %s, na początku drugiej rundy!",
+  "wake-of-gods.stackexperience.battleLog.summon.plural": "%s przyzywają %d jednostek: %s, na początku drugiej rundy!",
+  "wake-of-gods.stackexperience.battleLog.summon.repeat.singular": "%s przyzywa %d jednostek: %s!",
+  "wake-of-gods.stackexperience.battleLog.summon.repeat.plural": "%s przyzywają %d jednostek: %s!",
+  "wake-of-gods.stackexperience.battleLog.clone.singular": "%s przywołuje %d iluzorycznych %s!",
+  "wake-of-gods.stackexperience.battleLog.clone.plural": "%s przywołują %d iluzorycznych %s!",
+  "wake-of-gods.stackexperience.battleLog.fireWall.singular": "%s rzuca Ścianę Ognia!",
+  "wake-of-gods.stackexperience.battleLog.fireWall.plural": "%s rzucają Ścianę Ognia!"
+}

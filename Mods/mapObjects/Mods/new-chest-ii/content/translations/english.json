@@ -1,0 +1,14 @@
+{
+    "wake-of-gods.mapobjects.new-chest-ii.dialog.choose": "Inside the chest you discover a mysterious treasure.\n\nIf you find a purse of gold coins and a scroll, do you keep the scroll or destroy it to gain its magical energy?\n\nIf you discover comprehensive TOMES OF KNOWLEDGE, choose one volume to study and let your troops fight over the others. You will immediately master its lessons.",
+    "wake-of-gods.mapobjects.new-chest-ii.dialog.keepScroll": "Inside the chest you find a purse of gold coins and a scroll of {%s}. You keep the scroll.",
+    "wake-of-gods.mapobjects.new-chest-ii.dialog.tome": "Inside the chest you discover a comprehensive TOME OF KNOWLEDGE.\n\nYou master all its lessons and reach Expert in the chosen skill.",
+    "wake-of-gods.mapobjects.new-chest-ii.dialog.deedSubstitute": "Inside the chest you find the deed to a distant mine!\n\nUnable to take possession of the mine, you sell the deed to a passing merchant for 2,000 gold.",
+    "wake-of-gods.mapobjects.new-chest-ii.dialog.empty": "There is nothing here that you can use.",
+    "wake-of-gods.mapobjects.new-chest-ii.dialog.destroyScroll1": "You destroy the scroll and gain 30 spell points. You also keep the purse of gold coins.",
+    "wake-of-gods.mapobjects.new-chest-ii.dialog.destroyScroll2": "You destroy the scroll and gain 60 spell points. You also keep the purse of gold coins.",
+    "wake-of-gods.mapobjects.new-chest-ii.dialog.destroyScroll3": "You destroy the scroll and gain 90 spell points. You also keep the purse of gold coins.",
+    "wake-of-gods.mapobjects.new-chest-ii.dialog.destroyScroll4": "You destroy the scroll and gain 120 spell points. You also keep the purse of gold coins.",
+    "wake-of-gods.mapobjects.new-chest-ii.dialog.destroyScroll5": "You destroy the scroll and gain 150 spell points. You also keep the purse of gold coins.",
+    "mapObject.wake-of-gods.mapobjects.new-chest-ii.newChestII.newChestII.name": "Treasure Chest",
+    "mapObject.wake-of-gods.mapobjects.new-chest-ii.newChestII.newChestII.description": "A rare and mysterious treasure chest."
+}

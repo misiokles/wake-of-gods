@@ -1,0 +1,22 @@
+{
+  "wake-of-gods.mapobjects.altar-of-transformation:altarOfTransformation": {
+    "types": {
+      "altarOfTransformation": {
+        "rewards": {
+          "modify@19": {
+            "changeCreatures": {
+              "nymph": "peasant",
+              "oceanid": "peasant"
+            }
+          },
+          "modify@30": {
+            "changeCreatures": {
+              "nymph": "peasant",
+              "oceanid": "peasant"
+            }
+          }
+        }
+      }
+    }
+  }
+}

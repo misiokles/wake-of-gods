@@ -1,0 +1,1 @@
+WoG 3.59 alpha, Script 28 v1.67. All 78 numbered ERT entries preserved; source bytes retained. Menus, post-purchase, extra skill-slot and sequential spellbook/lesson messages are archival. Active offers adapt ERM runtime placeholders.

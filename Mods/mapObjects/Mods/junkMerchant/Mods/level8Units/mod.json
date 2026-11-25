@@ -1,8 +1,8 @@
 {
     "name": "Junk Merchant — Supreme Archangels",
     "description": "Trades Angel Wings for two Supreme Archangels when level 8 units are enabled.",
-    "version": "1.0",
-	"author": "WoG Team",
+    "version": "1.0.1",
+    "author": "WoG Team",
     "modType": "Compatibility",
     "depends": [
         "wake-of-gods.level8units"
@@ -12,5 +12,15 @@
     ],
     "compatibility": {
         "min": "1.8.0"
+    },
+    "translations": [
+        "translations/english.json"
+    ],
+    "polish": {
+        "name": "Handlarz rupieciami – najwyżsi archaniołowie",
+        "description": "Wymiana artefaktów i zwojów.",
+        "translations": [
+            "translations/polish.json"
+        ]
     }
 }

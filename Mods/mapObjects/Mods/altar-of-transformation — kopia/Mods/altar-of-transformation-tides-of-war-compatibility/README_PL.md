@@ -1,0 +1,1 @@
+Opcjonalne źródła przemian Tides of War. Nie dodaje nowych kierunków. 20 patchy modify@ (indeksy 1–20) sprawdzono statycznie; klasy ulepszeń jednostek zewnętrznych zachowano z poprzedniego portu, brak danych moda do testu natywnego.

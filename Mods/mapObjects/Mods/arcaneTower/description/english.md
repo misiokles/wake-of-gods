@@ -1,34 +1,19 @@
-# Arcane Tower
+# Arcane Tower (v1.0.1)
 
-A ghostly tutor can **trade one point of one primary skill for one point of another**. A trade does not increase the total number of primary-skill points: you choose whether the new distribution suits your hero better.
+A ghostly tutor offers to exchange one primary skill point for another: Attack, Defence, Spell Power or Knowledge. The exchange changes the distribution of points, not their total.
 
-## Available exchanges
+## Using the tower
 
-The tower can raise **Attack, Defence, Spell Power or Knowledge** by 1, in exchange for sacrificing 1 point of any *different* primary skill. There are 12 possible directions of exchange.
+- One visit presents one randomly selected eligible exchange, with the gained and sacrificed attributes stated in the dialogue. You can refuse for free and revisit.
+- Each accepted trade costs **300 movement points**. No gold or Mithril is required.
+- All 12 different pairs of attributes are available if the hero qualifies. You can revisit the same tower (Space on its visitable tile) or another tower without a daily or weekly limit, provided you have enough movement.
+- The offered donor must have at least 1 Attack/Defence or 2 Spell Power/Knowledge. The receiving attribute must be below 99 (standard VCMI cap).
+- **Important:** remove equipment and potions that change primary skills before accepting a trade. VCMI currently checks the effective value, including equipment, while reducing the underlying base skill. Do not trade points granted by artifacts or temporary bonuses. This is a known engine limitation, not an enforced restriction. For example, a hero with base Attack 0 and Hydromel can be incorrectly offered an Attack sacrifice.
 
-| Gain | Give up | Cost |
-| --- | --- | --- |
-| +1 Attack | −1 Defence | **300 movement points** |
-| +1 Attack | −1 Spell Power | **300 movement points** |
-| +1 Attack | −1 Knowledge | **300 movement points** |
-| +1 Defence | −1 Attack | **300 movement points** |
-| +1 Defence | −1 Spell Power | **300 movement points** |
-| +1 Defence | −1 Knowledge | **300 movement points** |
-| +1 Spell Power | −1 Attack | **300 movement points** |
-| +1 Spell Power | −1 Defence | **300 movement points** |
-| +1 Spell Power | −1 Knowledge | **300 movement points** |
-| +1 Knowledge | −1 Attack | **300 movement points** |
-| +1 Knowledge | −1 Defence | **300 movement points** |
-| +1 Knowledge | −1 Spell Power | **300 movement points** |
+## Original WoG and this adaptation
 
-You must have at least **1 Attack or Defence** to give up that point. To give up Spell Power or Knowledge, you must have at least **2**, so the exchanged attribute cannot normally fall below 1.
+The original Script 04 lets human players choose both skills and repeat the same exchange up to 30 times within the exchange loop, at no movement cost. It checks base skills via GetBasicPrim. VCMI retains the existing movement cost and randomized offer for balance and to display both sides of each trade. All 16 original ERT records are preserved in `description/wog-original/`; active English and Polish messages use the original introduction and exchange premise, while unsupported nested menu and post-exchange texts remain archived. No new Lua or engine changes are required.
 
-## Visiting and paying
+## Verification
 
-- A visit presents **one randomly selected exchange** for which the hero meets the requirements. You can decline the proposal without paying.
-- An accepted exchange costs **300 movement points**, not gold or Mithril.
-- **No once-per-day or once-per-week limit:** you may use the same tower repeatedly while your hero has enough movement and qualifying stats. While standing on the tower's visitable tile, use **Space** to ask again.
-- A hero with 1,500 movement points can afford at most five accepted trades before needing to recover movement, assuming they do not spend movement elsewhere.
-- The tower does not teach a secondary skill or award permanent extra primary-skill points; it rearranges the points you already have.
-
-Choose your offers carefully: bonuses from worn artifacts may affect which offers qualify, so it is sensible to check your hero's statistics before and after changing equipment.
+Native VCMI 1.8 checks on actual object instances: all 12 exchange directions, 299/300 movement threshold, refusal, minimum stats with unmodified attributes, effective cap of 99, repeated visits at one or two towers. 17 positive checks/groups passed; the Hydromel/base Attack issue was separately reproduced. Headless full-port load returned 0. GUI, AI, multiplayer, save/load, RMG and Polish client display were not tested.

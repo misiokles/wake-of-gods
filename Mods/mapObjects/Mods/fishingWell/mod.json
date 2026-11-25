@@ -1,0 +1,22 @@
+{
+  "name": "Fishing Well (Script 07)",
+  "description": "This submodule enables Fishing Well object.",
+  "version": "0.2.2",
+  "modType": "Objects",
+  "author": "WoG adaptation / VCMI Lua & JSON community",
+  "objects": [
+    "config/fishingWell.json"
+  ],
+  "polish": {
+    "name": "Studnia Wędkarska (Skrypt 07)",
+    "description": "Cotygodniowe łowienie w magicznej studni: skarby, zagrożenia i 21 humorystycznych pustych połowów inspirowanych WoG.",
+    "translations": [
+      "translation/polish.json"
+    ]
+  },
+  "english": {
+    "translations": [
+      "translation/english.json"
+    ]
+  }
+}
